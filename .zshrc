@@ -20,6 +20,13 @@ for config_file ($HOME/.zsh/*.zsh) source $config_file
        export TERM=screen-256color
    fi
 
+# For default editor
+export EDITOR=nvim
+export VISUAL=nvim
+autoload edit-command-line; zle -N edit-command-line
+bindkey -M vicmd v edit-command-line
+bindkey '^P' up-history
+bindkey '^N' down-history
 
 # For tmux autoload
 #tmux attach &> /dev/null

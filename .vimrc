@@ -104,28 +104,14 @@
 " }}}
 
 if pluginsExist
- " System Settings  ----------------------------------------------------------{{{
+" System Settings  ----------------------------------------------------------{{{
 
  " Neovim Settings
   let $NVIM_TUI_ENABLE_TRUE_COLOR=1
-      
+
   " let $NVIM_TUI_ENABLE_CURSOR_SHAPE=1
   let $NEOVIM_JS_DEBUG='~/.nvimjsdebug'
   set clipboard+=unnamedplus
-
-
-  " Let airline tell me my status
-  filetype on
-  set relativenumber number
-  set conceallevel=0
-
- " block select not limited by shortest line
-   set noshowmode
-   set virtualedit=
-   set laststatus=2
-
- " leader is ,
-   let mapleader = ','
 
 " Remember cursor position between vim sessions
   autocmd BufReadPost *
@@ -141,6 +127,13 @@ if pluginsExist
 
 " ================ General Config ====================
 
+filetype on
+let mapleader = ','
+set relativenumber number
+set conceallevel=0
+set noshowmode
+set virtualedit=
+set laststatus=2
 set nowrap
 set number                      "Line numbers are good
 set history=1000                "Store lots of :cmdline history
@@ -228,12 +221,15 @@ nmap <CR><CR> o<Esc>
 nmap <space><space> i<space><esc>
 
 " For global copy and paste
-map <C-P> "*p
-vmap <C-Y> "*y
+" map <C-P> "*p
+" vmap <C-Y> "*y
 
+" Neovim terminal mapping
 if has ('nvim')
-    " Neovim terminal mapping
-    tmap <esc> <c-\><c-n><esc><cr>
+  tnoremap <esc> <c-\><c-n>
+  nnoremap <c-z> :vsplit<cr>:TmuxNavigateRight<cr>:terminal<cr>
+  tnoremap <c-z> <c-\><c-n>:bd!<cr>
+  nnoremap <m-z> <c-z>
 endif
 
 " Multiple cursor
@@ -275,17 +271,12 @@ endif
 " disable markdown auto-preview. Gets annoying
   let g:instant_markdown_autostart = 0
 
-if has ('nvim')
-    " Keep my termo window open when I navigate away
-    autocmd TermOpen * set bufhidden=hide
-endif
-
 " For markdown indent and textwidth
 autocmd BufNewFile,BufRead *.md filetype plugin indent off 
 autocmd Bufreadpre *.md setlocal wrap linebreak nolist
 autocmd Bufreadpre *.tex setlocal wrap linebreak nolist
 
-"}}}
+" }}}
 
 " LaTex ----------------------------------------------{{{
 
@@ -427,7 +418,7 @@ let g:switch_mapping = '<C-s>'
 " Use tab to navigate in deoplete
 	inoremap <silent><expr> <M-Tab> pumvisible() ? "\<C-n>" :deoplete#mappings#manual_complete()
 " Close deoplete popup
-	inoremap <expr><C-TAB>  deoplete#mappings#smart_close_popup()."\<C-h>"
+	" inoremap <expr><C-TAB>  deoplete#mappings#smart_close_popup()."\<C-h>"
 
 " Enable snipMate compatibility feature.
   let g:neosnippet#enable_snipmate_compatibility = 1
@@ -504,17 +495,17 @@ let g:unite_source_menu_menus.git = {
 
 " Navigate between vim buffers and tmux panels ------------------------------{{{
   let g:tmux_navigator_no_mappings = 1
-  nnoremap <silent> <C-j> :TmuxNavigateDown<cr>
-  nnoremap <silent> <C-k> :TmuxNavigateUp<cr>
-  nnoremap <silent> <C-l> :TmuxNavigateRight<cr>
-  nnoremap <silent> <C-h> :TmuxNavigateLeft<CR>
-  nnoremap <silent> <C-;> :TmuxNavigatePrevious<cr>
+  nnoremap <silent> <M-j> :TmuxNavigateDown<cr>
+  nnoremap <silent> <M-k> :TmuxNavigateUp<cr>
+  nnoremap <silent> <M-l> :TmuxNavigateRight<cr>
+  nnoremap <silent> <M-h> :TmuxNavigateLeft<CR>
+  nnoremap <silent> <M-;> :TmuxNavigatePrevious<cr>
   if has ('nvim')
-    tmap <C-j> <C-\><C-n>:TmuxNavigateDown<cr>
-    tmap <C-k> <C-\><C-n>:TmuxNavigateUp<cr>
-    tmap <C-l> <C-\><C-n>:TmuxNavigateRight<cr>
-    tmap <C-h> <C-\><C-n>:TmuxNavigateLeft<CR>
-    tmap <C-;> <C-\><C-n>:TmuxNavigatePrevious<cr>
+    tmap <M-j> <C-\><C-n>:TmuxNavigateDown<cr>
+    tmap <M-k> <C-\><C-n>:TmuxNavigateUp<cr>
+    tmap <M-l> <C-\><C-n>:TmuxNavigateRight<cr>
+    tmap <M-h> <C-\><C-n>:TmuxNavigateLeft<CR>
+    tmap <M-;> <C-\><C-n>:TmuxNavigatePrevious<cr>
   endif
 "}}}
 
@@ -526,8 +517,8 @@ let g:unite_source_menu_menus.git = {
   " let g:airline#extensions#tabline#show_tab_nr = 1
   " let g:airline_powerline_fonts = 1
   let g:airline_theme='solarized'
-  let g:airline#extensions#bufferline#enabled = 1
-  let g:airline#extensions#bufferline#overwrite_variables = 1
+  " let g:airline#extensions#bufferline#enabled = 1
+  " let g:airline#extensions#bufferline#overwrite_variables = 1
   let g:airline#extensions#whitespace#enabled = 0
 
 ""* enable/disable csv integration for displaying the current column. >
