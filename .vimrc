@@ -226,10 +226,9 @@ nmap <space><space> i<space><esc>
 
 " Neovim terminal mapping
 if has ('nvim')
-  tnoremap <esc> <c-\><c-n>
-  nnoremap <c-z> :vsplit<cr>:TmuxNavigateRight<cr>:terminal<cr>
-  tnoremap <c-z> <c-\><c-n>:bd!<cr>
-  nnoremap <m-z> <c-z>
+  tnoremap <m-tab> <c-\><c-n>
+  nnoremap <m-z> :vsplit<cr>:TmuxNavigateRight<cr>:terminal<cr>
+  tnoremap <m-z> <c-\><c-n>:bd!<cr>
 endif
 
 " Multiple cursor
