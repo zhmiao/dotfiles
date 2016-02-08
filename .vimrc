@@ -33,8 +33,11 @@
   " R
   NeoBundle 'jalvesaq/Nvim-R'
   " Markdown
-  NeoBundle 'tpope/vim-markdown'
+  " NeoBundle 'euclio/vim-markdown-composer'
+  " NeoBundle 'tpope/vim-markdown'
   NeoBundle 'suan/vim-instant-markdown'
+  NeoBundle 'plasticboy/vim-markdown'
+  NeoBundle 'jtratner/vim-flavored-markdown'
 
  " colorscheme & syntax highlighting
   NeoBundle 'frankier/neovim-colors-solarized-truecolor-only'
@@ -44,7 +47,7 @@
   NeoBundle 'valloric/MatchTagAlways'
 
  " Git helpers
-  " NeoBundle 'tpope/vim-fugitive'
+  NeoBundle 'tpope/vim-fugitive'
   " NeoBundle 'jreybert/vimagit'
   " NeoBundle 'airblade/vim-gitgutter'
   " NeoBundle 'Xuyuanp/nerdtree-git-plugin'
@@ -62,7 +65,7 @@
   NeoBundle 'vim-airline/vim-airline-themes'
   NeoBundle 'tpope/vim-surround'
   NeoBundle 'tomtom/tcomment_vim'
-  NeoBundle 'gorodinskiy/vim-coloresque'
+  NeoBundleLazy 'gorodinskiy/vim-coloresque', {'autoload': {'filetypes':['vim', 'css']}}
   NeoBundle 'junegunn/fzf', { 'dir': '~/.fzf' }
   NeoBundle 'junegunn/fzf.vim'
   NeoBundle 'terryma/vim-multiple-cursors'
@@ -135,7 +138,7 @@ set noshowmode
 set virtualedit=
 set laststatus=2
 set nowrap
-set number                      "Line numbers are good
+" set number                      "Line numbers are good
 set history=1000                "Store lots of :cmdline history
 set showcmd                     "Show incomplete cmds down the bottom
 set gcr=a:blinkon0              "Disable cursor blink
@@ -180,17 +183,17 @@ set wildignore+=vendor/cache/**
 set wildignore+=*.gem
 set wildignore+=log/**
 set wildignore+=tmp/**
-set wildignore+=*.png,*.jpg,*.gif
+" set wildignore+=*.png,*.jpg,*.gif
 
 " ================ Indentation ======================
 
 set autoindent
 set smartindent
-set smarttab
-set shiftwidth=2
-set softtabstop=2
-set tabstop=2
-set expandtab
+" set smarttab
+" set shiftwidth=2
+" set softtabstop=2
+" set tabstop=2
+" set expandtab
 
 " For indentLine
 set encoding=utf8
@@ -243,9 +246,8 @@ endif
 
 "}}}
 
-" Themes, Commands, etc  ----------------------------------------------------{{{
+" Themes  ----------------------------------------------------{{{
 
-" Theme
   syntax enable
   if has ('nvim')
     colorscheme solarized
@@ -257,27 +259,29 @@ endif
 " highlightt the current line number
   hi CursorLineNR guifg=#ffffff
 
-" no need to fold things in markdown all the time
-  let g:vim_markdown_folding_disabled = 1
-
-" turn on spelling for markdown and latex files
-  autocmd BufRead,BufNewFile *.md setlocal spell complete+=kspell
-  autocmd BufRead,BufNewFile *.tex setlocal spell complete+=kspell
-
 " highlight bad words in red
   hi SpellBad guibg=#ff2929 guifg=#ffffff" ctermbg=224
 
-" disable markdown auto-preview. Gets annoying
-  let g:instant_markdown_autostart = 0
-
-" For markdown indent and textwidth
-autocmd BufNewFile,BufRead *.md filetype plugin indent off 
-autocmd Bufreadpre *.md setlocal wrap linebreak nolist
-autocmd Bufreadpre *.tex setlocal wrap linebreak nolist
-
 " }}}
 
+" Markdown ----------------------------------------------{{{
+
+  autocmd BufRead,BufNewFile *.md setlocal spell complete+=kspell
+  autocmd BufNewFile,BufRead *.md filetype indent off 
+  autocmd Bufreadpre *.md setlocal wrap linebreak nolist
+  let g:instant_markdown_autostart = 0
+
+  nnoremap <Leader>md :InstantMarkdownPreview<CR>
+
+  let g:vim_markdown_folding_disabled = 0
+  let g:vim_markdown_math = 1
+
+"}}}
+
 " LaTex ----------------------------------------------{{{
+
+  autocmd BufRead,BufNewFile *.tex setlocal spell complete+=kspell
+  autocmd Bufreadpre *.tex setlocal wrap linebreak nolist
 
   let g:vimtex_complete_close_braces = 1
   let g:vimtex_fold_manual = 1
@@ -385,6 +389,9 @@ let g:switch_mapping = '<C-s>'
   let NERDTreeShowHidden=1
   let g:NERDTreeWinSize=30
   let g:NERDTreeAutoDeleteBuffer=1
+  let g:NERDTreeHighlightCursorline=1
+  let g:NERDTreeRespectWildIgnore=1
+  " let g:NERDTreeIgnore=['\.o$', '\.mod$', '\.out$']
 
 " NERDTress File highlighting
   function! NERDTreeHighlightFile(extension, fg, bg, guifg, guibg)
@@ -511,14 +518,16 @@ let g:unite_source_menu_menus.git = {
 " vim-airline ---------------------------------------------------------------{{{
   let g:airline#extensions#tabline#enabled = 1
   let g:airline#extensions#tabline#show_tab_type = 0
+  let g:airline#extensions#tabline#show_tabs = 0
   set hidden
   " let g:airline#extensions#tabline#fnamemod = ':t'
-  " let g:airline#extensions#tabline#show_tab_nr = 1
+  let g:airline#extensions#tabline#show_tab_nr = 0
   " let g:airline_powerline_fonts = 1
   let g:airline_theme='solarized'
-  " let g:airline#extensions#bufferline#enabled = 1
-  " let g:airline#extensions#bufferline#overwrite_variables = 1
+  let g:airline#extensions#bufferline#enabled = 1
+  let g:airline#extensions#bufferline#overwrite_variables = 0
   let g:airline#extensions#whitespace#enabled = 0
+      " let g:airline#extensions#tabline#buffer_nr_show = 1
 
 ""* enable/disable csv integration for displaying the current column. >
   let g:airline#extensions#csv#enabled = 1
@@ -537,14 +546,6 @@ if !exists('g:airline_symbols')
   let g:airline_right_sep = ''
   let g:airline_right_sep = ''
 
-
-  " cnoreabbrev <expr> x getcmdtype() == ":" && getcmdline() == 'x' ? 'Sayonara' : 'x'
-  " tmap <leader>x <c-\><c-n>:bp! <BAR> bd! #<CR>
-  nmap <leader>t :term<cr>
-  nmap <leader>, :bnext<CR>
-  " tmap <leader>, <C-\><C-n>:bnext<cr>
-  nmap <leader>. :bprevious<CR>
-  " tmap <leader>. <C-\><C-n>:bprevious<CR>
   let g:airline#extensions#tabline#buffer_idx_mode=1
   if has ('nvim')
     tmap <leader>1  <C-\><C-n><Plug>AirlineSelectTab1
