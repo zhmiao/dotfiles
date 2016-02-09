@@ -14,6 +14,14 @@
       set nocompatible
     endif
 
+" function! BuildComposer(info)
+"   if a:info.status != 'unchanged' || a:info.force
+"     !cargo build --release
+"     UpdateRemotePlugins
+"   endif
+" endfunction
+
+
 " Required:
     set runtimepath+=~/.vim/bundle/neobundle.vim/
   endif
@@ -29,11 +37,11 @@
   " LaTex
   NeoBundle 'lervag/vimtex'
   " csv
-  NeoBundle 'https://github.com/chrisbra/csv.vim'
+  NeoBundle 'chrisbra/csv.vim'
   " R
   NeoBundle 'jalvesaq/Nvim-R'
   " Markdown
-  " NeoBundle 'euclio/vim-markdown-composer'
+  " NeoBundle 'euclio/vim-markdown-composer', { 'do': function('BuildComposer') }
   " NeoBundle 'tpope/vim-markdown'
   NeoBundle 'suan/vim-instant-markdown'
   NeoBundle 'plasticboy/vim-markdown'
@@ -53,15 +61,18 @@
   " NeoBundle 'Xuyuanp/nerdtree-git-plugin'
   " NeoBundle 'https://github.com/jaxbot/github-issues.vim'
 
+	
  " untils
   NeoBundle 'benekastah/neomake'
   NeoBundle 'editorconfig/editorconfig-vim'
   NeoBundle 'scrooloose/nerdtree'
   NeoBundle 'AndrewRadev/switch.vim'
   NeoBundle 'christoomey/vim-tmux-navigator'
+	NeoBundle 'jlanzarotta/bufexplorer'
   " NeoBundle 'tmux-plugins/vim-tmux'
   " NeoBundle 'tmux-plugins/vim-tmux-focus-events'
-  NeoBundle 'vim-airline/vim-airline'
+  " NeoBundle 'bling/vim-bufferline'
+	NeoBundle 'vim-airline/vim-airline'
   NeoBundle 'vim-airline/vim-airline-themes'
   NeoBundle 'tpope/vim-surround'
   NeoBundle 'tomtom/tcomment_vim'
@@ -75,10 +86,10 @@
   NeoBundle 'vim-scripts/ingo-library'
 
  " Shougo
-  NeoBundle 'Shougo/unite.vim'
-  NeoBundle 'Shougo/unite-outline'
-  NeoBundle 'ujihisa/unite-colorscheme'
-  NeoBundle 'Shougo/vimfiler.vim'
+  " NeoBundle 'Shougo/unite.vim'
+  " NeoBundle 'Shougo/unite-outline'
+  " NeoBundle 'ujihisa/unite-colorscheme'
+  " NeoBundle 'Shougo/vimfiler.vim'
   NeoBundle 'Shougo/vimproc.vim', {
          \ 'build' : {
          \     'windows' : 'tools\\update-dll-mingw',
@@ -90,11 +101,13 @@
          \ }
   NeoBundle 'Shougo/neco-vim'
   NeoBundle 'Shougo/neoinclude.vim'
-  NeoBundleLazy 'ujihisa/neco-look',{'autoload':{'filetypes':['markdown']}}
+  NeoBundleLazy 'ujihisa/neco-look',{'autoload':{'filetypes':['markdown', 'tex']}}
   NeoBundle 'Shougo/neosnippet.vim'
   NeoBundle 'Shougo/neosnippet-snippets'
   if has ('nvim')
     NeoBundle 'Shougo/deoplete.nvim'
+	else
+  	NeoBundle 'Shougo/neocomplete.vim'
   endif
 
   call neobundle#end()
@@ -132,6 +145,10 @@ if pluginsExist
 
 filetype on
 let mapleader = ','
+set cursorline
+
+" set cursorcolumn
+" set lines=42
 set relativenumber number
 set conceallevel=0
 set noshowmode
@@ -145,6 +162,7 @@ set gcr=a:blinkon0              "Disable cursor blink
 set visualbell                  "No sounds
 set autoread                    "Reload files changed outside vim
 set scrolloff=15
+
 " " This makes vim act like all other editors, buffers can
 set hidden
 
@@ -174,7 +192,7 @@ set smartcase       " ...unless we type a capital
 
 set wildmode=list:longest,full
 set wildmenu                      "enable ctrl-n and ctrl-p to scroll thru matches
-set wildignore=*.mod,*.o,*.obj,*~ "stuff to ignore when tab completing
+set wildignore=*~ 
 set wildignore+=*vim/backups*
 set wildignore+=*sass-cache*
 set wildignore+=*DS_Store*
@@ -188,11 +206,11 @@ set wildignore+=tmp/**
 " ================ Indentation ======================
 
 set autoindent
-set smartindent
+" set smartindent
 " set smarttab
-" set shiftwidth=2
-" set softtabstop=2
-" set tabstop=2
+set shiftwidth=2
+set softtabstop=2
+set tabstop=2
 " set expandtab
 
 " For indentLine
@@ -216,6 +234,8 @@ map k gk
 map <S-J> 10gj
 map <S-K> 10gk
 inoremap <C-a> <C-O>A
+nnoremap ! $
+nnoremap <Leader>bd :bd!<CR>
 
 " For line and space editing
 nmap <CR> O<Esc>
@@ -385,13 +405,14 @@ let g:switch_mapping = '<C-s>'
 " NERDTree ------------------------------------------------------------------{{{
 
   map <F9> :NERDTreeToggle<CR>
+	let NERDTreeMapOpenInTabSilent='t'
+	let NERDTreeMapOpenInTab='T'
   autocmd StdinReadPre * let s:std_in=1
-  let NERDTreeShowHidden=1
   let g:NERDTreeWinSize=30
   let g:NERDTreeAutoDeleteBuffer=1
   let g:NERDTreeHighlightCursorline=1
   let g:NERDTreeRespectWildIgnore=1
-  " let g:NERDTreeIgnore=['\.o$', '\.mod$', '\.out$']
+  let g:NERDTreeIgnore=['\.o$', '\.mod$', '\.out$','\.git$','\.gitignore$']
 
 " NERDTress File highlighting
   function! NERDTreeHighlightFile(extension, fg, bg, guifg, guibg)
@@ -416,21 +437,61 @@ let g:switch_mapping = '<C-s>'
 
 "}}}
 
-" Snipppets and deoplete -----------------------------------------------------------------{{{
+" Snipppets and n/deoplete -----------------------------------------------------------------{{{
 
+" Called once right before you start selecting multiple cursors
+if has ('nvim')
 
-" Maxmimum list length
   let g:deoplete#max_list=6
-" Use tab to navigate in deoplete
-	inoremap <silent><expr> <M-Tab> pumvisible() ? "\<C-n>" :deoplete#mappings#manual_complete()
-" Close deoplete popup
-	" inoremap <expr><C-TAB>  deoplete#mappings#smart_close_popup()."\<C-h>"
+	" inoremap <silent><expr> <m-tab>
+	" 	\ pumvisible() ? "\<C-n>" :
+	" 	\ deoplete#mappings#manual_complete() : <m-tab>
+	inoremap <expr><tab>
+		\ pumvisible() ?
+		\ deoplete#mappings#close_popup() : "\<tab>"
+  let g:deoplete#enable_smart_case=1
+	set completeopt+=noinsert
+  " let g:deoplete#disable_auto_complete=1
+
+else
+	
+  function! Multiple_cursors_before()
+    if exists(':NeoCompleteLock')==2
+      exe 'NeoCompleteLock'
+    endif
+  endfunction
+  
+  " Called once only when the multiple selection is canceled (default <Esc>)
+  function! Multiple_cursors_after()
+    if exists(':NeoCompleteUnlock')==2
+      exe 'NeoCompleteUnlock'
+    endif
+  endfunction
+  
+	" inoremap <silent><expr> <m-tab>
+	" 	\ pumvisible() ? "\<C-n>" :
+	" 	\ neoplete#start#manual_complete()
+	inoremap <expr><tab>
+		\ pumvisible() ?
+		\ neoplete#close_popup() : "\<tab>"
+	let g:neocomplete#use_vimproc=1
+	let g:neocomplete#enable_at_startup=1
+  let g:neocomplete#max_list=6
+  let g:neocomplete#enable_camel_case=1
+  " let g:neocomplete#enable_auto_select=0
+  let g:neocomplete#enable_fuzzy_completion=1
+  let g:neocomplete#enable_auto_close_preview=1
+
+endif
+
+
 
 " Enable snipMate compatibility feature.
   let g:neosnippet#enable_snipmate_compatibility = 1
   imap <C-k>     <Plug>(neosnippet_expand_or_jump)
   smap <C-k>     <Plug>(neosnippet_expand_or_jump)
   xmap <C-k>     <Plug>(neosnippet_expand_target)
+	"
 " Tell Neosnippet about the other snippets
   let g:neosnippet#snippets_directory='~/.vim/bundle/neosnippet-snippets/neosnippets, ~/.vim/bundle/vim-snippets/snippets'
 
@@ -443,61 +504,6 @@ let g:switch_mapping = '<C-s>'
   \: "\<TAB>"
 
 "}}}
-
-" unite ---------------------------------------------------------------------{{{
-
-  let g:unite_data_directory='~/.vim/.cache/unite'
-  let g:unite_source_history_yank_enable=1
-  let g:unite_prompt='» '
-  let g:unite_source_rec_async_command =['ag', '--follow', '--nocolor', '--nogroup','--hidden', '-g', '', '--ignore', '.git', '--ignore', '*.png', '--ignore', 'lib']
-
-  nnoremap <silent> <leader>f :Unite -auto-resize -start-insert -direction=botright file_rec/neovim2<CR>
-  " nnoremap <silent> <leader>c :Unite -auto-resize -start-insert -direction=botright colorscheme<CR>
-  nnoremap <silent> <leader>up :Unite neobundle/update<CR>
-
-  function! s:unite_settings() "{{{
-    " Enable navigation with control-j and control-k in insert mode
-    imap <buffer> <C-j>   <Plug>(unite_select_next_line)
-    imap <buffer> <C-k>   <Plug>(unite_select_previous_line)
-  endfunction "}}}
-
-" Git from unite...ERMERGERD ------------------------------------------------{{{
-let g:unite_source_menu_menus = {} " Useful when building interfaces at appropriate places
-let g:unite_source_menu_menus.git = {
-    \ 'description' : 'Fugitive interface',
-    \}
-  let g:unite_source_menu_menus.git.command_candidates = [
-    \[' git status', 'Gstatus'],
-    \[' git diff', 'Gvdiff'],
-    \[' git commit', 'Gcommit'],
-    \[' git stage/add', 'Gwrite'],
-    \[' git checkout', 'Gread'],
-    \[' git rm', 'Gremove'],
-    \[' git cd', 'Gcd'],
-    \[' git push', 'exe "Git! push " input("remote/branch: ")'],
-    \[' git pull', 'exe "Git! pull " input("remote/branch: ")'],
-    \[' git pull rebase', 'exe "Git! pull --rebase " input("branch: ")'],
-    \[' git checkout branch', 'exe "Git! checkout " input("branch: ")'],
-    \[' git fetch', 'Gfetch'],
-    \[' git merge', 'Gmerge'],
-    \[' git browse', 'Gbrowse'],
-    \[' git head', 'Gedit HEAD^'],
-    \[' git parent', 'edit %:h'],
-    \[' git log commit buffers', 'Glog --'],
-    \[' git log current file', 'Glog -- %'],
-    \[' git log last n commits', 'exe "Glog -" input("num: ")'],
-    \[' git log first n commits', 'exe "Glog --reverse -" input("num: ")'],
-    \[' git log until date', 'exe "Glog --until=" input("day: ")'],
-    \[' git log grep commits',  'exe "Glog --grep= " input("string: ")'],
-    \[' git log pickaxe',  'exe "Glog -S" input("string: ")'],
-    \[' git index', 'exe "Gedit " input("branchname\:filename: ")'],
-    \[' git mv', 'exe "Gmove " input("destination: ")'],
-    \[' git grep',  'exe "Ggrep " input("string: ")'],
-    \[' git prompt', 'exe "Git! " input("command: ")'],
-    \] " Append ' --' after log to get commit info commit buffers
-  nnoremap <silent> <Leader>g :Unite -direction=botright -silent -buffer-name=git -start-insert menu:git<CR>
-"}}}
-
 
 " Navigate between vim buffers and tmux panels ------------------------------{{{
   let g:tmux_navigator_no_mappings = 1
@@ -516,23 +522,19 @@ let g:unite_source_menu_menus.git = {
 "}}}
 
 " vim-airline ---------------------------------------------------------------{{{
+  set hidden
+  let g:airline_theme='solarized'
   let g:airline#extensions#tabline#enabled = 1
   let g:airline#extensions#tabline#show_tab_type = 0
-  let g:airline#extensions#tabline#show_tabs = 0
-  set hidden
-  " let g:airline#extensions#tabline#fnamemod = ':t'
-  let g:airline#extensions#tabline#show_tab_nr = 0
-  " let g:airline_powerline_fonts = 1
-  let g:airline_theme='solarized'
-  let g:airline#extensions#bufferline#enabled = 1
-  let g:airline#extensions#bufferline#overwrite_variables = 0
+  let g:airline#extensions#tabline#show_tabs = 1
+  let g:airline#extensions#tabline#show_buffers = 0
+  let g:airline#extensions#tabline#tab_nr_type = 1 
+  let g:airline#extensions#tabline#fnamemod = ':p:.'
+  let g:airline#extensions#tabline#tab_min_count = 1
+  let g:airline#extensions#tabline#show_close_button = 0
+  " " let g:airline_powerline_fonts = 1
   let g:airline#extensions#whitespace#enabled = 0
-      " let g:airline#extensions#tabline#buffer_nr_show = 1
-
-""* enable/disable csv integration for displaying the current column. >
   let g:airline#extensions#csv#enabled = 1
-
-" change how columns are displayed. >
   let g:airline#extensions#csv#column_display = 'Name'
 
 
@@ -546,7 +548,7 @@ if !exists('g:airline_symbols')
   let g:airline_right_sep = ''
   let g:airline_right_sep = ''
 
-  let g:airline#extensions#tabline#buffer_idx_mode=1
+  " let g:airline#extensions#tabline#buffer_idx_mode=1
   if has ('nvim')
     tmap <leader>1  <C-\><C-n><Plug>AirlineSelectTab1
     tmap <leader>2  <C-\><C-n><Plug>AirlineSelectTab2
@@ -560,13 +562,73 @@ if !exists('g:airline_symbols')
   endif
   nmap <leader>1 <Plug>AirlineSelectTab1
   nmap <leader>2 <Plug>AirlineSelectTab2
-  nmap <leader>3 <Plug>AirlineSelectTab3
-  nmap <leader>4 <Plug>AirlineSelectTab4
-  nmap <leader>5 <Plug>AirlineSelectTab5
+	nmap <leader>3 <Plug>AirlineSelectTab3
+	nmap <leader>4 <Plug>AirlineSelectTab4
+	nmap <leader>5 <Plug>AirlineSelectTab5
   nmap <leader>6 <Plug>AirlineSelectTab6
   nmap <leader>7 <Plug>AirlineSelectTab7
   nmap <leader>8 <Plug>AirlineSelectTab8
   nmap <leader>9 <Plug>AirlineSelectTab9
+  nmap <leader>- <Plug>AirlineSelectPrevTab
+  nmap <leader>+ <Plug>AirlineSelectNextTab
 "}}}
+
+" " unite ---------------------------------------------------------------------{{{
+
+  " let g:unite_data_directory='~/.vim/.cache/unite'
+  " let g:unite_source_history_yank_enable=1
+  " let g:unite_prompt='» '
+  " " let g:unite_source_rec_async_command =['ag', '--follow', '--nocolor', '--nogroup','--hidden', '-g', '', '--ignore', '.git', '--ignore', '*.png', '--ignore', 'lib']
+  "
+  " " nnoremap <leader>ut :Unite -no-resize -vertical -start-insert file file_rec buffer<CR>
+	" nnoremap <F7> :Unite -auto-resize -start-insert line<CR>
+	" nnoremap <m-tab> :Unite -auto-resize -start-insert buffer<CR> 
+  " " nnoremap <silent> <leader>c :Unite -auto-resize -start-insert -direction=botright colorscheme<CR>
+  " nnoremap <silent> <leader>up :Unite neobundle/update<CR>
+  "
+  " " function! s:unite_settings() "{{{
+  " "   " Enable navigation with control-j and control-k in insert mode
+  " "   imap <buffer> <C-j>   <Plug>(unite_select_next_line)
+  " "   imap <buffer> <C-k>   <Plug>(unite_select_previous_line)
+  " " endfunction "}}}
+
+" " Git from unite...ERMERGERD ------------------------------------------------{{{
+" let g:unite_source_menu_menus = {} " Useful when building interfaces at appropriate places
+" let g:unite_source_menu_menus.git = {
+"     \ 'description' : 'Fugitive interface',
+"     \}
+"   let g:unite_source_menu_menus.git.command_candidates = [
+"     \[' git status', 'Gstatus'],
+"     \[' git diff', 'Gvdiff'],
+"     \[' git commit', 'Gcommit'],
+"     \[' git stage/add', 'Gwrite'],
+"     \[' git checkout', 'Gread'],
+"     \[' git rm', 'Gremove'],
+"     \[' git cd', 'Gcd'],
+"     \[' git push', 'exe "Git! push " input("remote/branch: ")'],
+"     \[' git pull', 'exe "Git! pull " input("remote/branch: ")'],
+"     \[' git pull rebase', 'exe "Git! pull --rebase " input("branch: ")'],
+"     \[' git checkout branch', 'exe "Git! checkout " input("branch: ")'],
+"     \[' git fetch', 'Gfetch'],
+"     \[' git merge', 'Gmerge'],
+"     \[' git browse', 'Gbrowse'],
+"     \[' git head', 'Gedit HEAD^'],
+"     \[' git parent', 'edit %:h'],
+"     \[' git log commit buffers', 'Glog --'],
+"     \[' git log current file', 'Glog -- %'],
+"     \[' git log last n commits', 'exe "Glog -" input("num: ")'],
+"     \[' git log first n commits', 'exe "Glog --reverse -" input("num: ")'],
+"     \[' git log until date', 'exe "Glog --until=" input("day: ")'],
+"     \[' git log grep commits',  'exe "Glog --grep= " input("string: ")'],
+"     \[' git log pickaxe',  'exe "Glog -S" input("string: ")'],
+"     \[' git index', 'exe "Gedit " input("branchname\:filename: ")'],
+"     \[' git mv', 'exe "Gmove " input("destination: ")'],
+"     \[' git grep',  'exe "Ggrep " input("string: ")'],
+"     \[' git prompt', 'exe "Git! " input("command: ")'],
+"     \] " Append ' --' after log to get commit info commit buffers
+"   nnoremap <silent> <Leader>g :Unite -direction=botright -silent -buffer-name=git -start-insert menu:git<CR>
+" "}}}
+
+
 
 endif
