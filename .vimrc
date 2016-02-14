@@ -50,12 +50,12 @@
  " colorscheme & syntax highlighting
   NeoBundle 'frankier/neovim-colors-solarized-truecolor-only'
   NeoBundle 'mhartington/oceanic-next'
-  NeoBundle 'Yggdroot/indentLine'
+  " NeoBundle 'Yggdroot/indentLine'
   NeoBundle 'Raimondi/delimitMate'
   NeoBundle 'valloric/MatchTagAlways'
 
  " Git helpers
-  NeoBundle 'tpope/vim-fugitive'
+  " NeoBundle 'tpope/vim-fugitive'
   " NeoBundle 'jreybert/vimagit'
   " NeoBundle 'airblade/vim-gitgutter'
   " NeoBundle 'Xuyuanp/nerdtree-git-plugin'
@@ -72,13 +72,14 @@
   " NeoBundle 'tmux-plugins/vim-tmux'
   " NeoBundle 'tmux-plugins/vim-tmux-focus-events'
   " NeoBundle 'bling/vim-bufferline'
-	NeoBundle 'vim-airline/vim-airline'
-  NeoBundle 'vim-airline/vim-airline-themes'
+	" NeoBundle 'vim-airline/vim-airline'
+  " NeoBundle 'vim-airline/vim-airline-themes'
+	NeoBundle 'itchyny/lightline.vim'
   NeoBundle 'tpope/vim-surround'
   NeoBundle 'tomtom/tcomment_vim'
   NeoBundleLazy 'gorodinskiy/vim-coloresque', {'autoload': {'filetypes':['vim', 'css']}}
-  NeoBundle 'junegunn/fzf', { 'dir': '~/.fzf' }
-  NeoBundle 'junegunn/fzf.vim'
+  " NeoBundle 'junegunn/fzf', { 'dir': '~/.fzf' }
+  " NeoBundle 'junegunn/fzf.vim'
   NeoBundle 'terryma/vim-multiple-cursors'
   " NeoBundle 'junegunn/limelight.vim'
   NeoBundle 'honza/vim-snippets'
@@ -86,10 +87,9 @@
   NeoBundle 'vim-scripts/ingo-library'
 
  " Shougo
-  " NeoBundle 'Shougo/unite.vim'
-  " NeoBundle 'Shougo/unite-outline'
-  " NeoBundle 'ujihisa/unite-colorscheme'
-  " NeoBundle 'Shougo/vimfiler.vim'
+  NeoBundle 'Shougo/unite.vim'
+  NeoBundle 'Shougo/unite-outline'
+  NeoBundle 'Shougo/vimfiler.vim'
   NeoBundle 'Shougo/vimproc.vim', {
          \ 'build' : {
          \     'windows' : 'tools\\update-dll-mingw',
@@ -142,9 +142,7 @@ if pluginsExist
 
 
 " ================ General Config ====================
-
 filetype on
-let mapleader = ','
 set cursorline
 
 " set cursorcolumn
@@ -214,34 +212,50 @@ set tabstop=2
 " set expandtab
 
 " For indentLine
-set encoding=utf8
-let g:indentLine_color_gui = '#c0cbff'
-let g:indentLine_char='¦'
-let g:indentLine_leadingSpaceChar = '·'
-let g:indentLine_noConcealCursor=""
-let g:indentLine_enabled=0
-let g:indentLine_leadingSpaceEnabled=0
-nnoremap <M-q> :IndentLinesToggle<CR>:LeadingSpaceToggle<CR>
+" set encoding=utf8
+" let g:indentLine_color_gui = '#c0cbff'
+" let g:indentLine_char='¦'
+" let g:indentLine_leadingSpaceChar = '·'
+" let g:indentLine_noConcealCursor=""
+" let g:indentLine_enabled=0
+" let g:indentLine_leadingSpaceEnabled=0
+" nnoremap <M-q> :IndentLinesToggle<CR>:LeadingSpaceToggle<CR>
 
 " }}}
 
 " System mappings  ----------------------------------------------------------{{{
 " For cursor movements
+" let mapleader = ','
+let mapleader = "\<Space>"
+nnoremap , .
 map <S-L> 20l
 map <S-H> 20h
 map j gj
 map k gk
 map <S-J> 10gj
 map <S-K> 10gk
-inoremap <C-a> <C-O>A
+" inoremap <C-a> <C-O>A
 nnoremap ! $
-nnoremap <Leader>bd :bd!<CR>
+
+" Regularly used functions
+nnoremap <Leader>kl :bd!<CR>
+nnoremap <Leader>w :w<CR>
+nnoremap <Leader>n :noh<CR>
+nnoremap <leader><tab> <c-^>
+nnoremap <Leader>rl :so ~/.vimrc<CR>
+map <Leader>q :q<CR>
+map <Leader>s /
 
 " For line and space editing
 nmap <CR> O<Esc>
 nmap <CR><CR> o<Esc>
-
 nmap <space><space> i<space><esc>
+
+" For window resizing
+noremap <up>    3<C-W>+
+noremap <down>  3<C-W>-
+noremap <left>  3<C-W><
+noremap <right> 3<C-W>>
 
 " For global copy and paste
 " map <C-P> "*p
@@ -261,14 +275,15 @@ endif
   let g:multi_cursor_quit_key='<Esc>'
 
 " FZF 
- nnoremap <F8> :FZF<CR>
- map <leader>a :Ag<CR>
+"  nnoremap <Leader>f :FZF<CR>
+"  nnoremap <leader>a :Ag<CR>
 
 "}}}
 
 " Themes  ----------------------------------------------------{{{
 
   syntax enable
+  " colorscheme solarized
   if has ('nvim')
     colorscheme solarized
   else
@@ -404,7 +419,8 @@ let g:switch_mapping = '<C-s>'
 
 " NERDTree ------------------------------------------------------------------{{{
 
-  map <F9> :NERDTreeToggle<CR>
+  map <Leader>e :NERDTreeToggle<CR>
+	let NERDTreeShowHidden=1
 	let NERDTreeMapOpenInTabSilent='t'
 	let NERDTreeMapOpenInTab='T'
   autocmd StdinReadPre * let s:std_in=1
@@ -505,7 +521,7 @@ endif
 
 "}}}
 
-" Navigate between vim buffers and tmux panels ------------------------------{{{
+" Tmux navigation ------------------------------{{{
   let g:tmux_navigator_no_mappings = 1
   nnoremap <silent> <M-j> :TmuxNavigateDown<cr>
   nnoremap <silent> <M-k> :TmuxNavigateUp<cr>
@@ -521,77 +537,60 @@ endif
   endif
 "}}}
 
-" vim-airline ---------------------------------------------------------------{{{
-  set hidden
-  let g:airline_theme='solarized'
-  let g:airline#extensions#tabline#enabled = 1
-  let g:airline#extensions#tabline#show_tab_type = 0
-  let g:airline#extensions#tabline#show_tabs = 1
-  let g:airline#extensions#tabline#show_buffers = 0
-  let g:airline#extensions#tabline#tab_nr_type = 1 
-  let g:airline#extensions#tabline#fnamemod = ':p:.'
-  let g:airline#extensions#tabline#tab_min_count = 1
-  let g:airline#extensions#tabline#show_close_button = 0
-  " " let g:airline_powerline_fonts = 1
-  let g:airline#extensions#whitespace#enabled = 0
-  let g:airline#extensions#csv#enabled = 1
-  let g:airline#extensions#csv#column_display = 'Name'
+" Lightline ---------------------------------------------------------------{{{
+ 
+  let g:lightline = {
+				\ 'colorscheme': 'jellybeans',
+				\}
 
-
-if !exists('g:airline_symbols')
-    let g:airline_symbols = {}
-  endif
-
-  " unicode symbols
-  let g:airline_left_sep = ''
-  let g:airline_left_sep = ''
-  let g:airline_right_sep = ''
-  let g:airline_right_sep = ''
-
-  " let g:airline#extensions#tabline#buffer_idx_mode=1
-  if has ('nvim')
-    tmap <leader>1  <C-\><C-n><Plug>AirlineSelectTab1
-    tmap <leader>2  <C-\><C-n><Plug>AirlineSelectTab2
-    tmap <leader>3  <C-\><C-n><Plug>AirlineSelectTab3
-    tmap <leader>4  <C-\><C-n><Plug>AirlineSelectTab4
-    tmap <leader>5  <C-\><C-n><Plug>AirlineSelectTab5
-    tmap <leader>6  <C-\><C-n><Plug>AirlineSelectTab6
-    tmap <leader>7  <C-\><C-n><Plug>AirlineSelectTab7
-    tmap <leader>8  <C-\><C-n><Plug>AirlineSelectTab8
-    tmap <leader>9  <C-\><C-n><Plug>AirlineSelectTab9
-  endif
-  nmap <leader>1 <Plug>AirlineSelectTab1
-  nmap <leader>2 <Plug>AirlineSelectTab2
-	nmap <leader>3 <Plug>AirlineSelectTab3
-	nmap <leader>4 <Plug>AirlineSelectTab4
-	nmap <leader>5 <Plug>AirlineSelectTab5
-  nmap <leader>6 <Plug>AirlineSelectTab6
-  nmap <leader>7 <Plug>AirlineSelectTab7
-  nmap <leader>8 <Plug>AirlineSelectTab8
-  nmap <leader>9 <Plug>AirlineSelectTab9
-  nmap <leader>- <Plug>AirlineSelectPrevTab
-  nmap <leader>+ <Plug>AirlineSelectNextTab
 "}}}
 
-" " unite ---------------------------------------------------------------------{{{
+" Vimfiler ---------------------------------------------------------------{{{
+" map <Leader>e :VimFiler<CR>
+" map Q <Plug>(vimfiler_make_directory)
+" map q <Plug>(vimfiler_exit)
+" map go <Plug>(vimfiler_open_file_in_another_vimfiler)
+" let g:vimfiler_as_default_explorer=1
+" let g:vimfiler_safe_mode_by_default=0
+" let g:vimfiler_no_default_key_mappings=0
+" let g:vimfiler_ignore_pattern = ['^\.DS_Store$', '^\.o$', '^\.mod$', '^\.out$','^\.git$','^\.gitignore$']
 
-  " let g:unite_data_directory='~/.vim/.cache/unite'
+  function! VFHLFile(extension, fg, bg, guifg, guibg)
+  exec 'autocmd FileType VimFiler highlight ' . a:extension .' ctermbg='. a:bg .' ctermfg='. a:fg .' guibg='. a:guibg .' guifg='. a:guifg
+  exec 'autocmd FileType VimFiler syn match ' . a:extension .' #^\s\+.*'. a:extension .'$#'
+  endfunction
+
+  call VFHLFile('f90', 'green', 'none', 'green', 'none')
+  call VFHLFile('md', 'blue', 'none', '#6699CC', 'none')
+  call VFHLFile('gr', 'yellow', 'none', '#d8a235', 'none')
+  call VFHLFile('conf', 'yellow', 'none', '#d8a235', 'none')
+  call VFHLFile('json', 'green', 'none', '#d8a235', 'none')
+  call VFHLFile('html', 'yellow', 'none', '#d8a235', 'none')
+  call VFHLFile('o', 'cyan', 'none', '#5486C0', 'none')
+  call VFHLFile('mod', 'cyan', 'none', '#5486C0', 'none')
+  call VFHLFile('r', 'Red', 'none', 'red', 'none')
+  call VFHLFile('R', 'Red', 'none', '#ffa500', 'none')
+  call VFHLFile('csv', 'Blue', 'none', '#6699cc', 'none')
+  call VFHLFile('ds_store', 'Gray', 'none', '#686868', 'none')
+  call VFHLFile('gitconfig', 'black', 'none', '#686868', 'none')
+  call VFHLFile('gitignore', 'Gray', 'none', '#7F7F7F', 'none')
+" }}}
+
+" unite ---------------------------------------------------------------------{{{
+
+  let g:unite_data_directory='~/.vim/.cache/unite'
   " let g:unite_source_history_yank_enable=1
-  " let g:unite_prompt='» '
-  " " let g:unite_source_rec_async_command =['ag', '--follow', '--nocolor', '--nogroup','--hidden', '-g', '', '--ignore', '.git', '--ignore', '*.png', '--ignore', 'lib']
-  "
-  " " nnoremap <leader>ut :Unite -no-resize -vertical -start-insert file file_rec buffer<CR>
-	" nnoremap <F7> :Unite -auto-resize -start-insert line<CR>
-	" nnoremap <m-tab> :Unite -auto-resize -start-insert buffer<CR> 
-  " " nnoremap <silent> <leader>c :Unite -auto-resize -start-insert -direction=botright colorscheme<CR>
-  " nnoremap <silent> <leader>up :Unite neobundle/update<CR>
-  "
-  " " function! s:unite_settings() "{{{
-  " "   " Enable navigation with control-j and control-k in insert mode
-  " "   imap <buffer> <C-j>   <Plug>(unite_select_next_line)
-  " "   imap <buffer> <C-k>   <Plug>(unite_select_previous_line)
-  " " endfunction "}}}
-
+  let g:unite_prompt='» '
+  " let g:unite_kind_openable_persist_open_blink_time='0m'
+	" " let g:unite_source_rec_async_command =['ag', '--follow', '--nocolor', '--nogroup','--hidden', '-g', '', '--ignore', '.git', '--ignore', '*.png', '--ignore', 'lib']
+  
+  nnoremap <m-tab> :Unite -auto-resize -quick-match -sync -here buffer<CR>
+	nnoremap <Leader>l :Unite -auto-resize -start-insert -complete -sync -here -smartcase line<CR>
+	nnoremap <Leader>f :Unite -auto-resize -start-insert -complete -here file_rec/neovim<CR>
+	" nnoremap <Leader>e :Unite -auto-resize -auto-preview -keep-focus -here file<CR>
+	nnoremap <Leader>g :Unite -here grep:.<CR>
+  nnoremap <silent> <leader>up :Unite neobundle/update<CR>
+  
 " " Git from unite...ERMERGERD ------------------------------------------------{{{
 " let g:unite_source_menu_menus = {} " Useful when building interfaces at appropriate places
 " let g:unite_source_menu_menus.git = {
@@ -627,7 +626,7 @@ if !exists('g:airline_symbols')
 "     \[' git prompt', 'exe "Git! " input("command: ")'],
 "     \] " Append ' --' after log to get commit info commit buffers
 "   nnoremap <silent> <Leader>g :Unite -direction=botright -silent -buffer-name=git -start-insert menu:git<CR>
-" "}}}
+"}}}
 
 
 

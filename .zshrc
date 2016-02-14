@@ -28,6 +28,18 @@ bindkey -M vicmd v edit-command-line
 bindkey '^P' up-history
 bindkey '^N' down-history
 
+fancy-ctrl-z () {
+  if [[ $#BUFFER -eq 0 ]]; then
+    BUFFER="fg"
+    zle accept-line
+  else
+    zle push-input
+    zle clear-screen
+  fi
+}
+zle -N fancy-ctrl-z
+bindkey '^Z' fancy-ctrl-z
+
 # For tmux autoload
 #tmux attach &> /dev/null
 
@@ -35,6 +47,7 @@ bindkey '^N' down-history
 #       exec tmux
 # fi
 
+# =============================================
 # Fzf settings
 
  set -o vi
@@ -63,6 +76,7 @@ bindkey '^E' fzf-file-widget_locate
 # CTRL-Q for killing applications
 fzf_killps() { zle -I; ps -ef | sed 1d | fzf -m | awk '{print $2}' | xargs kill -${1:-9} ; }; zle -N fzf_killps; bindkey '^Q' fzf_killps
 
+#	================================================
 # Enable vim mode on command line
 bindkey -v
 
