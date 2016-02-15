@@ -245,6 +245,7 @@ nnoremap <leader><tab> <c-^>
 nnoremap <Leader>rl :so ~/.vimrc<CR>
 map <Leader>q :q<CR>
 map <Leader>s /
+imap jj <Esc>
 
 " For line and space editing
 nmap <CR> O<Esc>
