@@ -28,7 +28,7 @@
 
 " Required:
   call neobundle#begin(expand('~/.vim/bundle/'))
-  let pluginsExist = 1
+  " let pluginsExist = 1
 " Let NeoBundle manage NeoBundle
 " Required:
   NeoBundleFetch 'Shougo/neobundle.vim'
@@ -246,6 +246,7 @@ nnoremap <Leader>rl :so ~/.vimrc<CR>
 map <Leader>q :q<CR>
 map <Leader>s /
 imap jj <Esc>
+imap <C-Tab> <S-tab>
 
 " For line and space editing
 nmap <CR> O<Esc>
@@ -585,9 +586,10 @@ endif
   " let g:unite_kind_openable_persist_open_blink_time='0m'
 	" " let g:unite_source_rec_async_command =['ag', '--follow', '--nocolor', '--nogroup','--hidden', '-g', '', '--ignore', '.git', '--ignore', '*.png', '--ignore', 'lib']
   
-  nnoremap <m-tab> :Unite -auto-resize -quick-match -sync -here buffer<CR>
+  " nnoremap <m-tab> :Unite -auto-resize -quick-match -sync -here buffer<CR>
+  nnoremap <m-tab> :Unite -auto-resize -start-insert -sync -here buffer<CR>
 	nnoremap <Leader>l :Unite -auto-resize -start-insert -complete -sync -here -smartcase line<CR>
-	nnoremap <Leader>f :Unite -auto-resize -start-insert -complete -here file_rec/neovim<CR>
+	nnoremap <Leader>f :Unite -auto-resize -start-insert -here file_rec/neovim<CR>
 	" nnoremap <Leader>e :Unite -auto-resize -auto-preview -keep-focus -here file<CR>
 	nnoremap <Leader>g :Unite -here grep:.<CR>
   nnoremap <silent> <leader>up :Unite neobundle/update<CR>
