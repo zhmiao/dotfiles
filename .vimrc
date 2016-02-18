@@ -11,17 +11,9 @@
   if has('vim_starting')
     if &compatible
       " Be iMproved
-      set nocompatible
+      set nocompatible endif
     endif
-
-" function! BuildComposer(info)
-"   if a:info.status != 'unchanged' || a:info.force
-"     !cargo build --release
-"     UpdateRemotePlugins
-"   endif
-" endfunction
-
-
+ 
 " Required:
     set runtimepath+=~/.vim/bundle/neobundle.vim/
   endif
@@ -33,7 +25,8 @@
 " Required:
   NeoBundleFetch 'Shougo/neobundle.vim'
 
-" Filetype related
+	
+ " Filetype related
   " LaTex
   NeoBundle 'lervag/vimtex'
   " csv
@@ -61,7 +54,7 @@
   " NeoBundle 'Xuyuanp/nerdtree-git-plugin'
   " NeoBundle 'https://github.com/jaxbot/github-issues.vim'
 
-	
+
  " untils
   NeoBundle 'benekastah/neomake'
   NeoBundle 'editorconfig/editorconfig-vim'
@@ -85,20 +78,23 @@
   NeoBundle 'honza/vim-snippets'
   NeoBundle 'godlygeek/tabular'
   NeoBundle 'vim-scripts/ingo-library'
+  " NeoBundle 'Valloric/YouCompleteMe'
+  NeoBundle 'unblevable/quick-scope'
 
  " Shougo
   NeoBundle 'Shougo/unite.vim'
-  NeoBundle 'Shougo/unite-outline'
-  NeoBundle 'Shougo/vimfiler.vim'
-  NeoBundle 'Shougo/vimproc.vim', {
-         \ 'build' : {
-         \     'windows' : 'tools\\update-dll-mingw',
-         \     'cygwin' : 'make -f make_cygwin.mak',
-         \     'mac' : 'make -f make_mac.mak',
-         \     'linux' : 'make',
-         \     'unix' : 'gmake',
-         \    },
-         \ }
+  " NeoBundle 'Shougo/unite-outline'
+  " NeoBundle 'Shougo/vimfiler.vim'
+  " NeoBundle 'Shougo/vimproc.vim', {
+  "        \ 'build' : {
+  "        \     'windows' : 'tools\\update-dll-mingw',
+  "        \     'cygwin' : 'make -f make_cygwin.mak',
+  "        \     'mac' : 'make -f make_mac.mak',
+  "        \     'linux' : 'make',
+  "        \     'unix' : 'gmake',
+  "        \    },
+  "        \ }
+	
   NeoBundle 'Shougo/neco-vim'
   NeoBundle 'Shougo/neoinclude.vim'
   NeoBundleLazy 'ujihisa/neco-look',{'autoload':{'filetypes':['markdown', 'tex']}}
@@ -122,7 +118,7 @@
 if pluginsExist
 " System Settings  ----------------------------------------------------------{{{
 
- " Neovim Settings
+"  Neovim Settings
   let $NVIM_TUI_ENABLE_TRUE_COLOR=1
 
   " let $NVIM_TUI_ENABLE_CURSOR_SHAPE=1
@@ -137,10 +133,6 @@ if pluginsExist
               " center buffer around cursor when opening files
   autocmd BufRead * normal zz
 
-  " enable deoplete
-  let g:deoplete#enable_at_startup = 1
-
-
 " ================ General Config ====================
 filetype on
 set cursorline
@@ -153,7 +145,6 @@ set noshowmode
 set virtualedit=
 set laststatus=2
 set nowrap
-" set number                      "Line numbers are good
 set history=1000                "Store lots of :cmdline history
 set showcmd                     "Show incomplete cmds down the bottom
 set gcr=a:blinkon0              "Disable cursor blink
@@ -237,6 +228,7 @@ map <S-K> 10gk
 " inoremap <C-a> <C-O>A
 nnoremap ! $
 
+
 " Regularly used functions
 nnoremap <Leader>kl :bd!<CR>
 nnoremap <Leader>w :w<CR>
@@ -246,7 +238,7 @@ nnoremap <Leader>rl :so ~/.vimrc<CR>
 map <Leader>q :q<CR>
 map <Leader>s /
 imap jj <Esc>
-imap <C-Tab> <S-tab>
+imap <M-Tab> <S-tab>
 
 " For line and space editing
 nmap <CR> O<Esc>
@@ -460,32 +452,31 @@ let g:switch_mapping = '<C-s>'
 " Called once right before you start selecting multiple cursors
 if has ('nvim')
 
+	let g:deoplete#enable_at_startup=1
+	" let g:deoplete#enable_refresh_always=1
   let g:deoplete#max_list=6
-	" inoremap <silent><expr> <m-tab>
-	" 	\ pumvisible() ? "\<C-n>" :
-	" 	\ deoplete#mappings#manual_complete() : <m-tab>
+	" let g:deoplete#file#enable_buffer_path=1
 	inoremap <expr><tab>
 		\ pumvisible() ?
 		\ deoplete#mappings#close_popup() : "\<tab>"
   let g:deoplete#enable_smart_case=1
 	set completeopt+=noinsert
-  " let g:deoplete#disable_auto_complete=1
 
 else
-	
+
   function! Multiple_cursors_before()
     if exists(':NeoCompleteLock')==2
       exe 'NeoCompleteLock'
     endif
   endfunction
-  
+
   " Called once only when the multiple selection is canceled (default <Esc>)
   function! Multiple_cursors_after()
     if exists(':NeoCompleteUnlock')==2
       exe 'NeoCompleteUnlock'
     endif
   endfunction
-  
+
 	" inoremap <silent><expr> <m-tab>
 	" 	\ pumvisible() ? "\<C-n>" :
 	" 	\ neoplete#start#manual_complete()
@@ -540,60 +531,78 @@ endif
 "}}}
 
 " Lightline ---------------------------------------------------------------{{{
- 
+
   let g:lightline = {
 				\ 'colorscheme': 'jellybeans',
+				\ 'active': {
+		    \ 'left': [ [ 'mode', 'paste' ],
+		    \           [ 'readonly', 'modified' ],
+				\           [ 'relativepath' ] ],
+		    \ 'right': [ [ 'percent' ],
+		    \            [ 'lineinfo' ],
+				\            [ 'filetype' ] ] },
+				\ 'inactive': {
+		    \ 'left': [ [ 'filename' ] ],
+		    \ 'right': [ [ 'lineinfo' ],
+		    \            [ 'percent' ],
+				\						 [ 'fileformat', 'fileencoding'] ] },
+				\ 'subseparator': { 'left': '', 'right': '' }
+				\}
+
+	let g:lightline.enable = {
+			  \ 'statusline': 1	
 				\}
 
 "}}}
 
-" Vimfiler ---------------------------------------------------------------{{{
-" map <Leader>e :VimFiler<CR>
-" map Q <Plug>(vimfiler_make_directory)
-" map q <Plug>(vimfiler_exit)
-" map go <Plug>(vimfiler_open_file_in_another_vimfiler)
-" let g:vimfiler_as_default_explorer=1
-" let g:vimfiler_safe_mode_by_default=0
-" let g:vimfiler_no_default_key_mappings=0
-" let g:vimfiler_ignore_pattern = ['^\.DS_Store$', '^\.o$', '^\.mod$', '^\.out$','^\.git$','^\.gitignore$']
-
-  function! VFHLFile(extension, fg, bg, guifg, guibg)
-  exec 'autocmd FileType VimFiler highlight ' . a:extension .' ctermbg='. a:bg .' ctermfg='. a:fg .' guibg='. a:guibg .' guifg='. a:guifg
-  exec 'autocmd FileType VimFiler syn match ' . a:extension .' #^\s\+.*'. a:extension .'$#'
-  endfunction
-
-  call VFHLFile('f90', 'green', 'none', 'green', 'none')
-  call VFHLFile('md', 'blue', 'none', '#6699CC', 'none')
-  call VFHLFile('gr', 'yellow', 'none', '#d8a235', 'none')
-  call VFHLFile('conf', 'yellow', 'none', '#d8a235', 'none')
-  call VFHLFile('json', 'green', 'none', '#d8a235', 'none')
-  call VFHLFile('html', 'yellow', 'none', '#d8a235', 'none')
-  call VFHLFile('o', 'cyan', 'none', '#5486C0', 'none')
-  call VFHLFile('mod', 'cyan', 'none', '#5486C0', 'none')
-  call VFHLFile('r', 'Red', 'none', 'red', 'none')
-  call VFHLFile('R', 'Red', 'none', '#ffa500', 'none')
-  call VFHLFile('csv', 'Blue', 'none', '#6699cc', 'none')
-  call VFHLFile('ds_store', 'Gray', 'none', '#686868', 'none')
-  call VFHLFile('gitconfig', 'black', 'none', '#686868', 'none')
-  call VFHLFile('gitignore', 'Gray', 'none', '#7F7F7F', 'none')
-" }}}
+" " Vimfiler ---------------------------------------------------------------{{{
+" " map <Leader>e :VimFiler<CR>
+" " map Q <Plug>(vimfiler_make_directory)
+" " map q <Plug>(vimfiler_exit)
+" " map go <Plug>(vimfiler_open_file_in_another_vimfiler)
+" " let g:vimfiler_as_default_explorer=1
+" " let g:vimfiler_safe_mode_by_default=0
+" " let g:vimfiler_no_default_key_mappings=0
+" " let g:vimfiler_ignore_pattern = ['^\.DS_Store$', '^\.o$', '^\.mod$', '^\.out$','^\.git$','^\.gitignore$']
+"
+"   function! VFHLFile(extension, fg, bg, guifg, guibg)
+"   exec 'autocmd FileType VimFiler highlight ' . a:extension .' ctermbg='. a:bg .' ctermfg='. a:fg .' guibg='. a:guibg .' guifg='. a:guifg
+"   exec 'autocmd FileType VimFiler syn match ' . a:extension .' #^\s\+.*'. a:extension .'$#'
+"   endfunction
+"
+"   call VFHLFile('f90', 'green', 'none', 'green', 'none')
+"   call VFHLFile('md', 'blue', 'none', '#6699CC', 'none')
+"   call VFHLFile('gr', 'yellow', 'none', '#d8a235', 'none')
+"   call VFHLFile('conf', 'yellow', 'none', '#d8a235', 'none')
+"   call VFHLFile('json', 'green', 'none', '#d8a235', 'none')
+"   call VFHLFile('html', 'yellow', 'none', '#d8a235', 'none')
+"   call VFHLFile('o', 'cyan', 'none', '#5486C0', 'none')
+"   call VFHLFile('mod', 'cyan', 'none', '#5486C0', 'none')
+"   call VFHLFile('r', 'Red', 'none', 'red', 'none')
+"   call VFHLFile('R', 'Red', 'none', '#ffa500', 'none')
+"   call VFHLFile('csv', 'Blue', 'none', '#6699cc', 'none')
+"   call VFHLFile('ds_store', 'Gray', 'none', '#686868', 'none')
+"   call VFHLFile('gitconfig', 'black', 'none', '#686868', 'none')
+"   call VFHLFile('gitignore', 'Gray', 'none', '#7F7F7F', 'none')
+" " }}}
 
 " unite ---------------------------------------------------------------------{{{
 
   let g:unite_data_directory='~/.vim/.cache/unite'
   " let g:unite_source_history_yank_enable=1
   let g:unite_prompt='» '
+	let g:unite_ignore_source_files = ['*.mod', '*.o', '*.out' ]
   " let g:unite_kind_openable_persist_open_blink_time='0m'
-	" " let g:unite_source_rec_async_command =['ag', '--follow', '--nocolor', '--nogroup','--hidden', '-g', '', '--ignore', '.git', '--ignore', '*.png', '--ignore', 'lib']
-  
-  " nnoremap <m-tab> :Unite -auto-resize -quick-match -sync -here buffer<CR>
+  " " let g:unite_source_rec_async_command =['ag', '--follow', '--nocolor', '--nogroup','--hidden', '-g', '', '--ignore', '.git', '--ignore', '*.png', '--ignore', 'lib']
+
+  " nnoremap <m-tab> :Unite -auto-resize -quick-match -sync -direction='botleft' buffer<CR>
   nnoremap <m-tab> :Unite -auto-resize -start-insert -sync -here buffer<CR>
 	nnoremap <Leader>l :Unite -auto-resize -start-insert -complete -sync -here -smartcase line<CR>
 	nnoremap <Leader>f :Unite -auto-resize -start-insert -here file_rec/neovim<CR>
 	" nnoremap <Leader>e :Unite -auto-resize -auto-preview -keep-focus -here file<CR>
 	nnoremap <Leader>g :Unite -here grep:.<CR>
   nnoremap <silent> <leader>up :Unite neobundle/update<CR>
-  
+
 " " Git from unite...ERMERGERD ------------------------------------------------{{{
 " let g:unite_source_menu_menus = {} " Useful when building interfaces at appropriate places
 " let g:unite_source_menu_menus.git = {
@@ -630,7 +639,5 @@ endif
 "     \] " Append ' --' after log to get commit info commit buffers
 "   nnoremap <silent> <Leader>g :Unite -direction=botright -silent -buffer-name=git -start-insert menu:git<CR>
 "}}}
-
-
 
 endif
