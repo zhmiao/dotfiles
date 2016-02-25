@@ -25,7 +25,7 @@
 " Required:
   NeoBundleFetch 'Shougo/neobundle.vim'
 
-	
+  
  " Filetype related
   " LaTex
   NeoBundle 'lervag/vimtex'
@@ -35,7 +35,6 @@
   NeoBundle 'jalvesaq/Nvim-R'
   " Markdown
   " NeoBundle 'euclio/vim-markdown-composer', { 'do': function('BuildComposer') }
-  " NeoBundle 'tpope/vim-markdown'
   NeoBundle 'suan/vim-instant-markdown'
   NeoBundle 'plasticboy/vim-markdown'
   NeoBundle 'jtratner/vim-flavored-markdown'
@@ -43,34 +42,22 @@
  " colorscheme & syntax highlighting
   NeoBundle 'frankier/neovim-colors-solarized-truecolor-only'
   NeoBundle 'mhartington/oceanic-next'
-  " NeoBundle 'Yggdroot/indentLine'
+  NeoBundle 'Yggdroot/indentLine'
   NeoBundle 'Raimondi/delimitMate'
-  NeoBundle 'valloric/MatchTagAlways'
+  " NeoBundle 'valloric/MatchTagAlways'
 
  " Git helpers
   " NeoBundle 'tpope/vim-fugitive'
-  " NeoBundle 'jreybert/vimagit'
-  " NeoBundle 'airblade/vim-gitgutter'
-  " NeoBundle 'Xuyuanp/nerdtree-git-plugin'
-  " NeoBundle 'https://github.com/jaxbot/github-issues.vim'
-
 
  " untils
   NeoBundle 'benekastah/neomake'
-  NeoBundle 'editorconfig/editorconfig-vim'
   NeoBundle 'scrooloose/nerdtree'
   NeoBundle 'AndrewRadev/switch.vim'
   NeoBundle 'christoomey/vim-tmux-navigator'
-	NeoBundle 'jlanzarotta/bufexplorer'
-  " NeoBundle 'tmux-plugins/vim-tmux'
-  " NeoBundle 'tmux-plugins/vim-tmux-focus-events'
-  " NeoBundle 'bling/vim-bufferline'
-	" NeoBundle 'vim-airline/vim-airline'
-  " NeoBundle 'vim-airline/vim-airline-themes'
-	NeoBundle 'itchyny/lightline.vim'
+  NeoBundle 'itchyny/lightline.vim'
   NeoBundle 'tpope/vim-surround'
   NeoBundle 'tomtom/tcomment_vim'
-  NeoBundleLazy 'gorodinskiy/vim-coloresque', {'autoload': {'filetypes':['vim', 'css']}}
+  NeoBundleLazy 'gorodinskiy/vim-coloresque', {'autoload': {'filetypes':['vim', 'css', 'r']}}
   " NeoBundle 'junegunn/fzf', { 'dir': '~/.fzf' }
   " NeoBundle 'junegunn/fzf.vim'
   NeoBundle 'terryma/vim-multiple-cursors'
@@ -78,14 +65,11 @@
   NeoBundle 'honza/vim-snippets'
   NeoBundle 'godlygeek/tabular'
   NeoBundle 'vim-scripts/ingo-library'
-  " NeoBundle 'Valloric/YouCompleteMe'
   NeoBundle 'unblevable/quick-scope'
-  " NeoBundle 'kien/rainbow_parentheses.vim'
+  NeoBundle 'luochen1990/rainbow'
 
  " Shougo
   NeoBundle 'Shougo/unite.vim'
-  " NeoBundle 'Shougo/unite-outline'
-  " NeoBundle 'Shougo/vimfiler.vim'
   NeoBundle 'Shougo/vimproc.vim', {
          \ 'build' : {
          \     'windows' : 'tools\\update-dll-mingw',
@@ -95,7 +79,6 @@
          \     'unix' : 'gmake',
          \    },
          \ }
-	
   NeoBundle 'Shougo/neco-vim'
   NeoBundle 'Shougo/neoinclude.vim'
   NeoBundleLazy 'ujihisa/neco-look',{'autoload':{'filetypes':['markdown', 'tex']}}
@@ -103,8 +86,8 @@
   NeoBundle 'Shougo/neosnippet-snippets'
   if has ('nvim')
     NeoBundle 'Shougo/deoplete.nvim'
-	else
-  	NeoBundle 'Shougo/neocomplete.vim'
+  else
+    NeoBundle 'Shougo/neocomplete.vim'
   endif
 
   call neobundle#end()
@@ -196,22 +179,12 @@ set wildignore+=tmp/**
 " ================ Indentation ======================
 
 set autoindent
-" set smartindent
-" set smarttab
+set smartindent
+set smarttab
 set shiftwidth=2
 set softtabstop=2
 set tabstop=2
-" set expandtab
-
-" For indentLine
-" set encoding=utf8
-" let g:indentLine_color_gui = '#c0cbff'
-" let g:indentLine_char='¦'
-" let g:indentLine_leadingSpaceChar = '·'
-" let g:indentLine_noConcealCursor=""
-" let g:indentLine_enabled=0
-" let g:indentLine_leadingSpaceEnabled=0
-" nnoremap <M-q> :IndentLinesToggle<CR>:LeadingSpaceToggle<CR>
+set expandtab
 
 " }}}
 
@@ -276,7 +249,7 @@ endif
 
 "}}}
 
-" Themes  ----------------------------------------------------{{{
+" Themes  -------------------------------------------------------------------{{{
 
   syntax enable
   " colorscheme solarized
@@ -295,7 +268,7 @@ endif
 
 " }}}
 
-" Markdown ----------------------------------------------{{{
+" Markdown ------------------------------------------------------------------{{{
 
   autocmd BufRead,BufNewFile *.md setlocal spell complete+=kspell
   autocmd BufNewFile,BufRead *.md filetype indent off 
@@ -309,7 +282,7 @@ endif
 
 "}}}
 
-" LaTex ----------------------------------------------{{{
+" LaTex ---------------------------------------------------------------------{{{
 
   autocmd BufRead,BufNewFile *.tex setlocal spell complete+=kspell
   autocmd Bufreadpre *.tex setlocal wrap linebreak nolist
@@ -324,7 +297,7 @@ endif
   set foldtext=vimtex#fold#text()
 "}}}
 
-" For R ----------------------------------------------{{{
+" For R ---------------------------------------------------------------------{{{
 
   " General configurations
   filetype plugin indent on
@@ -360,7 +333,7 @@ endif
 
 "}}}
 
-" Fortran  ----------------------------------------------{{{
+" Fortran  ------------------------------------------------------------------{{{
 autocmd Bufreadpre *.f90 setlocal tw=0
 let fortran_free_source=1
 let fortran_have_tabs=1
@@ -403,7 +376,19 @@ endif
 
 " }}}
 
-" Switch  ----------------------------------------------{{{
+" Indent line  --------------------------------------------------------------{{{
+
+" set encoding=utf8
+let g:indentLine_color_gui = 'darkblue'
+let g:indentLine_char='¦'
+let g:indentLine_leadingSpaceChar = '+'
+let g:indentLine_enabled=0
+let g:indentLine_leadingSpaceEnabled=0
+nnoremap <M-q> :IndentLinesToggle<CR>:LeadingSpaceToggle<CR>
+
+"}}}
+
+" Switch  -------------------------------------------------------------------{{{
 
 let g:switch_mapping = '<C-s>'
     let g:switch_custom_definitions =
@@ -416,9 +401,9 @@ let g:switch_mapping = '<C-s>'
 " NERDTree ------------------------------------------------------------------{{{
 
   map <Leader>e :NERDTreeToggle<CR>
-	let NERDTreeShowHidden=1
-	let NERDTreeMapOpenInTabSilent='t'
-	let NERDTreeMapOpenInTab='T'
+  let NERDTreeShowHidden=1
+  let NERDTreeMapOpenInTabSilent='t'
+  let NERDTreeMapOpenInTab='T'
   autocmd StdinReadPre * let s:std_in=1
   let g:NERDTreeWinSize=30
   let g:NERDTreeAutoDeleteBuffer=1
@@ -449,20 +434,20 @@ let g:switch_mapping = '<C-s>'
 
 "}}}
 
-" Snipppets and n/deoplete -----------------------------------------------------------------{{{
+" Snipppets and n/deoplete --------------------------------------------------{{{
 
 " Called once right before you start selecting multiple cursors
 if has ('nvim')
 
-	let g:deoplete#enable_at_startup=1
-	" let g:deoplete#enable_refresh_always=1
+  let g:deoplete#enable_at_startup=1
+  " let g:deoplete#enable_refresh_always=1
   let g:deoplete#max_list=6
-	" let g:deoplete#file#enable_buffer_path=1
-	inoremap <expr><tab>
-		\ pumvisible() ?
-		\ deoplete#mappings#close_popup() : "\<tab>"
+  " let g:deoplete#file#enable_buffer_path=1
+  inoremap <expr><tab>
+    \ pumvisible() ?
+    \ deoplete#mappings#close_popup() : "\<tab>"
   let g:deoplete#enable_smart_case=1
-	set completeopt+=noinsert
+  set completeopt+=noinsert
 
 else
 
@@ -479,14 +464,14 @@ else
     endif
   endfunction
 
-	" inoremap <silent><expr> <m-tab>
-	" 	\ pumvisible() ? "\<C-n>" :
-	" 	\ neoplete#start#manual_complete()
-	inoremap <expr><tab>
-		\ pumvisible() ?
-		\ neoplete#close_popup() : "\<tab>"
-	let g:neocomplete#use_vimproc=1
-	let g:neocomplete#enable_at_startup=1
+  " inoremap <silent><expr> <m-tab>
+  "   \ pumvisible() ? "\<C-n>" :
+  "   \ neoplete#start#manual_complete()
+  inoremap <expr><tab>
+    \ pumvisible() ?
+    \ neoplete#close_popup() : "\<tab>"
+  let g:neocomplete#use_vimproc=1
+  let g:neocomplete#enable_at_startup=1
   let g:neocomplete#max_list=6
   let g:neocomplete#enable_camel_case=1
   " let g:neocomplete#enable_auto_select=0
@@ -502,7 +487,7 @@ endif
   imap <C-k>     <Plug>(neosnippet_expand_or_jump)
   smap <C-k>     <Plug>(neosnippet_expand_or_jump)
   xmap <C-k>     <Plug>(neosnippet_expand_target)
-	"
+  "
 " Tell Neosnippet about the other snippets
   let g:neosnippet#snippets_directory='~/.vim/bundle/neosnippet-snippets/neosnippets, ~/.vim/bundle/vim-snippets/snippets'
 
@@ -516,7 +501,7 @@ endif
 
 "}}}
 
-" Tmux navigation ------------------------------{{{
+" Tmux navigation -----------------------------------------------------------{{{
   let g:tmux_navigator_no_mappings = 1
   nnoremap <silent> <M-j> :TmuxNavigateDown<cr>
   nnoremap <silent> <M-k> :TmuxNavigateUp<cr>
@@ -532,102 +517,76 @@ endif
   endif
 "}}}
 
-" Lightline ---------------------------------------------------------------{{{
+" Lightline -----------------------------------------------------------------{{{
 
   let g:lightline = {
-				\ 'colorscheme': 'jellybeans',
-				\ 'active': {
-		    \ 'left': [ [ 'mode', 'paste' ],
-		    \           [ 'readonly', 'modified' ],
-				\           [ 'relativepath' ] ],
-		    \ 'right': [ [ 'percent' ],
-		    \            [ 'lineinfo' ],
-				\            [ 'filetype' ] ] },
-				\ 'inactive': {
-		    \ 'left': [ [ 'filename' ] ],
-		    \ 'right': [ [ 'lineinfo' ],
-		    \            [ 'percent' ],
-				\						 [ 'fileformat', 'fileencoding'] ] },
-				\ 'subseparator': { 'left': '', 'right': '' }
-				\}
+      \ 'colorscheme': 'jellybeans',
+        \ 'active': {
+        \ 'left': [ [ 'mode', 'paste' ],
+        \           [ 'readonly', 'modified' ],
+        \           [ 'relativepath' ] ],
+        \ 'right': [ [ 'percent' ],
+        \            [ 'lineinfo' ],
+        \            [ 'filetype' ] ] },
+        \ 'inactive': {
+        \ 'left': [ [ 'filename' ] ],
+        \ 'right': [ [ 'lineinfo' ],
+        \            [ 'percent' ],
+        \            [ 'fileformat', 'fileencoding'] ] },
+        \ 'subseparator': { 'left': '', 'right': '' }
+        \}
 
-	let g:lightline.enable = {
-			  \ 'statusline': 1	
-				\}
+  let g:lightline.enable = {
+        \ 'statusline': 1 
+        \}
 
 "}}}
 
-" " Rainbow parentheses ---------------------------------------------------------------{{{
-"
-" let g:rbpt_colorpairs = [
-"     \ ['brown',       'RoyalBlue3'],
-"     \ ['Darkblue',    'SeaGreen3'],
-"     \ ['darkgray',    'DarkOrchid3'],
-"     \ ['darkgreen',   'firebrick3'],
-"     \ ['darkcyan',    'RoyalBlue3'],
-"     \ ['darkred',     'SeaGreen3'],
-"     \ ['darkmagenta', 'DarkOrchid3'],
-"     \ ['brown',       'firebrick3'],
-"     \ ['gray',        'RoyalBlue3'],
-"     \ ['black',       'SeaGreen3'],
-"     \ ['darkmagenta', 'DarkOrchid3'],
-"     \ ['Darkblue',    'firebrick3'],
-"     \ ['darkgreen',   'RoyalBlue3'],
-"     \ ['darkcyan',    'SeaGreen3'],
-"     \ ['darkred',     'DarkOrchid3'],
-"     \ ['red',         'firebrick3'],
-"     \ ]
-"
-" map <c-q> :RainbowParenthesesToggle<CR>
-"
-" "}}}
+" Rainbow parentheses ------------------------------------------------------{{{
 
-" " Vimfiler ---------------------------------------------------------------{{{
-" " map <Leader>e :VimFiler<CR>
-" " map Q <Plug>(vimfiler_make_directory)
-" " map q <Plug>(vimfiler_exit)
-" " map go <Plug>(vimfiler_open_file_in_another_vimfiler)
-" " let g:vimfiler_as_default_explorer=1
-" " let g:vimfiler_safe_mode_by_default=0
-" " let g:vimfiler_no_default_key_mappings=0
-" " let g:vimfiler_ignore_pattern = ['^\.DS_Store$', '^\.o$', '^\.mod$', '^\.out$','^\.git$','^\.gitignore$']
-"
-"   function! VFHLFile(extension, fg, bg, guifg, guibg)
-"   exec 'autocmd FileType VimFiler highlight ' . a:extension .' ctermbg='. a:bg .' ctermfg='. a:fg .' guibg='. a:guibg .' guifg='. a:guifg
-"   exec 'autocmd FileType VimFiler syn match ' . a:extension .' #^\s\+.*'. a:extension .'$#'
-"   endfunction
-"
-"   call VFHLFile('f90', 'green', 'none', 'green', 'none')
-"   call VFHLFile('md', 'blue', 'none', '#6699CC', 'none')
-"   call VFHLFile('gr', 'yellow', 'none', '#d8a235', 'none')
-"   call VFHLFile('conf', 'yellow', 'none', '#d8a235', 'none')
-"   call VFHLFile('json', 'green', 'none', '#d8a235', 'none')
-"   call VFHLFile('html', 'yellow', 'none', '#d8a235', 'none')
-"   call VFHLFile('o', 'cyan', 'none', '#5486C0', 'none')
-"   call VFHLFile('mod', 'cyan', 'none', '#5486C0', 'none')
-"   call VFHLFile('r', 'Red', 'none', 'red', 'none')
-"   call VFHLFile('R', 'Red', 'none', '#ffa500', 'none')
-"   call VFHLFile('csv', 'Blue', 'none', '#6699cc', 'none')
-"   call VFHLFile('ds_store', 'Gray', 'none', '#686868', 'none')
-"   call VFHLFile('gitconfig', 'black', 'none', '#686868', 'none')
-"   call VFHLFile('gitignore', 'Gray', 'none', '#7F7F7F', 'none')
-" " }}}
+" let g:rainbow_active = 1
+
+map <c-q> :RainbowToggle<CR>
+let g:rainbow_conf = {
+    \   'guifgs': ['royalblue', 'darkorange', 'darkmagenta', 'firebrick', 'seagreen'],
+    \   'ctermfgs': ['lightblue', 'lightyellow', 'lightcyan', 'darkmagenta'],
+    \   'operators': '_,_',
+    \   'parentheses': ['start=/(/ end=/)/ fold', 'start=/\[/ end=/\]/ fold', 'start=/{/ end=/}/ fold'],
+    \   'separately': {
+    \       '*': {},
+    \       'tex': {
+    \           'parentheses': ['start=/(/ end=/)/', 'start=/\[/ end=/\]/'],
+    \       },
+    \       'lisp': {
+    \           'guifgs': ['royalblue', 'darkorange', 'seagreen', 'firebrick', 'darkorchid'],
+    \       },
+    \       'vim': {
+    \           'parentheses': ['start=/(/ end=/)/', 'start=/\[/ end=/\]/', 'start=/{/ end=/}/ fold', 'start=/(/ end=/)/ containedin=vimFuncBody', 'start=/\[/ end=/\]/ containedin=vimFuncBody', 'start=/{/ end=/}/ fold containedin=vimFuncBody'],
+    \       },
+    \       'html': {
+    \           'parentheses': ['start=/\v\<((area|base|br|col|embed|hr|img|input|keygen|link|menuitem|meta|param|source|track|wbr)[ >])@!\z([-_:a-zA-Z0-9]+)(\s+[-_:a-zA-Z0-9]+(\=("[^"]*"|'."'".'[^'."'".']*'."'".'|[^ '."'".'"><=`]*))?)*\>/ end=#</\z1># fold'],
+    \       },
+    \       'css': 0,
+    \   }
+    \}
+
+"}}}
 
 " unite ---------------------------------------------------------------------{{{
 
   let g:unite_data_directory='~/.vim/.cache/unite'
   " let g:unite_source_history_yank_enable=1
   let g:unite_prompt='» '
-	let g:unite_ignore_source_files = ['*.mod', '*.o', '*.out' ]
+  let g:unite_ignore_source_files = ['*.mod', '*.o', '*.out' ]
   " let g:unite_kind_openable_persist_open_blink_time='0m'
   " " let g:unite_source_rec_async_command =['ag', '--follow', '--nocolor', '--nogroup','--hidden', '-g', '', '--ignore', '.git', '--ignore', '*.png', '--ignore', 'lib']
 
   " nnoremap <m-tab> :Unite -auto-resize -quick-match -sync -direction='botleft' buffer<CR>
   nnoremap <m-tab> :Unite -auto-resize -start-insert -sync -here buffer<CR>
-	nnoremap <Leader>l :Unite -auto-resize -start-insert -complete -sync -here -smartcase line<CR>
-	nnoremap <Leader>f :Unite -auto-resize -start-insert -here file_rec/neovim<CR>
-	" nnoremap <Leader>e :Unite -auto-resize -auto-preview -keep-focus -here file<CR>
-	nnoremap <Leader>g :Unite -here grep:.<CR>
+  nnoremap <Leader>l :Unite -auto-resize -start-insert -complete -sync -here -smartcase line<CR>
+  nnoremap <Leader>f :Unite -auto-resize -start-insert -here file_rec/neovim<CR>
+  " nnoremap <Leader>e :Unite -auto-resize -auto-preview -keep-focus -here file<CR>
+  nnoremap <Leader>g :Unite -here grep:.<CR>
   nnoremap <silent> <leader>up :Unite neobundle/update<CR>
 
 " " Git from unite...ERMERGERD ------------------------------------------------{{{
