@@ -80,20 +80,21 @@
   NeoBundle 'vim-scripts/ingo-library'
   " NeoBundle 'Valloric/YouCompleteMe'
   NeoBundle 'unblevable/quick-scope'
+  " NeoBundle 'kien/rainbow_parentheses.vim'
 
  " Shougo
   NeoBundle 'Shougo/unite.vim'
   " NeoBundle 'Shougo/unite-outline'
   " NeoBundle 'Shougo/vimfiler.vim'
-  " NeoBundle 'Shougo/vimproc.vim', {
-  "        \ 'build' : {
-  "        \     'windows' : 'tools\\update-dll-mingw',
-  "        \     'cygwin' : 'make -f make_cygwin.mak',
-  "        \     'mac' : 'make -f make_mac.mak',
-  "        \     'linux' : 'make',
-  "        \     'unix' : 'gmake',
-  "        \    },
-  "        \ }
+  NeoBundle 'Shougo/vimproc.vim', {
+         \ 'build' : {
+         \     'windows' : 'tools\\update-dll-mingw',
+         \     'cygwin' : 'make -f make_cygwin.mak',
+         \     'mac' : 'make -f make_mac.mak',
+         \     'linux' : 'make',
+         \     'unix' : 'gmake',
+         \    },
+         \ }
 	
   NeoBundle 'Shougo/neco-vim'
   NeoBundle 'Shougo/neoinclude.vim'
@@ -218,7 +219,8 @@ set tabstop=2
 " For cursor movements
 " let mapleader = ','
 let mapleader = "\<Space>"
-nnoremap , .
+nnoremap ` .
+nnoremap \ `
 map <S-L> 20l
 map <S-H> 20h
 map j gj
@@ -332,8 +334,8 @@ endif
   let R_in_buffer = 1
   let R_applescript = 1
   " let R_nvim_wd = 1
-  vmap <C-Space> <Plug>RDSendSelection
-  nmap <C-Space> <Plug>RDSendLine
+  vmap <m-Space> <Plug>RDSendSelection
+  nmap <m-Space> <Plug>RDSendLine
 
   " Rout colors
   if &t_Co == 256
@@ -554,6 +556,31 @@ endif
 				\}
 
 "}}}
+
+" " Rainbow parentheses ---------------------------------------------------------------{{{
+"
+" let g:rbpt_colorpairs = [
+"     \ ['brown',       'RoyalBlue3'],
+"     \ ['Darkblue',    'SeaGreen3'],
+"     \ ['darkgray',    'DarkOrchid3'],
+"     \ ['darkgreen',   'firebrick3'],
+"     \ ['darkcyan',    'RoyalBlue3'],
+"     \ ['darkred',     'SeaGreen3'],
+"     \ ['darkmagenta', 'DarkOrchid3'],
+"     \ ['brown',       'firebrick3'],
+"     \ ['gray',        'RoyalBlue3'],
+"     \ ['black',       'SeaGreen3'],
+"     \ ['darkmagenta', 'DarkOrchid3'],
+"     \ ['Darkblue',    'firebrick3'],
+"     \ ['darkgreen',   'RoyalBlue3'],
+"     \ ['darkcyan',    'SeaGreen3'],
+"     \ ['darkred',     'DarkOrchid3'],
+"     \ ['red',         'firebrick3'],
+"     \ ]
+"
+" map <c-q> :RainbowParenthesesToggle<CR>
+"
+" "}}}
 
 " " Vimfiler ---------------------------------------------------------------{{{
 " " map <Leader>e :VimFiler<CR>

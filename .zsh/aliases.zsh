@@ -10,7 +10,8 @@ alias delmess='rm -rf ~/Library/Messages/*'
 
 # ifort short
 alias ifo='ifort *.o'
-alias run='./*.out'
+alias out='./*.out'
+alias run='./RUN'
 alias ob='ifort -c'
 
 # For Tmux
@@ -33,18 +34,18 @@ alias lsg='ll | grep'
 alias lsd='lf | grep'
 
 # Alias Editing
-alias ae='vim ~/.zsh/aliases.zsh' #alias edit
+alias ae='nvim ~/.zsh/aliases.zsh' #alias edit
 alias ar='source ~/.zsh/aliases.zsh'  #alias reload
 
 # For reload zsh comfigurations
 alias reload=". ~/.zshrc && echo 'ZSH config reloaded from ~/.zshrc'"
 
 # vim using
-mvim --version > /dev/null 2>&1
-MACVIM_INSTALLED=$?
-if [ $MACVIM_INSTALLED -eq 0 ]; then
-  alias vim="mvim -v"
-fi
+# mvim --version > /dev/null 2>&1
+# MACVIM_INSTALLED=$?
+# if [ $MACVIM_INSTALLED -eq 0 ]; then
+#   alias vim="mvim -v"
+# fi
 
 # Vim and Neovim
 alias nv='nvim'
@@ -53,10 +54,10 @@ alias nv='nvim'
 alias :q='exit'
 
 # vimrc editing
-alias ve='vim ~/.vimrc'
+alias ve='nvim ~/.vimrc'
 
 # zsh profile editing
-alias ze='vim ~/.zshrc'
+alias ze='nvim ~/.zshrc'
 alias zr='source ~/.zshrc'
 
 # Common shell functions
