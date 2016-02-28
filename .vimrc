@@ -35,7 +35,8 @@
   NeoBundle 'jalvesaq/Nvim-R'
   " Markdown
   " NeoBundle 'euclio/vim-markdown-composer', { 'do': function('BuildComposer') }
-  NeoBundle 'suan/vim-instant-markdown'
+  NeoBundle 'euclio/vim-markdown-composer'
+  " NeoBundle 'suan/vim-instant-markdown'
   NeoBundle 'plasticboy/vim-markdown'
   NeoBundle 'jtratner/vim-flavored-markdown'
 
@@ -57,7 +58,7 @@
   NeoBundle 'itchyny/lightline.vim'
   NeoBundle 'tpope/vim-surround'
   NeoBundle 'tomtom/tcomment_vim'
-  NeoBundleLazy 'gorodinskiy/vim-coloresque', {'autoload': {'filetypes':['vim', 'css', 'r']}}
+  NeoBundleLazy 'gorodinskiy/vim-coloresque', {'autoload': {'filetypes':['vim', 'css', 'r', 'R']}}
   " NeoBundle 'junegunn/fzf', { 'dir': '~/.fzf' }
   " NeoBundle 'junegunn/fzf.vim'
   NeoBundle 'terryma/vim-multiple-cursors'
@@ -102,12 +103,14 @@
 if pluginsExist
 " System Settings  ----------------------------------------------------------{{{
 
+if has('nvim')
 "  Neovim Settings
   let $NVIM_TUI_ENABLE_TRUE_COLOR=1
 
   " let $NVIM_TUI_ENABLE_CURSOR_SHAPE=1
   let $NEOVIM_JS_DEBUG='~/.nvimjsdebug'
   set clipboard+=unnamedplus
+endif
 
 " Remember cursor position between vim sessions
   autocmd BufReadPost *
@@ -247,6 +250,17 @@ endif
 "  nnoremap <Leader>f :FZF<CR>
 "  nnoremap <leader>a :Ag<CR>
 
+" Tab navigations
+nmap <m-1> 1gt
+nmap <m-2> 2gt
+nmap <m-3> 3gt
+nmap <m-4> 4gt
+nmap <m-5> 5gt
+nmap <m-6> 6gt
+nmap <m-7> 7gt
+nmap <m-8> 8gt
+nmap <m-9> 9gt
+
 "}}}
 
 " Themes  -------------------------------------------------------------------{{{
@@ -260,11 +274,11 @@ endif
   endif
   set background=dark
 
-" highlightt the current line number
-  hi CursorLineNR guifg=#ffffff
-
-" highlight bad words in red
-  hi SpellBad guibg=#ff2929 guifg=#ffffff" ctermbg=224
+" " highlightt the current line number
+"   hi CursorLineNR guifg=#ffffff
+"
+" " highlight bad words in red
+"   hi SpellBad guibg=#ff2929 guifg=#ffffff" ctermbg=224
 
 " }}}
 
@@ -273,12 +287,14 @@ endif
   autocmd BufRead,BufNewFile *.md setlocal spell complete+=kspell
   autocmd BufNewFile,BufRead *.md filetype indent off 
   autocmd Bufreadpre *.md setlocal wrap linebreak nolist
-  let g:instant_markdown_autostart = 0
 
-  nnoremap <Leader>md :InstantMarkdownPreview<CR>
-
+  let g:markdown_composer_autostart = 0
+  nnoremap <Leader>md :ComposerStart<CR>
   let g:vim_markdown_folding_disabled = 0
   let g:vim_markdown_math = 1
+
+  " let g:instant_markdown_autostart = 0
+  " nnoremap <Leader>md :InstantMarkdownPreview<CR>
 
 "}}}
 
@@ -300,36 +316,15 @@ endif
 " For R ---------------------------------------------------------------------{{{
 
   " General configurations
-  filetype plugin indent on
   let R_start_libs = "raster,base,stats,graphics,grDevices,utils,methods"
   let Rout_more_colors = 1
-  let R_vsplit = 1
+  let R_vsplit = 0
+  let R_rconsole_height = 3
   let R_in_buffer = 1
   let R_applescript = 1
-  " let R_nvim_wd = 1
+  let R_hl_term = 1
   vmap <m-Space> <Plug>RDSendSelection
   nmap <m-Space> <Plug>RDSendLine
-
-  " Rout colors
-  if &t_Co == 256
-       let rout_color_input    = 'ctermfg=247'
-       let rout_color_normal   = 'ctermfg=39'
-       let rout_color_number   = 'ctermfg=51'
-       let rout_color_integer  = 'ctermfg=51'
-       let rout_color_float    = 'ctermfg=51'
-       let rout_color_complex  = 'ctermfg=51'
-       let rout_color_negnum   = 'ctermfg=183'
-       let rout_color_negfloat = 'ctermfg=183'
-       let rout_color_date     = 'ctermfg=43'
-       let rout_color_true     = 'ctermfg=78'
-       let rout_color_false    = 'ctermfg=203'
-       let rout_color_inf      = 'ctermfg=39'
-       let rout_color_constant = 'ctermfg=75'
-       let rout_color_string   = 'ctermfg=79'
-       let rout_color_error    = 'ctermfg=15 ctermbg=1'
-       let rout_color_warn     = 'ctermfg=1'
-       let rout_color_index    = 'ctermfg=186'
-   endif
 
 "}}}
 
@@ -380,18 +375,20 @@ endif
 
 " set encoding=utf8
 let g:indentLine_color_gui = 'darkblue'
-let g:indentLine_char='¦'
+" let g:indentLine_char='¦'
+let g:indentLine_char='|'
 let g:indentLine_leadingSpaceChar = '+'
 let g:indentLine_enabled=0
 let g:indentLine_leadingSpaceEnabled=0
-nnoremap <M-q> :IndentLinesToggle<CR>:LeadingSpaceToggle<CR>
+" nnoremap <M-q> :IndentLinesToggle<CR>:LeadingSpaceToggle<CR>
+nnoremap <M-q> :IndentLinesToggle<CR>
 
 "}}}
 
 " Switch  -------------------------------------------------------------------{{{
 
 let g:switch_mapping = '<C-s>'
-    let g:switch_custom_definitions =
+let g:switch_custom_definitions =
         \ [
         \   ['0', '1']
         \ ]
@@ -440,14 +437,14 @@ let g:switch_mapping = '<C-s>'
 if has ('nvim')
 
   let g:deoplete#enable_at_startup=1
-  " let g:deoplete#enable_refresh_always=1
+  let g:deoplete#enable_refresh_always=1
   let g:deoplete#max_list=6
   " let g:deoplete#file#enable_buffer_path=1
-  inoremap <expr><tab>
-    \ pumvisible() ?
-    \ deoplete#mappings#close_popup() : "\<tab>"
+  " inoremap <expr><tab>
+  "   \ pumvisible() ?
+  "   \ deoplete#mappings#close_popup() : "\<tab>"
   let g:deoplete#enable_smart_case=1
-  set completeopt+=noinsert
+  " set completeopt+=noinsert
 
 else
 
@@ -464,9 +461,6 @@ else
     endif
   endfunction
 
-  " inoremap <silent><expr> <m-tab>
-  "   \ pumvisible() ? "\<C-n>" :
-  "   \ neoplete#start#manual_complete()
   inoremap <expr><tab>
     \ pumvisible() ?
     \ neoplete#close_popup() : "\<tab>"
@@ -481,23 +475,24 @@ else
 endif
 
 
-
 " Enable snipMate compatibility feature.
   let g:neosnippet#enable_snipmate_compatibility = 1
   imap <C-k>     <Plug>(neosnippet_expand_or_jump)
   smap <C-k>     <Plug>(neosnippet_expand_or_jump)
   xmap <C-k>     <Plug>(neosnippet_expand_target)
-  "
+
+
 " Tell Neosnippet about the other snippets
   let g:neosnippet#snippets_directory='~/.vim/bundle/neosnippet-snippets/neosnippets, ~/.vim/bundle/vim-snippets/snippets'
 
 " SuperTab like snippets behavior.
-  imap <expr><M-CR> neosnippet#expandable_or_jumpable() ?
-  \ "\<Plug>(neosnippet_expand_or_jump)"
-  \: pumvisible() ? "\<C-n>" : "\<TAB>"
-  smap <expr><M-CR> neosnippet#expandable_or_jumpable() ?
-  \ "\<Plug>(neosnippet_expand_or_jump)"
-  \: "\<TAB>"
+imap <expr><TAB> neosnippet#expandable_or_jumpable() ?
+\ "\<Plug>(neosnippet_expand_or_jump)"
+\: pumvisible() ? "\<C-n>" : "\<TAB>"
+smap <expr><TAB> neosnippet#expandable_or_jumpable() ?
+\ "\<Plug>(neosnippet_expand_or_jump)"
+\: "\<TAB>"
+
 
 "}}}
 
