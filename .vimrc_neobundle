@@ -1,96 +1,102 @@
-" Setup dein  ---------------------------------------------------------------{{{
-" If dein is not installed, do it first
+" Setup NeoBundle  ----------------------------------------------------------{{{
+" If neobundle is not installed, do it first
   let bundleExists = 1
-  if (!isdirectory(expand("$HOME/.vim/dein")))
-     call system(expand("mkdir -p $HOME/.vim/dein"))
-     call system(expand("git clone https://github.com/Shougo/dein.vim ~/.vim/dein/repos/github.com/Shougo/dein.vim"))
+  if (!isdirectory(expand("$HOME/.vim/bundle/neobundle.vim")))
+     call system(expand("mkdir -p $HOME/.vim/bundle"))
+     call system(expand("git clone https://github.com/Shougo/neobundle.vim ~/.vim/bundle/neobundle.vim"))
      let bundleExists = 0
   endif
+  if 0 | endif
 
-  if &compatible
-    set nocompatible endif
+  if has('vim_starting')
+    if &compatible
+      " Be iMproved
+      set nocompatible endif
+    endif
+ 
+" Required:
+    set runtimepath+=~/.vim/bundle/neobundle.vim/
   endif
-  set runtimepath+=~/.vim/dein/repos/github.com/Shougo/dein.vim
-  let bundleExists = 1
 
-  call dein#begin(expand('~/.vim/dein'))
+" Required:
+  call neobundle#begin(expand('~/.vim/bundle/'))
+  " let pluginsExist = 1
+" Let NeoBundle manage NeoBundle
+" Required:
+  NeoBundleFetch 'Shougo/neobundle.vim'
 
-" First, dein it self
-  call dein#add('Shougo/neobundle.vim', {'rtp':''})
   
  " Filetype related
   " LaTex
-  call dein#add('lervag/vimtex', {'on_ft': ['tex']})
+  NeoBundle 'lervag/vimtex'
   " csv
-  call dein#add('chrisbra/csv.vim', {'on_ft':['csv']})
+  NeoBundle 'chrisbra/csv.vim'
   " R
-  call dein#add('jalvesaq/Nvim-R', {'on_ft': ['r','R','rmd']})
+  NeoBundle 'jalvesaq/Nvim-R'
   " Markdown
-  " call dein#add 'euclio/vim-markdown-composer', { 'on_func': function('BuildComposer') }
-  call dein#add('euclio/vim-markdown-composer', {'on_ft':['md']})
-  " call dein#add 'suan/vim-instant-markdown'
-  call dein#add('plasticboy/vim-markdown', {'on_ft':['md']})
-  call dein#add('jtratner/vim-flavored-markdown', {'on_ft':['md']})
+  " NeoBundle 'euclio/vim-markdown-composer', { 'do': function('BuildComposer') }
+  NeoBundle 'euclio/vim-markdown-composer'
+  " NeoBundle 'suan/vim-instant-markdown'
+  NeoBundle 'plasticboy/vim-markdown'
+  NeoBundle 'jtratner/vim-flavored-markdown'
 
  " colorscheme & syntax highlighting
-  if has ('nvim')
-    call dein#add('frankier/neovim-colors-solarized-truecolor-only')
-  else
-    call dein#add('mhartington/oceanic-next')
-  endif
-  call dein#add('Yggdroot/indentLine', {'on_cmd': 'IndentLinesToggle'})
-  call dein#add('Raimondi/delimitMate', {'on_i': 1})
-  " call dein#add 'valloric/MatchTagAlways'
+  NeoBundle 'frankier/neovim-colors-solarized-truecolor-only'
+  NeoBundle 'mhartington/oceanic-next'
+  NeoBundle 'Yggdroot/indentLine'
+  NeoBundle 'Raimondi/delimitMate'
+  " NeoBundle 'valloric/MatchTagAlways'
 
  " Git helpers
-  " call dein#add('tpope/vim-fugitive')
+  " NeoBundle 'tpope/vim-fugitive'
 
  " untils
-  call dein#add('scrooloose/nerdtree', {'on_cmd': 'NERDTreeToggle'})
-  call dein#add('AndrewRadev/switch.vim', {'on_map':['c-s']})
-  call dein#add('christoomey/vim-tmux-navigator', {'on_cmd': ['TmuxNavigateDown','TmuxNavigateUp','TmuxNavigateRight','TmuxNavigateLeft']})
-  call dein#add('itchyny/lightline.vim')
-  call dein#add('tpope/vim-surround', {'on_map': ['v','c-v','V' ]})
-  call dein#add('tomtom/tcomment_vim', {'on_map': ['gcc', 'gc']})
-  call dein#add('gorodinskiy/vim-coloresque', {'on_ft':['vim', 'css', 'r', 'R']})
-  " call dein#add('junegunn/fzf', { 'dir': '~/.fzf' })
-  " call dein#add('junegunn/fzf.vim')
-  " call dein#add('terryma/vim-multiple-cursors')
-  " call dein#add('junegunn/limelight.vim')
-  call dein#add('honza/vim-snippets', {'on_i': 1})
-  call dein#add('godlygeek/tabular', {'on_map': ['v','c-v','V' ]})
-  call dein#add('vim-scripts/ingo-library')
-  call dein#add('unblevable/quick-scope')
-  call dein#add('luochen1990/rainbow', {'on_cmd': 'RainbowToggle'})
-  call dein#add('Shougo/unite.vim', {'on_map': ['space-f', 'space-de', 'space-g', 'm-tab']})
-  call dein#add('Shougo/vimproc.vim', {
-        \ 'build' : {
-        \     'windows' : 'tools\\update-dll-mingw',
-        \     'cygwin' : 'make -f make_cygwin.mak',
-        \     'mac' : 'make -f make_mac.mak',
-        \     'linux' : 'make',
-        \     'unix' : 'gmake',
-        \    },
-        \ })
-  call dein#add('Shougo/neco-vim', {'on_i': 1})
-  call dein#add('Shougo/neoinclude.vim', {'on_i': 1})
-  call dein#add('ujihisa/neco-look', {'on_ft':['markdown', 'tex']})
-  call dein#add('Shougo/neosnippet.vim', {'on_i': 1})
-  call dein#add('Shougo/neosnippet-snippets', {'on_i': 1})
+  NeoBundle 'benekastah/neomake'
+  NeoBundle 'scrooloose/nerdtree'
+  NeoBundle 'AndrewRadev/switch.vim'
+  NeoBundle 'christoomey/vim-tmux-navigator'
+  NeoBundle 'itchyny/lightline.vim'
+  NeoBundle 'tpope/vim-surround'
+  NeoBundle 'tomtom/tcomment_vim'
+  NeoBundleLazy 'gorodinskiy/vim-coloresque', {'autoload': {'filetypes':['vim', 'css', 'r', 'R']}}
+  " NeoBundle 'junegunn/fzf', { 'dir': '~/.fzf' }
+  " NeoBundle 'junegunn/fzf.vim'
+  NeoBundle 'terryma/vim-multiple-cursors'
+  " NeoBundle 'junegunn/limelight.vim'
+  NeoBundle 'honza/vim-snippets'
+  NeoBundle 'godlygeek/tabular'
+  NeoBundle 'vim-scripts/ingo-library'
+  NeoBundle 'unblevable/quick-scope'
+  NeoBundle 'luochen1990/rainbow'
+
+ " Shougo
+  NeoBundle 'Shougo/unite.vim'
+  NeoBundle 'Shougo/vimproc.vim', {
+         \ 'build' : {
+         \     'windows' : 'tools\\update-dll-mingw',
+         \     'cygwin' : 'make -f make_cygwin.mak',
+         \     'mac' : 'make -f make_mac.mak',
+         \     'linux' : 'make',
+         \     'unix' : 'gmake',
+         \    },
+         \ }
+  NeoBundle 'Shougo/neco-vim'
+  NeoBundle 'Shougo/neoinclude.vim'
+  NeoBundleLazy 'ujihisa/neco-look',{'autoload':{'filetypes':['markdown', 'tex']}}
+  NeoBundle 'Shougo/neosnippet.vim'
+  NeoBundle 'Shougo/neosnippet-snippets'
   if has ('nvim')
-    call dein#add('Shougo/deoplete.nvim', {'on_i': 1})
+    NeoBundle 'Shougo/deoplete.nvim'
   else
-    call dein#add('Shougo/neocomplete.vim', {'on_i': 1})
+    NeoBundle 'Shougo/neocomplete.vim'
   endif
 
-  call dein#end()
+  call neobundle#end()
 
+" Required:
   filetype plugin indent on
   let pluginsExist=1
-  if dein#check_install()
-    call dein#install()
-  endif
-  " call dein#remote_plugins() 
+  NeoBundleCheck
 
 " }}}
 
@@ -480,10 +486,10 @@ endif
   let g:neosnippet#snippets_directory='~/.vim/bundle/neosnippet-snippets/neosnippets, ~/.vim/bundle/vim-snippets/snippets'
 
 " SuperTab like snippets behavior.
-imap <expr><m-cr> neosnippet#expandable_or_jumpable() ?
+imap <expr><m-TAB> neosnippet#expandable_or_jumpable() ?
 \ "\<Plug>(neosnippet_expand_or_jump)"
 \: pumvisible() ? "\<C-n>" : "\<TAB>"
-smap <expr><m-cr> neosnippet#expandable_or_jumpable() ?
+smap <expr><m-TAB> neosnippet#expandable_or_jumpable() ?
 \ "\<Plug>(neosnippet_expand_or_jump)"
 \: "\<TAB>"
 
@@ -576,10 +582,8 @@ let g:rainbow_conf = {
   nnoremap <Leader>f :Unite -auto-resize -start-insert -here file_rec/neovim<CR>
   " nnoremap <Leader>e :Unite -auto-resize -auto-preview -keep-focus -here file<CR>
   nnoremap <Leader>g :Unite -here grep:.<CR>
-  " nnoremap <silent> <leader>up :Unite neobundle/update<CR>
-  nnoremap <silent> <leader>up :call dein#update()<CR>
-  nnoremap <silent> <Leader>de :Unite -here dein<CR>
- 
+  nnoremap <silent> <leader>up :Unite neobundle/update<CR>
+
 " " Git from unite...ERMERGERD ------------------------------------------------{{{
 " let g:unite_source_menu_menus = {} " Useful when building interfaces at appropriate places
 " let g:unite_source_menu_menus.git = {
