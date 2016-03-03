@@ -16,7 +16,7 @@
   call dein#begin(expand('~/.vim/dein'))
 
 " First, dein it self
-  call dein#add('Shougo/neobundle.vim', {'rtp':''})
+  call dein#add('Shougo/dein.vim', {'rtp':''})
   
  " Filetype related
   " LaTex
@@ -34,7 +34,7 @@
 
  " colorscheme & syntax highlighting
   if has ('nvim')
-    call dein#add('frankier/neovim-colors-solarized-truecolor-only')
+    call dein#add('ranranking/Solarized_neovim_revised')
   else
     call dein#add('mhartington/oceanic-next')
   endif
@@ -47,12 +47,13 @@
 
  " untils
   call dein#add('scrooloose/nerdtree', {'on_cmd': 'NERDTreeToggle'})
-  call dein#add('AndrewRadev/switch.vim', {'on_map':['c-s']})
+  call dein#add('AndrewRadev/switch.vim', {'on_map':['<c-s>']})
   call dein#add('christoomey/vim-tmux-navigator', {'on_cmd': ['TmuxNavigateDown','TmuxNavigateUp','TmuxNavigateRight','TmuxNavigateLeft']})
   call dein#add('itchyny/lightline.vim')
-  call dein#add('tpope/vim-surround', {'on_map': ['v','c-v','V' ]})
-  call dein#add('tomtom/tcomment_vim', {'on_map': ['gcc', 'gc']})
-  call dein#add('gorodinskiy/vim-coloresque', {'on_ft':['vim', 'css', 'r', 'R']})
+  call dein#add('tpope/vim-surround', {'on_map': ['v','<c-v>','V' ]})
+  call dein#add('tomtom/tcomment_vim', {'on_map': ['g','v']})
+  " call dein#add('gorodinskiy/vim-coloresque', {'on_ft':['vim', 'css', 'r', 'R']})
+  call dein#add('ranranking/vim-coloresque', {'on_ft':['vim', 'css', 'r', 'R']})
   " call dein#add('junegunn/fzf', { 'dir': '~/.fzf' })
   " call dein#add('junegunn/fzf.vim')
   " call dein#add('terryma/vim-multiple-cursors')
@@ -200,17 +201,19 @@ map <S-K> 10gk
 " inoremap <C-a> <C-O>A
 nnoremap ! $
 
-
 " Regularly used functions
 nnoremap <Leader>kl :bd!<CR>
 nnoremap <Leader>w :w<CR>
+" inoremap <Leader>w <Esc>:w<CR>
 nnoremap <Leader>n :noh<CR>
 nnoremap <leader><tab> <c-^>
 nnoremap <Leader>rl :so ~/.vimrc<CR>
-map <Leader>q :q<CR>
+map <Leader>qq :q<CR>
+nnoremap <Leader>t :tabe<CR>
+nnoremap <Leader>o :e
 map <Leader>s /
-imap jj <Esc>
-imap <M-Tab> <S-tab>
+inoremap jj <Esc>
+imap <m-f> <S-tab>
 
 " For line and space editing
 nmap <CR> O<Esc>
@@ -229,8 +232,8 @@ noremap <right> 3<C-W>>
 
 " Neovim terminal mapping
 if has ('nvim')
-  tnoremap <m-tab> <c-\><c-n>
-  nnoremap <m-z> :vsplit<cr>:TmuxNavigateRight<cr>:terminal<cr>
+  tnoremap <esc> <c-\><c-n>
+  nnoremap <m-z> :15split<cr>:TmuxNavigateRight<cr>:terminal<cr>
   tnoremap <m-z> <c-\><c-n>:bd!<cr>
 endif
 
@@ -267,6 +270,8 @@ nmap <m-9> 9gt
     colorscheme OceanicNext
   endif
   set background=dark
+  " set splitbelow
+  " set background=light
 
 " " highlightt the current line number
 "   hi CursorLineNR guifg=#ffffff
@@ -280,7 +285,7 @@ nmap <m-9> 9gt
 
   autocmd BufRead,BufNewFile *.md setlocal spell complete+=kspell
   autocmd BufNewFile,BufRead *.md filetype indent off 
-  autocmd Bufreadpre *.md setlocal wrap linebreak nolist
+  autocmd Bufreadpre *.md set wrap linebreak nolist
 
   let g:markdown_composer_autostart = 0
   nnoremap <Leader>md :ComposerStart<CR>
@@ -367,9 +372,6 @@ endif
 
 " Indent line  --------------------------------------------------------------{{{
 
-" set encoding=utf8
-let g:indentLine_color_gui = 'darkblue'
-" let g:indentLine_char='¦'
 let g:indentLine_char='|'
 let g:indentLine_leadingSpaceChar = '+'
 let g:indentLine_enabled=0
@@ -434,11 +436,14 @@ if has ('nvim')
   " let g:deoplete#enable_refresh_always=1
   let g:deoplete#max_list=6
   " let g:deoplete#file#enable_buffer_path=1
-  inoremap <expr><tab>
-    \ pumvisible() ?
-    \ deoplete#mappings#close_popup() : "\<tab>"
+  " inoremap <expr><tab>
+  "   \ pumvisible() ?
+  "   \ deoplete#mappings#close_popup() : "\<tab>"
+	inoremap <silent><expr> <Tab>
+		\ pumvisible() ? "\<C-n>" :
+		\ deoplete#mappings#manual_complete()
   let g:deoplete#enable_smart_case=1
-  set completeopt+=noinsert
+  " set completeopt+=noinsert 
 
 else
 
@@ -471,19 +476,19 @@ endif
 
 " Enable snipMate compatibility feature.
   let g:neosnippet#enable_snipmate_compatibility = 1
-  imap <C-k>     <Plug>(neosnippet_expand_or_jump)
-  smap <C-k>     <Plug>(neosnippet_expand_or_jump)
-  xmap <C-k>     <Plug>(neosnippet_expand_target)
-
+  imap <m-q>    <Plug>(neosnippet_jump)
+  smap <m-q>     <Plug>(neosnippet_jump)
+  xmap <m-q>     <Plug>(neosnippet_expand_target)
 
 " Tell Neosnippet about the other snippets
-  let g:neosnippet#snippets_directory='~/.vim/bundle/neosnippet-snippets/neosnippets, ~/.vim/bundle/vim-snippets/snippets'
+  let g:neosnippet#snippets_directory='~/.vim/dein/repos/github.com/Shougo/neosnippet-snippets/neosnippets,
+                                      \ ~/.vim/dein/repos/github.com/honza/vim-snippets/snippets,
+                                      \ ~/.vim/my_snippets'
 
-" SuperTab like snippets behavior.
-imap <expr><m-cr> neosnippet#expandable_or_jumpable() ?
+imap <expr><M-Tab> neosnippet#expandable_or_jumpable() ?
 \ "\<Plug>(neosnippet_expand_or_jump)"
 \: pumvisible() ? "\<C-n>" : "\<TAB>"
-smap <expr><m-cr> neosnippet#expandable_or_jumpable() ?
+smap <expr><m-tab> neosnippet#expandable_or_jumpable() ?
 \ "\<Plug>(neosnippet_expand_or_jump)"
 \: "\<TAB>"
 
@@ -578,8 +583,24 @@ let g:rainbow_conf = {
   nnoremap <Leader>g :Unite -here grep:.<CR>
   " nnoremap <silent> <leader>up :Unite neobundle/update<CR>
   nnoremap <silent> <leader>up :call dein#update()<CR>
-  nnoremap <silent> <Leader>de :Unite -here dein<CR>
- 
+  nnoremap <silent> <leader>ul :echo dein#get_log()<CR>
+  nnoremap <silent> <leader>pc :call Show_Log_for_current_plugin()<CR>
+
+ func! Show_Log_for_current_plugin()
+    try
+        exec "normal! ".'"ayi'."'"
+        exec "call unite#start([['output/shellcmd',"
+                    \ ."'git -C ~/.vim/dein/repos/github.com/"
+                    \ . @a
+                    \ . " log -n 6 --oneline']], {'log': 1, 'wrap': 1,'start_insert':0})"
+    catch
+        echohl WarningMsg | echomsg "can show logs of current plugin" | echohl None
+    endtry
+endf 
+
+nnoremap <silent> <Leader>de :Unite -auto-resize -here dein<CR>
+nnoremap <silent> <Leader>ms :Unite -auto-resize -here dein<CR>
+
 " " Git from unite...ERMERGERD ------------------------------------------------{{{
 " let g:unite_source_menu_menus = {} " Useful when building interfaces at appropriate places
 " let g:unite_source_menu_menus.git = {
