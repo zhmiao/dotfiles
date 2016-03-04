@@ -72,6 +72,8 @@ alias rm='nocorrect rm'
 # Homebrew
 alias brewu='brew update && brew upgrade && brew cleanup && brew prune && brew doctor'
 
+# Homebrew version Ruby
+alias ruby='/usr/local/bin/ruby'
 # Git related
 # Don't try to glob with zsh so you can do
 # stuff like ga *foo* and correctly have

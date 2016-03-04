@@ -58,7 +58,7 @@
   " call dein#add('junegunn/fzf.vim')
   " call dein#add('terryma/vim-multiple-cursors')
   " call dein#add('junegunn/limelight.vim')
-  call dein#add('honza/vim-snippets', {'on_i': 1})
+  " call dein#add('honza/vim-snippets', {'on_i': 1})
   call dein#add('godlygeek/tabular', {'on_map': ['v','c-v','V' ]})
   call dein#add('vim-scripts/ingo-library')
   call dein#add('unblevable/quick-scope')
@@ -210,8 +210,9 @@ nnoremap <leader><tab> <c-^>
 nnoremap <Leader>rl :so ~/.vimrc<CR>
 map <Leader>qq :q<CR>
 nnoremap <Leader>t :tabe<CR>
-nnoremap <Leader>o :e
+nnoremap <Leader>o :e 
 map <Leader>s /
+nnoremap <Leader>ma :make<CR>
 inoremap jj <Esc>
 imap <m-f> <S-tab>
 
@@ -315,6 +316,7 @@ nmap <m-9> 9gt
 " For R ---------------------------------------------------------------------{{{
 
   " General configurations
+  autocmd Bufreadpre *.r setlocal winheight=42 
   let R_start_libs = "raster,base,stats,graphics,grDevices,utils,methods"
   let Rout_more_colors = 1
   let R_vsplit = 0
@@ -329,13 +331,14 @@ nmap <m-9> 9gt
 
 " Fortran  ------------------------------------------------------------------{{{
 autocmd Bufreadpre *.f90 setlocal tw=0
+autocmd FileType fortran setlocal foldmethod=marker
 let fortran_free_source=1
 let fortran_have_tabs=1
 let fortran_more_precise=1
 let fortran_do_enddo=1
-if has('syntax') && (&t_Co > 2)
-    syntax enable
-endif
+" if has('syntax') && (&t_Co > 2)
+"     syntax enable
+" endif
 "}}}
 
 " Fold, gets it's own section  ----------------------------------------------{{{
@@ -482,9 +485,10 @@ endif
 
 " Tell Neosnippet about the other snippets
   let g:neosnippet#snippets_directory='~/.vim/dein/repos/github.com/Shougo/neosnippet-snippets/neosnippets,
-                                      \ ~/.vim/dein/repos/github.com/honza/vim-snippets/snippets,
                                       \ ~/.vim/my_snippets'
+                                      " \ ~/.vim/dein/repos/github.com/honza/vim-snippets/snippets,
 
+  let g:neosnippet#expand_word_boundary = 1
 imap <expr><M-Tab> neosnippet#expandable_or_jumpable() ?
 \ "\<Plug>(neosnippet_expand_or_jump)"
 \: pumvisible() ? "\<C-n>" : "\<TAB>"
@@ -599,7 +603,7 @@ let g:rainbow_conf = {
 endf 
 
 nnoremap <silent> <Leader>de :Unite -auto-resize -here dein<CR>
-nnoremap <silent> <Leader>ms :Unite -auto-resize -here dein<CR>
+nnoremap <silent> <Leader>ms :Unite -auto-resize -here output:message<CR>
 
 " " Git from unite...ERMERGERD ------------------------------------------------{{{
 " let g:unite_source_menu_menus = {} " Useful when building interfaces at appropriate places
