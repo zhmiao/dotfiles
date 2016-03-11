@@ -13,78 +13,82 @@
   set runtimepath+=~/.vim/dein/repos/github.com/Shougo/dein.vim
   let bundleExists = 1
 
-  call dein#begin(expand('~/.vim/dein'))
+  if dein#load_state(expand('~/.vim/dein'))
+    call dein#begin(expand('~/.vim/dein'))
 
-" First, dein it self
-  call dein#add('Shougo/dein.vim', {'rtp':''})
+    " First, dein it self
+    call dein#add('Shougo/dein.vim', {'rtp':''})
+    
+   " Filetype related
+    " LaTex
+    call dein#add('lervag/vimtex', {'on_ft': ['tex']})
+    " csv
+    call dein#add('chrisbra/csv.vim', {'on_ft':['csv']})
+    " R
+    call dein#add('jalvesaq/Nvim-R', {'on_ft': ['r','R','rmd']})
+    " Markdown
+    " call dein#add 'euclio/vim-markdown-composer', { 'on_func': function('BuildComposer') }
+    call dein#add('euclio/vim-markdown-composer', {'on_ft':['md']})
+    " call dein#add 'suan/vim-instant-markdown'
+    call dein#add('plasticboy/vim-markdown', {'on_ft':['md']})
+    call dein#add('jtratner/vim-flavored-markdown', {'on_ft':['md']})
   
- " Filetype related
-  " LaTex
-  call dein#add('lervag/vimtex', {'on_ft': ['tex']})
-  " csv
-  call dein#add('chrisbra/csv.vim', {'on_ft':['csv']})
-  " R
-  call dein#add('jalvesaq/Nvim-R', {'on_ft': ['r','R','rmd']})
-  " Markdown
-  " call dein#add 'euclio/vim-markdown-composer', { 'on_func': function('BuildComposer') }
-  call dein#add('euclio/vim-markdown-composer', {'on_ft':['md']})
-  " call dein#add 'suan/vim-instant-markdown'
-  call dein#add('plasticboy/vim-markdown', {'on_ft':['md']})
-  call dein#add('jtratner/vim-flavored-markdown', {'on_ft':['md']})
+   " colorscheme & syntax highlighting
+    if has ('nvim')
+      call dein#add('ranranking/Solarized_neovim_revised')
+    else
+      call dein#add('mhartington/oceanic-next')
+    endif
+    call dein#add('Yggdroot/indentLine', {'on_cmd': 'IndentLinesToggle'})
+    call dein#add('Raimondi/delimitMate', {'on_i': 1})
+    " call dein#add 'valloric/MatchTagAlways'
+  
+   " Git helpers
+    " call dein#add('tpope/vim-fugitive')
+  
+   " untils
+    call dein#add('scrooloose/nerdtree', {'on_cmd': 'NERDTreeToggle'})
+    call dein#add('AndrewRadev/switch.vim', {'on_map':['<c-s>']})
+    call dein#add('christoomey/vim-tmux-navigator', {'on_cmd': ['TmuxNavigateDown','TmuxNavigateUp','TmuxNavigateRight','TmuxNavigateLeft']})
+    call dein#add('itchyny/lightline.vim')
+    call dein#add('tpope/vim-surround', {'on_map': ['v','<c-v>','V' ]})
+    call dein#add('tomtom/tcomment_vim', {'on_map': ['g','v']})
+    " call dein#add('gorodinskiy/vim-coloresque', {'on_ft':['vim', 'css', 'r', 'R']})
+    call dein#add('ranranking/vim-coloresque', {'on_ft':['vim', 'css', 'r', 'R']})
+    " call dein#add('junegunn/fzf', { 'dir': '~/.fzf' })
+    " call dein#add('junegunn/fzf.vim')
+    " call dein#add('terryma/vim-multiple-cursors')
+    " call dein#add('junegunn/limelight.vim')
+    " call dein#add('honza/vim-snippets', {'on_i': 1})
+    call dein#add('godlygeek/tabular', {'on_map': ['v','c-v','V' ]})
+    call dein#add('vim-scripts/ingo-library')
+    call dein#add('unblevable/quick-scope')
+    call dein#add('luochen1990/rainbow', {'on_cmd': 'RainbowToggle'})
+    call dein#add('Shougo/unite.vim', {'on_map': ['space-f', 'space-de', 'space-g', 'm-tab']})
+    call dein#add('Shougo/vimproc.vim', {
+          \ 'build' : {
+          \     'windows' : 'tools\\update-dll-mingw',
+          \     'cygwin' : 'make -f make_cygwin.mak',
+          \     'mac' : 'make -f make_mac.mak',
+          \     'linux' : 'make',
+          \     'unix' : 'gmake',
+          \    },
+          \ })
+    call dein#add('Shougo/neco-vim', {'on_i': 1})
+    call dein#add('Shougo/neoinclude.vim', {'on_i': 1})
+    call dein#add('ujihisa/neco-look', {'on_ft':['markdown', 'tex']})
+    call dein#add('Shougo/neosnippet.vim', {'on_i': 1})
+    call dein#add('Shougo/neosnippet-snippets', {'on_i': 1})
+    if has ('nvim')
+      call dein#add('Shougo/deoplete.nvim', {'on_i': 1})
+    else
+      call dein#add('Shougo/neocomplete.vim', {'on_i': 1})
+    endif
 
- " colorscheme & syntax highlighting
-  if has ('nvim')
-    call dein#add('ranranking/Solarized_neovim_revised')
-  else
-    call dein#add('mhartington/oceanic-next')
+    call dein#end()
+    call dein#save_state()
+
   endif
-  call dein#add('Yggdroot/indentLine', {'on_cmd': 'IndentLinesToggle'})
-  call dein#add('Raimondi/delimitMate', {'on_i': 1})
-  " call dein#add 'valloric/MatchTagAlways'
-
- " Git helpers
-  " call dein#add('tpope/vim-fugitive')
-
- " untils
-  call dein#add('scrooloose/nerdtree', {'on_cmd': 'NERDTreeToggle'})
-  call dein#add('AndrewRadev/switch.vim', {'on_map':['<c-s>']})
-  call dein#add('christoomey/vim-tmux-navigator', {'on_cmd': ['TmuxNavigateDown','TmuxNavigateUp','TmuxNavigateRight','TmuxNavigateLeft']})
-  call dein#add('itchyny/lightline.vim')
-  call dein#add('tpope/vim-surround', {'on_map': ['v','<c-v>','V' ]})
-  call dein#add('tomtom/tcomment_vim', {'on_map': ['g','v']})
-  " call dein#add('gorodinskiy/vim-coloresque', {'on_ft':['vim', 'css', 'r', 'R']})
-  call dein#add('ranranking/vim-coloresque', {'on_ft':['vim', 'css', 'r', 'R']})
-  " call dein#add('junegunn/fzf', { 'dir': '~/.fzf' })
-  " call dein#add('junegunn/fzf.vim')
-  " call dein#add('terryma/vim-multiple-cursors')
-  " call dein#add('junegunn/limelight.vim')
-  " call dein#add('honza/vim-snippets', {'on_i': 1})
-  call dein#add('godlygeek/tabular', {'on_map': ['v','c-v','V' ]})
-  call dein#add('vim-scripts/ingo-library')
-  call dein#add('unblevable/quick-scope')
-  call dein#add('luochen1990/rainbow', {'on_cmd': 'RainbowToggle'})
-  call dein#add('Shougo/unite.vim', {'on_map': ['space-f', 'space-de', 'space-g', 'm-tab']})
-  call dein#add('Shougo/vimproc.vim', {
-        \ 'build' : {
-        \     'windows' : 'tools\\update-dll-mingw',
-        \     'cygwin' : 'make -f make_cygwin.mak',
-        \     'mac' : 'make -f make_mac.mak',
-        \     'linux' : 'make',
-        \     'unix' : 'gmake',
-        \    },
-        \ })
-  call dein#add('Shougo/neco-vim', {'on_i': 1})
-  call dein#add('Shougo/neoinclude.vim', {'on_i': 1})
-  call dein#add('ujihisa/neco-look', {'on_ft':['markdown', 'tex']})
-  call dein#add('Shougo/neosnippet.vim', {'on_i': 1})
-  call dein#add('Shougo/neosnippet-snippets', {'on_i': 1})
-  if has ('nvim')
-    call dein#add('Shougo/deoplete.nvim', {'on_i': 1})
-  else
-    call dein#add('Shougo/neocomplete.vim', {'on_i': 1})
-  endif
-
-  call dein#end()
 
   filetype plugin indent on
   let pluginsExist=1
@@ -121,6 +125,7 @@ set cursorline
 
 " set cursorcolumn
 " set lines=42
+set splitbelow
 set relativenumber number
 set conceallevel=0
 set noshowmode
@@ -215,6 +220,7 @@ map <Leader>s /
 nnoremap <Leader>ma :make<CR>
 inoremap jj <Esc>
 imap <m-f> <S-tab>
+nnoremap <Tab> za
 
 " For line and space editing
 nmap <CR> O<Esc>
@@ -233,9 +239,9 @@ noremap <right> 3<C-W>>
 
 " Neovim terminal mapping
 if has ('nvim')
-  tnoremap <esc> <c-\><c-n>
-  nnoremap <m-z> :15split<cr>:TmuxNavigateRight<cr>:terminal<cr>
-  tnoremap <m-z> <c-\><c-n>:bd!<cr>
+  tnoremap qq <c-\><c-n>
+  nnoremap <c-q> :15split<cr>:TmuxNavigateRight<cr>:terminal<cr>
+  tnoremap <c-q> <c-\><c-n>:bd!<cr>
 endif
 
 " Multiple cursor
@@ -330,8 +336,11 @@ nmap <m-9> 9gt
 "}}}
 
 " Fortran  ------------------------------------------------------------------{{{
-autocmd Bufreadpre *.f90 setlocal tw=0
+autocmd Bufreadpre *.f90 set tw=0
+" autocmd FileType fortran set tw=0
 autocmd FileType fortran setlocal foldmethod=marker
+autocmd FileType fortran setlocal fdc=1
+autocmd FileType fortran setlocal foldlevel=0
 let fortran_free_source=1
 let fortran_have_tabs=1
 let fortran_more_precise=1
@@ -380,7 +389,7 @@ let g:indentLine_leadingSpaceChar = '+'
 let g:indentLine_enabled=0
 let g:indentLine_leadingSpaceEnabled=0
 " nnoremap <M-q> :IndentLinesToggle<CR>:LeadingSpaceToggle<CR>
-nnoremap <M-q> :IndentLinesToggle<CR>
+nnoremap <M-w> :IndentLinesToggle<CR>
 
 "}}}
 
@@ -544,7 +553,7 @@ smap <expr><m-tab> neosnippet#expandable_or_jumpable() ?
 
 " let g:rainbow_active = 1
 
-map <c-q> :RainbowToggle<CR>
+map <m-q> :RainbowToggle<CR>
 let g:rainbow_conf = {
     \   'guifgs': ['royalblue', 'darkorange', 'darkmagenta', 'firebrick', 'seagreen'],
     \   'ctermfgs': ['lightblue', 'lightyellow', 'lightcyan', 'darkmagenta'],
