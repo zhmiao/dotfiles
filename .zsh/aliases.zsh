@@ -49,6 +49,7 @@ alias reload=". ~/.zshrc && echo 'ZSH config reloaded from ~/.zshrc'"
 
 # Vim and Neovim
 alias nv='nvim'
+# alias nvim='nvim --servername nvim'
 
 # mimic vim functions
 alias :q='exit'
@@ -79,4 +80,8 @@ alias ruby='/usr/local/bin/ruby'
 # stuff like ga *foo* and correctly have
 # git add the right stuff
 alias git='noglob git'
+alias gs='git status'
+alias gu='git add -u'
+alias gc='git commit -m '
+alias gca='git commit -am '
 
