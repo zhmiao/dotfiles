@@ -85,3 +85,5 @@ alias gu='git add -u'
 alias gc='git commit -m '
 alias gca='git commit -am '
 
+# MPV
+alias mpv='mpv --no-border'

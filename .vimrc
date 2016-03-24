@@ -56,15 +56,15 @@
     call dein#add('unblevable/quick-scope', {'on_cmd': 'QuickScopeToggle'})
     call dein#add('luochen1990/rainbow', {'on_cmd': 'RainbowToggle'})
     call dein#add('Shougo/unite.vim')
-    " call dein#add('Shougo/vimproc.vim', {
-    "       \ 'build' : {
-    "       \     'windows' : 'tools\\update-dll-mingw',
-    "       \     'cygwin' : 'make -f make_cygwin.mak',
-    "       \     'mac' : 'make -f make_mac.mak',
-    "       \     'linux' : 'make',
-    "       \     'unix' : 'gmake',
-    "       \    },
-    "       \ 'on_source': ''})
+    call dein#add('Shougo/vimproc.vim', {
+          \ 'build' : {
+          \     'windows' : 'tools\\update-dll-mingw',
+          \     'cygwin' : 'make -f make_cygwin.mak',
+          \     'mac' : 'make -f make_mac.mak',
+          \     'linux' : 'make',
+          \     'unix' : 'gmake',
+          \    },
+          \ 'on_source': 'unite.vim'})
     call dein#add('Shougo/neco-vim', {'on_source': 'deoplete.nvim'})
     call dein#add('ujihisa/neco-look', {'on_ft':['markdown', 'tex'], 'on_i': 1})
     call dein#add('Shougo/neosnippet.vim', {'on_i': 1})
@@ -152,6 +152,7 @@ endif
 
 set incsearch       " Find the next match as we type the search
 set hlsearch        " Highlight searches by default
+set wildignorecase
 set ignorecase      " Ignore case when searching...
 set smartcase       " ...unless we type a capital }}}
 
@@ -238,9 +239,10 @@ cnoremap <c-k> <up>
 cnoremap <c-j> <down>
 
 " Regularly used functions
-nnoremap <LocalLeader>qq :bd!<CR>
+nnoremap <LocalLeader>qq :b#<Bar>bd#<CR>
 nnoremap <Leader>w :w<CR>
-" inoremap <LocalLeader>w <Esc>:w<CR>
+nnoremap <Leader>cd :cd 
+nnoremap <Leader>pd :pwd<CR>
 nnoremap <Leader>n :noh<CR>
 nnoremap <leader><tab> <c-^>
 nnoremap <Leader>rl :so ~/.vimrc<CR>
@@ -253,6 +255,7 @@ nnoremap <Leader>ma :make<CR>
 inoremap jj <Esc>
 imap <LocalLeader>f <S-tab>
 nnoremap <Tab> za
+nnoremap <LocalLeader><Tab> zM
 nnoremap <Leader>z z=
 
 
@@ -326,25 +329,24 @@ nmap <m-9> 9gt
 
   autocmd BufRead,BufNewFile *.tex setlocal spell complete+=kspell
   autocmd Bufreadpre *.tex setlocal wrap linebreak nolist
-  autocmd Bufreadpre *.tex setlocal foldmethod=expr
-  autocmd BufRead,BufNewFile *.tex setlocal foldexpr=vimtex#fold#level(v:lnum)
-  autocmd BufRead,BufNewFile *.tex setlocal foldtext=vimtex#fold#text()
+  " autocmd Bufreadpre *.tex setlocal foldmethod=expr
+  " autocmd BufRead,BufNewFile *.tex setlocal foldexpr=vimtex#fold#level(v:lnum)
+  " autocmd BufRead,BufNewFile *.tex setlocal foldtext=vimtex#fold#text()
 
   let g:vimtex_complete_close_braces = 1
+  let g:vimtex_fold_enabled = 1
   let g:vimtex_fold_manual = 1
   let g:vimtex_fold_comments = 1
   let g:vimtex_complete_img_use_tail = 1
   let g:vimtex_quickfix_ignore_all_warnings = 1
   let g:vimtex_latexmk_build_dir='./output/'
 
-  " let g:vimtex_view_method = 'zathura'
-  " let g:latex_view_general_viewer = 'zathura'
   let g:vimtex_view_general_viewer = '/Applications/Skim.app/Contents/SharedSupport/displayline'
   let g:vimtex_view_general_options = '-r @line @pdf'
 
   " This adds a callback hook that updates Skim after compilation
   let g:vimtex_latexmk_callback_hook = 'UpdateSkim'
-  function! UpdateSkim(status)
+  function! UpdateSkim(status) "{{{
     if !a:status | return | endif
     let l:out = b:vimtex.out()
     let l:cmd = [g:vimtex_view_general_viewer, '-r']
@@ -358,7 +360,7 @@ nmap <m-9> 9gt
     else
       call system(join(l:cmd + [line('.'), shellescape(l:out)], ' '))
     endif
-  endfunction
+  endfunction "}}}
 
 "}}}
 

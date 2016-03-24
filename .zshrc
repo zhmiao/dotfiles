@@ -22,6 +22,7 @@ for config_file ($HOME/.zsh/*.zsh) source $config_file
 
 # For default editor
 export EDITOR=nvim
+export EDITOR=nvim ranger
 export VISUAL=nvim
 autoload edit-command-line; zle -N edit-command-line
 bindkey -M vicmd v edit-command-line
@@ -39,13 +40,6 @@ fancy-ctrl-z () {
 }
 zle -N fancy-ctrl-z
 bindkey '^Z' fancy-ctrl-z
-
-# For tmux autoload
-#tmux attach &> /dev/null
-
-# if [[ ! $TERM =~ screen ]]; then
-#       exec tmux
-# fi
 
 # =============================================
 # Fzf settings
@@ -84,11 +78,7 @@ bindkey -v
 # 10ms for key sequences
 KEYTIMEOUT=1
 
-# show vim status
-function zle-line-init zle-keymap-select {
-    RPS1="${${KEYMAP/vicmd/- N -}/(main|viins)/- I -}"
-    RPS2=$RPS1
-    zle reset-prompt
-}
-zle -N zle-line-init
-zle -N zle-keymap-select
+#	================================================
+# Fasd
+
+eval "$(fasd --init auto)"
