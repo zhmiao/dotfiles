@@ -1,0 +1,390 @@
+2016-03-26 11:22:54	--	irc: connecting to server irc.gitter.im/6667...
+2016-03-26 11:22:54	--	irc: connected to irc.gitter.im/6667 (52.71.213.212)
+2016-03-26 11:22:54	=!=	irc: reading data on socket: error 54 Connection reset by peer
+2016-03-26 11:22:54	--	irc: disconnecting from server...
+2016-03-26 11:22:54	--	irc: disconnected from server
+2016-03-26 11:22:54	--	irc: reconnecting to server in 10 seconds
+2016-03-26 11:23:04	--	irc: reconnecting to server...
+2016-03-26 11:23:04	--	irc: connecting to server irc.gitter.im/6667...
+2016-03-26 11:23:04	--	irc: connected to irc.gitter.im/6667 (52.71.213.212)
+2016-03-26 11:23:04	=!=	irc: reading data on socket: error 54 Connection reset by peer
+2016-03-26 11:23:04	--	irc: disconnecting from server...
+2016-03-26 11:23:04	--	irc: disconnected from server
+2016-03-26 11:23:04	--	irc: reconnecting to server in 20 seconds
+2016-03-26 11:23:24	--	irc: reconnecting to server...
+2016-03-26 11:23:24	--	irc: connecting to server irc.gitter.im/6667...
+2016-03-26 11:23:24	--	irc: connected to irc.gitter.im/6667 (54.88.217.145)
+2016-03-26 11:23:24	=!=	irc: reading data on socket: error 54 Connection reset by peer
+2016-03-26 11:23:24	--	irc: disconnecting from server...
+2016-03-26 11:23:24	--	irc: disconnected from server
+2016-03-26 11:23:24	--	irc: reconnecting to server in 40 seconds
+2016-03-26 11:24:04	--	irc: reconnecting to server...
+2016-03-26 11:24:04	--	irc: connecting to server irc.gitter.im/6667...
+2016-03-26 11:24:04	--	irc: connected to irc.gitter.im/6667 (54.88.217.145)
+2016-03-26 11:24:04	=!=	irc: reading data on socket: error 54 Connection reset by peer
+2016-03-26 11:24:04	--	irc: disconnecting from server...
+2016-03-26 11:24:04	--	irc: disconnected from server
+2016-03-26 11:24:04	--	irc: reconnecting to server in 1 minute, 20 seconds
+2016-03-26 11:24:19	=!=	irc: this buffer is not a channel!
+2016-03-26 11:25:24	--	irc: reconnecting to server...
+2016-03-26 11:25:24	--	irc: connecting to server irc.gitter.im/6667...
+2016-03-26 11:25:24	--	irc: connected to irc.gitter.im/6667 (52.71.213.212)
+2016-03-26 11:25:24	=!=	irc: reading data on socket: error 54 Connection reset by peer
+2016-03-26 11:25:24	--	irc: disconnecting from server...
+2016-03-26 11:25:24	--	irc: disconnected from server
+2016-03-26 11:25:24	--	irc: reconnecting to server in 2 minutes, 40 seconds
+2016-03-26 11:28:04	--	irc: reconnecting to server...
+2016-03-26 11:28:04	--	irc: connecting to server irc.gitter.im/6667...
+2016-03-26 11:28:04	--	irc: connected to irc.gitter.im/6667 (54.88.217.145)
+2016-03-26 11:28:04	=!=	irc: reading data on socket: error 54 Connection reset by peer
+2016-03-26 11:28:04	--	irc: disconnecting from server...
+2016-03-26 11:28:04	--	irc: disconnected from server
+2016-03-26 11:28:04	--	irc: reconnecting to server in 5 minutes, 20 seconds
+2016-03-26 11:28:52	=!=	irc: this buffer is not a channel!
+2016-03-26 11:31:47	--	irc: connecting to server irc.gitter.im/6667...
+2016-03-26 11:31:47	--	irc: connected to irc.gitter.im/6667 (54.88.217.145)
+2016-03-26 11:31:48	=!=	irc: reading data on socket: error 54 Connection reset by peer
+2016-03-26 11:31:48	--	irc: disconnecting from server...
+2016-03-26 11:31:48	--	irc: disconnected from server
+2016-03-26 11:31:48	--	irc: reconnecting to server in 10 seconds
+2016-03-26 11:31:58	--	irc: reconnecting to server...
+2016-03-26 11:31:58	--	irc: connecting to server irc.gitter.im/6667...
+2016-03-26 11:31:58	--	irc: connected to irc.gitter.im/6667 (52.71.213.212)
+2016-03-26 11:31:58	=!=	irc: reading data on socket: error 54 Connection reset by peer
+2016-03-26 11:31:58	--	irc: disconnecting from server...
+2016-03-26 11:31:58	--	irc: disconnected from server
+2016-03-26 11:31:58	--	irc: reconnecting to server in 20 seconds
+2016-03-26 11:32:18	--	irc: reconnecting to server...
+2016-03-26 11:32:18	--	irc: connecting to server irc.gitter.im/6667...
+2016-03-26 11:32:18	--	irc: connected to irc.gitter.im/6667 (52.71.213.212)
+2016-03-26 11:32:18	=!=	irc: reading data on socket: error 54 Connection reset by peer
+2016-03-26 11:32:18	--	irc: disconnecting from server...
+2016-03-26 11:32:18	--	irc: disconnected from server
+2016-03-26 11:32:18	--	irc: reconnecting to server in 40 seconds
+2016-03-26 11:32:40	=!=	irc: this buffer is not a channel!
+2016-03-26 11:32:58	--	irc: reconnecting to server...
+2016-03-26 11:32:58	--	irc: connecting to server irc.gitter.im/6667...
+2016-03-26 11:32:58	--	irc: connected to irc.gitter.im/6667 (52.71.213.212)
+2016-03-26 11:32:58	=!=	irc: reading data on socket: error 54 Connection reset by peer
+2016-03-26 11:32:58	--	irc: disconnecting from server...
+2016-03-26 11:32:58	--	irc: disconnected from server
+2016-03-26 11:32:58	--	irc: reconnecting to server in 1 minute, 20 seconds
+2016-03-26 11:33:41		irc: auto-reconnection is cancelled
+2016-03-26 11:33:41	--	irc: disconnected from server
+2016-03-26 11:34:43	--	irc: connecting to server irc.gitter.im/6667 (SSL)...
+2016-03-26 11:34:43	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2016-03-26 11:34:43	--	gnutls: receiving 3 certificates
+2016-03-26 11:34:43	--	 - certificate[1] info:
+2016-03-26 11:34:43	--	   - subject `OU=Domain Control Validated,OU=Gandi Standard Wildcard SSL,CN=*.gitter.im', issuer `C=FR,ST=Paris,L=Paris,O=Gandi,CN=Gandi Standard SSL CA 2', RSA key 2048 bits, signed using RSA-SHA256, activated `2015-11-11 00:00:00 UTC', expires `2016-11-11 23:59:59 UTC', SHA-1 fingerprint `d85eed2243f08bf7357e9810e270f82fcb1500ad'
+2016-03-26 11:34:43	--	 - certificate[2] info:
+2016-03-26 11:34:43	--	   - subject `C=FR,ST=Paris,L=Paris,O=Gandi,CN=Gandi Standard SSL CA 2', issuer `C=US,ST=New Jersey,L=Jersey City,O=The USERTRUST Network,CN=USERTrust RSA Certification Authority', RSA key 2048 bits, signed using RSA-SHA384, activated `2014-09-12 00:00:00 UTC', expires `2024-09-11 23:59:59 UTC', SHA-1 fingerprint `247106a405b288a46e70a0262717162d0903e734'
+2016-03-26 11:34:43	--	 - certificate[3] info:
+2016-03-26 11:34:43	--	   - subject `C=US,ST=New Jersey,L=Jersey City,O=The USERTRUST Network,CN=USERTrust RSA Certification Authority', issuer `C=SE,O=AddTrust AB,OU=AddTrust External TTP Network,CN=AddTrust External CA Root', RSA key 4096 bits, signed using RSA-SHA384, activated `2000-05-30 10:48:38 UTC', expires `2020-05-30 10:48:38 UTC', SHA-1 fingerprint `eab040689a0d805b5d6fd654fc168cff00b78be3'
+2016-03-26 11:34:43	=!=	gnutls: peer's certificate is NOT trusted
+2016-03-26 11:34:43	=!=	gnutls: peer's certificate issuer is unknown
+2016-03-26 11:34:43	=!=	irc: TLS handshake failed
+2016-03-26 11:34:43	=!=	irc: error: Error in the certificate.
+2016-03-26 11:34:43	--	irc: reconnecting to server in 10 seconds
+2016-03-26 11:34:53	--	irc: reconnecting to server...
+2016-03-26 11:34:53	--	irc: connecting to server irc.gitter.im/6667 (SSL)...
+2016-03-26 11:34:53	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2016-03-26 11:34:53	--	gnutls: receiving 3 certificates
+2016-03-26 11:34:53	--	 - certificate[1] info:
+2016-03-26 11:34:53	--	   - subject `OU=Domain Control Validated,OU=Gandi Standard Wildcard SSL,CN=*.gitter.im', issuer `C=FR,ST=Paris,L=Paris,O=Gandi,CN=Gandi Standard SSL CA 2', RSA key 2048 bits, signed using RSA-SHA256, activated `2015-11-11 00:00:00 UTC', expires `2016-11-11 23:59:59 UTC', SHA-1 fingerprint `d85eed2243f08bf7357e9810e270f82fcb1500ad'
+2016-03-26 11:34:53	--	 - certificate[2] info:
+2016-03-26 11:34:53	--	   - subject `C=FR,ST=Paris,L=Paris,O=Gandi,CN=Gandi Standard SSL CA 2', issuer `C=US,ST=New Jersey,L=Jersey City,O=The USERTRUST Network,CN=USERTrust RSA Certification Authority', RSA key 2048 bits, signed using RSA-SHA384, activated `2014-09-12 00:00:00 UTC', expires `2024-09-11 23:59:59 UTC', SHA-1 fingerprint `247106a405b288a46e70a0262717162d0903e734'
+2016-03-26 11:34:53	--	 - certificate[3] info:
+2016-03-26 11:34:53	--	   - subject `C=US,ST=New Jersey,L=Jersey City,O=The USERTRUST Network,CN=USERTrust RSA Certification Authority', issuer `C=SE,O=AddTrust AB,OU=AddTrust External TTP Network,CN=AddTrust External CA Root', RSA key 4096 bits, signed using RSA-SHA384, activated `2000-05-30 10:48:38 UTC', expires `2020-05-30 10:48:38 UTC', SHA-1 fingerprint `eab040689a0d805b5d6fd654fc168cff00b78be3'
+2016-03-26 11:34:53	=!=	gnutls: peer's certificate is NOT trusted
+2016-03-26 11:34:53	=!=	gnutls: peer's certificate issuer is unknown
+2016-03-26 11:34:53	=!=	irc: TLS handshake failed
+2016-03-26 11:34:53	=!=	irc: error: Error in the certificate.
+2016-03-26 11:34:53	--	irc: reconnecting to server in 20 seconds
+2016-03-26 11:35:13	--	irc: reconnecting to server...
+2016-03-26 11:35:13	--	irc: connecting to server irc.gitter.im/6667 (SSL)...
+2016-03-26 11:35:13	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2016-03-26 11:35:13	--	gnutls: receiving 3 certificates
+2016-03-26 11:35:13	--	 - certificate[1] info:
+2016-03-26 11:35:13	--	   - subject `OU=Domain Control Validated,OU=Gandi Standard Wildcard SSL,CN=*.gitter.im', issuer `C=FR,ST=Paris,L=Paris,O=Gandi,CN=Gandi Standard SSL CA 2', RSA key 2048 bits, signed using RSA-SHA256, activated `2015-11-11 00:00:00 UTC', expires `2016-11-11 23:59:59 UTC', SHA-1 fingerprint `d85eed2243f08bf7357e9810e270f82fcb1500ad'
+2016-03-26 11:35:13	--	 - certificate[2] info:
+2016-03-26 11:35:13	--	   - subject `C=FR,ST=Paris,L=Paris,O=Gandi,CN=Gandi Standard SSL CA 2', issuer `C=US,ST=New Jersey,L=Jersey City,O=The USERTRUST Network,CN=USERTrust RSA Certification Authority', RSA key 2048 bits, signed using RSA-SHA384, activated `2014-09-12 00:00:00 UTC', expires `2024-09-11 23:59:59 UTC', SHA-1 fingerprint `247106a405b288a46e70a0262717162d0903e734'
+2016-03-26 11:35:13	--	 - certificate[3] info:
+2016-03-26 11:35:13	--	   - subject `C=US,ST=New Jersey,L=Jersey City,O=The USERTRUST Network,CN=USERTrust RSA Certification Authority', issuer `C=SE,O=AddTrust AB,OU=AddTrust External TTP Network,CN=AddTrust External CA Root', RSA key 4096 bits, signed using RSA-SHA384, activated `2000-05-30 10:48:38 UTC', expires `2020-05-30 10:48:38 UTC', SHA-1 fingerprint `eab040689a0d805b5d6fd654fc168cff00b78be3'
+2016-03-26 11:35:13	=!=	gnutls: peer's certificate is NOT trusted
+2016-03-26 11:35:13	=!=	gnutls: peer's certificate issuer is unknown
+2016-03-26 11:35:13	=!=	irc: TLS handshake failed
+2016-03-26 11:35:13	=!=	irc: error: Error in the certificate.
+2016-03-26 11:35:13	--	irc: reconnecting to server in 40 seconds
+2016-03-26 11:35:13		irc: auto-reconnection is cancelled
+2016-03-26 11:35:13	--	irc: disconnected from server
+2016-03-26 11:39:32	--	irc: connecting to server irc.gitter.im/6667 (SSL)...
+2016-03-26 11:39:32	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2016-03-26 11:39:32	--	gnutls: receiving 3 certificates
+2016-03-26 11:39:32	--	 - certificate[1] info:
+2016-03-26 11:39:32	--	   - subject `OU=Domain Control Validated,OU=Gandi Standard Wildcard SSL,CN=*.gitter.im', issuer `C=FR,ST=Paris,L=Paris,O=Gandi,CN=Gandi Standard SSL CA 2', RSA key 2048 bits, signed using RSA-SHA256, activated `2015-11-11 00:00:00 UTC', expires `2016-11-11 23:59:59 UTC', SHA-1 fingerprint `d85eed2243f08bf7357e9810e270f82fcb1500ad'
+2016-03-26 11:39:32	--	 - certificate[2] info:
+2016-03-26 11:39:32	--	   - subject `C=FR,ST=Paris,L=Paris,O=Gandi,CN=Gandi Standard SSL CA 2', issuer `C=US,ST=New Jersey,L=Jersey City,O=The USERTRUST Network,CN=USERTrust RSA Certification Authority', RSA key 2048 bits, signed using RSA-SHA384, activated `2014-09-12 00:00:00 UTC', expires `2024-09-11 23:59:59 UTC', SHA-1 fingerprint `247106a405b288a46e70a0262717162d0903e734'
+2016-03-26 11:39:32	--	 - certificate[3] info:
+2016-03-26 11:39:32	--	   - subject `C=US,ST=New Jersey,L=Jersey City,O=The USERTRUST Network,CN=USERTrust RSA Certification Authority', issuer `C=SE,O=AddTrust AB,OU=AddTrust External TTP Network,CN=AddTrust External CA Root', RSA key 4096 bits, signed using RSA-SHA384, activated `2000-05-30 10:48:38 UTC', expires `2020-05-30 10:48:38 UTC', SHA-1 fingerprint `eab040689a0d805b5d6fd654fc168cff00b78be3'
+2016-03-26 11:39:32	=!=	gnutls: peer's certificate is NOT trusted
+2016-03-26 11:39:32	=!=	gnutls: peer's certificate issuer is unknown
+2016-03-26 11:39:32	=!=	irc: TLS handshake failed
+2016-03-26 11:39:32	=!=	irc: error: Error in the certificate.
+2016-03-26 11:39:32	--	irc: reconnecting to server in 10 seconds
+2016-03-26 11:39:42	--	irc: reconnecting to server...
+2016-03-26 11:39:42	--	irc: connecting to server irc.gitter.im/6667 (SSL)...
+2016-03-26 11:39:42	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2016-03-26 11:39:42	--	gnutls: receiving 3 certificates
+2016-03-26 11:39:42	--	 - certificate[1] info:
+2016-03-26 11:39:42	--	   - subject `OU=Domain Control Validated,OU=Gandi Standard Wildcard SSL,CN=*.gitter.im', issuer `C=FR,ST=Paris,L=Paris,O=Gandi,CN=Gandi Standard SSL CA 2', RSA key 2048 bits, signed using RSA-SHA256, activated `2015-11-11 00:00:00 UTC', expires `2016-11-11 23:59:59 UTC', SHA-1 fingerprint `d85eed2243f08bf7357e9810e270f82fcb1500ad'
+2016-03-26 11:39:42	--	 - certificate[2] info:
+2016-03-26 11:39:42	--	   - subject `C=FR,ST=Paris,L=Paris,O=Gandi,CN=Gandi Standard SSL CA 2', issuer `C=US,ST=New Jersey,L=Jersey City,O=The USERTRUST Network,CN=USERTrust RSA Certification Authority', RSA key 2048 bits, signed using RSA-SHA384, activated `2014-09-12 00:00:00 UTC', expires `2024-09-11 23:59:59 UTC', SHA-1 fingerprint `247106a405b288a46e70a0262717162d0903e734'
+2016-03-26 11:39:42	--	 - certificate[3] info:
+2016-03-26 11:39:42	--	   - subject `C=US,ST=New Jersey,L=Jersey City,O=The USERTRUST Network,CN=USERTrust RSA Certification Authority', issuer `C=SE,O=AddTrust AB,OU=AddTrust External TTP Network,CN=AddTrust External CA Root', RSA key 4096 bits, signed using RSA-SHA384, activated `2000-05-30 10:48:38 UTC', expires `2020-05-30 10:48:38 UTC', SHA-1 fingerprint `eab040689a0d805b5d6fd654fc168cff00b78be3'
+2016-03-26 11:39:42	=!=	gnutls: peer's certificate is NOT trusted
+2016-03-26 11:39:42	=!=	gnutls: peer's certificate issuer is unknown
+2016-03-26 11:39:42	=!=	irc: TLS handshake failed
+2016-03-26 11:39:42	=!=	irc: error: Error in the certificate.
+2016-03-26 11:39:42	--	irc: reconnecting to server in 20 seconds
+2016-03-26 11:40:02	--	irc: reconnecting to server...
+2016-03-26 11:40:02	--	irc: connecting to server irc.gitter.im/6667 (SSL)...
+2016-03-26 11:40:02	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2016-03-26 11:40:02	--	gnutls: receiving 3 certificates
+2016-03-26 11:40:02	--	 - certificate[1] info:
+2016-03-26 11:40:02	--	   - subject `OU=Domain Control Validated,OU=Gandi Standard Wildcard SSL,CN=*.gitter.im', issuer `C=FR,ST=Paris,L=Paris,O=Gandi,CN=Gandi Standard SSL CA 2', RSA key 2048 bits, signed using RSA-SHA256, activated `2015-11-11 00:00:00 UTC', expires `2016-11-11 23:59:59 UTC', SHA-1 fingerprint `d85eed2243f08bf7357e9810e270f82fcb1500ad'
+2016-03-26 11:40:02	--	 - certificate[2] info:
+2016-03-26 11:40:02	--	   - subject `C=FR,ST=Paris,L=Paris,O=Gandi,CN=Gandi Standard SSL CA 2', issuer `C=US,ST=New Jersey,L=Jersey City,O=The USERTRUST Network,CN=USERTrust RSA Certification Authority', RSA key 2048 bits, signed using RSA-SHA384, activated `2014-09-12 00:00:00 UTC', expires `2024-09-11 23:59:59 UTC', SHA-1 fingerprint `247106a405b288a46e70a0262717162d0903e734'
+2016-03-26 11:40:02	--	 - certificate[3] info:
+2016-03-26 11:40:02	--	   - subject `C=US,ST=New Jersey,L=Jersey City,O=The USERTRUST Network,CN=USERTrust RSA Certification Authority', issuer `C=SE,O=AddTrust AB,OU=AddTrust External TTP Network,CN=AddTrust External CA Root', RSA key 4096 bits, signed using RSA-SHA384, activated `2000-05-30 10:48:38 UTC', expires `2020-05-30 10:48:38 UTC', SHA-1 fingerprint `eab040689a0d805b5d6fd654fc168cff00b78be3'
+2016-03-26 11:40:02	=!=	gnutls: peer's certificate is NOT trusted
+2016-03-26 11:40:02	=!=	gnutls: peer's certificate issuer is unknown
+2016-03-26 11:40:02	=!=	irc: TLS handshake failed
+2016-03-26 11:40:02	=!=	irc: error: Error in the certificate.
+2016-03-26 11:40:02	--	irc: reconnecting to server in 40 seconds
+2016-03-26 11:40:42	--	irc: reconnecting to server...
+2016-03-26 11:40:42	--	irc: connecting to server irc.gitter.im/6667 (SSL)...
+2016-03-26 11:40:42	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2016-03-26 11:40:42	--	gnutls: receiving 3 certificates
+2016-03-26 11:40:42	--	 - certificate[1] info:
+2016-03-26 11:40:42	--	   - subject `OU=Domain Control Validated,OU=Gandi Standard Wildcard SSL,CN=*.gitter.im', issuer `C=FR,ST=Paris,L=Paris,O=Gandi,CN=Gandi Standard SSL CA 2', RSA key 2048 bits, signed using RSA-SHA256, activated `2015-11-11 00:00:00 UTC', expires `2016-11-11 23:59:59 UTC', SHA-1 fingerprint `d85eed2243f08bf7357e9810e270f82fcb1500ad'
+2016-03-26 11:40:42	--	 - certificate[2] info:
+2016-03-26 11:40:42	--	   - subject `C=FR,ST=Paris,L=Paris,O=Gandi,CN=Gandi Standard SSL CA 2', issuer `C=US,ST=New Jersey,L=Jersey City,O=The USERTRUST Network,CN=USERTrust RSA Certification Authority', RSA key 2048 bits, signed using RSA-SHA384, activated `2014-09-12 00:00:00 UTC', expires `2024-09-11 23:59:59 UTC', SHA-1 fingerprint `247106a405b288a46e70a0262717162d0903e734'
+2016-03-26 11:40:42	--	 - certificate[3] info:
+2016-03-26 11:40:42	--	   - subject `C=US,ST=New Jersey,L=Jersey City,O=The USERTRUST Network,CN=USERTrust RSA Certification Authority', issuer `C=SE,O=AddTrust AB,OU=AddTrust External TTP Network,CN=AddTrust External CA Root', RSA key 4096 bits, signed using RSA-SHA384, activated `2000-05-30 10:48:38 UTC', expires `2020-05-30 10:48:38 UTC', SHA-1 fingerprint `eab040689a0d805b5d6fd654fc168cff00b78be3'
+2016-03-26 11:40:42	=!=	gnutls: peer's certificate is NOT trusted
+2016-03-26 11:40:42	=!=	gnutls: peer's certificate issuer is unknown
+2016-03-26 11:40:42	=!=	irc: TLS handshake failed
+2016-03-26 11:40:42	=!=	irc: error: Error in the certificate.
+2016-03-26 11:40:42	--	irc: reconnecting to server in 1 minute, 20 seconds
+2016-03-26 11:42:02	--	irc: reconnecting to server...
+2016-03-26 11:42:02	--	irc: connecting to server irc.gitter.im/6667 (SSL)...
+2016-03-26 11:42:02	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2016-03-26 11:42:02	--	gnutls: receiving 3 certificates
+2016-03-26 11:42:02	--	 - certificate[1] info:
+2016-03-26 11:42:02	--	   - subject `OU=Domain Control Validated,OU=Gandi Standard Wildcard SSL,CN=*.gitter.im', issuer `C=FR,ST=Paris,L=Paris,O=Gandi,CN=Gandi Standard SSL CA 2', RSA key 2048 bits, signed using RSA-SHA256, activated `2015-11-11 00:00:00 UTC', expires `2016-11-11 23:59:59 UTC', SHA-1 fingerprint `d85eed2243f08bf7357e9810e270f82fcb1500ad'
+2016-03-26 11:42:02	--	 - certificate[2] info:
+2016-03-26 11:42:02	--	   - subject `C=FR,ST=Paris,L=Paris,O=Gandi,CN=Gandi Standard SSL CA 2', issuer `C=US,ST=New Jersey,L=Jersey City,O=The USERTRUST Network,CN=USERTrust RSA Certification Authority', RSA key 2048 bits, signed using RSA-SHA384, activated `2014-09-12 00:00:00 UTC', expires `2024-09-11 23:59:59 UTC', SHA-1 fingerprint `247106a405b288a46e70a0262717162d0903e734'
+2016-03-26 11:42:02	--	 - certificate[3] info:
+2016-03-26 11:42:02	--	   - subject `C=US,ST=New Jersey,L=Jersey City,O=The USERTRUST Network,CN=USERTrust RSA Certification Authority', issuer `C=SE,O=AddTrust AB,OU=AddTrust External TTP Network,CN=AddTrust External CA Root', RSA key 4096 bits, signed using RSA-SHA384, activated `2000-05-30 10:48:38 UTC', expires `2020-05-30 10:48:38 UTC', SHA-1 fingerprint `eab040689a0d805b5d6fd654fc168cff00b78be3'
+2016-03-26 11:42:02	=!=	gnutls: peer's certificate is NOT trusted
+2016-03-26 11:42:02	=!=	gnutls: peer's certificate issuer is unknown
+2016-03-26 11:42:02	=!=	irc: TLS handshake failed
+2016-03-26 11:42:02	=!=	irc: error: Error in the certificate.
+2016-03-26 11:42:02	--	irc: reconnecting to server in 2 minutes, 40 seconds
+2016-03-26 11:43:49		irc: auto-reconnection is cancelled
+2016-03-26 11:43:49	--	irc: disconnected from server
+2016-03-26 11:51:25	--	irc: connecting to server irc.gitter.im/6667 (SSL)...
+2016-03-26 11:51:25	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2016-03-26 11:51:25	--	gnutls: receiving 3 certificates
+2016-03-26 11:51:25	--	 - certificate[1] info:
+2016-03-26 11:51:25	--	   - subject `OU=Domain Control Validated,OU=Gandi Standard Wildcard SSL,CN=*.gitter.im', issuer `C=FR,ST=Paris,L=Paris,O=Gandi,CN=Gandi Standard SSL CA 2', RSA key 2048 bits, signed using RSA-SHA256, activated `2015-11-11 00:00:00 UTC', expires `2016-11-11 23:59:59 UTC', SHA-1 fingerprint `d85eed2243f08bf7357e9810e270f82fcb1500ad'
+2016-03-26 11:51:25	--	 - certificate[2] info:
+2016-03-26 11:51:25	--	   - subject `C=FR,ST=Paris,L=Paris,O=Gandi,CN=Gandi Standard SSL CA 2', issuer `C=US,ST=New Jersey,L=Jersey City,O=The USERTRUST Network,CN=USERTrust RSA Certification Authority', RSA key 2048 bits, signed using RSA-SHA384, activated `2014-09-12 00:00:00 UTC', expires `2024-09-11 23:59:59 UTC', SHA-1 fingerprint `247106a405b288a46e70a0262717162d0903e734'
+2016-03-26 11:51:25	--	 - certificate[3] info:
+2016-03-26 11:51:25	--	   - subject `C=US,ST=New Jersey,L=Jersey City,O=The USERTRUST Network,CN=USERTrust RSA Certification Authority', issuer `C=SE,O=AddTrust AB,OU=AddTrust External TTP Network,CN=AddTrust External CA Root', RSA key 4096 bits, signed using RSA-SHA384, activated `2000-05-30 10:48:38 UTC', expires `2020-05-30 10:48:38 UTC', SHA-1 fingerprint `eab040689a0d805b5d6fd654fc168cff00b78be3'
+2016-03-26 11:51:25	=!=	gnutls: peer's certificate is NOT trusted
+2016-03-26 11:51:25	=!=	gnutls: peer's certificate issuer is unknown
+2016-03-26 11:51:25	=!=	irc: TLS handshake failed
+2016-03-26 11:51:25	=!=	irc: error: Error in the certificate.
+2016-03-26 11:51:25	--	irc: reconnecting to server in 10 seconds
+2016-03-26 11:51:35	--	irc: reconnecting to server...
+2016-03-26 11:51:35	--	irc: connecting to server irc.gitter.im/6667 (SSL)...
+2016-03-26 11:51:35	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2016-03-26 11:51:35	--	gnutls: receiving 3 certificates
+2016-03-26 11:51:35	--	 - certificate[1] info:
+2016-03-26 11:51:35	--	   - subject `OU=Domain Control Validated,OU=Gandi Standard Wildcard SSL,CN=*.gitter.im', issuer `C=FR,ST=Paris,L=Paris,O=Gandi,CN=Gandi Standard SSL CA 2', RSA key 2048 bits, signed using RSA-SHA256, activated `2015-11-11 00:00:00 UTC', expires `2016-11-11 23:59:59 UTC', SHA-1 fingerprint `d85eed2243f08bf7357e9810e270f82fcb1500ad'
+2016-03-26 11:51:35	--	 - certificate[2] info:
+2016-03-26 11:51:35	--	   - subject `C=FR,ST=Paris,L=Paris,O=Gandi,CN=Gandi Standard SSL CA 2', issuer `C=US,ST=New Jersey,L=Jersey City,O=The USERTRUST Network,CN=USERTrust RSA Certification Authority', RSA key 2048 bits, signed using RSA-SHA384, activated `2014-09-12 00:00:00 UTC', expires `2024-09-11 23:59:59 UTC', SHA-1 fingerprint `247106a405b288a46e70a0262717162d0903e734'
+2016-03-26 11:51:35	--	 - certificate[3] info:
+2016-03-26 11:51:35	--	   - subject `C=US,ST=New Jersey,L=Jersey City,O=The USERTRUST Network,CN=USERTrust RSA Certification Authority', issuer `C=SE,O=AddTrust AB,OU=AddTrust External TTP Network,CN=AddTrust External CA Root', RSA key 4096 bits, signed using RSA-SHA384, activated `2000-05-30 10:48:38 UTC', expires `2020-05-30 10:48:38 UTC', SHA-1 fingerprint `eab040689a0d805b5d6fd654fc168cff00b78be3'
+2016-03-26 11:51:35	=!=	gnutls: peer's certificate is NOT trusted
+2016-03-26 11:51:35	=!=	gnutls: peer's certificate issuer is unknown
+2016-03-26 11:51:35	=!=	irc: TLS handshake failed
+2016-03-26 11:51:35	=!=	irc: error: Error in the certificate.
+2016-03-26 11:51:35	--	irc: reconnecting to server in 20 seconds
+2016-03-26 11:51:41		irc: auto-reconnection is cancelled
+2016-03-26 11:51:41	--	irc: disconnected from server
+2016-03-26 12:01:39	--	irc: connecting to server irc.gitter.im/6697 (SSL)...
+2016-03-26 12:01:39	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2016-03-26 12:01:39	--	gnutls: receiving 3 certificates
+2016-03-26 12:01:39	--	 - certificate[1] info:
+2016-03-26 12:01:39	--	   - subject `OU=Domain Control Validated,OU=Gandi Standard Wildcard SSL,CN=*.gitter.im', issuer `C=FR,ST=Paris,L=Paris,O=Gandi,CN=Gandi Standard SSL CA 2', RSA key 2048 bits, signed using RSA-SHA256, activated `2015-11-11 00:00:00 UTC', expires `2016-11-11 23:59:59 UTC', SHA-1 fingerprint `d85eed2243f08bf7357e9810e270f82fcb1500ad'
+2016-03-26 12:01:39	--	 - certificate[2] info:
+2016-03-26 12:01:39	--	   - subject `C=FR,ST=Paris,L=Paris,O=Gandi,CN=Gandi Standard SSL CA 2', issuer `C=US,ST=New Jersey,L=Jersey City,O=The USERTRUST Network,CN=USERTrust RSA Certification Authority', RSA key 2048 bits, signed using RSA-SHA384, activated `2014-09-12 00:00:00 UTC', expires `2024-09-11 23:59:59 UTC', SHA-1 fingerprint `247106a405b288a46e70a0262717162d0903e734'
+2016-03-26 12:01:39	--	 - certificate[3] info:
+2016-03-26 12:01:39	--	   - subject `C=US,ST=New Jersey,L=Jersey City,O=The USERTRUST Network,CN=USERTrust RSA Certification Authority', issuer `C=SE,O=AddTrust AB,OU=AddTrust External TTP Network,CN=AddTrust External CA Root', RSA key 4096 bits, signed using RSA-SHA384, activated `2000-05-30 10:48:38 UTC', expires `2020-05-30 10:48:38 UTC', SHA-1 fingerprint `eab040689a0d805b5d6fd654fc168cff00b78be3'
+2016-03-26 12:01:39	=!=	gnutls: peer's certificate is NOT trusted
+2016-03-26 12:01:39	=!=	gnutls: peer's certificate issuer is unknown
+2016-03-26 12:01:39	=!=	irc: TLS handshake failed
+2016-03-26 12:01:39	=!=	irc: error: Error in the certificate.
+2016-03-26 12:01:39	--	irc: reconnecting to server in 10 seconds
+2016-03-26 12:01:49	--	irc: reconnecting to server...
+2016-03-26 12:01:49	--	irc: connecting to server irc.gitter.im/6697 (SSL)...
+2016-03-26 12:01:50	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2016-03-26 12:01:50	--	gnutls: receiving 3 certificates
+2016-03-26 12:01:50	--	 - certificate[1] info:
+2016-03-26 12:01:50	--	   - subject `OU=Domain Control Validated,OU=Gandi Standard Wildcard SSL,CN=*.gitter.im', issuer `C=FR,ST=Paris,L=Paris,O=Gandi,CN=Gandi Standard SSL CA 2', RSA key 2048 bits, signed using RSA-SHA256, activated `2015-11-11 00:00:00 UTC', expires `2016-11-11 23:59:59 UTC', SHA-1 fingerprint `d85eed2243f08bf7357e9810e270f82fcb1500ad'
+2016-03-26 12:01:50	--	 - certificate[2] info:
+2016-03-26 12:01:50	--	   - subject `C=FR,ST=Paris,L=Paris,O=Gandi,CN=Gandi Standard SSL CA 2', issuer `C=US,ST=New Jersey,L=Jersey City,O=The USERTRUST Network,CN=USERTrust RSA Certification Authority', RSA key 2048 bits, signed using RSA-SHA384, activated `2014-09-12 00:00:00 UTC', expires `2024-09-11 23:59:59 UTC', SHA-1 fingerprint `247106a405b288a46e70a0262717162d0903e734'
+2016-03-26 12:01:50	--	 - certificate[3] info:
+2016-03-26 12:01:50	--	   - subject `C=US,ST=New Jersey,L=Jersey City,O=The USERTRUST Network,CN=USERTrust RSA Certification Authority', issuer `C=SE,O=AddTrust AB,OU=AddTrust External TTP Network,CN=AddTrust External CA Root', RSA key 4096 bits, signed using RSA-SHA384, activated `2000-05-30 10:48:38 UTC', expires `2020-05-30 10:48:38 UTC', SHA-1 fingerprint `eab040689a0d805b5d6fd654fc168cff00b78be3'
+2016-03-26 12:01:50	=!=	gnutls: peer's certificate is NOT trusted
+2016-03-26 12:01:50	=!=	gnutls: peer's certificate issuer is unknown
+2016-03-26 12:01:50	=!=	irc: TLS handshake failed
+2016-03-26 12:01:50	=!=	irc: error: Error in the certificate.
+2016-03-26 12:01:50	--	irc: reconnecting to server in 20 seconds
+2016-03-26 12:02:10	--	irc: reconnecting to server...
+2016-03-26 12:02:10	--	irc: connecting to server irc.gitter.im/6697 (SSL)...
+2016-03-26 12:02:11	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2016-03-26 12:02:11	--	gnutls: receiving 3 certificates
+2016-03-26 12:02:11	--	 - certificate[1] info:
+2016-03-26 12:02:11	--	   - subject `OU=Domain Control Validated,OU=Gandi Standard Wildcard SSL,CN=*.gitter.im', issuer `C=FR,ST=Paris,L=Paris,O=Gandi,CN=Gandi Standard SSL CA 2', RSA key 2048 bits, signed using RSA-SHA256, activated `2015-11-11 00:00:00 UTC', expires `2016-11-11 23:59:59 UTC', SHA-1 fingerprint `d85eed2243f08bf7357e9810e270f82fcb1500ad'
+2016-03-26 12:02:11	--	 - certificate[2] info:
+2016-03-26 12:02:11	--	   - subject `C=FR,ST=Paris,L=Paris,O=Gandi,CN=Gandi Standard SSL CA 2', issuer `C=US,ST=New Jersey,L=Jersey City,O=The USERTRUST Network,CN=USERTrust RSA Certification Authority', RSA key 2048 bits, signed using RSA-SHA384, activated `2014-09-12 00:00:00 UTC', expires `2024-09-11 23:59:59 UTC', SHA-1 fingerprint `247106a405b288a46e70a0262717162d0903e734'
+2016-03-26 12:02:11	--	 - certificate[3] info:
+2016-03-26 12:02:11	--	   - subject `C=US,ST=New Jersey,L=Jersey City,O=The USERTRUST Network,CN=USERTrust RSA Certification Authority', issuer `C=SE,O=AddTrust AB,OU=AddTrust External TTP Network,CN=AddTrust External CA Root', RSA key 4096 bits, signed using RSA-SHA384, activated `2000-05-30 10:48:38 UTC', expires `2020-05-30 10:48:38 UTC', SHA-1 fingerprint `eab040689a0d805b5d6fd654fc168cff00b78be3'
+2016-03-26 12:02:11	=!=	gnutls: peer's certificate is NOT trusted
+2016-03-26 12:02:11	=!=	gnutls: peer's certificate issuer is unknown
+2016-03-26 12:02:11	=!=	irc: TLS handshake failed
+2016-03-26 12:02:11	=!=	irc: error: Error in the certificate.
+2016-03-26 12:02:11	--	irc: reconnecting to server in 40 seconds
+2016-03-26 12:02:16		irc: auto-reconnection is cancelled
+2016-03-26 12:02:16	--	irc: disconnected from server
+2016-03-26 12:18:16	--	irc: connecting to server irc.gitter.im/6697 (SSL)...
+2016-03-26 12:18:17	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2016-03-26 12:18:17	--	gnutls: receiving 3 certificates
+2016-03-26 12:18:17	--	 - certificate[1] info:
+2016-03-26 12:18:17	--	   - subject `OU=Domain Control Validated,OU=Gandi Standard Wildcard SSL,CN=*.gitter.im', issuer `C=FR,ST=Paris,L=Paris,O=Gandi,CN=Gandi Standard SSL CA 2', RSA key 2048 bits, signed using RSA-SHA256, activated `2015-11-11 00:00:00 UTC', expires `2016-11-11 23:59:59 UTC', SHA-1 fingerprint `d85eed2243f08bf7357e9810e270f82fcb1500ad'
+2016-03-26 12:18:17	--	 - certificate[2] info:
+2016-03-26 12:18:17	--	   - subject `C=FR,ST=Paris,L=Paris,O=Gandi,CN=Gandi Standard SSL CA 2', issuer `C=US,ST=New Jersey,L=Jersey City,O=The USERTRUST Network,CN=USERTrust RSA Certification Authority', RSA key 2048 bits, signed using RSA-SHA384, activated `2014-09-12 00:00:00 UTC', expires `2024-09-11 23:59:59 UTC', SHA-1 fingerprint `247106a405b288a46e70a0262717162d0903e734'
+2016-03-26 12:18:17	--	 - certificate[3] info:
+2016-03-26 12:18:17	--	   - subject `C=US,ST=New Jersey,L=Jersey City,O=The USERTRUST Network,CN=USERTrust RSA Certification Authority', issuer `C=SE,O=AddTrust AB,OU=AddTrust External TTP Network,CN=AddTrust External CA Root', RSA key 4096 bits, signed using RSA-SHA384, activated `2000-05-30 10:48:38 UTC', expires `2020-05-30 10:48:38 UTC', SHA-1 fingerprint `eab040689a0d805b5d6fd654fc168cff00b78be3'
+2016-03-26 12:18:17	=!=	gnutls: peer's certificate is NOT trusted
+2016-03-26 12:18:17	=!=	gnutls: peer's certificate issuer is unknown
+2016-03-26 12:18:17	=!=	irc: TLS handshake failed
+2016-03-26 12:18:17	=!=	irc: error: Error in the certificate.
+2016-03-26 12:18:17	--	irc: reconnecting to server in 10 seconds
+2016-03-26 12:18:27	--	irc: reconnecting to server...
+2016-03-26 12:18:27	--	irc: connecting to server irc.gitter.im/6697 (SSL)...
+2016-03-26 12:18:27	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2016-03-26 12:18:27	--	gnutls: receiving 3 certificates
+2016-03-26 12:18:27	--	 - certificate[1] info:
+2016-03-26 12:18:27	--	   - subject `OU=Domain Control Validated,OU=Gandi Standard Wildcard SSL,CN=*.gitter.im', issuer `C=FR,ST=Paris,L=Paris,O=Gandi,CN=Gandi Standard SSL CA 2', RSA key 2048 bits, signed using RSA-SHA256, activated `2015-11-11 00:00:00 UTC', expires `2016-11-11 23:59:59 UTC', SHA-1 fingerprint `d85eed2243f08bf7357e9810e270f82fcb1500ad'
+2016-03-26 12:18:27	--	 - certificate[2] info:
+2016-03-26 12:18:27	--	   - subject `C=FR,ST=Paris,L=Paris,O=Gandi,CN=Gandi Standard SSL CA 2', issuer `C=US,ST=New Jersey,L=Jersey City,O=The USERTRUST Network,CN=USERTrust RSA Certification Authority', RSA key 2048 bits, signed using RSA-SHA384, activated `2014-09-12 00:00:00 UTC', expires `2024-09-11 23:59:59 UTC', SHA-1 fingerprint `247106a405b288a46e70a0262717162d0903e734'
+2016-03-26 12:18:27	--	 - certificate[3] info:
+2016-03-26 12:18:27	--	   - subject `C=US,ST=New Jersey,L=Jersey City,O=The USERTRUST Network,CN=USERTrust RSA Certification Authority', issuer `C=SE,O=AddTrust AB,OU=AddTrust External TTP Network,CN=AddTrust External CA Root', RSA key 4096 bits, signed using RSA-SHA384, activated `2000-05-30 10:48:38 UTC', expires `2020-05-30 10:48:38 UTC', SHA-1 fingerprint `eab040689a0d805b5d6fd654fc168cff00b78be3'
+2016-03-26 12:18:27	=!=	gnutls: peer's certificate is NOT trusted
+2016-03-26 12:18:27	=!=	gnutls: peer's certificate issuer is unknown
+2016-03-26 12:18:27	=!=	irc: TLS handshake failed
+2016-03-26 12:18:27	=!=	irc: error: Error in the certificate.
+2016-03-26 12:18:27	--	irc: reconnecting to server in 20 seconds
+2016-03-26 12:18:47	--	irc: reconnecting to server...
+2016-03-26 12:18:47	--	irc: connecting to server irc.gitter.im/6697 (SSL)...
+2016-03-26 12:18:47	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2016-03-26 12:18:47	--	gnutls: receiving 3 certificates
+2016-03-26 12:18:47	--	 - certificate[1] info:
+2016-03-26 12:18:47	--	   - subject `OU=Domain Control Validated,OU=Gandi Standard Wildcard SSL,CN=*.gitter.im', issuer `C=FR,ST=Paris,L=Paris,O=Gandi,CN=Gandi Standard SSL CA 2', RSA key 2048 bits, signed using RSA-SHA256, activated `2015-11-11 00:00:00 UTC', expires `2016-11-11 23:59:59 UTC', SHA-1 fingerprint `d85eed2243f08bf7357e9810e270f82fcb1500ad'
+2016-03-26 12:18:47	--	 - certificate[2] info:
+2016-03-26 12:18:47	--	   - subject `C=FR,ST=Paris,L=Paris,O=Gandi,CN=Gandi Standard SSL CA 2', issuer `C=US,ST=New Jersey,L=Jersey City,O=The USERTRUST Network,CN=USERTrust RSA Certification Authority', RSA key 2048 bits, signed using RSA-SHA384, activated `2014-09-12 00:00:00 UTC', expires `2024-09-11 23:59:59 UTC', SHA-1 fingerprint `247106a405b288a46e70a0262717162d0903e734'
+2016-03-26 12:18:47	--	 - certificate[3] info:
+2016-03-26 12:18:47	--	   - subject `C=US,ST=New Jersey,L=Jersey City,O=The USERTRUST Network,CN=USERTrust RSA Certification Authority', issuer `C=SE,O=AddTrust AB,OU=AddTrust External TTP Network,CN=AddTrust External CA Root', RSA key 4096 bits, signed using RSA-SHA384, activated `2000-05-30 10:48:38 UTC', expires `2020-05-30 10:48:38 UTC', SHA-1 fingerprint `eab040689a0d805b5d6fd654fc168cff00b78be3'
+2016-03-26 12:18:47	=!=	gnutls: peer's certificate is NOT trusted
+2016-03-26 12:18:47	=!=	gnutls: peer's certificate issuer is unknown
+2016-03-26 12:18:47	=!=	irc: TLS handshake failed
+2016-03-26 12:18:47	=!=	irc: error: Error in the certificate.
+2016-03-26 12:18:47	--	irc: reconnecting to server in 40 seconds
+2016-03-26 12:19:27	--	irc: reconnecting to server...
+2016-03-26 12:19:27	--	irc: connecting to server irc.gitter.im/6697 (SSL)...
+2016-03-26 12:19:27	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2016-03-26 12:19:27	--	gnutls: receiving 3 certificates
+2016-03-26 12:19:27	--	 - certificate[1] info:
+2016-03-26 12:19:27	--	   - subject `OU=Domain Control Validated,OU=Gandi Standard Wildcard SSL,CN=*.gitter.im', issuer `C=FR,ST=Paris,L=Paris,O=Gandi,CN=Gandi Standard SSL CA 2', RSA key 2048 bits, signed using RSA-SHA256, activated `2015-11-11 00:00:00 UTC', expires `2016-11-11 23:59:59 UTC', SHA-1 fingerprint `d85eed2243f08bf7357e9810e270f82fcb1500ad'
+2016-03-26 12:19:27	--	 - certificate[2] info:
+2016-03-26 12:19:27	--	   - subject `C=FR,ST=Paris,L=Paris,O=Gandi,CN=Gandi Standard SSL CA 2', issuer `C=US,ST=New Jersey,L=Jersey City,O=The USERTRUST Network,CN=USERTrust RSA Certification Authority', RSA key 2048 bits, signed using RSA-SHA384, activated `2014-09-12 00:00:00 UTC', expires `2024-09-11 23:59:59 UTC', SHA-1 fingerprint `247106a405b288a46e70a0262717162d0903e734'
+2016-03-26 12:19:27	--	 - certificate[3] info:
+2016-03-26 12:19:27	--	   - subject `C=US,ST=New Jersey,L=Jersey City,O=The USERTRUST Network,CN=USERTrust RSA Certification Authority', issuer `C=SE,O=AddTrust AB,OU=AddTrust External TTP Network,CN=AddTrust External CA Root', RSA key 4096 bits, signed using RSA-SHA384, activated `2000-05-30 10:48:38 UTC', expires `2020-05-30 10:48:38 UTC', SHA-1 fingerprint `eab040689a0d805b5d6fd654fc168cff00b78be3'
+2016-03-26 12:19:27	=!=	gnutls: peer's certificate is NOT trusted
+2016-03-26 12:19:27	=!=	gnutls: peer's certificate issuer is unknown
+2016-03-26 12:19:27	=!=	irc: TLS handshake failed
+2016-03-26 12:19:27	=!=	irc: error: Error in the certificate.
+2016-03-26 12:19:27	--	irc: reconnecting to server in 1 minute, 20 seconds
+2016-03-26 12:19:34		irc: auto-reconnection is cancelled
+2016-03-26 12:19:34	--	irc: disconnected from server
+2016-03-26 13:00:55	--	irc: connecting to server irc.gitter.im/6697 (SSL)...
+2016-03-26 13:00:56	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2016-03-26 13:00:56	--	gnutls: receiving 3 certificates
+2016-03-26 13:00:56	--	 - certificate[1] info:
+2016-03-26 13:00:56	--	   - subject `OU=Domain Control Validated,OU=Gandi Standard Wildcard SSL,CN=*.gitter.im', issuer `C=FR,ST=Paris,L=Paris,O=Gandi,CN=Gandi Standard SSL CA 2', RSA key 2048 bits, signed using RSA-SHA256, activated `2015-11-11 00:00:00 UTC', expires `2016-11-11 23:59:59 UTC', SHA-1 fingerprint `d85eed2243f08bf7357e9810e270f82fcb1500ad'
+2016-03-26 13:00:56	--	 - certificate[2] info:
+2016-03-26 13:00:56	--	   - subject `C=FR,ST=Paris,L=Paris,O=Gandi,CN=Gandi Standard SSL CA 2', issuer `C=US,ST=New Jersey,L=Jersey City,O=The USERTRUST Network,CN=USERTrust RSA Certification Authority', RSA key 2048 bits, signed using RSA-SHA384, activated `2014-09-12 00:00:00 UTC', expires `2024-09-11 23:59:59 UTC', SHA-1 fingerprint `247106a405b288a46e70a0262717162d0903e734'
+2016-03-26 13:00:56	--	 - certificate[3] info:
+2016-03-26 13:00:56	--	   - subject `C=US,ST=New Jersey,L=Jersey City,O=The USERTRUST Network,CN=USERTrust RSA Certification Authority', issuer `C=SE,O=AddTrust AB,OU=AddTrust External TTP Network,CN=AddTrust External CA Root', RSA key 4096 bits, signed using RSA-SHA384, activated `2000-05-30 10:48:38 UTC', expires `2020-05-30 10:48:38 UTC', SHA-1 fingerprint `eab040689a0d805b5d6fd654fc168cff00b78be3'
+2016-03-26 13:00:56	--	gnutls: peer's certificate is trusted
+2016-03-26 13:00:56	--	irc: connected to irc.gitter.im/6697 (52.71.213.212)
+2016-03-26 13:01:01	=!=	irc: reading data on socket: error 0 (connection closed by peer)
+2016-03-26 13:01:01	--	irc: disconnecting from server...
+2016-03-26 13:01:01	--	irc: disconnected from server
+2016-03-26 13:01:01	--	irc: reconnecting to server in 10 seconds
+2016-03-26 13:01:11	--	irc: reconnecting to server...
+2016-03-26 13:01:11	--	irc: connecting to server irc.gitter.im/6697 (SSL)...
+2016-03-26 13:01:11	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2016-03-26 13:01:11	--	gnutls: receiving 3 certificates
+2016-03-26 13:01:11	--	 - certificate[1] info:
+2016-03-26 13:01:11	--	   - subject `OU=Domain Control Validated,OU=Gandi Standard Wildcard SSL,CN=*.gitter.im', issuer `C=FR,ST=Paris,L=Paris,O=Gandi,CN=Gandi Standard SSL CA 2', RSA key 2048 bits, signed using RSA-SHA256, activated `2015-11-11 00:00:00 UTC', expires `2016-11-11 23:59:59 UTC', SHA-1 fingerprint `d85eed2243f08bf7357e9810e270f82fcb1500ad'
+2016-03-26 13:01:11	--	 - certificate[2] info:
+2016-03-26 13:01:11	--	   - subject `C=FR,ST=Paris,L=Paris,O=Gandi,CN=Gandi Standard SSL CA 2', issuer `C=US,ST=New Jersey,L=Jersey City,O=The USERTRUST Network,CN=USERTrust RSA Certification Authority', RSA key 2048 bits, signed using RSA-SHA384, activated `2014-09-12 00:00:00 UTC', expires `2024-09-11 23:59:59 UTC', SHA-1 fingerprint `247106a405b288a46e70a0262717162d0903e734'
+2016-03-26 13:01:11	--	 - certificate[3] info:
+2016-03-26 13:01:11	--	   - subject `C=US,ST=New Jersey,L=Jersey City,O=The USERTRUST Network,CN=USERTrust RSA Certification Authority', issuer `C=SE,O=AddTrust AB,OU=AddTrust External TTP Network,CN=AddTrust External CA Root', RSA key 4096 bits, signed using RSA-SHA384, activated `2000-05-30 10:48:38 UTC', expires `2020-05-30 10:48:38 UTC', SHA-1 fingerprint `eab040689a0d805b5d6fd654fc168cff00b78be3'
+2016-03-26 13:01:11	--	gnutls: peer's certificate is trusted
+2016-03-26 13:01:11	--	irc: connected to irc.gitter.im/6697 (52.71.213.212)
+2016-03-26 13:01:17	=!=	irc: reading data on socket: error 0 (connection closed by peer)
+2016-03-26 13:01:17	--	irc: disconnecting from server...
+2016-03-26 13:01:17	--	irc: disconnected from server
+2016-03-26 13:01:17	--	irc: reconnecting to server in 20 seconds
+2016-03-26 13:01:27		irc: auto-reconnection is cancelled
+2016-03-26 13:01:27	--	irc: disconnected from server
+2016-03-26 13:02:09	--	irc: connecting to server irc.gitter.im/6697 (SSL)...
+2016-03-26 13:02:09	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2016-03-26 13:02:09	--	gnutls: receiving 3 certificates
+2016-03-26 13:02:09	--	 - certificate[1] info:
+2016-03-26 13:02:09	--	   - subject `OU=Domain Control Validated,OU=Gandi Standard Wildcard SSL,CN=*.gitter.im', issuer `C=FR,ST=Paris,L=Paris,O=Gandi,CN=Gandi Standard SSL CA 2', RSA key 2048 bits, signed using RSA-SHA256, activated `2015-11-11 00:00:00 UTC', expires `2016-11-11 23:59:59 UTC', SHA-1 fingerprint `d85eed2243f08bf7357e9810e270f82fcb1500ad'
+2016-03-26 13:02:09	--	 - certificate[2] info:
+2016-03-26 13:02:09	--	   - subject `C=FR,ST=Paris,L=Paris,O=Gandi,CN=Gandi Standard SSL CA 2', issuer `C=US,ST=New Jersey,L=Jersey City,O=The USERTRUST Network,CN=USERTrust RSA Certification Authority', RSA key 2048 bits, signed using RSA-SHA384, activated `2014-09-12 00:00:00 UTC', expires `2024-09-11 23:59:59 UTC', SHA-1 fingerprint `247106a405b288a46e70a0262717162d0903e734'
+2016-03-26 13:02:09	--	 - certificate[3] info:
+2016-03-26 13:02:09	--	   - subject `C=US,ST=New Jersey,L=Jersey City,O=The USERTRUST Network,CN=USERTrust RSA Certification Authority', issuer `C=SE,O=AddTrust AB,OU=AddTrust External TTP Network,CN=AddTrust External CA Root', RSA key 4096 bits, signed using RSA-SHA384, activated `2000-05-30 10:48:38 UTC', expires `2020-05-30 10:48:38 UTC', SHA-1 fingerprint `eab040689a0d805b5d6fd654fc168cff00b78be3'
+2016-03-26 13:02:09	--	gnutls: peer's certificate is trusted
+2016-03-26 13:02:09	--	irc: connected to irc.gitter.im/6697 (54.88.217.145)
+2016-03-26 13:02:10	--	You are now known as ranranking
+2016-03-26 13:02:10	--	Gitter :ranranking!ranranking@irc.gitter.im
+2016-03-26 13:02:10	--	Version: 1.0.0
+2016-03-26 13:02:10	--	Created on Wed Mar 16 2016 17:47:15 GMT+0000 (UTC)
+2016-03-26 13:02:10	--	irc.gitter.im 1.0.0 wo ntr
+2016-03-26 13:02:10	--	- Message of the Day -
+2016-03-26 13:02:10	--	Welcome To Gitter IRC!
+2016-03-26 13:02:10	--	Info at https://irc.gitter.im
+2016-03-26 13:02:10	--	Code at https://github.com/gitterHQ/irc-bridge
+2016-03-26 13:02:10	--	End of /MOTD command.
+2016-03-26 13:02:27	--	Invalid channel or insufficient permissions
+2016-03-26 13:02:40	--	Invalid channel or insufficient permissions
+2016-03-26 13:03:19	--	Invalid channel or insufficient permissions

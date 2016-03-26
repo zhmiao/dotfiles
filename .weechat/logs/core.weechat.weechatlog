@@ -1,0 +1,566 @@
+2016-03-26 10:40:15		Plugins loaded: alias, charset, exec, fifo, irc, logger, perl, python, relay, script, tcl, trigger, xfer
+2016-03-26 10:42:59	=!=	irc: command "nick" must be executed on irc buffer (server or channel)
+2016-03-26 10:44:27	=!=	You can not write text in this buffer
+2016-03-26 10:44:39	=!=	irc: unable to add temporary server "irc.gitter.im" because the addition of temporary servers with command /connect is currently disabled
+2016-03-26 10:44:39	=!=	irc: if you want to add a standard server, use the command "/server add" (see /help server); if you really want to add a temporary server (NOT SAVED), turn on the option irc.look.temporary_servers
+2016-03-26 10:45:01	=!=	Too few arguments for command "/server add" (help on command: /help server)
+2016-03-26 10:45:10		[core]
+2016-03-26 10:45:10		  away     color    debug    help     key      mute     proxy    repeat   set      uptime   window 
+2016-03-26 10:45:10		  bar      command  eval     history  layout   plugin   quit     save     unset    version
+2016-03-26 10:45:10		  buffer   cursor   filter   input    mouse    print    reload   secure   upgrade  wait   
+2016-03-26 10:45:10		[alias]
+2016-03-26 10:45:10		  AAWAY    AMSG     BYE      CL       IG       KB       MSGBUF   Q        SIGNOFF  UMODE    WC       WW     
+2016-03-26 10:45:10		  alias    ANICK    C        CLOSE    J        LEAVE    MUB      REDRAW   T        V        WI     
+2016-03-26 10:45:10		  AME      BEEP     CHAT     EXIT     K        M        N        SAY      UB       W        WII    
+2016-03-26 10:45:10		[charset]
+2016-03-26 10:45:10		  charset
+2016-03-26 10:45:10		[exec]
+2016-03-26 10:45:10		  exec
+2016-03-26 10:45:10		[fifo]
+2016-03-26 10:45:10		  fifo
+2016-03-26 10:45:10		[irc]
+2016-03-26 10:45:10		  admin       cycle       ignore      links       names       pong        sajoin      squery      unquiet     whois     
+2016-03-26 10:45:10		  allchan     dcc         info        list        nick        query       samode      squit       userhost    whowas    
+2016-03-26 10:45:10		  allpv       dehalfop    invite      lusers      notice      quiet       sanick      stats       users     
+2016-03-26 10:45:10		  allserv     deop        ison        map         notify      quote       sapart      summon      version   
+2016-03-26 10:45:10		  ban         devoice     join        me          op          reconnect   saquit      time        voice     
+2016-03-26 10:45:10		  cap         die         kick        mode        oper        rehash      server      topic       wallchops 
+2016-03-26 10:45:10		  connect     disconnect  kickban     motd        part        remove      service     trace       wallops   
+2016-03-26 10:45:10		  ctcp        halfop      kill        msg         ping        restart     servlist    unban       who       
+2016-03-26 10:45:10		[logger]
+2016-03-26 10:45:10		  logger
+2016-03-26 10:45:10		[perl]
+2016-03-26 10:45:10		  perl
+2016-03-26 10:45:10		[python]
+2016-03-26 10:45:10		  python
+2016-03-26 10:45:10		[relay]
+2016-03-26 10:45:10		  relay
+2016-03-26 10:45:10		[script]
+2016-03-26 10:45:10		  script
+2016-03-26 10:45:10		[tcl]
+2016-03-26 10:45:10		  tcl
+2016-03-26 10:45:10		[trigger]
+2016-03-26 10:45:10		  trigger
+2016-03-26 10:45:10		[xfer]
+2016-03-26 10:45:10		  me  xfer
+2016-03-26 10:49:30	=!=	You can not write text in this buffer
+2016-03-26 10:49:35	=!=	You can not write text in this buffer
+2016-03-26 10:49:51		Plugins loaded: alias, charset, exec, fifo, irc, logger, perl, python, relay, script, tcl, trigger, xfer
+2016-03-26 10:50:21	=!=	irc: unable to add temporary server "irc.gitter.im" because the addition of temporary servers with command /connect is currently disabled
+2016-03-26 10:50:21	=!=	irc: if you want to add a standard server, use the command "/server add" (see /help server); if you really want to add a temporary server (NOT SAVED), turn on the option irc.look.temporary_servers
+2016-03-26 10:50:36		[irc]  /server  list|listfull [<server>]
+2016-03-26 10:50:36		                add <server> <hostname>[/<port>] [-temp] [-<option>[=<value>]] [-no<option>]
+2016-03-26 10:50:36		                copy|rename <server> <new_name>
+2016-03-26 10:50:36		                reorder <server> [<server>...]
+2016-03-26 10:50:36		                del|keep <server>
+2016-03-26 10:50:36		                deloutq|jump|raw
+2016-03-26 10:50:36		list, add or remove IRC servers
+2016-03-26 10:50:36		    list: list servers (without argument, this list is displayed)
+2016-03-26 10:50:36		listfull: list servers with detailed info for each server
+2016-03-26 10:50:36		     add: add a new server
+2016-03-26 10:50:36		  server: server name, for internal and display use
+2016-03-26 10:50:36		hostname: name or IP address of server, with optional port (default: 6667), many addresses can be separated by a comma
+2016-03-26 10:50:36		    temp: add a temporary server (not saved)
+2016-03-26 10:50:36		  option: set option for server (for boolean option, value can be omitted)
+2016-03-26 10:50:36		nooption: set boolean option to 'off' (for example: -nossl)
+2016-03-26 10:50:36		    copy: duplicate a server
+2016-03-26 10:50:36		  rename: rename a server
+2016-03-26 10:50:36		 reorder: reorder list of servers
+2016-03-26 10:50:36		    keep: keep server in config file (for temporary servers only)
+2016-03-26 10:50:36		     del: delete a server
+2016-03-26 10:50:36		 deloutq: delete messages out queue for all servers (all messages WeeChat is currently sending)
+2016-03-26 10:50:36		    jump: jump to server buffer
+2016-03-26 10:50:36		     raw: open buffer with raw IRC data
+2016-03-26 10:50:36		Examples:
+2016-03-26 10:50:36		  /server listfull
+2016-03-26 10:50:36		  /server add freenode chat.freenode.net
+2016-03-26 10:50:36		  /server add freenode chat.freenode.net/6697 -ssl -autoconnect
+2016-03-26 10:50:36		  /server add chatspike irc.chatspike.net/6667,irc.duckspike.net/6667
+2016-03-26 10:50:36		  /server copy freenode freenode-test
+2016-03-26 10:50:36		  /server rename freenode-test freenode2
+2016-03-26 10:50:36		  /server reorder freenode2 freenode
+2016-03-26 10:50:36		  /server del freenode
+2016-03-26 10:50:36		  /server deloutq
+2016-03-26 10:54:41	=!=	Error: it is not safe to bind key "{press" because it does not start with a ctrl or meta code (tip: use alt-k to find key codes); if you want to bind this key anyway, turn off option weechat.look.key_bind_safe
+2016-03-26 10:55:19	=!=	No help available, "option" is not a command or an option
+2016-03-26 10:59:05	=!=	Error: it is not safe to bind key "{press" because it does not start with a ctrl or meta code (tip: use alt-k to find key codes); if you want to bind this key anyway, turn off option weechat.look.key_bind_safe
+2016-03-26 11:00:52		Plugins loaded: alias, charset, exec, fifo, irc, logger, perl, python, relay, script, tcl, trigger, xfer
+2016-03-26 11:01:01		[core]
+2016-03-26 11:01:01		  away     debug    key      proxy    set      window 
+2016-03-26 11:01:01		  bar      eval     layout   quit     unset  
+2016-03-26 11:01:01		  buffer   filter   mouse    reload   upgrade
+2016-03-26 11:01:01		  color    help     mute     repeat   uptime 
+2016-03-26 11:01:01		  command  history  plugin   save     version
+2016-03-26 11:01:01		  cursor   input    print    secure   wait   
+2016-03-26 11:01:01		[alias]
+2016-03-26 11:01:01		  AAWAY    BYE      IG       MSGBUF   SIGNOFF  WC     
+2016-03-26 11:01:01		  alias    C        J        MUB      T        WI     
+2016-03-26 11:01:01		  AME      CHAT     K        N        UB       WII    
+2016-03-26 11:01:01		  AMSG     CL       KB       Q        UMODE    WW     
+2016-03-26 11:01:01		  ANICK    CLOSE    LEAVE    REDRAW   V      
+2016-03-26 11:01:01		  BEEP     EXIT     M        SAY      W      
+2016-03-26 11:01:01		[charset]
+2016-03-26 11:01:01		  charset
+2016-03-26 11:01:01		[exec]
+2016-03-26 11:01:01		  exec
+2016-03-26 11:01:01		[fifo]
+2016-03-26 11:01:01		  fifo
+2016-03-26 11:01:01		[irc]
+2016-03-26 11:01:01		  admin       ison        part        squit     
+2016-03-26 11:01:01		  allchan     join        ping        stats     
+2016-03-26 11:01:01		  allpv       kick        pong        summon    
+2016-03-26 11:01:01		  allserv     kickban     query       time      
+2016-03-26 11:01:01		  ban         kill        quiet       topic     
+2016-03-26 11:01:01		  cap         links       quote       trace     
+2016-03-26 11:01:01		  connect     list        reconnect   unban     
+2016-03-26 11:01:01		  ctcp        lusers      rehash      unquiet   
+2016-03-26 11:01:01		  cycle       map         remove      userhost  
+2016-03-26 11:01:01		  dcc         me          restart     users     
+2016-03-26 11:01:01		  dehalfop    mode        sajoin      version   
+2016-03-26 11:01:01		  deop        motd        samode      voice     
+2016-03-26 11:01:01		  devoice     msg         sanick      wallchops 
+2016-03-26 11:01:01		  die         names       sapart      wallops   
+2016-03-26 11:01:01		  disconnect  nick        saquit      who       
+2016-03-26 11:01:01		  halfop      notice      server      whois     
+2016-03-26 11:01:01		  ignore      notify      service     whowas    
+2016-03-26 11:01:01		  info        op          servlist  
+2016-03-26 11:01:01		  invite      oper        squery    
+2016-03-26 11:01:01		[logger]
+2016-03-26 11:01:01		  logger
+2016-03-26 11:01:01		[perl]
+2016-03-26 11:01:01		  perl
+2016-03-26 11:01:01		[python]
+2016-03-26 11:01:01		  python
+2016-03-26 11:01:01		[relay]
+2016-03-26 11:01:01		  relay
+2016-03-26 11:01:01		[script]
+2016-03-26 11:01:01		  script
+2016-03-26 11:01:01		[tcl]
+2016-03-26 11:01:01		  tcl
+2016-03-26 11:01:01		[trigger]
+2016-03-26 11:01:01		  trigger
+2016-03-26 11:01:01		[xfer]
+2016-03-26 11:01:01		  me  xfer
+2016-03-26 11:06:18		script: downloading list of scripts...
+2016-03-26 11:06:19		script: 300 scripts for WeeChat 1.4
+2016-03-26 11:06:20		python: loading script "/Users/ranranking/.weechat/python/vimode.py"
+2016-03-26 11:06:20		python: registered script "vimode", version 0.5 (Add vi/vim-like modes and keybindings to WeeChat.)
+2016-03-26 11:06:20		[vimode.py] Problematic keybindings detected:
+2016-03-26 11:06:20		[vimode.py]     meta-jmeta-f -> /buffer -
+2016-03-26 11:06:20		[vimode.py]     meta-jmeta-l -> /buffer +
+2016-03-26 11:06:20		[vimode.py]     meta-jmeta-r -> /server raw
+2016-03-26 11:06:20		[vimode.py]     meta-jmeta-s -> /server jump
+2016-03-26 11:06:20		[vimode.py]     meta-wmeta-meta2-A -> /window up
+2016-03-26 11:06:20		[vimode.py]     meta-wmeta-meta2-B -> /window down
+2016-03-26 11:06:20		[vimode.py]     meta-wmeta-meta2-C -> /window right
+2016-03-26 11:06:20		[vimode.py]     meta-wmeta-meta2-D -> /window left
+2016-03-26 11:06:20		[vimode.py]     meta-wmeta2-1;3A -> /window up
+2016-03-26 11:06:20		[vimode.py]     meta-wmeta2-1;3B -> /window down
+2016-03-26 11:06:20		[vimode.py]     meta-wmeta2-1;3C -> /window right
+2016-03-26 11:06:20		[vimode.py]     meta-wmeta2-1;3D -> /window left
+2016-03-26 11:06:20		[vimode.py]     meta-wmeta-b -> /window balance
+2016-03-26 11:06:20		[vimode.py]     meta-wmeta-s -> /window swap
+2016-03-26 11:06:20		[vimode.py] These keybindings may conflict with vimode.
+2016-03-26 11:06:20		[vimode.py] You can remove problematic key bindings and add recommended ones by using /vimode bind_keys, or only list them with /vimode bind_keys --list
+2016-03-26 11:06:20		[vimode.py] For help, see: https://github.com/GermainZ/weechat-vimode/blob/master/FAQ#problematic-key-bindings.md
+2016-03-26 11:06:20		[vimode.py] To force disable warnings, you can set plugins.var.python.vimode.no_warn to 'on'
+2016-03-26 11:06:47		[core]
+2016-03-26 11:06:47		  away     debug    key      proxy    set      window 
+2016-03-26 11:06:47		  bar      eval     layout   quit     unset  
+2016-03-26 11:06:47		  buffer   filter   mouse    reload   upgrade
+2016-03-26 11:06:47		  color    help     mute     repeat   uptime 
+2016-03-26 11:06:47		  command  history  plugin   save     version
+2016-03-26 11:06:47		  cursor   input    print    secure   wait   
+2016-03-26 11:06:47		[alias]
+2016-03-26 11:06:47		  AAWAY    BYE      IG       MSGBUF   SIGNOFF  WC     
+2016-03-26 11:06:47		  alias    C        J        MUB      T        WI     
+2016-03-26 11:06:47		  AME      CHAT     K        N        UB       WII    
+2016-03-26 11:06:47		  AMSG     CL       KB       Q        UMODE    WW     
+2016-03-26 11:06:47		  ANICK    CLOSE    LEAVE    REDRAW   V      
+2016-03-26 11:06:47		  BEEP     EXIT     M        SAY      W      
+2016-03-26 11:06:47		[charset]
+2016-03-26 11:06:47		  charset
+2016-03-26 11:06:47		[exec]
+2016-03-26 11:06:47		  exec
+2016-03-26 11:06:47		[fifo]
+2016-03-26 11:06:47		  fifo
+2016-03-26 11:06:47		[irc]
+2016-03-26 11:06:47		  admin       ison        part        squit     
+2016-03-26 11:06:47		  allchan     join        ping        stats     
+2016-03-26 11:06:47		  allpv       kick        pong        summon    
+2016-03-26 11:06:47		  allserv     kickban     query       time      
+2016-03-26 11:06:47		  ban         kill        quiet       topic     
+2016-03-26 11:06:47		  cap         links       quote       trace     
+2016-03-26 11:06:47		  connect     list        reconnect   unban     
+2016-03-26 11:06:47		  ctcp        lusers      rehash      unquiet   
+2016-03-26 11:06:47		  cycle       map         remove      userhost  
+2016-03-26 11:06:47		  dcc         me          restart     users     
+2016-03-26 11:06:47		  dehalfop    mode        sajoin      version   
+2016-03-26 11:06:47		  deop        motd        samode      voice     
+2016-03-26 11:06:47		  devoice     msg         sanick      wallchops 
+2016-03-26 11:06:47		  die         names       sapart      wallops   
+2016-03-26 11:06:47		  disconnect  nick        saquit      who       
+2016-03-26 11:06:47		  halfop      notice      server      whois     
+2016-03-26 11:06:47		  ignore      notify      service     whowas    
+2016-03-26 11:06:47		  info        op          servlist  
+2016-03-26 11:06:47		  invite      oper        squery    
+2016-03-26 11:06:47		[logger]
+2016-03-26 11:06:47		  logger
+2016-03-26 11:06:47		[perl]
+2016-03-26 11:06:47		  perl
+2016-03-26 11:06:47		[python]
+2016-03-26 11:06:47		  python  vimode
+2016-03-26 11:06:47		[relay]
+2016-03-26 11:06:47		  relay
+2016-03-26 11:06:47		[script]
+2016-03-26 11:06:47		  script
+2016-03-26 11:06:47		[tcl]
+2016-03-26 11:06:47		  tcl
+2016-03-26 11:06:47		[trigger]
+2016-03-26 11:06:47		  trigger
+2016-03-26 11:06:47		[xfer]
+2016-03-26 11:06:47		  me  xfer
+2016-03-26 11:17:12		No server
+2016-03-26 11:19:10	=!=	Too few arguments for command "/server add" (help on command: /help server)
+2016-03-26 11:19:20		[irc]  /server  list|listfull [<server>]
+2016-03-26 11:19:20		                add <server> <hostname>[/<port>] [-temp] [-<option>[=<value>]] [-no<option>]
+2016-03-26 11:19:20		                copy|rename <server> <new_name>
+2016-03-26 11:19:20		                reorder <server> [<server>...]
+2016-03-26 11:19:20		                del|keep <server>
+2016-03-26 11:19:20		                deloutq|jump|raw
+2016-03-26 11:19:20		list, add or remove IRC servers
+2016-03-26 11:19:20		    list: list servers (without argument, this list is displayed)
+2016-03-26 11:19:20		listfull: list servers with detailed info for each server
+2016-03-26 11:19:20		     add: add a new server
+2016-03-26 11:19:20		  server: server name, for internal and display use
+2016-03-26 11:19:20		hostname: name or IP address of server, with optional port (default: 6667), many addresses can be separated by a comma
+2016-03-26 11:19:20		    temp: add a temporary server (not saved)
+2016-03-26 11:19:20		  option: set option for server (for boolean option, value can be omitted)
+2016-03-26 11:19:20		nooption: set boolean option to 'off' (for example: -nossl)
+2016-03-26 11:19:20		    copy: duplicate a server
+2016-03-26 11:19:20		  rename: rename a server
+2016-03-26 11:19:20		 reorder: reorder list of servers
+2016-03-26 11:19:20		    keep: keep server in config file (for temporary servers only)
+2016-03-26 11:19:20		     del: delete a server
+2016-03-26 11:19:20		 deloutq: delete messages out queue for all servers (all messages WeeChat is currently sending)
+2016-03-26 11:19:20		    jump: jump to server buffer
+2016-03-26 11:19:20		     raw: open buffer with raw IRC data
+2016-03-26 11:19:20		Examples:
+2016-03-26 11:19:20		  /server listfull
+2016-03-26 11:19:20		  /server add freenode chat.freenode.net
+2016-03-26 11:19:20		  /server add freenode chat.freenode.net/6697 -ssl -autoconnect
+2016-03-26 11:19:20		  /server add chatspike irc.chatspike.net/6667,irc.duckspike.net/6667
+2016-03-26 11:19:20		  /server copy freenode freenode-test
+2016-03-26 11:19:20		  /server rename freenode-test freenode2
+2016-03-26 11:19:20		  /server reorder freenode2 freenode
+2016-03-26 11:19:20		  /server del freenode
+2016-03-26 11:19:20		  /server deloutq
+2016-03-26 11:19:52		irc: server gitter added
+2016-03-26 11:20:13		irc: server freenode added
+2016-03-26 11:22:42	=!=	irc: unable to add temporary server "gitte" because the addition of temporary servers with command /connect is currently disabled
+2016-03-26 11:22:42	=!=	irc: if you want to add a standard server, use the command "/server add" (see /help server); if you really want to add a temporary server (NOT SAVED), turn on the option irc.look.temporary_servers
+2016-03-26 11:28:50		[core]
+2016-03-26 11:28:50		  away     color    debug    help     key      mute     proxy    repeat   set      uptime   window 
+2016-03-26 11:28:50		  bar      command  eval     history  layout   plugin   quit     save     unset    version
+2016-03-26 11:28:50		  buffer   cursor   filter   input    mouse    print    reload   secure   upgrade  wait   
+2016-03-26 11:28:50		[alias]
+2016-03-26 11:28:50		  AAWAY    AMSG     BYE      CL       IG       KB       MSGBUF   Q        SIGNOFF  UMODE    WC       WW     
+2016-03-26 11:28:50		  alias    ANICK    C        CLOSE    J        LEAVE    MUB      REDRAW   T        V        WI     
+2016-03-26 11:28:50		  AME      BEEP     CHAT     EXIT     K        M        N        SAY      UB       W        WII    
+2016-03-26 11:28:50		[charset]
+2016-03-26 11:28:50		  charset
+2016-03-26 11:28:50		[exec]
+2016-03-26 11:28:50		  exec
+2016-03-26 11:28:50		[fifo]
+2016-03-26 11:28:50		  fifo
+2016-03-26 11:28:50		[irc]
+2016-03-26 11:28:50		  admin       dcc         invite      map         op          rehash      service     unban       whois     
+2016-03-26 11:28:50		  allchan     dehalfop    ison        me          oper        remove      servlist    unquiet     whowas    
+2016-03-26 11:28:50		  allpv       deop        join        mode        part        restart     squery      userhost  
+2016-03-26 11:28:50		  allserv     devoice     kick        motd        ping        sajoin      squit       users     
+2016-03-26 11:28:50		  ban         die         kickban     msg         pong        samode      stats       version   
+2016-03-26 11:28:50		  cap         disconnect  kill        names       query       sanick      summon      voice     
+2016-03-26 11:28:50		  connect     halfop      links       nick        quiet       sapart      time        wallchops 
+2016-03-26 11:28:50		  ctcp        ignore      list        notice      quote       saquit      topic       wallops   
+2016-03-26 11:28:50		  cycle       info        lusers      notify      reconnect   server      trace       who       
+2016-03-26 11:28:50		[logger]
+2016-03-26 11:28:50		  logger
+2016-03-26 11:28:50		[perl]
+2016-03-26 11:28:50		  perl
+2016-03-26 11:28:50		[python]
+2016-03-26 11:28:50		  python  vimode
+2016-03-26 11:28:50		[relay]
+2016-03-26 11:28:50		  relay
+2016-03-26 11:28:50		[script]
+2016-03-26 11:28:50		  script
+2016-03-26 11:28:50		[tcl]
+2016-03-26 11:28:50		  tcl
+2016-03-26 11:28:50		[trigger]
+2016-03-26 11:28:50		  trigger
+2016-03-26 11:28:50		[xfer]
+2016-03-26 11:28:50		  me  xfer
+2016-03-26 11:29:16		python: scripts unloaded
+2016-03-26 11:29:21		[vimode.py] Problematic keybindings detected:
+2016-03-26 11:29:21		[vimode.py]     meta-jmeta-f -> /buffer -
+2016-03-26 11:29:21		[vimode.py]     meta-jmeta-l -> /buffer +
+2016-03-26 11:29:21		[vimode.py]     meta-jmeta-r -> /server raw
+2016-03-26 11:29:21		[vimode.py]     meta-jmeta-s -> /server jump
+2016-03-26 11:29:21		[vimode.py]     meta-wmeta-meta2-A -> /window up
+2016-03-26 11:29:21		[vimode.py]     meta-wmeta-meta2-B -> /window down
+2016-03-26 11:29:21		[vimode.py]     meta-wmeta-meta2-C -> /window right
+2016-03-26 11:29:21		[vimode.py]     meta-wmeta-meta2-D -> /window left
+2016-03-26 11:29:21		[vimode.py]     meta-wmeta2-1;3A -> /window up
+2016-03-26 11:29:21		[vimode.py]     meta-wmeta2-1;3B -> /window down
+2016-03-26 11:29:21		[vimode.py]     meta-wmeta2-1;3C -> /window right
+2016-03-26 11:29:21		[vimode.py]     meta-wmeta2-1;3D -> /window left
+2016-03-26 11:29:21		[vimode.py]     meta-wmeta-b -> /window balance
+2016-03-26 11:29:21		[vimode.py]     meta-wmeta-s -> /window swap
+2016-03-26 11:29:21		[vimode.py] These keybindings may conflict with vimode.
+2016-03-26 11:29:21		[vimode.py] You can remove problematic key bindings and add recommended ones by using /vimode bind_keys, or only list them with /vimode bind_keys --list
+2016-03-26 11:29:21		[vimode.py] For help, see: https://github.com/GermainZ/weechat-vimode/blob/master/FAQ#problematic-key-bindings.md
+2016-03-26 11:29:21		[vimode.py] To force disable warnings, you can set plugins.var.python.vimode.no_warn to 'on'
+2016-03-26 11:29:21		python scripts loaded: vimode
+2016-03-26 11:29:21		script: 300 scripts for WeeChat 1.4
+2016-03-26 11:29:21		Plugins loaded: alias, charset, exec, fifo, irc, logger, perl, python, relay, script, tcl, trigger, xfer
+2016-03-26 11:29:41		irc: server gitter has been deleted
+2016-03-26 11:31:36		irc: server gitter added
+2016-03-26 11:33:53		irc: server gitter has been deleted
+2016-03-26 11:34:02		[irc]  /server  list|listfull [<server>]
+2016-03-26 11:34:02		                add <server> <hostname>[/<port>] [-temp] [-<option>[=<value>]] [-no<option>]
+2016-03-26 11:34:02		                copy|rename <server> <new_name>
+2016-03-26 11:34:02		                reorder <server> [<server>...]
+2016-03-26 11:34:02		                del|keep <server>
+2016-03-26 11:34:02		                deloutq|jump|raw
+2016-03-26 11:34:02		list, add or remove IRC servers
+2016-03-26 11:34:02		    list: list servers (without argument, this list is displayed)
+2016-03-26 11:34:02		listfull: list servers with detailed info for each server
+2016-03-26 11:34:02		     add: add a new server
+2016-03-26 11:34:02		  server: server name, for internal and display use
+2016-03-26 11:34:02		hostname: name or IP address of server, with optional port (default: 6667), many addresses can be separated by a comma
+2016-03-26 11:34:02		    temp: add a temporary server (not saved)
+2016-03-26 11:34:02		  option: set option for server (for boolean option, value can be omitted)
+2016-03-26 11:34:02		nooption: set boolean option to 'off' (for example: -nossl)
+2016-03-26 11:34:02		    copy: duplicate a server
+2016-03-26 11:34:02		  rename: rename a server
+2016-03-26 11:34:02		 reorder: reorder list of servers
+2016-03-26 11:34:02		    keep: keep server in config file (for temporary servers only)
+2016-03-26 11:34:02		     del: delete a server
+2016-03-26 11:34:02		 deloutq: delete messages out queue for all servers (all messages WeeChat is currently sending)
+2016-03-26 11:34:02		    jump: jump to server buffer
+2016-03-26 11:34:02		     raw: open buffer with raw IRC data
+2016-03-26 11:34:02		Examples:
+2016-03-26 11:34:02		  /server listfull
+2016-03-26 11:34:02		  /server add freenode chat.freenode.net
+2016-03-26 11:34:02		  /server add freenode chat.freenode.net/6697 -ssl -autoconnect
+2016-03-26 11:34:02		  /server add chatspike irc.chatspike.net/6667,irc.duckspike.net/6667
+2016-03-26 11:34:02		  /server copy freenode freenode-test
+2016-03-26 11:34:02		  /server rename freenode-test freenode2
+2016-03-26 11:34:02		  /server reorder freenode2 freenode
+2016-03-26 11:34:02		  /server del freenode
+2016-03-26 11:34:02		  /server deloutq
+2016-03-26 11:34:35		irc: server gitter added
+2016-03-26 11:35:21		irc: server gitter has been deleted
+2016-03-26 11:36:54	=!=	No help available, "pass" is not a command or an option
+2016-03-26 11:37:04	=!=	No help available, "/PASS" is not a command or an option
+2016-03-26 11:37:22	=!=	No help available, "PASS" is not a command or an option
+2016-03-26 11:37:27	=!=	No help available, "PASS" is not a command or an option
+2016-03-26 11:39:21		irc: server gitter added
+2016-03-26 11:40:24	=!=	Error: unknown command "/PASS" (type /help for help)
+2016-03-26 11:43:59		irc: server gitter has been deleted
+2016-03-26 11:50:19		[irc]  /connect  <server> [<server>...] [-<option>[=<value>]] [-no<option>] [-nojoin] [-switch]
+2016-03-26 11:50:19		                 -all|-auto|-open [-nojoin] [-switch]
+2016-03-26 11:50:19		connect to IRC server(s)
+2016-03-26 11:50:19		    server: server name, which can be:
+2016-03-26 11:50:19		            - internal server name (added by /server add, recommended usage)
+2016-03-26 11:50:19		            - hostname/port or IP/port, port is 6667 by default
+2016-03-26 11:50:19		            - URL with format: irc[6][s]://[nickname[:password]@]irc.example.org[:port][/#channel1][,#channel2[...]]
+2016-03-26 11:50:19		            Note: for an address/IP/URL, a temporary server is added (NOT SAVED), see /help irc.look.temporary_servers
+2016-03-26 11:50:19		    option: set option for server (for boolean option, value can be omitted)
+2016-03-26 11:50:19		  nooption: set boolean option to 'off' (for example: -nossl)
+2016-03-26 11:50:19		      -all: connect to all servers defined in configuration
+2016-03-26 11:50:19		     -auto: connect to servers with autoconnect enabled
+2016-03-26 11:50:19		     -open: connect to all opened servers that are not currently connected
+2016-03-26 11:50:19		   -nojoin: do not join any channel (even if autojoin is enabled on server)
+2016-03-26 11:50:19		   -switch: switch to next server address
+2016-03-26 11:50:19		To disconnect from a server or stop any connection attempt, use command /disconnect.
+2016-03-26 11:50:19		Examples:
+2016-03-26 11:50:19		  /connect freenode
+2016-03-26 11:50:19		  /connect irc.oftc.net/6667
+2016-03-26 11:50:19		  /connect irc6.oftc.net/6667 -ipv6
+2016-03-26 11:50:19		  /connect irc6.oftc.net/6697 -ipv6 -ssl
+2016-03-26 11:50:19		  /connect my.server.org/6697 -ssl -password=test
+2016-03-26 11:50:19		  /connect irc://nick@irc.oftc.net/#channel
+2016-03-26 11:50:19		  /connect -switch
+2016-03-26 11:51:18		irc: server gitter added
+2016-03-26 11:52:13	=!=	irc: unable to add temporary server "irc.gitter.im/6667" because the addition of temporary servers with command /connect is currently disabled
+2016-03-26 11:52:13	=!=	irc: if you want to add a standard server, use the command "/server add" (see /help server); if you really want to add a temporary server (NOT SAVED), turn on the option irc.look.temporary_servers
+2016-03-26 11:54:05		python: scripts unloaded
+2016-03-26 11:54:07		[vimode.py] Problematic keybindings detected:
+2016-03-26 11:54:07		[vimode.py]     meta-jmeta-f -> /buffer -
+2016-03-26 11:54:07		[vimode.py]     meta-jmeta-l -> /buffer +
+2016-03-26 11:54:07		[vimode.py]     meta-jmeta-r -> /server raw
+2016-03-26 11:54:07		[vimode.py]     meta-jmeta-s -> /server jump
+2016-03-26 11:54:07		[vimode.py]     meta-wmeta-meta2-A -> /window up
+2016-03-26 11:54:07		[vimode.py]     meta-wmeta-meta2-B -> /window down
+2016-03-26 11:54:07		[vimode.py]     meta-wmeta-meta2-C -> /window right
+2016-03-26 11:54:07		[vimode.py]     meta-wmeta-meta2-D -> /window left
+2016-03-26 11:54:07		[vimode.py]     meta-wmeta2-1;3A -> /window up
+2016-03-26 11:54:07		[vimode.py]     meta-wmeta2-1;3B -> /window down
+2016-03-26 11:54:07		[vimode.py]     meta-wmeta2-1;3C -> /window right
+2016-03-26 11:54:07		[vimode.py]     meta-wmeta2-1;3D -> /window left
+2016-03-26 11:54:07		[vimode.py]     meta-wmeta-b -> /window balance
+2016-03-26 11:54:07		[vimode.py]     meta-wmeta-s -> /window swap
+2016-03-26 11:54:07		[vimode.py] These keybindings may conflict with vimode.
+2016-03-26 11:54:07		[vimode.py] You can remove problematic key bindings and add recommended ones by using /vimode bind_keys, or only list them with /vimode bind_keys --list
+2016-03-26 11:54:07		[vimode.py] For help, see: https://github.com/GermainZ/weechat-vimode/blob/master/FAQ#problematic-key-bindings.md
+2016-03-26 11:54:07		[vimode.py] To force disable warnings, you can set plugins.var.python.vimode.no_warn to 'on'
+2016-03-26 11:54:07		python scripts loaded: vimode
+2016-03-26 11:54:07		script: 300 scripts for WeeChat 1.4
+2016-03-26 11:54:07		Plugins loaded: alias, charset, exec, fifo, irc, logger, perl, python, relay, script, tcl, trigger, xfer
+2016-03-26 11:55:00	=!=	irc: unable to add temporary server "irc.gitter.im/6667" because the addition of temporary servers with command /connect is currently disabled
+2016-03-26 11:55:00	=!=	irc: if you want to add a standard server, use the command "/server add" (see /help server); if you really want to add a temporary server (NOT SAVED), turn on the option irc.look.temporary_servers
+2016-03-26 11:55:56		python: scripts unloaded
+2016-03-26 11:56:11		[vimode.py] Problematic keybindings detected:
+2016-03-26 11:56:11		[vimode.py]     meta-jmeta-f -> /buffer -
+2016-03-26 11:56:11		[vimode.py]     meta-jmeta-l -> /buffer +
+2016-03-26 11:56:11		[vimode.py]     meta-jmeta-r -> /server raw
+2016-03-26 11:56:11		[vimode.py]     meta-jmeta-s -> /server jump
+2016-03-26 11:56:11		[vimode.py]     meta-wmeta-meta2-A -> /window up
+2016-03-26 11:56:11		[vimode.py]     meta-wmeta-meta2-B -> /window down
+2016-03-26 11:56:11		[vimode.py]     meta-wmeta-meta2-C -> /window right
+2016-03-26 11:56:11		[vimode.py]     meta-wmeta-meta2-D -> /window left
+2016-03-26 11:56:11		[vimode.py]     meta-wmeta2-1;3A -> /window up
+2016-03-26 11:56:11		[vimode.py]     meta-wmeta2-1;3B -> /window down
+2016-03-26 11:56:11		[vimode.py]     meta-wmeta2-1;3C -> /window right
+2016-03-26 11:56:11		[vimode.py]     meta-wmeta2-1;3D -> /window left
+2016-03-26 11:56:11		[vimode.py]     meta-wmeta-b -> /window balance
+2016-03-26 11:56:11		[vimode.py]     meta-wmeta-s -> /window swap
+2016-03-26 11:56:11		[vimode.py] These keybindings may conflict with vimode.
+2016-03-26 11:56:11		[vimode.py] You can remove problematic key bindings and add recommended ones by using /vimode bind_keys, or only list them with /vimode bind_keys --list
+2016-03-26 11:56:11		[vimode.py] For help, see: https://github.com/GermainZ/weechat-vimode/blob/master/FAQ#problematic-key-bindings.md
+2016-03-26 11:56:11		[vimode.py] To force disable warnings, you can set plugins.var.python.vimode.no_warn to 'on'
+2016-03-26 11:56:11		python scripts loaded: vimode
+2016-03-26 11:56:11		script: 300 scripts for WeeChat 1.4
+2016-03-26 11:56:11		Plugins loaded: alias, charset, exec, fifo, irc, logger, perl, python, relay, script, tcl, trigger, xfer
+2016-03-26 11:57:40	=!=	irc: unable to add temporary server "irc.gitter.im" because the addition of temporary servers with command /connect is currently disabled
+2016-03-26 11:57:40	=!=	irc: if you want to add a standard server, use the command "/server add" (see /help server); if you really want to add a temporary server (NOT SAVED), turn on the option irc.look.temporary_servers
+2016-03-26 11:57:40	=!=	irc: unable to add temporary server "6697" because the addition of temporary servers with command /connect is currently disabled
+2016-03-26 11:57:40	=!=	irc: if you want to add a standard server, use the command "/server add" (see /help server); if you really want to add a temporary server (NOT SAVED), turn on the option irc.look.temporary_servers
+2016-03-26 11:57:40	=!=	irc: unable to add temporary server "c63ddc5bd54f0334bf5be2b4538c138f06c75d45" because the addition of temporary servers with command /connect is currently disabled
+2016-03-26 11:57:40	=!=	irc: if you want to add a standard server, use the command "/server add" (see /help server); if you really want to add a temporary server (NOT SAVED), turn on the option irc.look.temporary_servers
+2016-03-26 11:59:27		[irc]  /connect  <server> [<server>...] [-<option>[=<value>]] [-no<option>] [-nojoin] [-switch]
+2016-03-26 11:59:27		                 -all|-auto|-open [-nojoin] [-switch]
+2016-03-26 11:59:27		connect to IRC server(s)
+2016-03-26 11:59:27		    server: server name, which can be:
+2016-03-26 11:59:27		            - internal server name (added by /server add, recommended usage)
+2016-03-26 11:59:27		            - hostname/port or IP/port, port is 6667 by default
+2016-03-26 11:59:27		            - URL with format: irc[6][s]://[nickname[:password]@]irc.example.org[:port][/#channel1][,#channel2[...]]
+2016-03-26 11:59:27		            Note: for an address/IP/URL, a temporary server is added (NOT SAVED), see /help irc.look.temporary_servers
+2016-03-26 11:59:27		    option: set option for server (for boolean option, value can be omitted)
+2016-03-26 11:59:27		  nooption: set boolean option to 'off' (for example: -nossl)
+2016-03-26 11:59:27		      -all: connect to all servers defined in configuration
+2016-03-26 11:59:27		     -auto: connect to servers with autoconnect enabled
+2016-03-26 11:59:27		     -open: connect to all opened servers that are not currently connected
+2016-03-26 11:59:27		   -nojoin: do not join any channel (even if autojoin is enabled on server)
+2016-03-26 11:59:27		   -switch: switch to next server address
+2016-03-26 11:59:27		To disconnect from a server or stop any connection attempt, use command /disconnect.
+2016-03-26 11:59:27		Examples:
+2016-03-26 11:59:27		  /connect freenode
+2016-03-26 11:59:27		  /connect irc.oftc.net/6667
+2016-03-26 11:59:27		  /connect irc6.oftc.net/6667 -ipv6
+2016-03-26 11:59:27		  /connect irc6.oftc.net/6697 -ipv6 -ssl
+2016-03-26 11:59:27		  /connect my.server.org/6697 -ssl -password=test
+2016-03-26 11:59:27		  /connect irc://nick@irc.oftc.net/#channel
+2016-03-26 11:59:27		  /connect -switch
+2016-03-26 11:59:45		[irc]  /server  list|listfull [<server>]
+2016-03-26 11:59:45		                add <server> <hostname>[/<port>] [-temp] [-<option>[=<value>]] [-no<option>]
+2016-03-26 11:59:45		                copy|rename <server> <new_name>
+2016-03-26 11:59:45		                reorder <server> [<server>...]
+2016-03-26 11:59:45		                del|keep <server>
+2016-03-26 11:59:45		                deloutq|jump|raw
+2016-03-26 11:59:45		list, add or remove IRC servers
+2016-03-26 11:59:45		    list: list servers (without argument, this list is displayed)
+2016-03-26 11:59:45		listfull: list servers with detailed info for each server
+2016-03-26 11:59:45		     add: add a new server
+2016-03-26 11:59:45		  server: server name, for internal and display use
+2016-03-26 11:59:45		hostname: name or IP address of server, with optional port (default: 6667), many addresses can be separated by a comma
+2016-03-26 11:59:45		    temp: add a temporary server (not saved)
+2016-03-26 11:59:45		  option: set option for server (for boolean option, value can be omitted)
+2016-03-26 11:59:45		nooption: set boolean option to 'off' (for example: -nossl)
+2016-03-26 11:59:45		    copy: duplicate a server
+2016-03-26 11:59:45		  rename: rename a server
+2016-03-26 11:59:45		 reorder: reorder list of servers
+2016-03-26 11:59:45		    keep: keep server in config file (for temporary servers only)
+2016-03-26 11:59:45		     del: delete a server
+2016-03-26 11:59:45		 deloutq: delete messages out queue for all servers (all messages WeeChat is currently sending)
+2016-03-26 11:59:45		    jump: jump to server buffer
+2016-03-26 11:59:45		     raw: open buffer with raw IRC data
+2016-03-26 11:59:45		Examples:
+2016-03-26 11:59:45		  /server listfull
+2016-03-26 11:59:45		  /server add freenode chat.freenode.net
+2016-03-26 11:59:45		  /server add freenode chat.freenode.net/6697 -ssl -autoconnect
+2016-03-26 11:59:45		  /server add chatspike irc.chatspike.net/6667,irc.duckspike.net/6667
+2016-03-26 11:59:45		  /server copy freenode freenode-test
+2016-03-26 11:59:45		  /server rename freenode-test freenode2
+2016-03-26 11:59:45		  /server reorder freenode2 freenode
+2016-03-26 11:59:45		  /server del freenode
+2016-03-26 11:59:45		  /server deloutq
+2016-03-26 12:01:15	=!=	irc: server "gitter" already exists, can't add it!
+2016-03-26 12:01:25		irc: server gitter has been deleted
+2016-03-26 12:01:29		irc: server gitter added
+2016-03-26 12:03:49		python: scripts unloaded
+2016-03-26 12:09:15		[vimode.py] Problematic keybindings detected:
+2016-03-26 12:09:15		[vimode.py]     meta-jmeta-f -> /buffer -
+2016-03-26 12:09:15		[vimode.py]     meta-jmeta-l -> /buffer +
+2016-03-26 12:09:15		[vimode.py]     meta-jmeta-r -> /server raw
+2016-03-26 12:09:15		[vimode.py]     meta-jmeta-s -> /server jump
+2016-03-26 12:09:15		[vimode.py]     meta-wmeta-meta2-A -> /window up
+2016-03-26 12:09:15		[vimode.py]     meta-wmeta-meta2-B -> /window down
+2016-03-26 12:09:15		[vimode.py]     meta-wmeta-meta2-C -> /window right
+2016-03-26 12:09:15		[vimode.py]     meta-wmeta-meta2-D -> /window left
+2016-03-26 12:09:15		[vimode.py]     meta-wmeta2-1;3A -> /window up
+2016-03-26 12:09:15		[vimode.py]     meta-wmeta2-1;3B -> /window down
+2016-03-26 12:09:15		[vimode.py]     meta-wmeta2-1;3C -> /window right
+2016-03-26 12:09:15		[vimode.py]     meta-wmeta2-1;3D -> /window left
+2016-03-26 12:09:15		[vimode.py]     meta-wmeta-b -> /window balance
+2016-03-26 12:09:15		[vimode.py]     meta-wmeta-s -> /window swap
+2016-03-26 12:09:15		[vimode.py] These keybindings may conflict with vimode.
+2016-03-26 12:09:15		[vimode.py] You can remove problematic key bindings and add recommended ones by using /vimode bind_keys, or only list them with /vimode bind_keys --list
+2016-03-26 12:09:15		[vimode.py] For help, see: https://github.com/GermainZ/weechat-vimode/blob/master/FAQ#problematic-key-bindings.md
+2016-03-26 12:09:15		[vimode.py] To force disable warnings, you can set plugins.var.python.vimode.no_warn to 'on'
+2016-03-26 12:09:15		python scripts loaded: vimode
+2016-03-26 12:09:15		script: 300 scripts for WeeChat 1.4
+2016-03-26 12:09:15		Plugins loaded: alias, charset, exec, fifo, irc, logger, perl, python, relay, script, tcl, trigger, xfer
+2016-03-26 12:13:12	=!=	No help available, "password" is not a command or an option
+2016-03-26 12:17:41		irc: server gitter has been deleted
+2016-03-26 12:18:08		irc: server gitter added
+2016-03-26 12:27:13	=!=	No help available, "channel" is not a command or an option
+2016-03-26 12:58:18		python: scripts unloaded
+2016-03-26 12:59:01		[vimode.py] Problematic keybindings detected:
+2016-03-26 12:59:01		[vimode.py]     meta-jmeta-f -> /buffer -
+2016-03-26 12:59:01		[vimode.py]     meta-jmeta-l -> /buffer +
+2016-03-26 12:59:01		[vimode.py]     meta-jmeta-r -> /server raw
+2016-03-26 12:59:01		[vimode.py]     meta-jmeta-s -> /server jump
+2016-03-26 12:59:01		[vimode.py]     meta-wmeta-meta2-A -> /window up
+2016-03-26 12:59:01		[vimode.py]     meta-wmeta-meta2-B -> /window down
+2016-03-26 12:59:01		[vimode.py]     meta-wmeta-meta2-C -> /window right
+2016-03-26 12:59:01		[vimode.py]     meta-wmeta-meta2-D -> /window left
+2016-03-26 12:59:01		[vimode.py]     meta-wmeta2-1;3A -> /window up
+2016-03-26 12:59:01		[vimode.py]     meta-wmeta2-1;3B -> /window down
+2016-03-26 12:59:01		[vimode.py]     meta-wmeta2-1;3C -> /window right
+2016-03-26 12:59:01		[vimode.py]     meta-wmeta2-1;3D -> /window left
+2016-03-26 12:59:01		[vimode.py]     meta-wmeta-b -> /window balance
+2016-03-26 12:59:01		[vimode.py]     meta-wmeta-s -> /window swap
+2016-03-26 12:59:01		[vimode.py] These keybindings may conflict with vimode.
+2016-03-26 12:59:01		[vimode.py] You can remove problematic key bindings and add recommended ones by using /vimode bind_keys, or only list them with /vimode bind_keys --list
+2016-03-26 12:59:01		[vimode.py] For help, see: https://github.com/GermainZ/weechat-vimode/blob/master/FAQ#problematic-key-bindings.md
+2016-03-26 12:59:01		[vimode.py] To force disable warnings, you can set plugins.var.python.vimode.no_warn to 'on'
+2016-03-26 12:59:01		python scripts loaded: vimode
+2016-03-26 12:59:01		script: 300 scripts for WeeChat 1.4
+2016-03-26 12:59:01		Plugins loaded: alias, charset, exec, fifo, irc, logger, perl, python, relay, script, tcl, trigger, xfer
+2016-03-26 13:00:02		Option changed: weechat.network.gnutls_ca_file = "~/.weechat/certs/ca-bundle.crt"  (default: "/etc/ssl/certs/ca-certificates.crt")
+2016-03-26 13:00:39	=!=	irc: server "gitter" already exists, can't add it!
+2016-03-26 13:00:49		irc: server gitter has been deleted
+2016-03-26 13:00:51		irc: server gitter added
+2016-03-26 13:01:40		irc: server gitter has been deleted
+2016-03-26 13:02:03		irc: server gitter added

@@ -1,0 +1,15 @@
+{
+  "modifydate": "1458790940.321307", 
+  "tags": [
+    "Note"
+  ], 
+  "deleted": 0, 
+  "createdate": "1458790583.616593", 
+  "syncdate": 1458854449.918384, 
+  "systemtags": [], 
+  "content": "-- This is v0.6 of the custom script for AlfredApp for iTerm 2.9+\n-- Please see https://github.com/stuartcryan/custom-iterm-applescripts-for-alfred/\n-- for the latest changes.\n\n-- Please note, if you store the iTerm binary in any other location than the Applications Folder\n-- please ensure you update the two locations below (in the format of : rather than / for folder dividers)\n-- this gets around issues with AppleScript not handling things well if you have two iTerm binaries on your system... which can happen :D\n\non alfred_script(q)\n\tif application \"iTerm2\" is running or application \"iTerm\" is running then\n\t\trun script \"\n\t\t\ton run {q}\n\t\t\t\ttell application \\\":Applications:iTerm.app\\\"\n\t\t\t\t\tactivate\n\t\t\t\t\ttry\n\t\t\t\t\t\tselect first window\n\t\t\t\t\t\tset onlywindow to false\n\t\t\t\t\ton error\n\t\t\t\t\t\tcreate window with default profile\n\t\t\t\t\t\tselect first window\n\t\t\t\t\t\tset onlywindow to true\n\t\t\t\t\tend try\n\t\t\t\t\ttell the first window\n\t\t\t\t\t\tif onlywindow is false then\n\t\t\t\t\t\t\tcreate window with default profile\n\t\t\t\t\t\tend if\n\t\t\t\t\t\ttell current session to write text q\n\t\t\t\t\tend tell\n\t\t\t\tend tell\n\t\t\tend run\n\t\t\" with parameters {q}\n\telse\n\t\trun script \"\n\t\t\ton run {q}\n\t\t\t\ttell application \\\":Applications:iTerm.app\\\"\n\t\t\t\t\tactivate\n\t\t\t\t\ttry\n\t\t\t\t\t\tselect first window\n\t\t\t\t\ton error\n\t\t\t\t\t\tcreate window with default profile\n\t\t\t\t\t\tselect first window\n\t\t\t\t\tend try\n\t\t\t\t\ttell the first window\n\t\t\t\t\t\ttell current session to write text q\n\t\t\t\t\tend tell\n\t\t\t\tend tell\n\t\t\tend run\n\t\t\" with parameters {q}\n\tend if\nend alfred_script", 
+  "version": 4, 
+  "syncnum": 4, 
+  "key": "b00676d56d0940ba8914881e4b95ed2e", 
+  "minversion": 1
+}

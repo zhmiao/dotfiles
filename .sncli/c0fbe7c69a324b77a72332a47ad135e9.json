@@ -1,0 +1,18 @@
+{
+  "version": 18, 
+  "tags": [
+    "Note"
+  ], 
+  "deleted": 0, 
+  "createdate": "1458851886.455076", 
+  "syncdate": 1458860429.71849, 
+  "syncnum": 18, 
+  "key": "c0fbe7c69a324b77a72332a47ad135e9", 
+  "minversion": 8, 
+  "modifydate": "1458860429.685880", 
+  "systemtags": [
+    "markdown"
+  ], 
+  "content": "- What if traditional experimental and observational studies can also make modules for further use not just simply make regression functions in the first place?\n\n- In section 2, do a comparison on modules for the same components. eg. different modules for stocking density\n\n- I want to solve this problem, I want to solve that problem. Have we really think about different methods and improving different methods we use to solve the same question?\n\n- People will ask, what about effects from A, effects from B, etc. But the model is hard to be changed if it is linearly developed.\n  - What we can always answer is \"Yes, we can implement this feature but for now, ...\"\n  - With modular modeling, maybe we can just show in the real time when the question is asked, as long as there are related modules\n\n- Because of the robustness of modeling study, most of the processes have already been looked at. Just to find an example module would not be too difficult, if every one is using modular modeling.\n\n- Traditional model development is really sensitive and dangerous, because people have to be prepared to be questioned from all sort of directions wile they can not always have specialty in all of them\n", 
+  "savedate": 1458860260.217146
+}

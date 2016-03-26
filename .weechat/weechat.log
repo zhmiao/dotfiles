@@ -1,0 +1,16 @@
+[2016-03-26 12:59:01] WeeChat 1.4 (compiled on Mar 26 2016 10:39:34)
+[2016-03-26 12:59:01] Reading configuration file sec.conf
+[2016-03-26 12:59:01] Reading configuration file weechat.conf
+[2016-03-26 12:59:01] Reading configuration file plugins.conf
+[2016-03-26 12:59:01] Reading configuration file charset.conf
+[2016-03-26 12:59:01] Reading configuration file logger.conf
+[2016-03-26 12:59:01] Reading configuration file exec.conf
+[2016-03-26 12:59:01] Reading configuration file trigger.conf
+[2016-03-26 12:59:01] Reading configuration file alias.conf
+[2016-03-26 12:59:01] Reading configuration file xfer.conf
+[2016-03-26 12:59:01] Reading configuration file irc.conf
+[2016-03-26 12:59:01] Reading configuration file relay.conf
+[2016-03-26 12:59:01] Reading configuration file script.conf
+[2016-03-26 13:00:55] irc: connecting to server irc.gitter.im/6697 (SSL)...
+[2016-03-26 13:01:11] irc: connecting to server irc.gitter.im/6697 (SSL)...
+[2016-03-26 13:02:09] irc: connecting to server irc.gitter.im/6697 (SSL)...

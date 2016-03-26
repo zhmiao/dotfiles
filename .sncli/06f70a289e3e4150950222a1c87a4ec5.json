@@ -1,0 +1,19 @@
+{
+  "version": 9, 
+  "tags": [
+    "Note"
+  ], 
+  "deleted": 0, 
+  "createdate": "1458759748.298473", 
+  "syncdate": 1458855022.702179, 
+  "syncnum": 9, 
+  "key": "06f70a289e3e4150950222a1c87a4ec5", 
+  "minversion": 1, 
+  "modifydate": "1458855022.671969", 
+  "systemtags": [], 
+  "content": "the procrdure of modular modeling is similar to traditional modeling procedure, making general model structure, finding suitable functions for each component. The main difference between modular modeling and traditional modeling is the way functions and general structure are combined. ", 
+  "savedate": 1458855014.690146, 
+  "what_changed": [
+    "systemtags"
+  ]
+}
