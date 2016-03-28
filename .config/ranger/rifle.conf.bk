@@ -1,3 +1,0 @@
-ext avi = mpv --no-border "$@"
-ext mkv = mpv --no-border "$@"
-ext rmvb = mpv --no-border "$@"

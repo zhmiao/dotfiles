@@ -21,3 +21,38 @@
 2016-03-26 12:51:15	<--	blacksails (~blacksail@87.104.209.93) has quit (Ping timeout: 248 seconds)
 2016-03-26 12:52:45	marvim	(bfredl) `jobpid()` works (but we should get flexible `jobkill()`if we haven't yet)
 2016-03-26 12:56:38	-->	hxegon (~textual@ip24-254-85-40.sb.sd.cox.net) has joined #neovim
+2016-03-26 15:21:25	-->	ranranking (~ranrankin@c-24-9-81-107.hsd1.co.comcast.net) has joined #neovim
+2016-03-26 15:21:25	--	Topic for #neovim is "Vim's rebirth for the 21st century -- https://github.com/neovim/neovim -- Help sustain Neovim: https://salt.bountysource.com/teams/neovim -- Gitter.im chat: https://gitter.im/neovim/neovim. Posts by marvim are from users in the gitter.im room!"
+2016-03-26 15:21:25	--	Topic set by tarruda on Thu, 04 Jun 2015 06:35:58
+2016-03-26 15:21:25	--	Channel #neovim: 308 nicks (0 ops, 0 voices, 308 normals)
+2016-03-26 15:21:27	--	Channel created on Fri, 31 Jan 2014 09:44:47
+2016-03-26 15:24:56	<--	hxegon (~textual@ip24-254-85-40.sb.sd.cox.net) has quit (Quit: PEACE OUT)
+2016-03-26 15:38:49	-->	Oatmeal (~Suzeanne@75-103-145-152.ccrtc.com) has joined #neovim
+2016-03-26 15:41:37	<--	lyuha (uid43824@gateway/web/irccloud.com/x-ywtkcyhtnlxgkpkf) has quit (Quit: Connection closed for inactivity)
+2016-03-26 15:47:07	<--	osa1 (~omer@haskell/developer/osa1) has quit (Ping timeout: 268 seconds)
+2016-03-26 15:49:03	marvim	(Zeit-Werk) Ah got it myself ```
+2016-03-26 15:49:03	marvim	(Zeit-Werk) autocmd User Startified let &l:laststatus = 0 |
+2016-03-26 15:49:03	marvim	(Zeit-Werk)             \ let &l:showtabline = 0
+2016-03-26 15:49:03	marvim	(Zeit-Werk) ```
+2016-03-26 15:51:19	marvim	(Zeit-Werk) .. hm but that seems to persist after leaving statify ...
+2016-03-26 15:59:56	<--	tvon (~tvon@cpe-74-135-96-14.columbus.res.rr.com) has quit (Remote host closed the connection)
+2016-03-26 16:00:29	-->	tvon (~tvon@2605:a000:1116:c03f:c48b:8a09:7acb:55c0) has joined #neovim
+2016-03-26 16:01:11	<--	tvon (~tvon@2605:a000:1116:c03f:c48b:8a09:7acb:55c0) has quit (Remote host closed the connection)
+2016-03-26 16:01:17	-->	tvon (~tvon@cpe-74-135-96-14.columbus.res.rr.com) has joined #neovim
+2016-03-26 16:03:03	-->	osa1 (~omer@haskell/developer/osa1) has joined #neovim
+2016-03-26 16:06:45	-->	daito (~daito@203.104.128.123) has joined #neovim
+2016-03-26 16:09:54	<--	Jackneill (~Jackneill@unaffiliated/jackneill) has quit (Remote host closed the connection)
+2016-03-26 16:10:45	<--	daito (~daito@203.104.128.123) has quit (Ping timeout: 244 seconds)
+2016-03-26 16:17:01	<--	marvim (~nodebot@45.55.225.204) has quit (Remote host closed the connection)
+2016-03-26 16:17:18	-->	marvim (~nodebot@45.55.225.204) has joined #neovim
+2016-03-26 16:18:52	-->	saimen3 (~saimen@host200-2.natpool.mwn.de) has joined #neovim
+2016-03-26 16:19:57	<--	tvon (~tvon@cpe-74-135-96-14.columbus.res.rr.com) has quit (Remote host closed the connection)
+2016-03-26 16:27:51	<--	raichoo (~raichoo@i59F6A4F6.versanet.de) has quit (Ping timeout: 244 seconds)
+2016-03-26 16:30:33	<--	lytzen_ (~lytzen@188.114.145.241) has quit (Read error: Connection reset by peer)
+2016-03-26 16:30:39	-->	lytzen (~lytzen@188.114.145.241) has joined #neovim
+2016-03-26 16:31:05	-->	tvon (~tvon@2605:a000:1116:c03f:c48b:8a09:7acb:55c0) has joined #neovim
+2016-03-26 16:35:44	-->	raichoo (~raichoo@i59F6A4F6.versanet.de) has joined #neovim
+2016-03-26 16:41:08	<--	Sixmsj (~Sixmsj@c-73-223-134-226.hsd1.ca.comcast.net) has quit (Quit: Sixmsj)
+2016-03-26 16:46:39	<--	jorin (uid7109@gateway/web/irccloud.com/x-cyuisfssedcwuvns) has quit (Quit: Connection closed for inactivity)
+2016-03-26 16:55:50	marvim	(justinmk) @bfredl :+1:
+2016-03-26 17:07:33	<--	__Myst__ (~Boring@net-2-38-242-123.cust.vodafonedsl.it) has quit (Ping timeout: 250 seconds)

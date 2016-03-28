@@ -4,5 +4,7 @@ path=(
 #  $HOME/.yadr/bin
 #  $HOME/.yadr/bin/yadr
   /opt/intel/bin
+  /opt/local/bin
+  /opt/local/lib
 )
 

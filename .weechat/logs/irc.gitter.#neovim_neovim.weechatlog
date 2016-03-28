@@ -4,3 +4,59 @@
 2016-03-26 13:05:39	-->	ranranking (ranranking@irc.gitter.im) has joined #neovim/neovim
 2016-03-26 13:05:39	--	Topic for #neovim/neovim is "vim out of the box | https://salt.bountysource.com/teams/neovim | posts by @marvim are from #neovim on freenode"
 2016-03-26 13:05:39	--	Channel #neovim/neovim: 32 nicks (0 ops, 0 voices, 32 normals)
+2016-03-26 14:36:48	-->	ranranking (ranranking@irc.gitter.im) has joined #neovim/neovim
+2016-03-26 14:36:48	--	Topic for #neovim/neovim is "vim out of the box | https://salt.bountysource.com/teams/neovim | posts by @marvim are from #neovim on freenode"
+2016-03-26 14:36:48	--	Channel #neovim/neovim: 32 nicks (0 ops, 0 voices, 32 normals)
+2016-03-26 17:15:25	-->	ranranking (ranranking@irc.gitter.im) has joined #neovim/neovim
+2016-03-26 17:15:25	--	Topic for #neovim/neovim is "vim out of the box | https://salt.bountysource.com/teams/neovim | posts by @marvim are from #neovim on freenode"
+2016-03-26 17:15:25	--	Channel #neovim/neovim: 32 nicks (0 ops, 0 voices, 32 normals)
+2016-03-26 17:37:37	gitter	[Github] justinmk assigned a Pull Request to neovim/neovim: [RFC] spellfile: follow the XDG spec https://github.com/neovim/neovim/pull/3540
+2016-03-26 18:11:29	HarmtH	Oops my bad, I accidentally tried jobsend(..,"^V^C") because I first tried embedding it into a mapping and then saw ^C appearing in the terminal without transmitting a signal.
+2016-03-26 18:11:36	HarmtH	jobsend(.."^C") works :)
+2016-03-26 18:19:39	-->	ranranking (ranranking@irc.gitter.im) has joined #neovim/neovim
+2016-03-26 18:19:39	--	Topic for #neovim/neovim is "vim out of the box | https://salt.bountysource.com/teams/neovim | posts by @marvim are from #neovim on freenode"
+2016-03-26 18:19:39	--	Channel #neovim/neovim: 32 nicks (0 ops, 0 voices, 32 normals)
+2016-03-26 19:32:57	akatrevorjay	Hey guys, I'm noticing major slowdowns in my NeoVim on *exit*
+2016-03-26 19:33:01	akatrevorjay	How do I profile that?
+2016-03-26 19:34:22	akatrevorjay	Also, is there a way to specify an exclusion list of remote plugins to not load? I have plugins that have submodules of the same rplugin and it's causing quite a few of them to be registered, all at different versions.
+2016-03-26 19:39:19	Shougo	> Also, is there a way to specify an exclusion list of remote plugins to not load? I have plugins that have submodules of the same rplugin and it's causing quite a few of them to be registered, all at different versions.
+2016-03-26 19:39:41	Shougo	You should use lazy loading in plugin managers
+2016-03-26 19:39:57	Shougo	> Hey guys, I'm noticing major slowdowns in my NeoVim on exit
+2016-03-26 19:39:57	Shougo	> How do I profile that?
+2016-03-26 19:40:07	Shougo	I think neovim waits the remote commands.
+2016-03-26 19:40:17	Shougo	It should be improved though.
+2016-03-26 19:41:46	Shougo	You should create the new issue for exit performance
+2016-03-26 20:43:14	marvim	`wsdjeg` what is the omni plugin for rust?
+2016-03-26 20:43:38	Shougo	https://github.com/racer-rust/vim-racer
+2016-03-26 20:46:09	marvim	`wsdjeg` thanks ,
+2016-03-26 20:46:24	marvim	`wsdjeg` I now need to instal racer
+2016-03-26 21:00:22	Shougo	$ cargo install racer
+2016-03-26 21:02:40	marvim	`wsdjeg` RUST_SRC_PATH environment variable must be set to point to the src directory of a rust checkout. E.g. "/home/foouser/src/rust/src"
+2016-03-26 21:02:57	Shougo	Yes
+2016-03-26 21:03:08	marvim	`wsdjeg` does it mean I need set an evn RUST_SRC_PATH to rust src?
+2016-03-26 21:03:20	marvim	`wsdjeg` or the src of my project
+2016-03-26 21:03:40	Shougo	You must  download rust source code.
+2016-03-26 21:03:54	Shougo	And specify the path to $RUST_SRC_PATH
+2016-03-26 21:04:27	Shougo	Example: `let $SRC_RUST_PATH = "~/src/rust"`
+2016-03-26 21:04:44	marvim	`wsdjeg` but I install rust by pacman ,it is diff version from source.git
+2016-03-26 22:20:19	marvim	`greister` how to make buffers clickable using airline?
+2016-03-26 22:42:28	marvim	`wsdjeg` hi Shougo, must I install https://github.com/rust-lang/rust.vim,
+2016-03-26 22:42:47	marvim	`wsdjeg` by default,vim do not detect rust file
+2016-03-26 22:42:54	marvim	`shou12` Yes
+2016-03-26 23:46:38	nathanaelkane	I can't seem to get `NVIM_TUI_ENABLE_CURSOR_SHAPE=1` working with iTerm2 (2.9.20160313), tmux (HEAD) and NeoVim (HEAD). It uses the correct insert cursor when using NeoVim *without* tmux.
+2016-03-27 14:02:53	-->	ranranking (ranranking@irc.gitter.im) has joined #neovim/neovim
+2016-03-27 14:02:53	--	Topic for #neovim/neovim is "vim out of the box | https://salt.bountysource.com/teams/neovim | posts by @marvim are from #neovim on freenode"
+2016-03-27 14:02:53	--	Channel #neovim/neovim: 32 nicks (0 ops, 0 voices, 32 normals)
+2016-03-27 15:15:58	-->	ranranking (ranranking@irc.gitter.im) has joined #neovim/neovim
+2016-03-27 15:15:58	--	Topic for #neovim/neovim is "vim out of the box | https://salt.bountysource.com/teams/neovim | posts by @marvim are from #neovim on freenode"
+2016-03-27 15:15:58	--	Channel #neovim/neovim: 32 nicks (0 ops, 0 voices, 32 normals)
+2016-03-27 15:36:23	marvim	`shou12` @wsdjeg I cannot reproduce.
+2016-03-27 15:36:45	marvim	`shou12` Please create new issue.
+2016-03-27 15:36:59	marvim	`shou12` I will test it.
+2016-03-27 15:38:58	marvim	`shou12` akatrevojay:Lazy loading works for me
+2016-03-27 15:39:33	marvim	`shou12` I use dein.vim. I don't know other plugin managers.
+2016-03-27 17:07:03	gitter	[Github] v217 opened an issue in neovim/neovim: libsixel support? https://github.com/neovim/neovim/issues/4500
+2016-03-27 17:58:42	gitter	[Github] tarruda commented in neovim/neovim on issue: libsixel support? https://github.com/neovim/neovim/issues/4500#issuecomment-202170492
+2016-03-27 18:11:33	gitter	[Github] ZyX-I labeled an issue in neovim/neovim: libsixel support? https://github.com/neovim/neovim/issues/4500
+2016-03-27 18:11:33	gitter	[Github] ZyX-I labeled an issue in neovim/neovim: libsixel support? https://github.com/neovim/neovim/issues/4500
+2016-03-27 19:48:46	gitter	[Github] Jun-T commented in neovim/neovim on issue: double-width character issue in Nerdtree and Netrw https://github.com/neovim/neovim/issues/4476#issuecomment-202188435

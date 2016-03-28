@@ -1,3 +1,176 @@
 2016-03-26 13:04:57	-->	ranranking (ranranking@irc.gitter.im) has joined #syl20bnr/spacemacs
 2016-03-26 13:04:57	--	Topic for #syl20bnr/spacemacs is "A community-driven Emacs distribution - The best editor is neither Emacs nor Vim,  it's Emacs *and* Vim!"
 2016-03-26 13:04:57	--	Channel #syl20bnr/spacemacs: 32 nicks (0 ops, 0 voices, 32 normals)
+2016-03-26 13:17:07	choppsv1	In my old custom setup pre-spacemacs I had a "all-text-mode-hook" and "all-prog-mode-hook" that was useful for things like enabling ggtags-mode.
+2016-03-26 13:23:29	gitter	[Github] StreakyCobra labeled a Pull Request to syl20bnr/spacemacs: Fix dired-x dired-jump autoload https://github.com/syl20bnr/spacemacs/pull/5597
+2016-03-26 13:23:40	gitter	[Github] StreakyCobra labeled an issue in syl20bnr/spacemacs: Missing autoload on `dired-jump` https://github.com/syl20bnr/spacemacs/issues/5550
+2016-03-26 13:23:40	gitter	[Github] StreakyCobra unlabeled an issue in syl20bnr/spacemacs: Missing autoload on `dired-jump` https://github.com/syl20bnr/spacemacs/issues/5550
+2016-03-26 13:25:31	gitter	[Github] StreakyCobra labeled a Pull Request to syl20bnr/spacemacs: Set SPC f b to bookmark-jump https://github.com/syl20bnr/spacemacs/pull/5598
+2016-03-26 13:26:05	gitter	[Github] StreakyCobra labeled an issue in syl20bnr/spacemacs: Missing bookmark-jump for ivy https://github.com/syl20bnr/spacemacs/issues/5572
+2016-03-26 13:26:50	gitter	[Github] StreakyCobra labeled an issue in syl20bnr/spacemacs: Unable to navigate down the screen from the home buffer in a small window https://github.com/syl20bnr/spacemacs/issues/5599
+2016-03-26 13:27:48	gitter	[Github] StreakyCobra commented in syl20bnr/spacemacs on issue: Unable to navigate down the screen from the home buffer in a small window https://github.com/syl20bnr/spacemacs/issues/5599#issuecomment-201914143
+2016-03-26 13:28:43	gitter	[Github] StreakyCobra labeled an issue in syl20bnr/spacemacs: helm-persp-switch-project doesn't have the same actions as helm-projectile-switch-project https://github.com/syl20bnr/spacemacs/issues/5596
+2016-03-26 13:30:58	gitter	[Github] StreakyCobra labeled a Pull Request to syl20bnr/spacemacs: Make helm-persp-switch-project inherit helm actions https://github.com/syl20bnr/spacemacs/pull/5601
+2016-03-26 13:33:26	gitter	[Github] StreakyCobra labeled a Pull Request to syl20bnr/spacemacs: Enable graphviz mode in org babel blocks https://github.com/syl20bnr/spacemacs/pull/5603
+2016-03-26 13:56:21	gitter	[Github] jrmiller82 opened an issue in syl20bnr/spacemacs: Issue in go mode. Mark is getting set in normal mode for no apparent reason https://github.com/syl20bnr/spacemacs/issues/5604
+2016-03-26 14:22:47	NJBS	:point_up: [March 26, 2016 9:42 AM](https://gitter.im/syl20bnr/spacemacs?at=56f691c011ea211749c21cf3)
+2016-03-26 14:22:47	NJBS	@cremacs Here's an example from my dotfile https://github.com/NJBS/dotfiles/blob/master/.spacemacs#L128-L132
+2016-03-26 14:25:16	NJBS	@mark-otaris Can you try the suggestions mentioned in here and if they don't work can you add your information to the issue? https://github.com/syl20bnr/spacemacs/issues/5523
+2016-03-26 14:26:04	mark-otaris	NJBS: Would that be the same issue?
+2016-03-26 14:26:42	NJBS	@mark-otaris Yes, it's a been a bit difficult to track down though so many additional information would be nice.
+2016-03-26 14:26:46	NJBS	[edit] @mark-otaris Yes, it's a been a bit difficult to track down though so any additional information would be nice.
+2016-03-26 14:27:46	mark-otaris	Er, I don't really want to download code without HTTPS and run it
+2016-03-26 14:27:52	mark-otaris	I'll try it in a Debian container
+2016-03-26 14:29:54	mark-otaris	Oh, however it's not with Emacs 25.0, so I should mention that in the issue
+2016-03-26 14:30:09	NJBS	That would be great!
+2016-03-26 14:36:49	<--	undefined (undefined@irc.gitter.im) has left #syl20bnr/spacemacs
+2016-03-26 14:38:36	mark-otaris	"* undefined (undefined@irc.gitter.im) has left" ??
+2016-03-26 14:39:26	mark-otaris	it seems the same is happening in this Debian container with Emacs 24.4
+2016-03-26 14:41:21	travisbhartwell	Yeah, that happens every so often
+2016-03-26 14:42:00	mark-otaris	https://clbin.com/Fk4ibc.png
+2016-03-26 14:42:50	mark-otaris	I can't tell what it's related to, but in any case it happens both on my Fedora install with Emacs 24.5 and in a clean Debian container with Emacs 24.4, so I see no way it could be related to my configuration
+2016-03-26 14:44:22	mark-otaris	oh
+2016-03-26 14:44:26	mark-otaris	melpa.org gets a SERVFAIL with dig
+2016-03-26 14:44:44	mark-otaris	awesome, I know how to fix this
+2016-03-26 14:45:47	mark-otaris	org-mode.org, elpa.gnu.org and melpa.org all have DNSSEC?
+2016-03-26 14:45:48	bsteindorf	i want to write a mode for a custom scripting language i found out how, but what is the correct way in spacemacs? is it `<SPC> : configuration-layer/create-layer RET` ?
+2016-03-26 14:46:01	mark-otaris	this is what happens when a Tor exit node's ISP messes with DNS
+2016-03-26 14:47:08	mark-otaris	@mark-otaris restarts Emacs
+2016-03-26 14:47:17	mark-otaris	everything works as expecte—or not...
+2016-03-26 14:47:27	mark-otaris	—or yes
+2016-03-26 14:49:32	mark-otaris	NJBS: I found the solution to the problem
+2016-03-26 14:52:28	NJBS	@mark-otaris :thumbsup: Could you maybe add your experience to that issue in case someone sees it in the same situation?
+2016-03-26 14:52:53	mark-otaris	NJBS: well, in the same situation...
+2016-03-26 14:53:59	mark-otaris	I have my system set up to make all outgoing connections go through the Tor network. One of the exit nodes has an ISP that messes with DNS records. I also have dnssec-triggerd set up with a local Unbound DNS resolver which validates DNSSEC-signed records. By messing with the DNS records, that ISP makes the signatures invalid and thus Unbound gives a SERVFAIL when trying to resolve those 
+2016-03-26 14:54:00	mark-otaris	domains.
+2016-03-26 14:54:13	mark-otaris	It turns out melpa.org, elpa.gnu.org and org-mode.org have DNSSEC (how they all come to have it I don't know)
+2016-03-26 14:54:29	mark-otaris	so they got a SERVFAIL and weren't able to resolve, and thus of course Emacs wasn't able to connect to them and download packages
+2016-03-26 14:55:34	mark-otaris	the solution in my case was to run tor-resolve melpa.org, tor-resolve elpa.gnu.org, tor-resolve elpa.org-mode.org and to add the IP addresses with the domain names to /etc/hosts
+2016-03-26 14:56:09	mark-otaris	and since the container was running on the Fedora system, it used the local DNS resolver as well and had the same problem
+2016-03-26 14:57:13	travisbhartwell	Sounds overly complicated :)
+2016-03-26 14:57:29	mark-otaris	It is, I doubt anyone else is ever going to get this issue.
+2016-03-26 14:58:36	mark-otaris	that said I have another issue now... https://clbin.com/WG2Nyb.png
+2016-03-26 14:59:13	NJBS	@mark-otaris That package is fetched using git so look for an issue there.
+2016-03-26 14:59:26	mark-otaris	Which host is it fetched from?
+2016-03-26 14:59:42	NJBS	github
+2016-03-26 14:59:51	mark-otaris	oh
+2016-03-26 14:59:54	mark-otaris	github.com has DNSSEC too
+2016-03-26 15:00:05	mark-otaris	.. I'm just going to use arm to get another Tor path and not have those problems anymore
+2016-03-26 15:00:14	NJBS	:smile: 
+2016-03-26 15:05:25	bsteindorf	when i want to write a mode (for syntaxhighlighting) do i write a layer in spacemacs or a mode?
+2016-03-26 15:05:59	mark-otaris	bsteindorf: a mode, but you can write a layer as well
+2016-03-26 15:06:46	mark-otaris	layers depend on modes and add bindings for them, documentation and so on
+2016-03-26 15:06:56	mark-otaris	but they are not the modes themselves, the syntax highlighting is done by the mode and not by the layer
+2016-03-26 15:08:10	bsteindorf	thanks i was a little bit unsure about that
+2016-03-26 15:09:10	NJBS	@bsteindorf This explains it quite well http://spacemacs.org/doc/LAYERS.html
+2016-03-26 15:10:10	mark-otaris	hm, how would I make ERC convert "@nick" to "nick: "?
+2016-03-26 15:17:08	mark-otaris	How can I match a buffer by a regular expression and replace text in it with a regular expression? (e.g. s/^@(\w+)(\s)/\1:\2/g)
+2016-03-26 15:18:02	codedmart	Can I change tab space from 4 to 2 on the fly?
+2016-03-26 15:36:51	gilch	I found evil-visual-mark-mode on melpa. It makes the marks of evil visible. It's normally only active in normal mode. I'd like to only make it active when I'm about to move to or set a mark (i.e., when I press ``` ` ```, `'`, or `m`). Is there a hook for that, or is there some other way to do it?
+2016-03-26 15:43:32	mullr	At the bottom of http://orgmode.org/manual/Internal-links.html it talks about how to do autocompletion for internal links. Is there a way to do this with the spacemacs bindings? I can't seem to find what M-TAB is bound to for org-mode in vanilla emacs. 
+2016-03-26 15:47:48	mullr	.. It may be "pcomplete", perhaps
+2016-03-26 15:53:12	gilch	 @gilch `defadvice` looks promising.
+2016-03-26 16:01:54	choppsv1	I need to figure out how to remap `C-[` from `evil-jump-to-tag` to `gtags-find-tag-definition`
+2016-03-26 16:02:04	choppsv1	global set key doesn't work.
+2016-03-26 16:02:22	choppsv1	oh right I think I need to redefine it for the evil states..
+2016-03-26 16:14:01	choppsv1	hmm still not wokring
+2016-03-26 16:19:37	choppsv1	Also doing `SPC h d m` doesn't seem to even list C-[ even though it's mapped
+2016-03-26 16:19:49	choppsv1	I think the evil state maps confuse that help
+2016-03-26 16:25:51	gitter	[Github] diogob forked syl20bnr/spacemacs: https://github.com/diogob/spacemacs
+2016-03-26 16:29:33	teasp00n	anyone here using this for java dev able to give me a hand getting eclim working on osx?
+2016-03-26 16:29:59	teasp00n	im getting some error about '-command' being an unrecognised flag on some java invocation under the hood
+2016-03-26 16:32:32	choppsv1	well I got it to work by stopping trying to undefine C-] in normal state and instead just did the obvious `    (define-key evil-normal-state-map (kbd "C-]") 'ggtags-find-tag-dwim)`
+2016-03-26 16:33:03	choppsv1	I wish though that I could undefine it instead so that the keymaps below simply took over
+2016-03-26 16:40:20	gitter	[Github] diogob opened a Pull Request to syl20bnr/spacemacs: Setup flycheck-purescript for purescript layer https://github.com/syl20bnr/spacemacs/pull/5605
+2016-03-26 16:51:54	NJBS	@teasp00n See this issue, https://github.com/syl20bnr/spacemacs/issues/5579. I don't have a machine running osx so I'm unable to test further but I wasn't able to reproduce the same issue on neither Linux nor Windows.
+2016-03-26 17:13:17	--	irc: disconnected from server
+2016-03-26 17:15:48	-->	ranranking (ranranking@irc.gitter.im) has joined #syl20bnr/spacemacs
+2016-03-26 17:15:48	--	Topic for #syl20bnr/spacemacs is "A community-driven Emacs distribution - The best editor is neither Emacs nor Vim,  it's Emacs *and* Vim!"
+2016-03-26 17:15:48	--	Channel #syl20bnr/spacemacs: 32 nicks (0 ops, 0 voices, 32 normals)
+2016-03-26 18:11:32	gitter	[Github] arsane starred https://github.com/syl20bnr/spacemacs
+2016-03-26 18:12:23	stockninja	I'm trying to get https://github.com/python-rope/ropemacs working within ropemacs to use its python refactoring features.
+2016-03-26 18:12:23	stockninja	I followed all the instructions:
+2016-03-26 18:12:23	stockninja	- Installed python packages rope and pymacs
+2016-03-26 18:12:23	stockninja	- Added these lines to my spacemacs/user-config:
+2016-03-26 18:12:23	stockninja	```(require 'pymacs)
+2016-03-26 18:12:23	stockninja	(pymacs-load "ropemacs" "rope-")
+2016-03-26 18:12:23	stockninja	```
+2016-03-26 18:12:23	stockninja	But none of the keybindings work and I'm not sure where to begin debugging. Any tips? 
+2016-03-26 18:12:23	stockninja	If I get this working, I'd like to make a rope layer with sensible keybinds ( maybe`SPC m r ...`) which others could use.
+2016-03-26 18:20:16	-->	ranranking (ranranking@irc.gitter.im) has joined #syl20bnr/spacemacs
+2016-03-26 18:20:16	--	Topic for #syl20bnr/spacemacs is "A community-driven Emacs distribution - The best editor is neither Emacs nor Vim,  it's Emacs *and* Vim!"
+2016-03-26 18:20:16	--	Channel #syl20bnr/spacemacs: 32 nicks (0 ops, 0 voices, 32 normals)
+2016-03-26 18:23:24	stockninja	[edit] 
+2016-03-26 18:56:14	gitter	[Github] ashnur commented in syl20bnr/spacemacs on issue: Allow js-mode for JavaScript layer? https://github.com/syl20bnr/spacemacs/issues/4082#issuecomment-201964896
+2016-03-26 19:07:56	gitter	[Github] gilch opened an issue in syl20bnr/spacemacs: Consider changing default dotspacemacs-major-mode-leader-key to "DEL" https://github.com/syl20bnr/spacemacs/issues/5606
+2016-03-26 19:08:54	gitter	[Github] igagen commented in syl20bnr/spacemacs on issue: Unable to activate package 'helm-gitignore', required package 'request-0.1.0' is unavailable https://github.com/syl20bnr/spacemacs/issues/5523#issuecomment-201965872
+2016-03-26 19:18:11	ashnur	I really wish there would be any way to make spacemacs support standard.js 
+2016-03-26 19:21:38	NJBS	@ashnur It should already be supported.
+2016-03-26 19:22:00	NJBS	`SPC e v` in a javascript buffer
+2016-03-26 19:23:03	ashnur	@NJBS SPC e v is undefined
+2016-03-26 19:23:31	ashnur	but i don't just mean the linter, i mean the format, like if I could actually write the kind of code
+2016-03-26 19:24:38	ashnur	sadly, spacemacs is hostile to say the least towards anything javascript, allowing only some limited stuff through js2-mode but other than that, it's probably best if I try to configure vanilla emacs 
+2016-03-26 19:25:00	ashnur	but I would be the happiest if someone would prove me wrong
+2016-03-26 19:29:02	travisbhartwell	Curious, why do you consider Spacemacs hostile towards JS?
+2016-03-26 19:30:46	ashnur	I am guessing because emacs in general is
+2016-03-26 19:30:51	travisbhartwell	(I barely ever edit JS files, so I have no idea)
+2016-03-26 19:31:44	travisbhartwell	What's the ideal JS editing environment at the moment?
+2016-03-26 19:32:00	ashnur	that's an interesting question, what do you mean ideal?
+2016-03-26 19:32:36	ashnur	i have very specific needs that are not covered by the needs of the 80% majority of js devs who just copy paste code from stackoverflow
+2016-03-26 19:33:00	ashnur	primarily I wish to write code like this: http://standardjs.com/
+2016-03-26 19:33:17	travisbhartwell	Well, I mean, I've heard that Emacs doesn't often support the latest JS syntax, etc.
+2016-03-26 19:33:22	travisbhartwell	Is there an editor that keeps up with that?
+2016-03-26 19:33:37	ashnur	but js2-mode, the only js mode supported (more or less) by spacemacs can't deal with that kind of code 
+2016-03-26 19:34:09	ashnur	sublime, atom do, vim never had any issues, not being an operating system :D
+2016-03-26 19:34:25	travisbhartwell	@travisbhartwell nods
+2016-03-26 19:34:40	ashnur	sorry, but it's not about the latest js synta
+2016-03-26 19:34:42	ashnur	[edit] sorry, but it's not about the latest js syntax
+2016-03-26 19:34:56	ashnur	it's about comma first and semicolon-less code
+2016-03-26 19:35:16	ashnur	neither of those are new in any sense of the word
+2016-03-26 19:37:19	travisbhartwell	I'm pretty uneducated when it comes to JS :)
+2016-03-26 19:37:41	ashnur	i think it's just that not many actual js devs use spacemacs. there is probably no one to do it, so I kinda wish I could learn how to do it in like 1-2 hours :P
+2016-03-26 19:38:08	ashnur	but every time i just try to read up on the matter i see a wall of text that would take me weeks just to read and understand it
+2016-03-26 19:39:18	travisbhartwell	Understandable.
+2016-03-26 19:49:12	ZachMassia	Hi guys. I've written a minor-mode for vanilla Emacs, and a user has requested I create a layer for it. 
+2016-03-26 19:49:12	ZachMassia	I've been reading the doc on layers, and I think I've got a general idea of how to go about writing it. 
+2016-03-26 19:49:12	ZachMassia	Now for contributing it, do I create my own repo with the layer first, or simply fork spacemacs and send a PR?
+2016-03-26 19:49:12	ZachMassia	Thanks
+2016-03-26 19:51:46	NJBS	@ZachMassia Fork and PR see [CONTRIBUTING](https://github.com/syl20bnr/spacemacs/blob/master/CONTRIBUTING.org) and the [Beginner's Guide to Contributing a Pull Request to Spacemacs](https://github.com/syl20bnr/spacemacs/wiki/Beginner's-Guide-to-Contributing-a-Pull-Request-to-Spacemacs)
+2016-03-26 19:52:57	ZachMassia	Perfect, thanks for the links @NJBS 
+2016-03-26 19:54:59	gitter	[Github] ZachMassia forked syl20bnr/spacemacs: https://github.com/ZachMassia/spacemacs
+2016-03-26 19:56:58	<--	undefined (undefined@irc.gitter.im) has left #syl20bnr/spacemacs
+2016-03-26 20:04:00	choppsv1	@stockninja back when I used emas+elpy ropemode was so slow and cumbersome that I actually set it up under vim and used that environment soley to do refactoring..
+2016-03-26 20:05:07	choppsv1	it's definitely something you want to only enable when you need it.. but it would be cool if you succeeded :)
+2016-03-26 20:05:51	choppsv1	for debugging, try and get the pymacs version of rebox working maybe, to make sure that aspect of things works.
+2016-03-26 20:18:16	robbyoconnor	Anyone know how to force flycheck to use the project's eslint config? 
+2016-03-26 20:20:52	gitter	[Github] HEMCSEC opened an issue in syl20bnr/spacemacs:  Triple items for some menus in Dired buffers https://github.com/syl20bnr/spacemacs/issues/5607
+2016-03-26 20:26:17	gitter	[Github] JAremko opened an issue in syl20bnr/spacemacs: Spacemacs init error https://github.com/syl20bnr/spacemacs/issues/5608
+2016-03-26 20:32:36	gitter	[Github] NJBS commented in syl20bnr/spacemacs on issue: Spacemacs init error https://github.com/syl20bnr/spacemacs/issues/5608#issuecomment-201973160
+2016-03-26 20:40:17	gitter	[Github] JAremko commented in syl20bnr/spacemacs on issue: Spacemacs init error https://github.com/syl20bnr/spacemacs/issues/5608#issuecomment-201974847
+2016-03-26 21:27:12	gitter	[Github] syl20bnr commented in syl20bnr/spacemacs on issue: Spacemacs init error https://github.com/syl20bnr/spacemacs/issues/5608#issuecomment-201980667
+2016-03-26 21:27:22	gitter	[Github] syl20bnr labeled an issue in syl20bnr/spacemacs: Spacemacs init error https://github.com/syl20bnr/spacemacs/issues/5608
+2016-03-26 21:27:37	gitter	[Github] syl20bnr commented in syl20bnr/spacemacs on issue: Spacemacs init error https://github.com/syl20bnr/spacemacs/issues/5608#issuecomment-201980686
+2016-03-26 21:31:04	gitter	[Github] syl20bnr commented in syl20bnr/spacemacs on issue: Consider changing default dotspacemacs-major-mode-leader-key to "DEL" https://github.com/syl20bnr/spacemacs/issues/5606#issuecomment-201980776
+2016-03-26 21:31:11	gitter	[Github] syl20bnr labeled an issue in syl20bnr/spacemacs: Consider changing default dotspacemacs-major-mode-leader-key to "DEL" https://github.com/syl20bnr/spacemacs/issues/5606
+2016-03-26 21:31:15	gitter	[Github] syl20bnr labeled an issue in syl20bnr/spacemacs: Consider changing default dotspacemacs-major-mode-leader-key to "DEL" https://github.com/syl20bnr/spacemacs/issues/5606
+2016-03-26 21:38:38	zwb-ict	I got Error: (dbus-error "No connection to bus" :session) when I use erc
+2016-03-26 21:38:49	zwb-ict	I’m using MacOS
+2016-03-26 21:39:00	gitter	[Github] JAremko commented in syl20bnr/spacemacs on issue: Spacemacs init error https://github.com/syl20bnr/spacemacs/issues/5608#issuecomment-201980982
+2016-03-26 21:39:00	zwb-ict	and d-bus has been installed by brew
+2016-03-26 21:39:16	zwb-ict	➜  .emacs.d git:(develop) ✗ dbus-monitor
+2016-03-26 21:39:16	zwb-ict	signal time=1459049784.337006 sender=org.freedesktop.DBus -> destination=:1.1 serial=2 path=/org/freedesktop/DBus; interface=org.freedesktop.DBus; member=NameAcquired
+2016-03-26 21:39:16	zwb-ict	   string ":1.1"
+2016-03-26 21:39:16	zwb-ict	signal time=1459049784.337039 sender=org.freedesktop.DBus -> destination=:1.1 serial=4 path=/org/freedesktop/DBus; interface=org.freedesktop.DBus; member=NameLost
+2016-03-26 21:39:16	zwb-ict	   string ":1.1"
+2016-03-26 21:39:31	zwb-ict	Anyone know hot to fix this?
+2016-03-26 22:16:43	gitter	[Github] JAremko commented in syl20bnr/spacemacs on issue: Spacemacs init error https://github.com/syl20bnr/spacemacs/issues/5608#issuecomment-201985848
+2016-03-26 22:39:10	coventry	How can I disable desktop notifications from erc?
+2016-03-26 22:40:33	zwb-ict	@coventry  In Mac OS, remove terminal-notifier
+2016-03-26 22:48:07	coventry	Thanks, @zwb-ict, but this is actually happening in ubuntu.
+2016-03-26 22:55:12	zwb-ict	@coventry Sorry, I don’t use Linux some years, so I don’t know
+2016-03-26 22:55:43	gitter	[Github] JAremko commented in syl20bnr/spacemacs on issue: Spacemacs init error https://github.com/syl20bnr/spacemacs/issues/5608#issuecomment-201992015
+2016-03-26 23:00:09	coventry	No worries.
+2016-03-26 23:26:38	gitter	[Github] JAremko starred https://github.com/syl20bnr/spacemacs
+2016-03-26 23:27:11	JAremko	JAremko starred syl20bnr/spacemacs  http://bogleech.com/pokemon/slowpoke.png
+2016-03-26 23:28:45	JAremko	better late than never :smile: 
+2016-03-27 00:30:14	gitter	[Github] j-martin starred https://github.com/syl20bnr/spacemacs

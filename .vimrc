@@ -27,8 +27,8 @@
     " R
     call dein#add('jalvesaq/Nvim-R', {'on_ft': ['r','R','rmd']})
     " Markdown
-    call dein#add('euclio/vim-markdown-composer', {'on_ft':['md']})
-    call dein#add('plasticboy/vim-markdown', {'on_ft':['md'], 'build': 'cargo build --release'})
+    call dein#add('euclio/vim-markdown-composer', {'on_ft':['md'], 'build': 'cargo build --release'})
+    call dein#add('plasticboy/vim-markdown', {'on_ft':['md']})
     call dein#add('jtratner/vim-flavored-markdown', {'on_ft':['md']})
   
    " colorscheme & syntax highlighting
@@ -250,6 +250,7 @@ map <Leader>qq :q<CR>
 nnoremap <Leader>t :tabe<CR>
 nnoremap <Leader>h :h 
 nnoremap <Leader>o :e 
+nnoremap <Leader>i : 
 map <Leader>s /
 nnoremap <Leader>ma :make<CR>
 inoremap jj <Esc>
@@ -276,7 +277,7 @@ noremap <right> 3<C-W>>
 
 " Neovim terminal mapping
 if has ('nvim')
-  tnoremap qq <c-\><c-n>
+  tnoremap <LocalLeader><esc> <c-\><c-n>
   tnoremap <c-k> <up>
   tnoremap <c-j> <down>
   nnoremap <c-q> :15split<cr>:TmuxNavigateRight<cr>:terminal<cr>
@@ -314,9 +315,9 @@ nmap <m-9> 9gt
 
 " Markdown ------------------------------------------------------------------{{{
 
-  autocmd BufRead,BufNewFile *.md setlocal spell complete+=kspell
-  autocmd BufNewFile,BufRead *.md filetype indent off 
-  autocmd Bufreadpre *.md set wrap linebreak nolist
+  autocmd BufRead,BufNewFile *.md,*.mkd,*.txt setlocal spell complete+=kspell
+  autocmd BufNewFile,BufRead *.md,*.mkd,*.txt filetype indent off 
+  autocmd Bufreadpre *.md,*.mkd,*.txt set wrap linebreak nolist
 
   let g:markdown_composer_autostart = 0
   nnoremap <Leader>md :ComposerStart<CR>

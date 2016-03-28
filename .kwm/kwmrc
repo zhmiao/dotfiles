@@ -43,11 +43,13 @@ kwmc config prefix-timeout 0.75
 kwmc config float-non-resizable on
 
 # Set focus-follows-mouse-mode to autoraise
-kwmc config focus autoraise
+# kwmc config focus autoraise
+kwmc config focus off
+# kwmc config mouse-follows off
 
 # Focus-follows-mouse is temporarily disabled when
 # a floating window has focus
-kwmc config focus standby-on-float on
+kwmc config focus standby-on-float off
 
 # The mouse will automatically move to the center
 # of the focused window
@@ -92,17 +94,17 @@ kwmc config float Photoshop
 
 # Enable border for focused window
 kwmc config focused-border on
-kwmc config focused-border size 2
+kwmc config focused-border size 1.5
 kwmc config focused-border color FFEBD071
 
 # Enable border for marked window
 kwmc config marked-border on
-kwmc config marked-border size 2
+kwmc config marked-border size 1.5
 kwmc config marked-border color FFCC5577
 
 # Change border color when prefix-key is active
 kwmc config prefix-border on
-kwmc config prefix-border size 2
+kwmc config prefix-border size 1.5
 kwmc config prefix-border color FF458588
 
 ########  Default Keybinds ########
@@ -129,12 +131,12 @@ kwmc bind cmd+ctrl-d space -t float
 kwmc bind cmd+ctrl-r tree -r 90
 
 # Modify Container
-kwmc bind prefix-s window -c split
-kwmc bind prefix-h window -c reduce 0.05
-kwmc bind prefix-l window -c expand 0.05
+kwmc bind prefix-return window -c split
+kwmc bind alt-h window -c reduce 0.05
+kwmc bind alt-l window -c expand 0.05
 
 # Set Temporary Window Container
-kwmc bind prefix-f window -t fullscreen
+kwmc bind prefix-space window -t fullscreen
 kwmc bind prefix-p window -t parent
 kwmc bind prefix-w window -t float
 
@@ -146,21 +148,21 @@ kwmc bind cmd+alt+ctrl-j mark -w south wrap
 kwmc bind cmd+alt+ctrl-k mark -w north wrap
 
 # Give Focus To Window
-kwmc bind ctrl-h window -f west
-kwmc bind ctrl-l window -f east
-kwmc bind ctrl-j window -f south
-kwmc bind ctrl-k window -f north
+kwmc bind prefix-h window -f west
+kwmc bind prefix-l window -f east
+kwmc bind prefix-j window -f south
+kwmc bind prefix-k window -f north
 
 # Give Focus To Screen
-kwmc bind alt-1 screen -f 0
-kwmc bind alt-2 screen -f 1
-kwmc bind alt-3 screen -f 2
+kwmc bind prefix-1 screen -f 0
+kwmc bind prefix-2 screen -f 1
+kwmc bind prefix-3 screen -f 2
 
 # Move Focused Window
-kwmc bind alt-h window -s west
-kwmc bind alt-j window -s south
-kwmc bind alt-k window -s north
-kwmc bind alt-l window -s east
+kwmc bind ctrl-h window -s west
+kwmc bind ctrl-j window -s south
+kwmc bind ctrl-k window -s north
+kwmc bind ctrl-l window -s east
 
 # Swap With Marked Window
 kwmc bind cmd-tab window -s mark
