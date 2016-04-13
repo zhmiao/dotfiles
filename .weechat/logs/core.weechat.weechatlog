@@ -684,3 +684,2245 @@
 2016-03-27 15:15:31		script: 300 scripts for WeeChat 1.4
 2016-03-27 15:15:31		Plugins loaded: alias, charset, exec, fifo, irc, logger, perl, python, relay, script, tcl, trigger, xfer
 2016-03-27 16:04:29		irc: server wechat added
+2016-03-27 22:14:52		python: scripts unloaded
+2016-03-27 22:29:44		[vimode.py] Problematic keybindings detected:
+2016-03-27 22:29:44		[vimode.py]     meta-jmeta-f -> /buffer -
+2016-03-27 22:29:44		[vimode.py]     meta-jmeta-l -> /buffer +
+2016-03-27 22:29:44		[vimode.py]     meta-jmeta-r -> /server raw
+2016-03-27 22:29:44		[vimode.py]     meta-jmeta-s -> /server jump
+2016-03-27 22:29:44		[vimode.py]     meta-wmeta-meta2-A -> /window up
+2016-03-27 22:29:44		[vimode.py]     meta-wmeta-meta2-B -> /window down
+2016-03-27 22:29:44		[vimode.py]     meta-wmeta-meta2-C -> /window right
+2016-03-27 22:29:44		[vimode.py]     meta-wmeta-meta2-D -> /window left
+2016-03-27 22:29:44		[vimode.py]     meta-wmeta2-1;3A -> /window up
+2016-03-27 22:29:44		[vimode.py]     meta-wmeta2-1;3B -> /window down
+2016-03-27 22:29:44		[vimode.py]     meta-wmeta2-1;3C -> /window right
+2016-03-27 22:29:44		[vimode.py]     meta-wmeta2-1;3D -> /window left
+2016-03-27 22:29:44		[vimode.py]     meta-wmeta-b -> /window balance
+2016-03-27 22:29:44		[vimode.py]     meta-wmeta-s -> /window swap
+2016-03-27 22:29:44		[vimode.py] These keybindings may conflict with vimode.
+2016-03-27 22:29:44		[vimode.py] You can remove problematic key bindings and add recommended ones by using /vimode bind_keys, or only list them with /vimode bind_keys --list
+2016-03-27 22:29:44		[vimode.py] For help, see: https://github.com/GermainZ/weechat-vimode/blob/master/FAQ#problematic-key-bindings.md
+2016-03-27 22:29:44		[vimode.py] To force disable warnings, you can set plugins.var.python.vimode.no_warn to 'on'
+2016-03-27 22:29:44		python scripts loaded: vimode
+2016-03-27 22:29:44		script: 300 scripts for WeeChat 1.4
+2016-03-27 22:29:44		Plugins loaded: alias, charset, exec, fifo, irc, logger, perl, python, relay, script, tcl, trigger, xfer
+2016-03-27 22:29:54		irc: server wechat has been deleted
+2016-03-27 22:30:23		irc: server we added
+2016-03-27 22:31:06		irc: server we has been deleted
+2016-03-27 22:31:19		irc: server we added
+2016-03-27 22:38:52		python: scripts unloaded
+2016-03-27 22:42:15		[vimode.py] Problematic keybindings detected:
+2016-03-27 22:42:15		[vimode.py]     meta-jmeta-f -> /buffer -
+2016-03-27 22:42:15		[vimode.py]     meta-jmeta-l -> /buffer +
+2016-03-27 22:42:15		[vimode.py]     meta-jmeta-r -> /server raw
+2016-03-27 22:42:15		[vimode.py]     meta-jmeta-s -> /server jump
+2016-03-27 22:42:15		[vimode.py]     meta-wmeta-meta2-A -> /window up
+2016-03-27 22:42:15		[vimode.py]     meta-wmeta-meta2-B -> /window down
+2016-03-27 22:42:15		[vimode.py]     meta-wmeta-meta2-C -> /window right
+2016-03-27 22:42:15		[vimode.py]     meta-wmeta-meta2-D -> /window left
+2016-03-27 22:42:15		[vimode.py]     meta-wmeta2-1;3A -> /window up
+2016-03-27 22:42:15		[vimode.py]     meta-wmeta2-1;3B -> /window down
+2016-03-27 22:42:15		[vimode.py]     meta-wmeta2-1;3C -> /window right
+2016-03-27 22:42:15		[vimode.py]     meta-wmeta2-1;3D -> /window left
+2016-03-27 22:42:15		[vimode.py]     meta-wmeta-b -> /window balance
+2016-03-27 22:42:15		[vimode.py]     meta-wmeta-s -> /window swap
+2016-03-27 22:42:15		[vimode.py] These keybindings may conflict with vimode.
+2016-03-27 22:42:15		[vimode.py] You can remove problematic key bindings and add recommended ones by using /vimode bind_keys, or only list them with /vimode bind_keys --list
+2016-03-27 22:42:15		[vimode.py] For help, see: https://github.com/GermainZ/weechat-vimode/blob/master/FAQ#problematic-key-bindings.md
+2016-03-27 22:42:15		[vimode.py] To force disable warnings, you can set plugins.var.python.vimode.no_warn to 'on'
+2016-03-27 22:42:15		python scripts loaded: vimode
+2016-03-27 22:42:15		script: 300 scripts for WeeChat 1.4
+2016-03-27 22:42:15		Plugins loaded: alias, charset, exec, fifo, irc, logger, perl, python, relay, script, tcl, trigger, xfer
+2016-03-27 22:48:01	=!=	Error: unknown command "/exist" (type /help for help)
+2016-03-27 22:48:05		python: scripts unloaded
+2016-03-28 10:20:23		[vimode.py] Problematic keybindings detected:
+2016-03-28 10:20:23		[vimode.py]     meta-jmeta-f -> /buffer -
+2016-03-28 10:20:23		[vimode.py]     meta-jmeta-l -> /buffer +
+2016-03-28 10:20:23		[vimode.py]     meta-jmeta-r -> /server raw
+2016-03-28 10:20:23		[vimode.py]     meta-jmeta-s -> /server jump
+2016-03-28 10:20:23		[vimode.py]     meta-wmeta-meta2-A -> /window up
+2016-03-28 10:20:23		[vimode.py]     meta-wmeta-meta2-B -> /window down
+2016-03-28 10:20:23		[vimode.py]     meta-wmeta-meta2-C -> /window right
+2016-03-28 10:20:23		[vimode.py]     meta-wmeta-meta2-D -> /window left
+2016-03-28 10:20:23		[vimode.py]     meta-wmeta2-1;3A -> /window up
+2016-03-28 10:20:23		[vimode.py]     meta-wmeta2-1;3B -> /window down
+2016-03-28 10:20:23		[vimode.py]     meta-wmeta2-1;3C -> /window right
+2016-03-28 10:20:23		[vimode.py]     meta-wmeta2-1;3D -> /window left
+2016-03-28 10:20:23		[vimode.py]     meta-wmeta-b -> /window balance
+2016-03-28 10:20:23		[vimode.py]     meta-wmeta-s -> /window swap
+2016-03-28 10:20:23		[vimode.py] These keybindings may conflict with vimode.
+2016-03-28 10:20:23		[vimode.py] You can remove problematic key bindings and add recommended ones by using /vimode bind_keys, or only list them with /vimode bind_keys --list
+2016-03-28 10:20:23		[vimode.py] For help, see: https://github.com/GermainZ/weechat-vimode/blob/master/FAQ#problematic-key-bindings.md
+2016-03-28 10:20:23		[vimode.py] To force disable warnings, you can set plugins.var.python.vimode.no_warn to 'on'
+2016-03-28 10:20:23		python scripts loaded: vimode
+2016-03-28 10:20:23		script: 300 scripts for WeeChat 1.4
+2016-03-28 10:20:23		Plugins loaded: alias, charset, exec, fifo, irc, logger, perl, python, relay, script, tcl, trigger, xfer
+2016-03-28 10:33:57		python: scripts unloaded
+2016-03-28 10:41:19		[vimode.py] Problematic keybindings detected:
+2016-03-28 10:41:19		[vimode.py]     meta-jmeta-f -> /buffer -
+2016-03-28 10:41:19		[vimode.py]     meta-jmeta-l -> /buffer +
+2016-03-28 10:41:19		[vimode.py]     meta-jmeta-r -> /server raw
+2016-03-28 10:41:19		[vimode.py]     meta-jmeta-s -> /server jump
+2016-03-28 10:41:19		[vimode.py]     meta-wmeta-meta2-A -> /window up
+2016-03-28 10:41:19		[vimode.py]     meta-wmeta-meta2-B -> /window down
+2016-03-28 10:41:19		[vimode.py]     meta-wmeta-meta2-C -> /window right
+2016-03-28 10:41:19		[vimode.py]     meta-wmeta-meta2-D -> /window left
+2016-03-28 10:41:19		[vimode.py]     meta-wmeta2-1;3A -> /window up
+2016-03-28 10:41:19		[vimode.py]     meta-wmeta2-1;3B -> /window down
+2016-03-28 10:41:19		[vimode.py]     meta-wmeta2-1;3C -> /window right
+2016-03-28 10:41:19		[vimode.py]     meta-wmeta2-1;3D -> /window left
+2016-03-28 10:41:19		[vimode.py]     meta-wmeta-b -> /window balance
+2016-03-28 10:41:19		[vimode.py]     meta-wmeta-s -> /window swap
+2016-03-28 10:41:19		[vimode.py] These keybindings may conflict with vimode.
+2016-03-28 10:41:19		[vimode.py] You can remove problematic key bindings and add recommended ones by using /vimode bind_keys, or only list them with /vimode bind_keys --list
+2016-03-28 10:41:19		[vimode.py] For help, see: https://github.com/GermainZ/weechat-vimode/blob/master/FAQ#problematic-key-bindings.md
+2016-03-28 10:41:19		[vimode.py] To force disable warnings, you can set plugins.var.python.vimode.no_warn to 'on'
+2016-03-28 10:41:19		python scripts loaded: vimode
+2016-03-28 10:41:19		script: 300 scripts for WeeChat 1.4
+2016-03-28 10:41:19		Plugins loaded: alias, charset, exec, fifo, irc, logger, perl, python, relay, script, tcl, trigger, xfer
+2016-03-28 10:41:37		python: scripts unloaded
+2016-03-28 10:42:14		[vimode.py] Problematic keybindings detected:
+2016-03-28 10:42:14		[vimode.py]     meta-jmeta-f -> /buffer -
+2016-03-28 10:42:14		[vimode.py]     meta-jmeta-l -> /buffer +
+2016-03-28 10:42:14		[vimode.py]     meta-jmeta-r -> /server raw
+2016-03-28 10:42:14		[vimode.py]     meta-jmeta-s -> /server jump
+2016-03-28 10:42:14		[vimode.py]     meta-wmeta-meta2-A -> /window up
+2016-03-28 10:42:14		[vimode.py]     meta-wmeta-meta2-B -> /window down
+2016-03-28 10:42:14		[vimode.py]     meta-wmeta-meta2-C -> /window right
+2016-03-28 10:42:14		[vimode.py]     meta-wmeta-meta2-D -> /window left
+2016-03-28 10:42:14		[vimode.py]     meta-wmeta2-1;3A -> /window up
+2016-03-28 10:42:14		[vimode.py]     meta-wmeta2-1;3B -> /window down
+2016-03-28 10:42:14		[vimode.py]     meta-wmeta2-1;3C -> /window right
+2016-03-28 10:42:14		[vimode.py]     meta-wmeta2-1;3D -> /window left
+2016-03-28 10:42:14		[vimode.py]     meta-wmeta-b -> /window balance
+2016-03-28 10:42:14		[vimode.py]     meta-wmeta-s -> /window swap
+2016-03-28 10:42:14		[vimode.py] These keybindings may conflict with vimode.
+2016-03-28 10:42:14		[vimode.py] You can remove problematic key bindings and add recommended ones by using /vimode bind_keys, or only list them with /vimode bind_keys --list
+2016-03-28 10:42:14		[vimode.py] For help, see: https://github.com/GermainZ/weechat-vimode/blob/master/FAQ#problematic-key-bindings.md
+2016-03-28 10:42:14		[vimode.py] To force disable warnings, you can set plugins.var.python.vimode.no_warn to 'on'
+2016-03-28 10:42:14		python scripts loaded: vimode
+2016-03-28 10:42:14		script: 300 scripts for WeeChat 1.4
+2016-03-28 10:42:14		Plugins loaded: alias, charset, exec, fifo, irc, logger, perl, python, relay, script, tcl, trigger, xfer
+2016-03-28 10:42:20	=!=	Error: option "gitter" not found
+2016-03-28 10:43:44	=!=	Error: option "gitter.autoconnect" not found
+2016-03-28 10:43:53	=!=	You can not write text in this buffer
+2016-03-28 10:43:57		[core]
+2016-03-28 10:43:57		  away     color    debug    help     key      mute     proxy    repeat   set      uptime   window 
+2016-03-28 10:43:57		  bar      command  eval     history  layout   plugin   quit     save     unset    version
+2016-03-28 10:43:57		  buffer   cursor   filter   input    mouse    print    reload   secure   upgrade  wait   
+2016-03-28 10:43:57		[alias]
+2016-03-28 10:43:57		  AAWAY    AMSG     BYE      CL       IG       KB       MSGBUF   Q        SIGNOFF  UMODE    WC       WW     
+2016-03-28 10:43:57		  alias    ANICK    C        CLOSE    J        LEAVE    MUB      REDRAW   T        V        WI     
+2016-03-28 10:43:57		  AME      BEEP     CHAT     EXIT     K        M        N        SAY      UB       W        WII    
+2016-03-28 10:43:57		[charset]
+2016-03-28 10:43:57		  charset
+2016-03-28 10:43:57		[exec]
+2016-03-28 10:43:57		  exec
+2016-03-28 10:43:57		[fifo]
+2016-03-28 10:43:57		  fifo
+2016-03-28 10:43:57		[irc]
+2016-03-28 10:43:57		  admin       cycle       ignore      links       names       pong        sajoin      squery      unquiet     whois     
+2016-03-28 10:43:57		  allchan     dcc         info        list        nick        query       samode      squit       userhost    whowas    
+2016-03-28 10:43:57		  allpv       dehalfop    invite      lusers      notice      quiet       sanick      stats       users     
+2016-03-28 10:43:57		  allserv     deop        ison        map         notify      quote       sapart      summon      version   
+2016-03-28 10:43:57		  ban         devoice     join        me          op          reconnect   saquit      time        voice     
+2016-03-28 10:43:57		  cap         die         kick        mode        oper        rehash      server      topic       wallchops 
+2016-03-28 10:43:57		  connect     disconnect  kickban     motd        part        remove      service     trace       wallops   
+2016-03-28 10:43:57		  ctcp        halfop      kill        msg         ping        restart     servlist    unban       who       
+2016-03-28 10:43:57		[logger]
+2016-03-28 10:43:57		  logger
+2016-03-28 10:43:57		[perl]
+2016-03-28 10:43:57		  perl
+2016-03-28 10:43:57		[python]
+2016-03-28 10:43:57		  python  vimode
+2016-03-28 10:43:57		[relay]
+2016-03-28 10:43:57		  relay
+2016-03-28 10:43:57		[script]
+2016-03-28 10:43:57		  script
+2016-03-28 10:43:57		[tcl]
+2016-03-28 10:43:57		  tcl
+2016-03-28 10:43:57		[trigger]
+2016-03-28 10:43:57		  trigger
+2016-03-28 10:43:57		[xfer]
+2016-03-28 10:43:57		  me  xfer
+2016-03-28 10:44:01	=!=	You can not write text in this buffer
+2016-03-28 10:44:09		[core]  /set  [<option> [<value>]]
+2016-03-28 10:44:09		              diff [<option> [<option>...]]
+2016-03-28 10:44:09		              env [<variable> [<value>]]
+2016-03-28 10:44:09		set config options and environment variables
+2016-03-28 10:44:09		option: name of an option (wildcard "*" is allowed)
+2016-03-28 10:44:09		 value: new value for option, according to type:
+2016-03-28 10:44:09		          boolean: on, off or toggle
+2016-03-28 10:44:09		          integer: number, ++number or --number
+2016-03-28 10:44:09		           string: any string ("" for empty string)
+2016-03-28 10:44:09		            color: color name, ++number or --number
+2016-03-28 10:44:09		        Note: for all types, you can use null to remove option value (undefined value). This works only for some special plugin variables.
+2016-03-28 10:44:09		  diff: display only changed options
+2016-03-28 10:44:09		   env: display or set an environment variable (use value "" to unset a variable)
+2016-03-28 10:44:09		Examples:
+2016-03-28 10:44:09		  display options about highlight:
+2016-03-28 10:44:09		    /set *highlight*
+2016-03-28 10:44:09		  add a word to highlight:
+2016-03-28 10:44:09		    /set weechat.look.highlight "word"
+2016-03-28 10:44:09		  display changed options:
+2016-03-28 10:44:09		    /set diff
+2016-03-28 10:44:09		  display changed options in irc plugin:
+2016-03-28 10:44:09		    /set diff irc.*
+2016-03-28 10:44:09		  display value of environment variable LANG:
+2016-03-28 10:44:09		    /set env LANG
+2016-03-28 10:44:09		  set environment variable LANG and use it:
+2016-03-28 10:44:09		    /set env LANG fr_FR.UTF-8
+2016-03-28 10:44:09		    /upgrade
+2016-03-28 10:44:09		  unset environment variable ABC:
+2016-03-28 10:44:09		    /set env ABC ""
+2016-03-28 10:44:22	=!=	No help available, "autoconnect" is not a command or an option
+2016-03-28 10:44:37		[irc]  /server  list|listfull [<server>]
+2016-03-28 10:44:37		                add <server> <hostname>[/<port>] [-temp] [-<option>[=<value>]] [-no<option>]
+2016-03-28 10:44:37		                copy|rename <server> <new_name>
+2016-03-28 10:44:37		                reorder <server> [<server>...]
+2016-03-28 10:44:37		                del|keep <server>
+2016-03-28 10:44:37		                deloutq|jump|raw
+2016-03-28 10:44:37		list, add or remove IRC servers
+2016-03-28 10:44:37		    list: list servers (without argument, this list is displayed)
+2016-03-28 10:44:37		listfull: list servers with detailed info for each server
+2016-03-28 10:44:37		     add: add a new server
+2016-03-28 10:44:37		  server: server name, for internal and display use
+2016-03-28 10:44:37		hostname: name or IP address of server, with optional port (default: 6667), many addresses can be separated by a comma
+2016-03-28 10:44:37		    temp: add a temporary server (not saved)
+2016-03-28 10:44:37		  option: set option for server (for boolean option, value can be omitted)
+2016-03-28 10:44:37		nooption: set boolean option to 'off' (for example: -nossl)
+2016-03-28 10:44:37		    copy: duplicate a server
+2016-03-28 10:44:37		  rename: rename a server
+2016-03-28 10:44:37		 reorder: reorder list of servers
+2016-03-28 10:44:37		    keep: keep server in config file (for temporary servers only)
+2016-03-28 10:44:37		     del: delete a server
+2016-03-28 10:44:37		 deloutq: delete messages out queue for all servers (all messages WeeChat is currently sending)
+2016-03-28 10:44:37		    jump: jump to server buffer
+2016-03-28 10:44:37		     raw: open buffer with raw IRC data
+2016-03-28 10:44:37		Examples:
+2016-03-28 10:44:37		  /server listfull
+2016-03-28 10:44:37		  /server add freenode chat.freenode.net
+2016-03-28 10:44:37		  /server add freenode chat.freenode.net/6697 -ssl -autoconnect
+2016-03-28 10:44:37		  /server add chatspike irc.chatspike.net/6667,irc.duckspike.net/6667
+2016-03-28 10:44:37		  /server copy freenode freenode-test
+2016-03-28 10:44:37		  /server rename freenode-test freenode2
+2016-03-28 10:44:37		  /server reorder freenode2 freenode
+2016-03-28 10:44:37		  /server del freenode
+2016-03-28 10:44:37		  /server deloutq
+2016-03-28 10:44:43		All servers:
+2016-03-28 10:44:43		   freenode
+2016-03-28 10:44:43		   gitter
+2016-03-28 10:44:43		   we
+2016-03-28 10:45:25	=!=	You can not write text in this buffer
+2016-03-28 10:45:36		irc: server gitter has been deleted
+2016-03-28 10:45:43	=!=	Error: unknown command "/git" (type /help for help)
+2016-03-28 10:45:48		irc: server we has been deleted
+2016-03-28 10:47:23		irc: server gitter added
+2016-03-28 10:47:42		python: scripts unloaded
+2016-03-28 10:47:44		[vimode.py] Problematic keybindings detected:
+2016-03-28 10:47:44		[vimode.py]     meta-jmeta-f -> /buffer -
+2016-03-28 10:47:44		[vimode.py]     meta-jmeta-l -> /buffer +
+2016-03-28 10:47:44		[vimode.py]     meta-jmeta-r -> /server raw
+2016-03-28 10:47:44		[vimode.py]     meta-jmeta-s -> /server jump
+2016-03-28 10:47:44		[vimode.py]     meta-wmeta-meta2-A -> /window up
+2016-03-28 10:47:44		[vimode.py]     meta-wmeta-meta2-B -> /window down
+2016-03-28 10:47:44		[vimode.py]     meta-wmeta-meta2-C -> /window right
+2016-03-28 10:47:44		[vimode.py]     meta-wmeta-meta2-D -> /window left
+2016-03-28 10:47:44		[vimode.py]     meta-wmeta2-1;3A -> /window up
+2016-03-28 10:47:44		[vimode.py]     meta-wmeta2-1;3B -> /window down
+2016-03-28 10:47:44		[vimode.py]     meta-wmeta2-1;3C -> /window right
+2016-03-28 10:47:44		[vimode.py]     meta-wmeta2-1;3D -> /window left
+2016-03-28 10:47:44		[vimode.py]     meta-wmeta-b -> /window balance
+2016-03-28 10:47:44		[vimode.py]     meta-wmeta-s -> /window swap
+2016-03-28 10:47:44		[vimode.py] These keybindings may conflict with vimode.
+2016-03-28 10:47:44		[vimode.py] You can remove problematic key bindings and add recommended ones by using /vimode bind_keys, or only list them with /vimode bind_keys --list
+2016-03-28 10:47:44		[vimode.py] For help, see: https://github.com/GermainZ/weechat-vimode/blob/master/FAQ#problematic-key-bindings.md
+2016-03-28 10:47:44		[vimode.py] To force disable warnings, you can set plugins.var.python.vimode.no_warn to 'on'
+2016-03-28 10:47:44		python scripts loaded: vimode
+2016-03-28 10:47:44		script: 300 scripts for WeeChat 1.4
+2016-03-28 10:47:44		Plugins loaded: alias, charset, exec, fifo, irc, logger, perl, python, relay, script, tcl, trigger, xfer
+2016-03-28 10:51:26		All servers:
+2016-03-28 10:51:26		   freenode
+2016-03-28 10:51:26		   gitter
+2016-03-28 10:51:34		[irc]  /server  list|listfull [<server>]
+2016-03-28 10:51:34		                add <server> <hostname>[/<port>] [-temp] [-<option>[=<value>]] [-no<option>]
+2016-03-28 10:51:34		                copy|rename <server> <new_name>
+2016-03-28 10:51:34		                reorder <server> [<server>...]
+2016-03-28 10:51:34		                del|keep <server>
+2016-03-28 10:51:34		                deloutq|jump|raw
+2016-03-28 10:51:34		list, add or remove IRC servers
+2016-03-28 10:51:34		    list: list servers (without argument, this list is displayed)
+2016-03-28 10:51:34		listfull: list servers with detailed info for each server
+2016-03-28 10:51:34		     add: add a new server
+2016-03-28 10:51:34		  server: server name, for internal and display use
+2016-03-28 10:51:34		hostname: name or IP address of server, with optional port (default: 6667), many addresses can be separated by a comma
+2016-03-28 10:51:34		    temp: add a temporary server (not saved)
+2016-03-28 10:51:34		  option: set option for server (for boolean option, value can be omitted)
+2016-03-28 10:51:34		nooption: set boolean option to 'off' (for example: -nossl)
+2016-03-28 10:51:34		    copy: duplicate a server
+2016-03-28 10:51:34		  rename: rename a server
+2016-03-28 10:51:34		 reorder: reorder list of servers
+2016-03-28 10:51:34		    keep: keep server in config file (for temporary servers only)
+2016-03-28 10:51:34		     del: delete a server
+2016-03-28 10:51:34		 deloutq: delete messages out queue for all servers (all messages WeeChat is currently sending)
+2016-03-28 10:51:34		    jump: jump to server buffer
+2016-03-28 10:51:34		     raw: open buffer with raw IRC data
+2016-03-28 10:51:34		Examples:
+2016-03-28 10:51:34		  /server listfull
+2016-03-28 10:51:34		  /server add freenode chat.freenode.net
+2016-03-28 10:51:34		  /server add freenode chat.freenode.net/6697 -ssl -autoconnect
+2016-03-28 10:51:34		  /server add chatspike irc.chatspike.net/6667,irc.duckspike.net/6667
+2016-03-28 10:51:34		  /server copy freenode freenode-test
+2016-03-28 10:51:34		  /server rename freenode-test freenode2
+2016-03-28 10:51:34		  /server reorder freenode2 freenode
+2016-03-28 10:51:34		  /server del freenode
+2016-03-28 10:51:34		  /server deloutq
+2016-03-28 10:51:47		irc: server gitter has been deleted
+2016-03-28 10:52:38		irc: server gitter added
+2016-03-28 10:52:44	=!=	Error: unknown command "/connenct" (type /help for help)
+2016-03-28 10:53:11		python: scripts unloaded
+2016-03-28 10:54:20		[vimode.py] Problematic keybindings detected:
+2016-03-28 10:54:20		[vimode.py]     meta-jmeta-f -> /buffer -
+2016-03-28 10:54:20		[vimode.py]     meta-jmeta-l -> /buffer +
+2016-03-28 10:54:20		[vimode.py]     meta-jmeta-r -> /server raw
+2016-03-28 10:54:20		[vimode.py]     meta-jmeta-s -> /server jump
+2016-03-28 10:54:20		[vimode.py]     meta-wmeta-meta2-A -> /window up
+2016-03-28 10:54:20		[vimode.py]     meta-wmeta-meta2-B -> /window down
+2016-03-28 10:54:20		[vimode.py]     meta-wmeta-meta2-C -> /window right
+2016-03-28 10:54:20		[vimode.py]     meta-wmeta-meta2-D -> /window left
+2016-03-28 10:54:20		[vimode.py]     meta-wmeta2-1;3A -> /window up
+2016-03-28 10:54:20		[vimode.py]     meta-wmeta2-1;3B -> /window down
+2016-03-28 10:54:20		[vimode.py]     meta-wmeta2-1;3C -> /window right
+2016-03-28 10:54:20		[vimode.py]     meta-wmeta2-1;3D -> /window left
+2016-03-28 10:54:20		[vimode.py]     meta-wmeta-b -> /window balance
+2016-03-28 10:54:20		[vimode.py]     meta-wmeta-s -> /window swap
+2016-03-28 10:54:20		[vimode.py] These keybindings may conflict with vimode.
+2016-03-28 10:54:20		[vimode.py] You can remove problematic key bindings and add recommended ones by using /vimode bind_keys, or only list them with /vimode bind_keys --list
+2016-03-28 10:54:20		[vimode.py] For help, see: https://github.com/GermainZ/weechat-vimode/blob/master/FAQ#problematic-key-bindings.md
+2016-03-28 10:54:20		[vimode.py] To force disable warnings, you can set plugins.var.python.vimode.no_warn to 'on'
+2016-03-28 10:54:20		python scripts loaded: vimode
+2016-03-28 10:54:20		script: 300 scripts for WeeChat 1.4
+2016-03-28 10:54:20		Plugins loaded: alias, charset, exec, fifo, irc, logger, perl, python, relay, script, tcl, trigger, xfer
+2016-03-28 10:54:41		python: scripts unloaded
+2016-03-28 10:55:49		[vimode.py] Problematic keybindings detected:
+2016-03-28 10:55:49		[vimode.py]     meta-jmeta-f -> /buffer -
+2016-03-28 10:55:49		[vimode.py]     meta-jmeta-l -> /buffer +
+2016-03-28 10:55:49		[vimode.py]     meta-jmeta-r -> /server raw
+2016-03-28 10:55:49		[vimode.py]     meta-jmeta-s -> /server jump
+2016-03-28 10:55:49		[vimode.py]     meta-wmeta-meta2-A -> /window up
+2016-03-28 10:55:49		[vimode.py]     meta-wmeta-meta2-B -> /window down
+2016-03-28 10:55:49		[vimode.py]     meta-wmeta-meta2-C -> /window right
+2016-03-28 10:55:49		[vimode.py]     meta-wmeta-meta2-D -> /window left
+2016-03-28 10:55:49		[vimode.py]     meta-wmeta2-1;3A -> /window up
+2016-03-28 10:55:49		[vimode.py]     meta-wmeta2-1;3B -> /window down
+2016-03-28 10:55:49		[vimode.py]     meta-wmeta2-1;3C -> /window right
+2016-03-28 10:55:49		[vimode.py]     meta-wmeta2-1;3D -> /window left
+2016-03-28 10:55:49		[vimode.py]     meta-wmeta-b -> /window balance
+2016-03-28 10:55:49		[vimode.py]     meta-wmeta-s -> /window swap
+2016-03-28 10:55:49		[vimode.py] These keybindings may conflict with vimode.
+2016-03-28 10:55:49		[vimode.py] You can remove problematic key bindings and add recommended ones by using /vimode bind_keys, or only list them with /vimode bind_keys --list
+2016-03-28 10:55:49		[vimode.py] For help, see: https://github.com/GermainZ/weechat-vimode/blob/master/FAQ#problematic-key-bindings.md
+2016-03-28 10:55:49		[vimode.py] To force disable warnings, you can set plugins.var.python.vimode.no_warn to 'on'
+2016-03-28 10:55:49		python scripts loaded: vimode
+2016-03-28 10:55:49		script: 300 scripts for WeeChat 1.4
+2016-03-28 10:55:49		Plugins loaded: alias, charset, exec, fifo, irc, logger, perl, python, relay, script, tcl, trigger, xfer
+2016-03-28 10:56:21		python: scripts unloaded
+2016-03-28 10:57:04		[vimode.py] Problematic keybindings detected:
+2016-03-28 10:57:04		[vimode.py]     meta-jmeta-f -> /buffer -
+2016-03-28 10:57:04		[vimode.py]     meta-jmeta-l -> /buffer +
+2016-03-28 10:57:04		[vimode.py]     meta-jmeta-r -> /server raw
+2016-03-28 10:57:04		[vimode.py]     meta-jmeta-s -> /server jump
+2016-03-28 10:57:04		[vimode.py]     meta-wmeta-meta2-A -> /window up
+2016-03-28 10:57:04		[vimode.py]     meta-wmeta-meta2-B -> /window down
+2016-03-28 10:57:04		[vimode.py]     meta-wmeta-meta2-C -> /window right
+2016-03-28 10:57:04		[vimode.py]     meta-wmeta-meta2-D -> /window left
+2016-03-28 10:57:04		[vimode.py]     meta-wmeta2-1;3A -> /window up
+2016-03-28 10:57:04		[vimode.py]     meta-wmeta2-1;3B -> /window down
+2016-03-28 10:57:04		[vimode.py]     meta-wmeta2-1;3C -> /window right
+2016-03-28 10:57:04		[vimode.py]     meta-wmeta2-1;3D -> /window left
+2016-03-28 10:57:04		[vimode.py]     meta-wmeta-b -> /window balance
+2016-03-28 10:57:04		[vimode.py]     meta-wmeta-s -> /window swap
+2016-03-28 10:57:04		[vimode.py] These keybindings may conflict with vimode.
+2016-03-28 10:57:04		[vimode.py] You can remove problematic key bindings and add recommended ones by using /vimode bind_keys, or only list them with /vimode bind_keys --list
+2016-03-28 10:57:04		[vimode.py] For help, see: https://github.com/GermainZ/weechat-vimode/blob/master/FAQ#problematic-key-bindings.md
+2016-03-28 10:57:04		[vimode.py] To force disable warnings, you can set plugins.var.python.vimode.no_warn to 'on'
+2016-03-28 10:57:04		python scripts loaded: vimode
+2016-03-28 10:57:04		script: 300 scripts for WeeChat 1.4
+2016-03-28 10:57:04		Plugins loaded: alias, charset, exec, fifo, irc, logger, perl, python, relay, script, tcl, trigger, xfer
+2016-03-28 10:57:25	=!=	Error: unknown command "/esit" (type /help for help)
+2016-03-28 10:57:29		python: scripts unloaded
+2016-03-28 11:00:23		[vimode.py] Problematic keybindings detected:
+2016-03-28 11:00:23		[vimode.py]     meta-jmeta-f -> /buffer -
+2016-03-28 11:00:23		[vimode.py]     meta-jmeta-l -> /buffer +
+2016-03-28 11:00:23		[vimode.py]     meta-jmeta-r -> /server raw
+2016-03-28 11:00:23		[vimode.py]     meta-jmeta-s -> /server jump
+2016-03-28 11:00:23		[vimode.py]     meta-wmeta-meta2-A -> /window up
+2016-03-28 11:00:23		[vimode.py]     meta-wmeta-meta2-B -> /window down
+2016-03-28 11:00:23		[vimode.py]     meta-wmeta-meta2-C -> /window right
+2016-03-28 11:00:23		[vimode.py]     meta-wmeta-meta2-D -> /window left
+2016-03-28 11:00:23		[vimode.py]     meta-wmeta2-1;3A -> /window up
+2016-03-28 11:00:23		[vimode.py]     meta-wmeta2-1;3B -> /window down
+2016-03-28 11:00:23		[vimode.py]     meta-wmeta2-1;3C -> /window right
+2016-03-28 11:00:23		[vimode.py]     meta-wmeta2-1;3D -> /window left
+2016-03-28 11:00:23		[vimode.py]     meta-wmeta-b -> /window balance
+2016-03-28 11:00:23		[vimode.py]     meta-wmeta-s -> /window swap
+2016-03-28 11:00:23		[vimode.py] These keybindings may conflict with vimode.
+2016-03-28 11:00:23		[vimode.py] You can remove problematic key bindings and add recommended ones by using /vimode bind_keys, or only list them with /vimode bind_keys --list
+2016-03-28 11:00:23		[vimode.py] For help, see: https://github.com/GermainZ/weechat-vimode/blob/master/FAQ#problematic-key-bindings.md
+2016-03-28 11:00:23		[vimode.py] To force disable warnings, you can set plugins.var.python.vimode.no_warn to 'on'
+2016-03-28 11:00:23		python scripts loaded: vimode
+2016-03-28 11:00:23		script: 300 scripts for WeeChat 1.4
+2016-03-28 11:00:23		Plugins loaded: alias, charset, exec, fifo, irc, logger, perl, python, relay, script, tcl, trigger, xfer
+2016-03-28 11:01:08		python: scripts unloaded
+2016-03-28 11:01:34		[vimode.py] Problematic keybindings detected:
+2016-03-28 11:01:34		[vimode.py]     meta-jmeta-f -> /buffer -
+2016-03-28 11:01:34		[vimode.py]     meta-jmeta-l -> /buffer +
+2016-03-28 11:01:34		[vimode.py]     meta-jmeta-r -> /server raw
+2016-03-28 11:01:34		[vimode.py]     meta-jmeta-s -> /server jump
+2016-03-28 11:01:34		[vimode.py]     meta-wmeta-meta2-A -> /window up
+2016-03-28 11:01:34		[vimode.py]     meta-wmeta-meta2-B -> /window down
+2016-03-28 11:01:34		[vimode.py]     meta-wmeta-meta2-C -> /window right
+2016-03-28 11:01:34		[vimode.py]     meta-wmeta-meta2-D -> /window left
+2016-03-28 11:01:34		[vimode.py]     meta-wmeta2-1;3A -> /window up
+2016-03-28 11:01:34		[vimode.py]     meta-wmeta2-1;3B -> /window down
+2016-03-28 11:01:34		[vimode.py]     meta-wmeta2-1;3C -> /window right
+2016-03-28 11:01:34		[vimode.py]     meta-wmeta2-1;3D -> /window left
+2016-03-28 11:01:34		[vimode.py]     meta-wmeta-b -> /window balance
+2016-03-28 11:01:34		[vimode.py]     meta-wmeta-s -> /window swap
+2016-03-28 11:01:34		[vimode.py] These keybindings may conflict with vimode.
+2016-03-28 11:01:34		[vimode.py] You can remove problematic key bindings and add recommended ones by using /vimode bind_keys, or only list them with /vimode bind_keys --list
+2016-03-28 11:01:34		[vimode.py] For help, see: https://github.com/GermainZ/weechat-vimode/blob/master/FAQ#problematic-key-bindings.md
+2016-03-28 11:01:34		[vimode.py] To force disable warnings, you can set plugins.var.python.vimode.no_warn to 'on'
+2016-03-28 11:01:34		python scripts loaded: vimode
+2016-03-28 11:01:34		script: 300 scripts for WeeChat 1.4
+2016-03-28 11:01:34		Plugins loaded: alias, charset, exec, fifo, irc, logger, perl, python, relay, script, tcl, trigger, xfer
+2016-03-28 11:02:01		python: scripts unloaded
+2016-03-28 11:02:20		[vimode.py] Problematic keybindings detected:
+2016-03-28 11:02:20		[vimode.py]     meta-jmeta-f -> /buffer -
+2016-03-28 11:02:20		[vimode.py]     meta-jmeta-l -> /buffer +
+2016-03-28 11:02:20		[vimode.py]     meta-jmeta-r -> /server raw
+2016-03-28 11:02:20		[vimode.py]     meta-jmeta-s -> /server jump
+2016-03-28 11:02:20		[vimode.py]     meta-wmeta-meta2-A -> /window up
+2016-03-28 11:02:20		[vimode.py]     meta-wmeta-meta2-B -> /window down
+2016-03-28 11:02:20		[vimode.py]     meta-wmeta-meta2-C -> /window right
+2016-03-28 11:02:20		[vimode.py]     meta-wmeta-meta2-D -> /window left
+2016-03-28 11:02:20		[vimode.py]     meta-wmeta2-1;3A -> /window up
+2016-03-28 11:02:20		[vimode.py]     meta-wmeta2-1;3B -> /window down
+2016-03-28 11:02:20		[vimode.py]     meta-wmeta2-1;3C -> /window right
+2016-03-28 11:02:20		[vimode.py]     meta-wmeta2-1;3D -> /window left
+2016-03-28 11:02:20		[vimode.py]     meta-wmeta-b -> /window balance
+2016-03-28 11:02:20		[vimode.py]     meta-wmeta-s -> /window swap
+2016-03-28 11:02:20		[vimode.py] These keybindings may conflict with vimode.
+2016-03-28 11:02:20		[vimode.py] You can remove problematic key bindings and add recommended ones by using /vimode bind_keys, or only list them with /vimode bind_keys --list
+2016-03-28 11:02:20		[vimode.py] For help, see: https://github.com/GermainZ/weechat-vimode/blob/master/FAQ#problematic-key-bindings.md
+2016-03-28 11:02:20		[vimode.py] To force disable warnings, you can set plugins.var.python.vimode.no_warn to 'on'
+2016-03-28 11:02:20		python scripts loaded: vimode
+2016-03-28 11:02:20		script: 300 scripts for WeeChat 1.4
+2016-03-28 11:02:20		Plugins loaded: alias, charset, exec, fifo, irc, logger, perl, python, relay, script, tcl, trigger, xfer
+2016-03-28 11:02:33		python: scripts unloaded
+2016-03-28 11:06:42		[vimode.py] Problematic keybindings detected:
+2016-03-28 11:06:42		[vimode.py]     meta-jmeta-f -> /buffer -
+2016-03-28 11:06:42		[vimode.py]     meta-jmeta-l -> /buffer +
+2016-03-28 11:06:42		[vimode.py]     meta-jmeta-r -> /server raw
+2016-03-28 11:06:42		[vimode.py]     meta-jmeta-s -> /server jump
+2016-03-28 11:06:42		[vimode.py]     meta-wmeta-meta2-A -> /window up
+2016-03-28 11:06:42		[vimode.py]     meta-wmeta-meta2-B -> /window down
+2016-03-28 11:06:42		[vimode.py]     meta-wmeta-meta2-C -> /window right
+2016-03-28 11:06:42		[vimode.py]     meta-wmeta-meta2-D -> /window left
+2016-03-28 11:06:42		[vimode.py]     meta-wmeta2-1;3A -> /window up
+2016-03-28 11:06:42		[vimode.py]     meta-wmeta2-1;3B -> /window down
+2016-03-28 11:06:42		[vimode.py]     meta-wmeta2-1;3C -> /window right
+2016-03-28 11:06:42		[vimode.py]     meta-wmeta2-1;3D -> /window left
+2016-03-28 11:06:42		[vimode.py]     meta-wmeta-b -> /window balance
+2016-03-28 11:06:42		[vimode.py]     meta-wmeta-s -> /window swap
+2016-03-28 11:06:42		[vimode.py] These keybindings may conflict with vimode.
+2016-03-28 11:06:42		[vimode.py] You can remove problematic key bindings and add recommended ones by using /vimode bind_keys, or only list them with /vimode bind_keys --list
+2016-03-28 11:06:42		[vimode.py] For help, see: https://github.com/GermainZ/weechat-vimode/blob/master/FAQ#problematic-key-bindings.md
+2016-03-28 11:06:42		[vimode.py] To force disable warnings, you can set plugins.var.python.vimode.no_warn to 'on'
+2016-03-28 11:06:42		python scripts loaded: vimode
+2016-03-28 11:06:42		script: 300 scripts for WeeChat 1.4
+2016-03-28 11:06:42		Plugins loaded: alias, charset, exec, fifo, irc, logger, perl, python, relay, script, tcl, trigger, xfer
+2016-03-28 11:06:52		python: scripts unloaded
+2016-03-28 11:07:51		[vimode.py] Problematic keybindings detected:
+2016-03-28 11:07:51		[vimode.py]     meta-jmeta-f -> /buffer -
+2016-03-28 11:07:51		[vimode.py]     meta-jmeta-l -> /buffer +
+2016-03-28 11:07:51		[vimode.py]     meta-jmeta-r -> /server raw
+2016-03-28 11:07:51		[vimode.py]     meta-jmeta-s -> /server jump
+2016-03-28 11:07:51		[vimode.py]     meta-wmeta-meta2-A -> /window up
+2016-03-28 11:07:51		[vimode.py]     meta-wmeta-meta2-B -> /window down
+2016-03-28 11:07:51		[vimode.py]     meta-wmeta-meta2-C -> /window right
+2016-03-28 11:07:51		[vimode.py]     meta-wmeta-meta2-D -> /window left
+2016-03-28 11:07:51		[vimode.py]     meta-wmeta2-1;3A -> /window up
+2016-03-28 11:07:51		[vimode.py]     meta-wmeta2-1;3B -> /window down
+2016-03-28 11:07:51		[vimode.py]     meta-wmeta2-1;3C -> /window right
+2016-03-28 11:07:51		[vimode.py]     meta-wmeta2-1;3D -> /window left
+2016-03-28 11:07:51		[vimode.py]     meta-wmeta-b -> /window balance
+2016-03-28 11:07:51		[vimode.py]     meta-wmeta-s -> /window swap
+2016-03-28 11:07:51		[vimode.py] These keybindings may conflict with vimode.
+2016-03-28 11:07:51		[vimode.py] You can remove problematic key bindings and add recommended ones by using /vimode bind_keys, or only list them with /vimode bind_keys --list
+2016-03-28 11:07:51		[vimode.py] For help, see: https://github.com/GermainZ/weechat-vimode/blob/master/FAQ#problematic-key-bindings.md
+2016-03-28 11:07:51		[vimode.py] To force disable warnings, you can set plugins.var.python.vimode.no_warn to 'on'
+2016-03-28 11:07:51		python scripts loaded: vimode
+2016-03-28 11:07:51		script: 300 scripts for WeeChat 1.4
+2016-03-28 11:07:51		Plugins loaded: alias, charset, exec, fifo, irc, logger, perl, python, relay, script, tcl, trigger, xfer
+2016-03-28 14:41:19		python: scripts unloaded
+2016-03-28 14:41:56		[vimode.py] Problematic keybindings detected:
+2016-03-28 14:41:56		[vimode.py]     meta-jmeta-f -> /buffer -
+2016-03-28 14:41:56		[vimode.py]     meta-jmeta-l -> /buffer +
+2016-03-28 14:41:56		[vimode.py]     meta-jmeta-r -> /server raw
+2016-03-28 14:41:56		[vimode.py]     meta-jmeta-s -> /server jump
+2016-03-28 14:41:56		[vimode.py]     meta-wmeta-meta2-A -> /window up
+2016-03-28 14:41:56		[vimode.py]     meta-wmeta-meta2-B -> /window down
+2016-03-28 14:41:56		[vimode.py]     meta-wmeta-meta2-C -> /window right
+2016-03-28 14:41:56		[vimode.py]     meta-wmeta-meta2-D -> /window left
+2016-03-28 14:41:56		[vimode.py]     meta-wmeta2-1;3A -> /window up
+2016-03-28 14:41:56		[vimode.py]     meta-wmeta2-1;3B -> /window down
+2016-03-28 14:41:56		[vimode.py]     meta-wmeta2-1;3C -> /window right
+2016-03-28 14:41:56		[vimode.py]     meta-wmeta2-1;3D -> /window left
+2016-03-28 14:41:56		[vimode.py]     meta-wmeta-b -> /window balance
+2016-03-28 14:41:56		[vimode.py]     meta-wmeta-s -> /window swap
+2016-03-28 14:41:56		[vimode.py] These keybindings may conflict with vimode.
+2016-03-28 14:41:56		[vimode.py] You can remove problematic key bindings and add recommended ones by using /vimode bind_keys, or only list them with /vimode bind_keys --list
+2016-03-28 14:41:56		[vimode.py] For help, see: https://github.com/GermainZ/weechat-vimode/blob/master/FAQ#problematic-key-bindings.md
+2016-03-28 14:41:56		[vimode.py] To force disable warnings, you can set plugins.var.python.vimode.no_warn to 'on'
+2016-03-28 14:41:56		python scripts loaded: vimode
+2016-03-28 14:41:56		script: downloading list of scripts...
+2016-03-28 14:41:56		Plugins loaded: alias, charset, exec, fifo, irc, logger, perl, python, relay, script, tcl, trigger, xfer
+2016-03-28 14:41:57		script: 300 scripts for WeeChat 1.4
+2016-03-28 14:42:29		python: scripts unloaded
+2016-03-28 14:43:29		[vimode.py] Problematic keybindings detected:
+2016-03-28 14:43:29		[vimode.py]     meta-jmeta-f -> /buffer -
+2016-03-28 14:43:29		[vimode.py]     meta-jmeta-l -> /buffer +
+2016-03-28 14:43:29		[vimode.py]     meta-jmeta-r -> /server raw
+2016-03-28 14:43:29		[vimode.py]     meta-jmeta-s -> /server jump
+2016-03-28 14:43:29		[vimode.py]     meta-wmeta-meta2-A -> /window up
+2016-03-28 14:43:29		[vimode.py]     meta-wmeta-meta2-B -> /window down
+2016-03-28 14:43:29		[vimode.py]     meta-wmeta-meta2-C -> /window right
+2016-03-28 14:43:29		[vimode.py]     meta-wmeta-meta2-D -> /window left
+2016-03-28 14:43:29		[vimode.py]     meta-wmeta2-1;3A -> /window up
+2016-03-28 14:43:29		[vimode.py]     meta-wmeta2-1;3B -> /window down
+2016-03-28 14:43:29		[vimode.py]     meta-wmeta2-1;3C -> /window right
+2016-03-28 14:43:29		[vimode.py]     meta-wmeta2-1;3D -> /window left
+2016-03-28 14:43:29		[vimode.py]     meta-wmeta-b -> /window balance
+2016-03-28 14:43:29		[vimode.py]     meta-wmeta-s -> /window swap
+2016-03-28 14:43:29		[vimode.py] These keybindings may conflict with vimode.
+2016-03-28 14:43:29		[vimode.py] You can remove problematic key bindings and add recommended ones by using /vimode bind_keys, or only list them with /vimode bind_keys --list
+2016-03-28 14:43:29		[vimode.py] For help, see: https://github.com/GermainZ/weechat-vimode/blob/master/FAQ#problematic-key-bindings.md
+2016-03-28 14:43:29		[vimode.py] To force disable warnings, you can set plugins.var.python.vimode.no_warn to 'on'
+2016-03-28 14:43:29		python scripts loaded: vimode
+2016-03-28 14:43:29		script: 300 scripts for WeeChat 1.4
+2016-03-28 14:43:29		Plugins loaded: alias, charset, exec, fifo, irc, logger, perl, python, relay, script, tcl, trigger, xfer
+2016-03-28 14:43:35	=!=	No help available, "olugin" is not a command or an option
+2016-03-28 14:43:46		[core]  /plugin  list|listfull [<name>]
+2016-03-28 14:43:46		                 load <filename> [<arguments>]
+2016-03-28 14:43:46		                 autoload [<arguments>]
+2016-03-28 14:43:46		                 reload [<name>|* [<arguments>]]
+2016-03-28 14:43:46		                 unload [<name>]
+2016-03-28 14:43:46		list/load/unload plugins
+2016-03-28 14:43:46		     list: list loaded plugins
+2016-03-28 14:43:46		 listfull: list loaded plugins (verbose)
+2016-03-28 14:43:46		     load: load a plugin
+2016-03-28 14:43:46		 autoload: autoload plugins in system or user directory
+2016-03-28 14:43:46		   reload: reload a plugin (if no name given, unload all plugins, then autoload plugins)
+2016-03-28 14:43:46		   unload: unload a plugin (if no name given, unload all plugins)
+2016-03-28 14:43:46		 filename: plugin (file) to load
+2016-03-28 14:43:46		     name: a plugin name
+2016-03-28 14:43:46		arguments: arguments given to plugin on load
+2016-03-28 14:43:46		Without argument, this command lists loaded plugins.
+2016-03-28 15:00:48		[script]  /script  list [-o|-i]
+2016-03-28 15:00:48		                   search <text>
+2016-03-28 15:00:48		                   show <script>
+2016-03-28 15:00:48		                   load|unload|reload <script> [<script>...]
+2016-03-28 15:00:48		                   autoload|noautoload|toggleautoload <script> [<script>...]
+2016-03-28 15:00:48		                   install|remove|installremove|hold [-q] <script> [<script>...]
+2016-03-28 15:00:48		                   upgrade
+2016-03-28 15:00:48		                   update
+2016-03-28 15:00:48		WeeChat scripts manager
+2016-03-28 15:00:48		          list: list loaded scripts (all languages)
+2016-03-28 15:00:48		            -o: send list of loaded scripts to buffer
+2016-03-28 15:00:48		            -i: copy list of loaded scripts in command line (for sending to buffer)
+2016-03-28 15:00:48		        search: search scripts by tags, language (python, perl, ...), filename extension (py, pl, ...) or text; result is displayed on scripts buffer
+2016-03-28 15:00:48		          show: show detailed info about a script
+2016-03-28 15:00:48		          load: load script(s)
+2016-03-28 15:00:48		        unload: unload script(s)
+2016-03-28 15:00:48		        reload: reload script(s)
+2016-03-28 15:00:48		      autoload: autoload the script
+2016-03-28 15:00:48		    noautoload: do not autoload the script
+2016-03-28 15:00:48		toggleautoload: toggle autoload
+2016-03-28 15:00:48		       install: install/upgrade script(s)
+2016-03-28 15:00:48		        remove: remove script(s)
+2016-03-28 15:00:48		 installremove: install or remove script(s), depending on current state
+2016-03-28 15:00:48		          hold: hold/unhold script(s) (a script held will not be upgraded any more and cannot be removed)
+2016-03-28 15:00:48		            -q: quiet mode: do not display messages
+2016-03-28 15:00:48		       upgrade: upgrade all installed scripts which are obsolete (new version available)
+2016-03-28 15:00:48		        update: update local scripts cache
+2016-03-28 15:00:48		Without argument, this command opens a buffer with list of scripts.
+2016-03-28 15:00:48		On script buffer, the possible status for each script are:
+2016-03-28 15:00:48		  * i a H r N
+2016-03-28 15:00:48		  | | | | | |
+2016-03-28 15:00:48		  | | | | | obsolete (new version available)
+2016-03-28 15:00:48		  | | | | running (loaded)
+2016-03-28 15:00:48		  | | | held
+2016-03-28 15:00:48		  | | autoloaded
+2016-03-28 15:00:48		  | installed
+2016-03-28 15:00:48		  popular script
+2016-03-28 15:00:48		Keys on script buffer:
+2016-03-28 15:00:48		  alt+i  install script
+2016-03-28 15:00:48		  alt+r  remove script
+2016-03-28 15:00:48		  alt+l  load script
+2016-03-28 15:00:48		  alt+L  reload script
+2016-03-28 15:00:48		  alt+u  unload script
+2016-03-28 15:00:48		  alt+A  autoload script
+2016-03-28 15:00:48		  alt+h  (un)hold script
+2016-03-28 15:00:48		  alt+v  view script
+2016-03-28 15:00:48		Input allowed on script buffer:
+2016-03-28 15:00:48		  i/r/l/L/u/h  action on script (same as keys above)
+2016-03-28 15:00:48		  q            close buffer
+2016-03-28 15:00:48		  $            refresh buffer
+2016-03-28 15:00:48		  s:x,y        sort buffer using keys x and y (see /help script.look.sort)
+2016-03-28 15:00:48		  s:           reset sort (use default sort)
+2016-03-28 15:00:48		  word(s)      filter scripts: search word(s) in scripts (description, tags, ...)
+2016-03-28 15:00:48		  *            remove filter
+2016-03-28 15:00:48		Mouse actions on script buffer:
+2016-03-28 15:00:48		  wheel         scroll list
+2016-03-28 15:00:48		  left button   select script
+2016-03-28 15:00:48		  right button  install/remove script
+2016-03-28 15:00:48		Examples:
+2016-03-28 15:00:48		  /script search url
+2016-03-28 15:00:48		  /script install iset.pl buffers.pl
+2016-03-28 15:00:48		  /script remove iset.pl
+2016-03-28 15:00:48		  /script hold urlserver.py
+2016-03-28 15:00:48		  /script reload urlserver
+2016-03-28 15:00:48		  /script upgrade
+2016-03-28 15:01:06	=!=	Error with command "/script ~/Downloads/url_hinter.rb" (help on command: /help script)
+2016-03-28 15:01:27		script: script "~/Downloads/url_hinter.rb" not found
+2016-03-28 15:01:56		script: script "~/Downloads/url_hinter.rb" not found
+2016-03-28 15:02:02		python: scripts unloaded
+2016-03-28 15:02:28		[vimode.py] Problematic keybindings detected:
+2016-03-28 15:02:28		[vimode.py]     meta-jmeta-f -> /buffer -
+2016-03-28 15:02:28		[vimode.py]     meta-jmeta-l -> /buffer +
+2016-03-28 15:02:28		[vimode.py]     meta-jmeta-r -> /server raw
+2016-03-28 15:02:28		[vimode.py]     meta-jmeta-s -> /server jump
+2016-03-28 15:02:28		[vimode.py]     meta-wmeta-meta2-A -> /window up
+2016-03-28 15:02:28		[vimode.py]     meta-wmeta-meta2-B -> /window down
+2016-03-28 15:02:28		[vimode.py]     meta-wmeta-meta2-C -> /window right
+2016-03-28 15:02:28		[vimode.py]     meta-wmeta-meta2-D -> /window left
+2016-03-28 15:02:28		[vimode.py]     meta-wmeta2-1;3A -> /window up
+2016-03-28 15:02:28		[vimode.py]     meta-wmeta2-1;3B -> /window down
+2016-03-28 15:02:28		[vimode.py]     meta-wmeta2-1;3C -> /window right
+2016-03-28 15:02:28		[vimode.py]     meta-wmeta2-1;3D -> /window left
+2016-03-28 15:02:28		[vimode.py]     meta-wmeta-b -> /window balance
+2016-03-28 15:02:28		[vimode.py]     meta-wmeta-s -> /window swap
+2016-03-28 15:02:28		[vimode.py] These keybindings may conflict with vimode.
+2016-03-28 15:02:28		[vimode.py] You can remove problematic key bindings and add recommended ones by using /vimode bind_keys, or only list them with /vimode bind_keys --list
+2016-03-28 15:02:28		[vimode.py] For help, see: https://github.com/GermainZ/weechat-vimode/blob/master/FAQ#problematic-key-bindings.md
+2016-03-28 15:02:28		[vimode.py] To force disable warnings, you can set plugins.var.python.vimode.no_warn to 'on'
+2016-03-28 15:02:28		python scripts loaded: vimode
+2016-03-28 15:02:28		script: 300 scripts for WeeChat 1.4
+2016-03-28 15:02:28		Plugins loaded: alias, charset, exec, fifo, irc, logger, perl, python, relay, script, tcl, trigger, xfer
+2016-03-28 15:04:25		script: script "ruby" not found
+2016-03-28 15:04:40		Plugins loaded:
+2016-03-28 15:04:40		  alias: Alias commands
+2016-03-28 15:04:40		  charset: Charset conversions
+2016-03-28 15:04:40		  exec: Execution of external commands in WeeChat
+2016-03-28 15:04:40		  fifo: FIFO pipe for remote control
+2016-03-28 15:04:40		  irc: IRC (Internet Relay Chat) protocol
+2016-03-28 15:04:40		  logger: Log buffers to files
+2016-03-28 15:04:40		  perl: Support of perl scripts
+2016-03-28 15:04:40		  python: Support of python scripts
+2016-03-28 15:04:40		  relay: Relay WeeChat data to remote application (irc/weechat protocols)
+2016-03-28 15:04:40		  script: Scripts manager
+2016-03-28 15:04:40		  tcl: Support of tcl scripts
+2016-03-28 15:04:40		  trigger: Text replacement and command execution on events triggered by WeeChat/plugins
+2016-03-28 15:04:40		  xfer: DCC file transfer and direct chat
+2016-03-28 15:14:51		python: scripts unloaded
+2016-03-28 15:17:07		[vimode.py] Problematic keybindings detected:
+2016-03-28 15:17:07		[vimode.py]     meta-jmeta-f -> /buffer -
+2016-03-28 15:17:07		[vimode.py]     meta-jmeta-l -> /buffer +
+2016-03-28 15:17:07		[vimode.py]     meta-jmeta-r -> /server raw
+2016-03-28 15:17:07		[vimode.py]     meta-jmeta-s -> /server jump
+2016-03-28 15:17:07		[vimode.py]     meta-wmeta-meta2-A -> /window up
+2016-03-28 15:17:07		[vimode.py]     meta-wmeta-meta2-B -> /window down
+2016-03-28 15:17:07		[vimode.py]     meta-wmeta-meta2-C -> /window right
+2016-03-28 15:17:07		[vimode.py]     meta-wmeta-meta2-D -> /window left
+2016-03-28 15:17:07		[vimode.py]     meta-wmeta2-1;3A -> /window up
+2016-03-28 15:17:07		[vimode.py]     meta-wmeta2-1;3B -> /window down
+2016-03-28 15:17:07		[vimode.py]     meta-wmeta2-1;3C -> /window right
+2016-03-28 15:17:07		[vimode.py]     meta-wmeta2-1;3D -> /window left
+2016-03-28 15:17:07		[vimode.py]     meta-wmeta-b -> /window balance
+2016-03-28 15:17:07		[vimode.py]     meta-wmeta-s -> /window swap
+2016-03-28 15:17:07		[vimode.py] These keybindings may conflict with vimode.
+2016-03-28 15:17:07		[vimode.py] You can remove problematic key bindings and add recommended ones by using /vimode bind_keys, or only list them with /vimode bind_keys --list
+2016-03-28 15:17:07		[vimode.py] For help, see: https://github.com/GermainZ/weechat-vimode/blob/master/FAQ#problematic-key-bindings.md
+2016-03-28 15:17:07		[vimode.py] To force disable warnings, you can set plugins.var.python.vimode.no_warn to 'on'
+2016-03-28 15:17:07		python scripts loaded: vimode
+2016-03-28 15:17:07		script: 300 scripts for WeeChat 1.4
+2016-03-28 15:17:07		Plugins loaded: alias, charset, exec, fifo, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2016-03-28 15:17:31	=!=	Error with command "/script ~/Downloads/url_hinter.rb" (help on command: /help script)
+2016-03-28 15:17:45		script: script "~/Downloads/url_hinter.rb" not found
+2016-03-28 15:18:05		ruby: script removed: /Users/ranranking/.weechat/url_hinter.rb
+2016-03-28 15:18:05		ruby: loading script "/Users/ranranking/.weechat/ruby/url_hinter.rb"
+2016-03-28 15:18:05		ruby: registered script "url_hinter", version 0.2 (Open an url in the weechat buffer to type a hint)
+2016-03-28 15:20:40		ruby: scripts unloaded
+2016-03-28 15:20:40		python: scripts unloaded
+2016-03-28 15:22:05		[vimode.py] Problematic keybindings detected:
+2016-03-28 15:22:05		[vimode.py]     meta-jmeta-f -> /buffer -
+2016-03-28 15:22:05		[vimode.py]     meta-jmeta-l -> /buffer +
+2016-03-28 15:22:05		[vimode.py]     meta-jmeta-r -> /server raw
+2016-03-28 15:22:05		[vimode.py]     meta-jmeta-s -> /server jump
+2016-03-28 15:22:05		[vimode.py]     meta-wmeta-meta2-A -> /window up
+2016-03-28 15:22:05		[vimode.py]     meta-wmeta-meta2-B -> /window down
+2016-03-28 15:22:05		[vimode.py]     meta-wmeta-meta2-C -> /window right
+2016-03-28 15:22:05		[vimode.py]     meta-wmeta-meta2-D -> /window left
+2016-03-28 15:22:05		[vimode.py]     meta-wmeta2-1;3A -> /window up
+2016-03-28 15:22:05		[vimode.py]     meta-wmeta2-1;3B -> /window down
+2016-03-28 15:22:05		[vimode.py]     meta-wmeta2-1;3C -> /window right
+2016-03-28 15:22:05		[vimode.py]     meta-wmeta2-1;3D -> /window left
+2016-03-28 15:22:05		[vimode.py]     meta-wmeta-b -> /window balance
+2016-03-28 15:22:05		[vimode.py]     meta-wmeta-s -> /window swap
+2016-03-28 15:22:05		[vimode.py] These keybindings may conflict with vimode.
+2016-03-28 15:22:05		[vimode.py] You can remove problematic key bindings and add recommended ones by using /vimode bind_keys, or only list them with /vimode bind_keys --list
+2016-03-28 15:22:05		[vimode.py] For help, see: https://github.com/GermainZ/weechat-vimode/blob/master/FAQ#problematic-key-bindings.md
+2016-03-28 15:22:05		[vimode.py] To force disable warnings, you can set plugins.var.python.vimode.no_warn to 'on'
+2016-03-28 15:22:05		python scripts loaded: vimode
+2016-03-28 15:22:05		ruby scripts loaded: url_hinter
+2016-03-28 15:22:05		script: 300 scripts for WeeChat 1.4
+2016-03-28 15:22:05		Plugins loaded: alias, charset, exec, fifo, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2016-03-28 15:22:41		ruby: scripts unloaded
+2016-03-28 15:22:41		python: scripts unloaded
+2016-03-28 15:22:54		[vimode.py] Problematic keybindings detected:
+2016-03-28 15:22:54		[vimode.py]     meta-jmeta-f -> /buffer -
+2016-03-28 15:22:54		[vimode.py]     meta-jmeta-l -> /buffer +
+2016-03-28 15:22:54		[vimode.py]     meta-jmeta-r -> /server raw
+2016-03-28 15:22:54		[vimode.py]     meta-jmeta-s -> /server jump
+2016-03-28 15:22:54		[vimode.py]     meta-wmeta-meta2-A -> /window up
+2016-03-28 15:22:54		[vimode.py]     meta-wmeta-meta2-B -> /window down
+2016-03-28 15:22:54		[vimode.py]     meta-wmeta-meta2-C -> /window right
+2016-03-28 15:22:54		[vimode.py]     meta-wmeta-meta2-D -> /window left
+2016-03-28 15:22:54		[vimode.py]     meta-wmeta2-1;3A -> /window up
+2016-03-28 15:22:54		[vimode.py]     meta-wmeta2-1;3B -> /window down
+2016-03-28 15:22:54		[vimode.py]     meta-wmeta2-1;3C -> /window right
+2016-03-28 15:22:54		[vimode.py]     meta-wmeta2-1;3D -> /window left
+2016-03-28 15:22:54		[vimode.py]     meta-wmeta-b -> /window balance
+2016-03-28 15:22:54		[vimode.py]     meta-wmeta-s -> /window swap
+2016-03-28 15:22:54		[vimode.py] These keybindings may conflict with vimode.
+2016-03-28 15:22:54		[vimode.py] You can remove problematic key bindings and add recommended ones by using /vimode bind_keys, or only list them with /vimode bind_keys --list
+2016-03-28 15:22:54		[vimode.py] For help, see: https://github.com/GermainZ/weechat-vimode/blob/master/FAQ#problematic-key-bindings.md
+2016-03-28 15:22:54		[vimode.py] To force disable warnings, you can set plugins.var.python.vimode.no_warn to 'on'
+2016-03-28 15:22:54		python scripts loaded: vimode
+2016-03-28 15:22:54		ruby scripts loaded: url_hinter
+2016-03-28 15:22:54		script: 300 scripts for WeeChat 1.4
+2016-03-28 15:22:54		Plugins loaded: alias, charset, exec, fifo, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2016-03-28 15:23:00		[core]  /key  list|listdefault|listdiff [<context>]
+2016-03-28 15:23:00		              bind <key> [<command> [<args>]]
+2016-03-28 15:23:00		              bindctxt <context> <key> [<command> [<args>]]
+2016-03-28 15:23:00		              unbind <key>
+2016-03-28 15:23:00		              unbindctxt <context> <key>
+2016-03-28 15:23:00		              reset <key>
+2016-03-28 15:23:00		              resetctxt <context> <key>
+2016-03-28 15:23:00		              resetall -yes [<context>]
+2016-03-28 15:23:00		              missing [<context>]
+2016-03-28 15:23:00		bind/unbind keys
+2016-03-28 15:23:00		       list: list all current keys (without argument, this list is displayed)
+2016-03-28 15:23:00		listdefault: list default keys
+2016-03-28 15:23:00		   listdiff: list differences between current and default keys (keys added, redefined or deleted)
+2016-03-28 15:23:00		    context: name of context ("default" or "search")
+2016-03-28 15:23:00		       bind: bind a command to a key or display command bound to key (for context "default")
+2016-03-28 15:23:00		   bindctxt: bind a command to a key or display command bound to key, for given context
+2016-03-28 15:23:00		    command: command (many commands can be separated by semicolons)
+2016-03-28 15:23:00		     unbind: remove a key binding (for context "default")
+2016-03-28 15:23:00		 unbindctxt: remove a key binding for given context
+2016-03-28 15:23:00		      reset: reset a key to default binding (for context "default")
+2016-03-28 15:23:00		  resetctxt: reset a key to default binding, for given context
+2016-03-28 15:23:00		   resetall: restore bindings to the default values and delete ALL personal bindings (use carefully!)
+2016-03-28 15:23:00		    missing: add missing keys (using default bindings), useful after installing new WeeChat version
+2016-03-28 15:23:00		When binding a command to a key, it is recommended to use key alt+k (or Esc then k), and then press the key to bind: this will insert key code in command line.
+2016-03-28 15:23:00		For context "mouse" (possible in context "cursor" too), key has format: "@area:key" or "@area1>area2:key" where area can be:
+2016-03-28 15:23:00		          *: any area on screen
+2016-03-28 15:23:00		       chat: chat area (any buffer)
+2016-03-28 15:23:00		  chat(xxx): char area for buffer with name "xxx" (full name including plugin)
+2016-03-28 15:23:00		     bar(*): any bar
+2016-03-28 15:23:00		   bar(xxx): bar "xxx"
+2016-03-28 15:23:00		    item(*): any bar item
+2016-03-28 15:23:00		  item(xxx): bar item "xxx"
+2016-03-28 15:23:00		Wildcard "*" is allowed in key to match many mouse events.
+2016-03-28 15:23:00		A special value for command with format "hsignal:name" can be used for context mouse, this will send the hsignal "name" with the focus hashtable as argument.
+2016-03-28 15:23:00		Another special value "-" can be used to disable key (it will be ignored when looking for keys).
+2016-03-28 15:23:00		Examples:
+2016-03-28 15:23:00		  key alt-t to toggle nicklist bar:
+2016-03-28 15:23:00		    /key bind meta-t /bar toggle nicklist
+2016-03-28 15:23:00		  key alt-r to jump to #weechat IRC channel:
+2016-03-28 15:23:00		    /key bind meta-r /buffer #weechat
+2016-03-28 15:23:00		  restore default binding for key alt-r:
+2016-03-28 15:23:00		    /key reset meta-r
+2016-03-28 15:23:00		  key "tab" to stop search in buffer:
+2016-03-28 15:23:00		    /key bindctxt search ctrl-I /input search_stop
+2016-03-28 15:23:00		  middle button of mouse on a nick to retrieve info on nick:
+2016-03-28 15:23:00		    /key bindctxt mouse @item(buffer_nicklist):button3 /msg nickserv info ${nick}
+2016-03-28 15:24:12	=!=	Error: it is not safe to bind key "alt-l" because it does not start with a ctrl or meta code (tip: use alt-k to find key codes); if you want to bind this key anyway, turn off option weechat.look.key_bind_safe
+2016-03-28 15:24:38		Key "meta-l" unbound (context: "default")
+2016-03-28 15:24:38		New key binding (context "default"): meta-l => /url_hinter
+2016-03-28 15:26:46		New key binding (context "default"): ctrl-ul => /url_hinter
+2016-03-28 15:27:26		ruby: scripts unloaded
+2016-03-28 15:27:26		python: scripts unloaded
+2016-03-28 15:28:40		[vimode.py] Problematic keybindings detected:
+2016-03-28 15:28:40		[vimode.py]     meta-jmeta-f -> /buffer -
+2016-03-28 15:28:40		[vimode.py]     meta-jmeta-l -> /buffer +
+2016-03-28 15:28:40		[vimode.py]     meta-jmeta-r -> /server raw
+2016-03-28 15:28:40		[vimode.py]     meta-jmeta-s -> /server jump
+2016-03-28 15:28:40		[vimode.py]     meta-wmeta-meta2-A -> /window up
+2016-03-28 15:28:40		[vimode.py]     meta-wmeta-meta2-B -> /window down
+2016-03-28 15:28:40		[vimode.py]     meta-wmeta-meta2-C -> /window right
+2016-03-28 15:28:40		[vimode.py]     meta-wmeta-meta2-D -> /window left
+2016-03-28 15:28:40		[vimode.py]     meta-wmeta2-1;3A -> /window up
+2016-03-28 15:28:40		[vimode.py]     meta-wmeta2-1;3B -> /window down
+2016-03-28 15:28:40		[vimode.py]     meta-wmeta2-1;3C -> /window right
+2016-03-28 15:28:40		[vimode.py]     meta-wmeta2-1;3D -> /window left
+2016-03-28 15:28:40		[vimode.py]     meta-wmeta-b -> /window balance
+2016-03-28 15:28:40		[vimode.py]     meta-wmeta-s -> /window swap
+2016-03-28 15:28:40		[vimode.py] These keybindings may conflict with vimode.
+2016-03-28 15:28:40		[vimode.py] You can remove problematic key bindings and add recommended ones by using /vimode bind_keys, or only list them with /vimode bind_keys --list
+2016-03-28 15:28:40		[vimode.py] For help, see: https://github.com/GermainZ/weechat-vimode/blob/master/FAQ#problematic-key-bindings.md
+2016-03-28 15:28:40		[vimode.py] To force disable warnings, you can set plugins.var.python.vimode.no_warn to 'on'
+2016-03-28 15:28:40		python scripts loaded: vimode
+2016-03-28 15:28:40		ruby scripts loaded: url_hinter
+2016-03-28 15:28:40		script: 300 scripts for WeeChat 1.4
+2016-03-28 15:28:40		Plugins loaded: alias, charset, exec, fifo, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2016-03-28 16:34:11	=!=	ruby: unable to run function "launch_url_hinter"
+2016-03-28 16:34:11	=!=	ruby: error: (eval):366:in `scan': incompatible encoding regexp match (UTF-8 regexp with ASCII-8BIT string) (Encoding::CompatibilityError)
+2016-03-28 16:34:11	=!=	ruby: error:      from (eval):366:in `urls'
+2016-03-28 16:34:11	=!=	ruby: error:      from (eval):270:in `block in url_count'
+2016-03-28 16:34:11	=!=	ruby: error:      from (eval):312:in `each'
+2016-03-28 16:34:11	=!=	ruby: error:      from (eval):270:in `inject'
+2016-03-28 16:34:11	=!=	ruby: error:      from (eval):270:in `url_count'
+2016-03-28 16:34:11	=!=	ruby: error:      from (eval):148:in `set_target'
+2016-03-28 16:34:11	=!=	ruby: error:      from (eval):98:in `launch_url_hinter'
+2016-03-28 16:34:12	=!=	ruby: unable to run function "launch_url_hinter"
+2016-03-28 16:34:12	=!=	ruby: error: (eval):366:in `scan': incompatible encoding regexp match (UTF-8 regexp with ASCII-8BIT string) (Encoding::CompatibilityError)
+2016-03-28 16:34:12	=!=	ruby: error:      from (eval):366:in `urls'
+2016-03-28 16:34:12	=!=	ruby: error:      from (eval):270:in `block in url_count'
+2016-03-28 16:34:12	=!=	ruby: error:      from (eval):312:in `each'
+2016-03-28 16:34:12	=!=	ruby: error:      from (eval):270:in `inject'
+2016-03-28 16:34:12	=!=	ruby: error:      from (eval):270:in `url_count'
+2016-03-28 16:34:12	=!=	ruby: error:      from (eval):148:in `set_target'
+2016-03-28 16:34:12	=!=	ruby: error:      from (eval):98:in `launch_url_hinter'
+2016-03-28 16:34:14	=!=	ruby: unable to run function "launch_url_hinter"
+2016-03-28 16:34:14	=!=	ruby: error: (eval):366:in `scan': incompatible encoding regexp match (UTF-8 regexp with ASCII-8BIT string) (Encoding::CompatibilityError)
+2016-03-28 16:34:14	=!=	ruby: error:      from (eval):366:in `urls'
+2016-03-28 16:34:14	=!=	ruby: error:      from (eval):270:in `block in url_count'
+2016-03-28 16:34:14	=!=	ruby: error:      from (eval):312:in `each'
+2016-03-28 16:34:14	=!=	ruby: error:      from (eval):270:in `inject'
+2016-03-28 16:34:14	=!=	ruby: error:      from (eval):270:in `url_count'
+2016-03-28 16:34:14	=!=	ruby: error:      from (eval):148:in `set_target'
+2016-03-28 16:34:14	=!=	ruby: error:      from (eval):98:in `launch_url_hinter'
+2016-03-28 16:34:15	=!=	ruby: unable to run function "launch_url_hinter"
+2016-03-28 16:34:15	=!=	ruby: error: (eval):366:in `scan': incompatible encoding regexp match (UTF-8 regexp with ASCII-8BIT string) (Encoding::CompatibilityError)
+2016-03-28 16:34:15	=!=	ruby: error:      from (eval):366:in `urls'
+2016-03-28 16:34:15	=!=	ruby: error:      from (eval):270:in `block in url_count'
+2016-03-28 16:34:15	=!=	ruby: error:      from (eval):312:in `each'
+2016-03-28 16:34:15	=!=	ruby: error:      from (eval):270:in `inject'
+2016-03-28 16:34:15	=!=	ruby: error:      from (eval):270:in `url_count'
+2016-03-28 16:34:15	=!=	ruby: error:      from (eval):148:in `set_target'
+2016-03-28 16:34:15	=!=	ruby: error:      from (eval):98:in `launch_url_hinter'
+2016-03-28 16:34:15	=!=	ruby: unable to run function "launch_url_hinter"
+2016-03-28 16:34:15	=!=	ruby: error: (eval):366:in `scan': incompatible encoding regexp match (UTF-8 regexp with ASCII-8BIT string) (Encoding::CompatibilityError)
+2016-03-28 16:34:15	=!=	ruby: error:      from (eval):366:in `urls'
+2016-03-28 16:34:15	=!=	ruby: error:      from (eval):270:in `block in url_count'
+2016-03-28 16:34:15	=!=	ruby: error:      from (eval):312:in `each'
+2016-03-28 16:34:15	=!=	ruby: error:      from (eval):270:in `inject'
+2016-03-28 16:34:15	=!=	ruby: error:      from (eval):270:in `url_count'
+2016-03-28 16:34:15	=!=	ruby: error:      from (eval):148:in `set_target'
+2016-03-28 16:34:15	=!=	ruby: error:      from (eval):98:in `launch_url_hinter'
+2016-03-28 16:34:16	=!=	ruby: unable to run function "launch_url_hinter"
+2016-03-28 16:34:16	=!=	ruby: error: (eval):366:in `scan': incompatible encoding regexp match (UTF-8 regexp with ASCII-8BIT string) (Encoding::CompatibilityError)
+2016-03-28 16:34:16	=!=	ruby: error:      from (eval):366:in `urls'
+2016-03-28 16:34:16	=!=	ruby: error:      from (eval):270:in `block in url_count'
+2016-03-28 16:34:16	=!=	ruby: error:      from (eval):312:in `each'
+2016-03-28 16:34:16	=!=	ruby: error:      from (eval):270:in `inject'
+2016-03-28 16:34:16	=!=	ruby: error:      from (eval):270:in `url_count'
+2016-03-28 16:34:16	=!=	ruby: error:      from (eval):148:in `set_target'
+2016-03-28 16:34:16	=!=	ruby: error:      from (eval):98:in `launch_url_hinter'
+2016-03-28 16:34:16	=!=	ruby: unable to run function "launch_url_hinter"
+2016-03-28 16:34:16	=!=	ruby: error: (eval):366:in `scan': incompatible encoding regexp match (UTF-8 regexp with ASCII-8BIT string) (Encoding::CompatibilityError)
+2016-03-28 16:34:16	=!=	ruby: error:      from (eval):366:in `urls'
+2016-03-28 16:34:16	=!=	ruby: error:      from (eval):270:in `block in url_count'
+2016-03-28 16:34:16	=!=	ruby: error:      from (eval):312:in `each'
+2016-03-28 16:34:16	=!=	ruby: error:      from (eval):270:in `inject'
+2016-03-28 16:34:16	=!=	ruby: error:      from (eval):270:in `url_count'
+2016-03-28 16:34:16	=!=	ruby: error:      from (eval):148:in `set_target'
+2016-03-28 16:34:16	=!=	ruby: error:      from (eval):98:in `launch_url_hinter'
+2016-03-28 16:34:16	=!=	ruby: unable to run function "launch_url_hinter"
+2016-03-28 16:34:16	=!=	ruby: error: (eval):366:in `scan': incompatible encoding regexp match (UTF-8 regexp with ASCII-8BIT string) (Encoding::CompatibilityError)
+2016-03-28 16:34:16	=!=	ruby: error:      from (eval):366:in `urls'
+2016-03-28 16:34:16	=!=	ruby: error:      from (eval):270:in `block in url_count'
+2016-03-28 16:34:16	=!=	ruby: error:      from (eval):312:in `each'
+2016-03-28 16:34:16	=!=	ruby: error:      from (eval):270:in `inject'
+2016-03-28 16:34:16	=!=	ruby: error:      from (eval):270:in `url_count'
+2016-03-28 16:34:16	=!=	ruby: error:      from (eval):148:in `set_target'
+2016-03-28 16:34:16	=!=	ruby: error:      from (eval):98:in `launch_url_hinter'
+2016-03-28 16:34:16	=!=	ruby: unable to run function "launch_url_hinter"
+2016-03-28 16:34:16	=!=	ruby: error: (eval):366:in `scan': incompatible encoding regexp match (UTF-8 regexp with ASCII-8BIT string) (Encoding::CompatibilityError)
+2016-03-28 16:34:16	=!=	ruby: error:      from (eval):366:in `urls'
+2016-03-28 16:34:16	=!=	ruby: error:      from (eval):270:in `block in url_count'
+2016-03-28 16:34:16	=!=	ruby: error:      from (eval):312:in `each'
+2016-03-28 16:34:16	=!=	ruby: error:      from (eval):270:in `inject'
+2016-03-28 16:34:16	=!=	ruby: error:      from (eval):270:in `url_count'
+2016-03-28 16:34:16	=!=	ruby: error:      from (eval):148:in `set_target'
+2016-03-28 16:34:16	=!=	ruby: error:      from (eval):98:in `launch_url_hinter'
+2016-03-28 16:34:19	=!=	ruby: unable to run function "launch_url_hinter"
+2016-03-28 16:34:19	=!=	ruby: error: (eval):366:in `scan': incompatible encoding regexp match (UTF-8 regexp with ASCII-8BIT string) (Encoding::CompatibilityError)
+2016-03-28 16:34:19	=!=	ruby: error:      from (eval):366:in `urls'
+2016-03-28 16:34:19	=!=	ruby: error:      from (eval):270:in `block in url_count'
+2016-03-28 16:34:19	=!=	ruby: error:      from (eval):312:in `each'
+2016-03-28 16:34:19	=!=	ruby: error:      from (eval):270:in `inject'
+2016-03-28 16:34:19	=!=	ruby: error:      from (eval):270:in `url_count'
+2016-03-28 16:34:19	=!=	ruby: error:      from (eval):148:in `set_target'
+2016-03-28 16:34:19	=!=	ruby: error:      from (eval):98:in `launch_url_hinter'
+2016-03-28 16:34:19	=!=	ruby: unable to run function "launch_url_hinter"
+2016-03-28 16:34:19	=!=	ruby: error: (eval):366:in `scan': incompatible encoding regexp match (UTF-8 regexp with ASCII-8BIT string) (Encoding::CompatibilityError)
+2016-03-28 16:34:19	=!=	ruby: error:      from (eval):366:in `urls'
+2016-03-28 16:34:19	=!=	ruby: error:      from (eval):270:in `block in url_count'
+2016-03-28 16:34:19	=!=	ruby: error:      from (eval):312:in `each'
+2016-03-28 16:34:19	=!=	ruby: error:      from (eval):270:in `inject'
+2016-03-28 16:34:19	=!=	ruby: error:      from (eval):270:in `url_count'
+2016-03-28 16:34:19	=!=	ruby: error:      from (eval):148:in `set_target'
+2016-03-28 16:34:19	=!=	ruby: error:      from (eval):98:in `launch_url_hinter'
+2016-03-28 16:34:19	=!=	ruby: unable to run function "launch_url_hinter"
+2016-03-28 16:34:19	=!=	ruby: error: (eval):366:in `scan': incompatible encoding regexp match (UTF-8 regexp with ASCII-8BIT string) (Encoding::CompatibilityError)
+2016-03-28 16:34:19	=!=	ruby: error:      from (eval):366:in `urls'
+2016-03-28 16:34:19	=!=	ruby: error:      from (eval):270:in `block in url_count'
+2016-03-28 16:34:19	=!=	ruby: error:      from (eval):312:in `each'
+2016-03-28 16:34:19	=!=	ruby: error:      from (eval):270:in `inject'
+2016-03-28 16:34:19	=!=	ruby: error:      from (eval):270:in `url_count'
+2016-03-28 16:34:19	=!=	ruby: error:      from (eval):148:in `set_target'
+2016-03-28 16:34:19	=!=	ruby: error:      from (eval):98:in `launch_url_hinter'
+2016-03-28 16:34:23		ruby: scripts unloaded
+2016-03-28 16:34:23		python: scripts unloaded
+2016-03-28 16:34:33		[vimode.py] Problematic keybindings detected:
+2016-03-28 16:34:33		[vimode.py]     meta-jmeta-f -> /buffer -
+2016-03-28 16:34:33		[vimode.py]     meta-jmeta-l -> /buffer +
+2016-03-28 16:34:33		[vimode.py]     meta-jmeta-r -> /server raw
+2016-03-28 16:34:33		[vimode.py]     meta-jmeta-s -> /server jump
+2016-03-28 16:34:33		[vimode.py]     meta-wmeta-meta2-A -> /window up
+2016-03-28 16:34:33		[vimode.py]     meta-wmeta-meta2-B -> /window down
+2016-03-28 16:34:33		[vimode.py]     meta-wmeta-meta2-C -> /window right
+2016-03-28 16:34:33		[vimode.py]     meta-wmeta-meta2-D -> /window left
+2016-03-28 16:34:33		[vimode.py]     meta-wmeta2-1;3A -> /window up
+2016-03-28 16:34:33		[vimode.py]     meta-wmeta2-1;3B -> /window down
+2016-03-28 16:34:33		[vimode.py]     meta-wmeta2-1;3C -> /window right
+2016-03-28 16:34:33		[vimode.py]     meta-wmeta2-1;3D -> /window left
+2016-03-28 16:34:33		[vimode.py]     meta-wmeta-b -> /window balance
+2016-03-28 16:34:33		[vimode.py]     meta-wmeta-s -> /window swap
+2016-03-28 16:34:33		[vimode.py] These keybindings may conflict with vimode.
+2016-03-28 16:34:33		[vimode.py] You can remove problematic key bindings and add recommended ones by using /vimode bind_keys, or only list them with /vimode bind_keys --list
+2016-03-28 16:34:33		[vimode.py] For help, see: https://github.com/GermainZ/weechat-vimode/blob/master/FAQ#problematic-key-bindings.md
+2016-03-28 16:34:33		[vimode.py] To force disable warnings, you can set plugins.var.python.vimode.no_warn to 'on'
+2016-03-28 16:34:33		python scripts loaded: vimode
+2016-03-28 16:34:33		ruby scripts loaded: url_hinter
+2016-03-28 16:34:33		script: 300 scripts for WeeChat 1.4
+2016-03-28 16:34:33		Plugins loaded: alias, charset, exec, fifo, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2016-03-28 16:34:42	=!=	ruby: unable to run function "launch_url_hinter"
+2016-03-28 16:34:42	=!=	ruby: error: (eval):366:in `scan': incompatible encoding regexp match (UTF-8 regexp with ASCII-8BIT string) (Encoding::CompatibilityError)
+2016-03-28 16:34:42	=!=	ruby: error:      from (eval):366:in `urls'
+2016-03-28 16:34:42	=!=	ruby: error:      from (eval):270:in `block in url_count'
+2016-03-28 16:34:42	=!=	ruby: error:      from (eval):312:in `each'
+2016-03-28 16:34:42	=!=	ruby: error:      from (eval):270:in `inject'
+2016-03-28 16:34:42	=!=	ruby: error:      from (eval):270:in `url_count'
+2016-03-28 16:34:42	=!=	ruby: error:      from (eval):148:in `set_target'
+2016-03-28 16:34:42	=!=	ruby: error:      from (eval):98:in `launch_url_hinter'
+2016-03-28 16:34:43	=!=	ruby: unable to run function "launch_url_hinter"
+2016-03-28 16:34:43	=!=	ruby: error: (eval):366:in `scan': incompatible encoding regexp match (UTF-8 regexp with ASCII-8BIT string) (Encoding::CompatibilityError)
+2016-03-28 16:34:43	=!=	ruby: error:      from (eval):366:in `urls'
+2016-03-28 16:34:43	=!=	ruby: error:      from (eval):270:in `block in url_count'
+2016-03-28 16:34:43	=!=	ruby: error:      from (eval):312:in `each'
+2016-03-28 16:34:43	=!=	ruby: error:      from (eval):270:in `inject'
+2016-03-28 16:34:43	=!=	ruby: error:      from (eval):270:in `url_count'
+2016-03-28 16:34:43	=!=	ruby: error:      from (eval):148:in `set_target'
+2016-03-28 16:34:43	=!=	ruby: error:      from (eval):98:in `launch_url_hinter'
+2016-03-28 16:34:44	=!=	ruby: unable to run function "launch_url_hinter"
+2016-03-28 16:34:44	=!=	ruby: error: (eval):366:in `scan': incompatible encoding regexp match (UTF-8 regexp with ASCII-8BIT string) (Encoding::CompatibilityError)
+2016-03-28 16:34:44	=!=	ruby: error:      from (eval):366:in `urls'
+2016-03-28 16:34:44	=!=	ruby: error:      from (eval):270:in `block in url_count'
+2016-03-28 16:34:44	=!=	ruby: error:      from (eval):312:in `each'
+2016-03-28 16:34:44	=!=	ruby: error:      from (eval):270:in `inject'
+2016-03-28 16:34:44	=!=	ruby: error:      from (eval):270:in `url_count'
+2016-03-28 16:34:44	=!=	ruby: error:      from (eval):148:in `set_target'
+2016-03-28 16:34:44	=!=	ruby: error:      from (eval):98:in `launch_url_hinter'
+2016-03-28 16:34:44	=!=	ruby: unable to run function "launch_url_hinter"
+2016-03-28 16:34:44	=!=	ruby: error: (eval):366:in `scan': incompatible encoding regexp match (UTF-8 regexp with ASCII-8BIT string) (Encoding::CompatibilityError)
+2016-03-28 16:34:44	=!=	ruby: error:      from (eval):366:in `urls'
+2016-03-28 16:34:44	=!=	ruby: error:      from (eval):270:in `block in url_count'
+2016-03-28 16:34:44	=!=	ruby: error:      from (eval):312:in `each'
+2016-03-28 16:34:44	=!=	ruby: error:      from (eval):270:in `inject'
+2016-03-28 16:34:44	=!=	ruby: error:      from (eval):270:in `url_count'
+2016-03-28 16:34:44	=!=	ruby: error:      from (eval):148:in `set_target'
+2016-03-28 16:34:44	=!=	ruby: error:      from (eval):98:in `launch_url_hinter'
+2016-03-28 16:34:44	=!=	ruby: unable to run function "launch_url_hinter"
+2016-03-28 16:34:44	=!=	ruby: error: (eval):366:in `scan': incompatible encoding regexp match (UTF-8 regexp with ASCII-8BIT string) (Encoding::CompatibilityError)
+2016-03-28 16:34:44	=!=	ruby: error:      from (eval):366:in `urls'
+2016-03-28 16:34:44	=!=	ruby: error:      from (eval):270:in `block in url_count'
+2016-03-28 16:34:44	=!=	ruby: error:      from (eval):312:in `each'
+2016-03-28 16:34:44	=!=	ruby: error:      from (eval):270:in `inject'
+2016-03-28 16:34:44	=!=	ruby: error:      from (eval):270:in `url_count'
+2016-03-28 16:34:44	=!=	ruby: error:      from (eval):148:in `set_target'
+2016-03-28 16:34:44	=!=	ruby: error:      from (eval):98:in `launch_url_hinter'
+2016-03-28 16:34:44	=!=	ruby: unable to run function "launch_url_hinter"
+2016-03-28 16:34:44	=!=	ruby: error: (eval):366:in `scan': incompatible encoding regexp match (UTF-8 regexp with ASCII-8BIT string) (Encoding::CompatibilityError)
+2016-03-28 16:34:44	=!=	ruby: error:      from (eval):366:in `urls'
+2016-03-28 16:34:44	=!=	ruby: error:      from (eval):270:in `block in url_count'
+2016-03-28 16:34:44	=!=	ruby: error:      from (eval):312:in `each'
+2016-03-28 16:34:44	=!=	ruby: error:      from (eval):270:in `inject'
+2016-03-28 16:34:44	=!=	ruby: error:      from (eval):270:in `url_count'
+2016-03-28 16:34:44	=!=	ruby: error:      from (eval):148:in `set_target'
+2016-03-28 16:34:44	=!=	ruby: error:      from (eval):98:in `launch_url_hinter'
+2016-03-28 16:35:05	=!=	ruby: unable to run function "launch_url_hinter"
+2016-03-28 16:35:05	=!=	ruby: error: (eval):366:in `scan': incompatible encoding regexp match (UTF-8 regexp with ASCII-8BIT string) (Encoding::CompatibilityError)
+2016-03-28 16:35:05	=!=	ruby: error:      from (eval):366:in `urls'
+2016-03-28 16:35:05	=!=	ruby: error:      from (eval):270:in `block in url_count'
+2016-03-28 16:35:05	=!=	ruby: error:      from (eval):312:in `each'
+2016-03-28 16:35:05	=!=	ruby: error:      from (eval):270:in `inject'
+2016-03-28 16:35:05	=!=	ruby: error:      from (eval):270:in `url_count'
+2016-03-28 16:35:05	=!=	ruby: error:      from (eval):148:in `set_target'
+2016-03-28 16:35:05	=!=	ruby: error:      from (eval):98:in `launch_url_hinter'
+2016-03-28 16:35:05	=!=	ruby: unable to run function "launch_url_hinter"
+2016-03-28 16:35:05	=!=	ruby: error: (eval):366:in `scan': incompatible encoding regexp match (UTF-8 regexp with ASCII-8BIT string) (Encoding::CompatibilityError)
+2016-03-28 16:35:05	=!=	ruby: error:      from (eval):366:in `urls'
+2016-03-28 16:35:05	=!=	ruby: error:      from (eval):270:in `block in url_count'
+2016-03-28 16:35:05	=!=	ruby: error:      from (eval):312:in `each'
+2016-03-28 16:35:05	=!=	ruby: error:      from (eval):270:in `inject'
+2016-03-28 16:35:05	=!=	ruby: error:      from (eval):270:in `url_count'
+2016-03-28 16:35:05	=!=	ruby: error:      from (eval):148:in `set_target'
+2016-03-28 16:35:05	=!=	ruby: error:      from (eval):98:in `launch_url_hinter'
+2016-03-28 16:35:05	=!=	ruby: unable to run function "launch_url_hinter"
+2016-03-28 16:35:05	=!=	ruby: error: (eval):366:in `scan': incompatible encoding regexp match (UTF-8 regexp with ASCII-8BIT string) (Encoding::CompatibilityError)
+2016-03-28 16:35:05	=!=	ruby: error:      from (eval):366:in `urls'
+2016-03-28 16:35:05	=!=	ruby: error:      from (eval):270:in `block in url_count'
+2016-03-28 16:35:05	=!=	ruby: error:      from (eval):312:in `each'
+2016-03-28 16:35:05	=!=	ruby: error:      from (eval):270:in `inject'
+2016-03-28 16:35:05	=!=	ruby: error:      from (eval):270:in `url_count'
+2016-03-28 16:35:05	=!=	ruby: error:      from (eval):148:in `set_target'
+2016-03-28 16:35:05	=!=	ruby: error:      from (eval):98:in `launch_url_hinter'
+2016-03-28 16:35:05	=!=	ruby: unable to run function "launch_url_hinter"
+2016-03-28 16:35:05	=!=	ruby: error: (eval):366:in `scan': incompatible encoding regexp match (UTF-8 regexp with ASCII-8BIT string) (Encoding::CompatibilityError)
+2016-03-28 16:35:05	=!=	ruby: error:      from (eval):366:in `urls'
+2016-03-28 16:35:05	=!=	ruby: error:      from (eval):270:in `block in url_count'
+2016-03-28 16:35:05	=!=	ruby: error:      from (eval):312:in `each'
+2016-03-28 16:35:05	=!=	ruby: error:      from (eval):270:in `inject'
+2016-03-28 16:35:05	=!=	ruby: error:      from (eval):270:in `url_count'
+2016-03-28 16:35:05	=!=	ruby: error:      from (eval):148:in `set_target'
+2016-03-28 16:35:06	=!=	ruby: error:      from (eval):98:in `launch_url_hinter'
+2016-03-28 16:35:06	=!=	ruby: unable to run function "launch_url_hinter"
+2016-03-28 16:35:06	=!=	ruby: error: (eval):366:in `scan': incompatible encoding regexp match (UTF-8 regexp with ASCII-8BIT string) (Encoding::CompatibilityError)
+2016-03-28 16:35:06	=!=	ruby: error:      from (eval):366:in `urls'
+2016-03-28 16:35:06	=!=	ruby: error:      from (eval):270:in `block in url_count'
+2016-03-28 16:35:06	=!=	ruby: error:      from (eval):312:in `each'
+2016-03-28 16:35:06	=!=	ruby: error:      from (eval):270:in `inject'
+2016-03-28 16:35:06	=!=	ruby: error:      from (eval):270:in `url_count'
+2016-03-28 16:35:06	=!=	ruby: error:      from (eval):148:in `set_target'
+2016-03-28 16:35:06	=!=	ruby: error:      from (eval):98:in `launch_url_hinter'
+2016-03-28 16:35:15	=!=	Error: unknown command "/usr_hinter" (type /help for help)
+2016-03-28 16:36:27	=!=	ruby: unable to run function "launch_url_hinter"
+2016-03-28 16:36:27	=!=	ruby: error: (eval):366:in `scan': incompatible encoding regexp match (UTF-8 regexp with ASCII-8BIT string) (Encoding::CompatibilityError)
+2016-03-28 16:36:27	=!=	ruby: error:      from (eval):366:in `urls'
+2016-03-28 16:36:27	=!=	ruby: error:      from (eval):270:in `block in url_count'
+2016-03-28 16:36:27	=!=	ruby: error:      from (eval):312:in `each'
+2016-03-28 16:36:27	=!=	ruby: error:      from (eval):270:in `inject'
+2016-03-28 16:36:27	=!=	ruby: error:      from (eval):270:in `url_count'
+2016-03-28 16:36:27	=!=	ruby: error:      from (eval):148:in `set_target'
+2016-03-28 16:36:27	=!=	ruby: error:      from (eval):98:in `launch_url_hinter'
+2016-03-28 20:12:36		ruby: scripts unloaded
+2016-03-28 20:12:36		python: scripts unloaded
+2016-03-28 20:37:50		[vimode.py] Problematic keybindings detected:
+2016-03-28 20:37:50		[vimode.py]     meta-jmeta-f -> /buffer -
+2016-03-28 20:37:50		[vimode.py]     meta-jmeta-l -> /buffer +
+2016-03-28 20:37:50		[vimode.py]     meta-jmeta-r -> /server raw
+2016-03-28 20:37:50		[vimode.py]     meta-jmeta-s -> /server jump
+2016-03-28 20:37:50		[vimode.py]     meta-wmeta-meta2-A -> /window up
+2016-03-28 20:37:50		[vimode.py]     meta-wmeta-meta2-B -> /window down
+2016-03-28 20:37:50		[vimode.py]     meta-wmeta-meta2-C -> /window right
+2016-03-28 20:37:50		[vimode.py]     meta-wmeta-meta2-D -> /window left
+2016-03-28 20:37:50		[vimode.py]     meta-wmeta2-1;3A -> /window up
+2016-03-28 20:37:50		[vimode.py]     meta-wmeta2-1;3B -> /window down
+2016-03-28 20:37:50		[vimode.py]     meta-wmeta2-1;3C -> /window right
+2016-03-28 20:37:50		[vimode.py]     meta-wmeta2-1;3D -> /window left
+2016-03-28 20:37:50		[vimode.py]     meta-wmeta-b -> /window balance
+2016-03-28 20:37:50		[vimode.py]     meta-wmeta-s -> /window swap
+2016-03-28 20:37:50		[vimode.py] These keybindings may conflict with vimode.
+2016-03-28 20:37:50		[vimode.py] You can remove problematic key bindings and add recommended ones by using /vimode bind_keys, or only list them with /vimode bind_keys --list
+2016-03-28 20:37:50		[vimode.py] For help, see: https://github.com/GermainZ/weechat-vimode/blob/master/FAQ#problematic-key-bindings.md
+2016-03-28 20:37:50		[vimode.py] To force disable warnings, you can set plugins.var.python.vimode.no_warn to 'on'
+2016-03-28 20:37:50		python scripts loaded: vimode
+2016-03-28 20:37:50		ruby scripts loaded: url_hinter
+2016-03-28 20:37:50		script: 300 scripts for WeeChat 1.4
+2016-03-28 20:37:50		Plugins loaded: alias, charset, exec, fifo, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2016-03-28 20:38:31		irc: server wechat added
+2016-03-28 21:03:26	=!=	ruby: unable to run function "launch_url_hinter"
+2016-03-28 21:03:26	=!=	ruby: error: (eval):362:in `match': incompatible encoding regexp match (UTF-8 regexp with ASCII-8BIT string) (Encoding::CompatibilityError)
+2016-03-28 21:03:26	=!=	ruby: error:      from (eval):362:in `has_url?'
+2016-03-28 21:03:26	=!=	ruby: error:      from (eval):312:in `each'
+2016-03-28 21:03:26	=!=	ruby: error:      from (eval):274:in `find'
+2016-03-28 21:03:26	=!=	ruby: error:      from (eval):274:in `has_url_in_display?'
+2016-03-28 21:03:26	=!=	ruby: error:      from (eval):95:in `launch_url_hinter'
+2016-03-28 21:03:27	=!=	ruby: unable to run function "launch_url_hinter"
+2016-03-28 21:03:27	=!=	ruby: error: (eval):362:in `match': incompatible encoding regexp match (UTF-8 regexp with ASCII-8BIT string) (Encoding::CompatibilityError)
+2016-03-28 21:03:27	=!=	ruby: error:      from (eval):362:in `has_url?'
+2016-03-28 21:03:27	=!=	ruby: error:      from (eval):312:in `each'
+2016-03-28 21:03:27	=!=	ruby: error:      from (eval):274:in `find'
+2016-03-28 21:03:27	=!=	ruby: error:      from (eval):274:in `has_url_in_display?'
+2016-03-28 21:03:27	=!=	ruby: error:      from (eval):95:in `launch_url_hinter'
+2016-03-28 21:03:28	=!=	ruby: unable to run function "launch_url_hinter"
+2016-03-28 21:03:28	=!=	ruby: error: (eval):362:in `match': incompatible encoding regexp match (UTF-8 regexp with ASCII-8BIT string) (Encoding::CompatibilityError)
+2016-03-28 21:03:28	=!=	ruby: error:      from (eval):362:in `has_url?'
+2016-03-28 21:03:28	=!=	ruby: error:      from (eval):312:in `each'
+2016-03-28 21:03:28	=!=	ruby: error:      from (eval):274:in `find'
+2016-03-28 21:03:28	=!=	ruby: error:      from (eval):274:in `has_url_in_display?'
+2016-03-28 21:03:28	=!=	ruby: error:      from (eval):95:in `launch_url_hinter'
+2016-03-28 21:03:28	=!=	ruby: unable to run function "launch_url_hinter"
+2016-03-28 21:03:28	=!=	ruby: error: (eval):362:in `match': incompatible encoding regexp match (UTF-8 regexp with ASCII-8BIT string) (Encoding::CompatibilityError)
+2016-03-28 21:03:28	=!=	ruby: error:      from (eval):362:in `has_url?'
+2016-03-28 21:03:28	=!=	ruby: error:      from (eval):312:in `each'
+2016-03-28 21:03:28	=!=	ruby: error:      from (eval):274:in `find'
+2016-03-28 21:03:28	=!=	ruby: error:      from (eval):274:in `has_url_in_display?'
+2016-03-28 21:03:28	=!=	ruby: error:      from (eval):95:in `launch_url_hinter'
+2016-03-28 21:03:28	=!=	ruby: unable to run function "launch_url_hinter"
+2016-03-28 21:03:28	=!=	ruby: error: (eval):362:in `match': incompatible encoding regexp match (UTF-8 regexp with ASCII-8BIT string) (Encoding::CompatibilityError)
+2016-03-28 21:03:28	=!=	ruby: error:      from (eval):362:in `has_url?'
+2016-03-28 21:03:28	=!=	ruby: error:      from (eval):312:in `each'
+2016-03-28 21:03:28	=!=	ruby: error:      from (eval):274:in `find'
+2016-03-28 21:03:28	=!=	ruby: error:      from (eval):274:in `has_url_in_display?'
+2016-03-28 21:03:28	=!=	ruby: error:      from (eval):95:in `launch_url_hinter'
+2016-03-28 21:03:28	=!=	ruby: unable to run function "launch_url_hinter"
+2016-03-28 21:03:28	=!=	ruby: error: (eval):362:in `match': incompatible encoding regexp match (UTF-8 regexp with ASCII-8BIT string) (Encoding::CompatibilityError)
+2016-03-28 21:03:28	=!=	ruby: error:      from (eval):362:in `has_url?'
+2016-03-28 21:03:28	=!=	ruby: error:      from (eval):312:in `each'
+2016-03-28 21:03:28	=!=	ruby: error:      from (eval):274:in `find'
+2016-03-28 21:03:28	=!=	ruby: error:      from (eval):274:in `has_url_in_display?'
+2016-03-28 21:03:28	=!=	ruby: error:      from (eval):95:in `launch_url_hinter'
+2016-03-28 21:03:28	=!=	ruby: unable to run function "launch_url_hinter"
+2016-03-28 21:03:28	=!=	ruby: error: (eval):362:in `match': incompatible encoding regexp match (UTF-8 regexp with ASCII-8BIT string) (Encoding::CompatibilityError)
+2016-03-28 21:03:28	=!=	ruby: error:      from (eval):362:in `has_url?'
+2016-03-28 21:03:28	=!=	ruby: error:      from (eval):312:in `each'
+2016-03-28 21:03:28	=!=	ruby: error:      from (eval):274:in `find'
+2016-03-28 21:03:28	=!=	ruby: error:      from (eval):274:in `has_url_in_display?'
+2016-03-28 21:03:28	=!=	ruby: error:      from (eval):95:in `launch_url_hinter'
+2016-03-28 21:03:29	=!=	ruby: unable to run function "launch_url_hinter"
+2016-03-28 21:03:29	=!=	ruby: error: (eval):362:in `match': incompatible encoding regexp match (UTF-8 regexp with ASCII-8BIT string) (Encoding::CompatibilityError)
+2016-03-28 21:03:29	=!=	ruby: error:      from (eval):362:in `has_url?'
+2016-03-28 21:03:29	=!=	ruby: error:      from (eval):312:in `each'
+2016-03-28 21:03:29	=!=	ruby: error:      from (eval):274:in `find'
+2016-03-28 21:03:29	=!=	ruby: error:      from (eval):274:in `has_url_in_display?'
+2016-03-28 21:03:29	=!=	ruby: error:      from (eval):95:in `launch_url_hinter'
+2016-03-28 21:03:29	=!=	ruby: unable to run function "launch_url_hinter"
+2016-03-28 21:03:29	=!=	ruby: error: (eval):362:in `match': incompatible encoding regexp match (UTF-8 regexp with ASCII-8BIT string) (Encoding::CompatibilityError)
+2016-03-28 21:03:29	=!=	ruby: error:      from (eval):362:in `has_url?'
+2016-03-28 21:03:29	=!=	ruby: error:      from (eval):312:in `each'
+2016-03-28 21:03:29	=!=	ruby: error:      from (eval):274:in `find'
+2016-03-28 21:03:29	=!=	ruby: error:      from (eval):274:in `has_url_in_display?'
+2016-03-28 21:03:29	=!=	ruby: error:      from (eval):95:in `launch_url_hinter'
+2016-03-28 21:03:31	=!=	ruby: unable to run function "launch_url_hinter"
+2016-03-28 21:03:31	=!=	ruby: error: (eval):362:in `match': incompatible encoding regexp match (UTF-8 regexp with ASCII-8BIT string) (Encoding::CompatibilityError)
+2016-03-28 21:03:31	=!=	ruby: error:      from (eval):362:in `has_url?'
+2016-03-28 21:03:31	=!=	ruby: error:      from (eval):312:in `each'
+2016-03-28 21:03:31	=!=	ruby: error:      from (eval):274:in `find'
+2016-03-28 21:03:31	=!=	ruby: error:      from (eval):274:in `has_url_in_display?'
+2016-03-28 21:03:31	=!=	ruby: error:      from (eval):95:in `launch_url_hinter'
+2016-03-28 21:03:31	=!=	ruby: unable to run function "launch_url_hinter"
+2016-03-28 21:03:31	=!=	ruby: error: (eval):362:in `match': incompatible encoding regexp match (UTF-8 regexp with ASCII-8BIT string) (Encoding::CompatibilityError)
+2016-03-28 21:03:31	=!=	ruby: error:      from (eval):362:in `has_url?'
+2016-03-28 21:03:31	=!=	ruby: error:      from (eval):312:in `each'
+2016-03-28 21:03:31	=!=	ruby: error:      from (eval):274:in `find'
+2016-03-28 21:03:31	=!=	ruby: error:      from (eval):274:in `has_url_in_display?'
+2016-03-28 21:03:31	=!=	ruby: error:      from (eval):95:in `launch_url_hinter'
+2016-03-28 21:03:31	=!=	ruby: unable to run function "launch_url_hinter"
+2016-03-28 21:03:31	=!=	ruby: error: (eval):362:in `match': incompatible encoding regexp match (UTF-8 regexp with ASCII-8BIT string) (Encoding::CompatibilityError)
+2016-03-28 21:03:31	=!=	ruby: error:      from (eval):362:in `has_url?'
+2016-03-28 21:03:31	=!=	ruby: error:      from (eval):312:in `each'
+2016-03-28 21:03:31	=!=	ruby: error:      from (eval):274:in `find'
+2016-03-28 21:03:31	=!=	ruby: error:      from (eval):274:in `has_url_in_display?'
+2016-03-28 21:03:31	=!=	ruby: error:      from (eval):95:in `launch_url_hinter'
+2016-03-28 21:03:31	=!=	ruby: unable to run function "launch_url_hinter"
+2016-03-28 21:03:31	=!=	ruby: error: (eval):362:in `match': incompatible encoding regexp match (UTF-8 regexp with ASCII-8BIT string) (Encoding::CompatibilityError)
+2016-03-28 21:03:31	=!=	ruby: error:      from (eval):362:in `has_url?'
+2016-03-28 21:03:31	=!=	ruby: error:      from (eval):312:in `each'
+2016-03-28 21:03:31	=!=	ruby: error:      from (eval):274:in `find'
+2016-03-28 21:03:31	=!=	ruby: error:      from (eval):274:in `has_url_in_display?'
+2016-03-28 21:03:31	=!=	ruby: error:      from (eval):95:in `launch_url_hinter'
+2016-03-28 21:03:31	=!=	ruby: unable to run function "launch_url_hinter"
+2016-03-28 21:03:31	=!=	ruby: error: (eval):362:in `match': incompatible encoding regexp match (UTF-8 regexp with ASCII-8BIT string) (Encoding::CompatibilityError)
+2016-03-28 21:03:31	=!=	ruby: error:      from (eval):362:in `has_url?'
+2016-03-28 21:03:31	=!=	ruby: error:      from (eval):312:in `each'
+2016-03-28 21:03:31	=!=	ruby: error:      from (eval):274:in `find'
+2016-03-28 21:03:31	=!=	ruby: error:      from (eval):274:in `has_url_in_display?'
+2016-03-28 21:03:31	=!=	ruby: error:      from (eval):95:in `launch_url_hinter'
+2016-03-28 21:03:55	=!=	ruby: unable to run function "launch_url_hinter"
+2016-03-28 21:03:55	=!=	ruby: error: (eval):362:in `match': incompatible encoding regexp match (UTF-8 regexp with ASCII-8BIT string) (Encoding::CompatibilityError)
+2016-03-28 21:03:55	=!=	ruby: error:      from (eval):362:in `has_url?'
+2016-03-28 21:03:55	=!=	ruby: error:      from (eval):312:in `each'
+2016-03-28 21:03:55	=!=	ruby: error:      from (eval):274:in `find'
+2016-03-28 21:03:55	=!=	ruby: error:      from (eval):274:in `has_url_in_display?'
+2016-03-28 21:03:55	=!=	ruby: error:      from (eval):95:in `launch_url_hinter'
+2016-03-28 21:04:02	=!=	ruby: unable to run function "launch_url_hinter"
+2016-03-28 21:04:02	=!=	ruby: error: (eval):362:in `match': incompatible encoding regexp match (UTF-8 regexp with ASCII-8BIT string) (Encoding::CompatibilityError)
+2016-03-28 21:04:02	=!=	ruby: error:      from (eval):362:in `has_url?'
+2016-03-28 21:04:02	=!=	ruby: error:      from (eval):312:in `each'
+2016-03-28 21:04:02	=!=	ruby: error:      from (eval):274:in `find'
+2016-03-28 21:04:02	=!=	ruby: error:      from (eval):274:in `has_url_in_display?'
+2016-03-28 21:04:02	=!=	ruby: error:      from (eval):95:in `launch_url_hinter'
+2016-03-28 21:12:10		lua: loading script "/Users/ranranking/.weechat/lua/urlselect.lua"
+2016-03-28 21:12:10		lua: registered script "urlselect", version 0.4 (Interactively select URL)
+2016-03-28 21:12:10	urlselect	No custom commands configured. Adding default custom command...
+2016-03-28 21:12:10	urlselect	Key alt-i bound to command: /input insert ${url}\x20
+2016-03-28 21:12:10	urlselect	Key alt-o bound to command: /exec -bg -nosh open ${url}
+2016-03-28 22:32:08		ruby: scripts unloaded
+2016-03-28 22:32:08		python: scripts unloaded
+2016-03-28 22:32:08		lua: scripts unloaded
+2016-03-29 11:05:21		lua scripts loaded: urlselect
+2016-03-29 11:05:21		[vimode.py] Problematic keybindings detected:
+2016-03-29 11:05:21		[vimode.py]     meta-jmeta-f -> /buffer -
+2016-03-29 11:05:21		[vimode.py]     meta-jmeta-l -> /buffer +
+2016-03-29 11:05:21		[vimode.py]     meta-jmeta-r -> /server raw
+2016-03-29 11:05:21		[vimode.py]     meta-jmeta-s -> /server jump
+2016-03-29 11:05:21		[vimode.py]     meta-wmeta-meta2-A -> /window up
+2016-03-29 11:05:21		[vimode.py]     meta-wmeta-meta2-B -> /window down
+2016-03-29 11:05:21		[vimode.py]     meta-wmeta-meta2-C -> /window right
+2016-03-29 11:05:21		[vimode.py]     meta-wmeta-meta2-D -> /window left
+2016-03-29 11:05:21		[vimode.py]     meta-wmeta2-1;3A -> /window up
+2016-03-29 11:05:21		[vimode.py]     meta-wmeta2-1;3B -> /window down
+2016-03-29 11:05:21		[vimode.py]     meta-wmeta2-1;3C -> /window right
+2016-03-29 11:05:21		[vimode.py]     meta-wmeta2-1;3D -> /window left
+2016-03-29 11:05:21		[vimode.py]     meta-wmeta-b -> /window balance
+2016-03-29 11:05:21		[vimode.py]     meta-wmeta-s -> /window swap
+2016-03-29 11:05:21		[vimode.py] These keybindings may conflict with vimode.
+2016-03-29 11:05:21		[vimode.py] You can remove problematic key bindings and add recommended ones by using /vimode bind_keys, or only list them with /vimode bind_keys --list
+2016-03-29 11:05:21		[vimode.py] For help, see: https://github.com/GermainZ/weechat-vimode/blob/master/FAQ#problematic-key-bindings.md
+2016-03-29 11:05:21		[vimode.py] To force disable warnings, you can set plugins.var.python.vimode.no_warn to 'on'
+2016-03-29 11:05:21		python scripts loaded: vimode
+2016-03-29 11:05:21		script: 300 scripts for WeeChat 1.4
+2016-03-29 11:05:21		Plugins loaded: alias, charset, exec, fifo, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2016-03-29 11:06:26		python: scripts unloaded
+2016-03-29 11:06:26		lua: scripts unloaded
+2016-03-29 11:12:26	=!=	irc: error creating server option "wechat.autojoin "
+2016-03-29 11:12:26	=!=	Warning: /Users/ranranking/.weechat/irc.conf, line 253: invalid value for option: wechat.autojoin 
+2016-03-29 11:12:26		lua scripts loaded: urlselect
+2016-03-29 11:12:26		[vimode.py] Problematic keybindings detected:
+2016-03-29 11:12:26		[vimode.py]     meta-jmeta-f -> /buffer -
+2016-03-29 11:12:26		[vimode.py]     meta-jmeta-l -> /buffer +
+2016-03-29 11:12:26		[vimode.py]     meta-jmeta-r -> /server raw
+2016-03-29 11:12:26		[vimode.py]     meta-jmeta-s -> /server jump
+2016-03-29 11:12:26		[vimode.py]     meta-wmeta-meta2-A -> /window up
+2016-03-29 11:12:26		[vimode.py]     meta-wmeta-meta2-B -> /window down
+2016-03-29 11:12:26		[vimode.py]     meta-wmeta-meta2-C -> /window right
+2016-03-29 11:12:26		[vimode.py]     meta-wmeta-meta2-D -> /window left
+2016-03-29 11:12:26		[vimode.py]     meta-wmeta2-1;3A -> /window up
+2016-03-29 11:12:26		[vimode.py]     meta-wmeta2-1;3B -> /window down
+2016-03-29 11:12:26		[vimode.py]     meta-wmeta2-1;3C -> /window right
+2016-03-29 11:12:26		[vimode.py]     meta-wmeta2-1;3D -> /window left
+2016-03-29 11:12:26		[vimode.py]     meta-wmeta-b -> /window balance
+2016-03-29 11:12:26		[vimode.py]     meta-wmeta-s -> /window swap
+2016-03-29 11:12:26		[vimode.py] These keybindings may conflict with vimode.
+2016-03-29 11:12:26		[vimode.py] You can remove problematic key bindings and add recommended ones by using /vimode bind_keys, or only list them with /vimode bind_keys --list
+2016-03-29 11:12:26		[vimode.py] For help, see: https://github.com/GermainZ/weechat-vimode/blob/master/FAQ#problematic-key-bindings.md
+2016-03-29 11:12:26		[vimode.py] To force disable warnings, you can set plugins.var.python.vimode.no_warn to 'on'
+2016-03-29 11:12:26		python scripts loaded: vimode
+2016-03-29 11:12:26		script: 300 scripts for WeeChat 1.4
+2016-03-29 11:12:26		Plugins loaded: alias, charset, exec, fifo, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2016-03-29 11:12:33		python: scripts unloaded
+2016-03-29 11:12:33		lua: scripts unloaded
+2016-03-29 11:34:56		lua scripts loaded: urlselect
+2016-03-29 11:34:56		[vimode.py] Problematic keybindings detected:
+2016-03-29 11:34:56		[vimode.py]     meta-jmeta-f -> /buffer -
+2016-03-29 11:34:56		[vimode.py]     meta-jmeta-l -> /buffer +
+2016-03-29 11:34:56		[vimode.py]     meta-jmeta-r -> /server raw
+2016-03-29 11:34:56		[vimode.py]     meta-jmeta-s -> /server jump
+2016-03-29 11:34:56		[vimode.py]     meta-wmeta-meta2-A -> /window up
+2016-03-29 11:34:56		[vimode.py]     meta-wmeta-meta2-B -> /window down
+2016-03-29 11:34:56		[vimode.py]     meta-wmeta-meta2-C -> /window right
+2016-03-29 11:34:56		[vimode.py]     meta-wmeta-meta2-D -> /window left
+2016-03-29 11:34:56		[vimode.py]     meta-wmeta2-1;3A -> /window up
+2016-03-29 11:34:56		[vimode.py]     meta-wmeta2-1;3B -> /window down
+2016-03-29 11:34:56		[vimode.py]     meta-wmeta2-1;3C -> /window right
+2016-03-29 11:34:56		[vimode.py]     meta-wmeta2-1;3D -> /window left
+2016-03-29 11:34:56		[vimode.py]     meta-wmeta-b -> /window balance
+2016-03-29 11:34:56		[vimode.py]     meta-wmeta-s -> /window swap
+2016-03-29 11:34:56		[vimode.py] These keybindings may conflict with vimode.
+2016-03-29 11:34:56		[vimode.py] You can remove problematic key bindings and add recommended ones by using /vimode bind_keys, or only list them with /vimode bind_keys --list
+2016-03-29 11:34:56		[vimode.py] For help, see: https://github.com/GermainZ/weechat-vimode/blob/master/FAQ#problematic-key-bindings.md
+2016-03-29 11:34:56		[vimode.py] To force disable warnings, you can set plugins.var.python.vimode.no_warn to 'on'
+2016-03-29 11:34:56		python scripts loaded: vimode
+2016-03-29 11:34:56		script: 300 scripts for WeeChat 1.4
+2016-03-29 11:34:56		Plugins loaded: alias, charset, exec, fifo, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2016-03-29 11:35:25		[core]
+2016-03-29 11:35:25		  away     eval     mouse    repeat   version
+2016-03-29 11:35:25		  bar      filter   mute     save     wait   
+2016-03-29 11:35:25		  buffer   help     plugin   secure   window 
+2016-03-29 11:35:25		  color    history  print    set    
+2016-03-29 11:35:25		  command  input    proxy    unset  
+2016-03-29 11:35:25		  cursor   key      quit     upgrade
+2016-03-29 11:35:25		  debug    layout   reload   uptime 
+2016-03-29 11:35:25		[alias]
+2016-03-29 11:35:25		  AAWAY    C        K        Q        V      
+2016-03-29 11:35:25		  alias    CHAT     KB       REDRAW   W      
+2016-03-29 11:35:25		  AME      CL       LEAVE    SAY      WC     
+2016-03-29 11:35:25		  AMSG     CLOSE    M        SIGNOFF  WI     
+2016-03-29 11:35:25		  ANICK    EXIT     MSGBUF   T        WII    
+2016-03-29 11:35:25		  BEEP     IG       MUB      UB       WW     
+2016-03-29 11:35:25		  BYE      J        N        UMODE  
+2016-03-29 11:35:25		[charset]
+2016-03-29 11:35:25		  charset
+2016-03-29 11:35:25		[exec]
+2016-03-29 11:35:25		  exec
+2016-03-29 11:35:25		[fifo]
+2016-03-29 11:35:25		  fifo
+2016-03-29 11:35:25		[irc]
+2016-03-29 11:35:25		  admin       list        sanick    
+2016-03-29 11:35:25		  allchan     lusers      sapart    
+2016-03-29 11:35:25		  allpv       map         saquit    
+2016-03-29 11:35:25		  allserv     me          server    
+2016-03-29 11:35:25		  ban         mode        service   
+2016-03-29 11:35:25		  cap         motd        servlist  
+2016-03-29 11:35:25		  connect     msg         squery    
+2016-03-29 11:35:25		  ctcp        names       squit     
+2016-03-29 11:35:25		  cycle       nick        stats     
+2016-03-29 11:35:25		  dcc         notice      summon    
+2016-03-29 11:35:25		  dehalfop    notify      time      
+2016-03-29 11:35:25		  deop        op          topic     
+2016-03-29 11:35:25		  devoice     oper        trace     
+2016-03-29 11:35:25		  die         part        unban     
+2016-03-29 11:35:25		  disconnect  ping        unquiet   
+2016-03-29 11:35:25		  halfop      pong        userhost  
+2016-03-29 11:35:25		  ignore      query       users     
+2016-03-29 11:35:25		  info        quiet       version   
+2016-03-29 11:35:25		  invite      quote       voice     
+2016-03-29 11:35:25		  ison        reconnect   wallchops 
+2016-03-29 11:35:25		  join        rehash      wallops   
+2016-03-29 11:35:25		  kick        remove      who       
+2016-03-29 11:35:25		  kickban     restart     whois     
+2016-03-29 11:35:25		  kill        sajoin      whowas    
+2016-03-29 11:35:25		  links       samode    
+2016-03-29 11:35:25		[logger]
+2016-03-29 11:35:25		  logger
+2016-03-29 11:35:25		[lua]
+2016-03-29 11:35:25		  lua  urlselect
+2016-03-29 11:35:25		[perl]
+2016-03-29 11:35:25		  perl
+2016-03-29 11:35:25		[python]
+2016-03-29 11:35:25		  python  vimode
+2016-03-29 11:35:25		[relay]
+2016-03-29 11:35:25		  relay
+2016-03-29 11:35:25		[ruby]
+2016-03-29 11:35:25		  ruby
+2016-03-29 11:35:25		[script]
+2016-03-29 11:35:25		  script
+2016-03-29 11:35:25		[tcl]
+2016-03-29 11:35:25		  tcl
+2016-03-29 11:35:25		[trigger]
+2016-03-29 11:35:25		  trigger
+2016-03-29 11:35:25		[xfer]
+2016-03-29 11:35:25		  me  xfer
+2016-03-29 11:35:53		[irc]  /service  <nick> <reserved> <distribution> <type> <reserved> <info>
+2016-03-29 11:35:53		register a new service
+2016-03-29 11:35:53		distribution: visibility of service
+2016-03-29 11:35:53		        type: reserved for future usage
+2016-03-29 11:36:14	=!=	Error: unknown command "/servive" (type /help for help)
+2016-03-29 11:36:18	=!=	irc: command "service" must be executed on connected irc server
+2016-03-29 11:37:03		python: scripts unloaded
+2016-03-29 11:37:03		lua: scripts unloaded
+2016-03-29 11:38:20		lua scripts loaded: urlselect
+2016-03-29 11:38:20		[vimode.py] Problematic keybindings detected:
+2016-03-29 11:38:20		[vimode.py]     meta-jmeta-f -> /buffer -
+2016-03-29 11:38:20		[vimode.py]     meta-jmeta-l -> /buffer +
+2016-03-29 11:38:20		[vimode.py]     meta-jmeta-r -> /server raw
+2016-03-29 11:38:20		[vimode.py]     meta-jmeta-s -> /server jump
+2016-03-29 11:38:20		[vimode.py]     meta-wmeta-meta2-A -> /window up
+2016-03-29 11:38:20		[vimode.py]     meta-wmeta-meta2-B -> /window down
+2016-03-29 11:38:20		[vimode.py]     meta-wmeta-meta2-C -> /window right
+2016-03-29 11:38:20		[vimode.py]     meta-wmeta-meta2-D -> /window left
+2016-03-29 11:38:20		[vimode.py]     meta-wmeta2-1;3A -> /window up
+2016-03-29 11:38:20		[vimode.py]     meta-wmeta2-1;3B -> /window down
+2016-03-29 11:38:20		[vimode.py]     meta-wmeta2-1;3C -> /window right
+2016-03-29 11:38:20		[vimode.py]     meta-wmeta2-1;3D -> /window left
+2016-03-29 11:38:20		[vimode.py]     meta-wmeta-b -> /window balance
+2016-03-29 11:38:20		[vimode.py]     meta-wmeta-s -> /window swap
+2016-03-29 11:38:20		[vimode.py] These keybindings may conflict with vimode.
+2016-03-29 11:38:20		[vimode.py] You can remove problematic key bindings and add recommended ones by using /vimode bind_keys, or only list them with /vimode bind_keys --list
+2016-03-29 11:38:20		[vimode.py] For help, see: https://github.com/GermainZ/weechat-vimode/blob/master/FAQ#problematic-key-bindings.md
+2016-03-29 11:38:20		[vimode.py] To force disable warnings, you can set plugins.var.python.vimode.no_warn to 'on'
+2016-03-29 11:38:20		python scripts loaded: vimode
+2016-03-29 11:38:20		script: 300 scripts for WeeChat 1.4
+2016-03-29 11:38:20		Plugins loaded: alias, charset, exec, fifo, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2016-03-29 11:38:28	=!=	Too few arguments for command "/service" (help on command: /help service)
+2016-03-29 11:38:36		[irc]  /service  <nick> <reserved> <distribution> <type> <reserved> <info>
+2016-03-29 11:38:36		register a new service
+2016-03-29 11:38:36		distribution: visibility of service
+2016-03-29 11:38:36		        type: reserved for future usage
+2016-03-29 13:46:01		python: scripts unloaded
+2016-03-29 13:46:01		lua: scripts unloaded
+2016-03-29 14:03:32		lua scripts loaded: urlselect
+2016-03-29 14:03:32		[vimode.py] Problematic keybindings detected:
+2016-03-29 14:03:32		[vimode.py]     meta-jmeta-f -> /buffer -
+2016-03-29 14:03:32		[vimode.py]     meta-jmeta-l -> /buffer +
+2016-03-29 14:03:32		[vimode.py]     meta-jmeta-r -> /server raw
+2016-03-29 14:03:32		[vimode.py]     meta-jmeta-s -> /server jump
+2016-03-29 14:03:32		[vimode.py]     meta-wmeta-meta2-A -> /window up
+2016-03-29 14:03:32		[vimode.py]     meta-wmeta-meta2-B -> /window down
+2016-03-29 14:03:32		[vimode.py]     meta-wmeta-meta2-C -> /window right
+2016-03-29 14:03:32		[vimode.py]     meta-wmeta-meta2-D -> /window left
+2016-03-29 14:03:32		[vimode.py]     meta-wmeta2-1;3A -> /window up
+2016-03-29 14:03:32		[vimode.py]     meta-wmeta2-1;3B -> /window down
+2016-03-29 14:03:32		[vimode.py]     meta-wmeta2-1;3C -> /window right
+2016-03-29 14:03:32		[vimode.py]     meta-wmeta2-1;3D -> /window left
+2016-03-29 14:03:32		[vimode.py]     meta-wmeta-b -> /window balance
+2016-03-29 14:03:32		[vimode.py]     meta-wmeta-s -> /window swap
+2016-03-29 14:03:32		[vimode.py] These keybindings may conflict with vimode.
+2016-03-29 14:03:32		[vimode.py] You can remove problematic key bindings and add recommended ones by using /vimode bind_keys, or only list them with /vimode bind_keys --list
+2016-03-29 14:03:32		[vimode.py] For help, see: https://github.com/GermainZ/weechat-vimode/blob/master/FAQ#problematic-key-bindings.md
+2016-03-29 14:03:32		[vimode.py] To force disable warnings, you can set plugins.var.python.vimode.no_warn to 'on'
+2016-03-29 14:03:32		python scripts loaded: vimode
+2016-03-29 14:03:32		script: 300 scripts for WeeChat 1.4
+2016-03-29 14:03:32		Plugins loaded: alias, charset, exec, fifo, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2016-03-29 14:23:35		python: scripts unloaded
+2016-03-29 14:23:35		lua: scripts unloaded
+2016-03-29 14:34:56		lua scripts loaded: urlselect
+2016-03-29 14:34:57		[vimode.py] Problematic keybindings detected:
+2016-03-29 14:34:57		[vimode.py]     meta-jmeta-f -> /buffer -
+2016-03-29 14:34:57		[vimode.py]     meta-jmeta-l -> /buffer +
+2016-03-29 14:34:57		[vimode.py]     meta-jmeta-r -> /server raw
+2016-03-29 14:34:57		[vimode.py]     meta-jmeta-s -> /server jump
+2016-03-29 14:34:57		[vimode.py]     meta-wmeta-meta2-A -> /window up
+2016-03-29 14:34:57		[vimode.py]     meta-wmeta-meta2-B -> /window down
+2016-03-29 14:34:57		[vimode.py]     meta-wmeta-meta2-C -> /window right
+2016-03-29 14:34:57		[vimode.py]     meta-wmeta-meta2-D -> /window left
+2016-03-29 14:34:57		[vimode.py]     meta-wmeta2-1;3A -> /window up
+2016-03-29 14:34:57		[vimode.py]     meta-wmeta2-1;3B -> /window down
+2016-03-29 14:34:57		[vimode.py]     meta-wmeta2-1;3C -> /window right
+2016-03-29 14:34:57		[vimode.py]     meta-wmeta2-1;3D -> /window left
+2016-03-29 14:34:57		[vimode.py]     meta-wmeta-b -> /window balance
+2016-03-29 14:34:57		[vimode.py]     meta-wmeta-s -> /window swap
+2016-03-29 14:34:57		[vimode.py] These keybindings may conflict with vimode.
+2016-03-29 14:34:57		[vimode.py] You can remove problematic key bindings and add recommended ones by using /vimode bind_keys, or only list them with /vimode bind_keys --list
+2016-03-29 14:34:57		[vimode.py] For help, see: https://github.com/GermainZ/weechat-vimode/blob/master/FAQ#problematic-key-bindings.md
+2016-03-29 14:34:57		[vimode.py] To force disable warnings, you can set plugins.var.python.vimode.no_warn to 'on'
+2016-03-29 14:34:57		python scripts loaded: vimode
+2016-03-29 14:34:57		script: 300 scripts for WeeChat 1.4
+2016-03-29 14:34:57		Plugins loaded: alias, charset, exec, fifo, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2016-03-29 20:03:53	=!=	Error: unknown command "/nik" (type /help for help)
+2016-03-29 20:04:02	=!=	Error with command "/nick = rrk" (help on command: /help nick)
+2016-03-29 20:04:05	=!=	Too few arguments for command "/nick" (help on command: /help nick)
+2016-03-29 20:04:21		[irc]  /nick  [-all] <nick>
+2016-03-29 20:04:21		change current nick
+2016-03-29 20:04:21		-all: set new nick for all connected servers
+2016-03-29 20:04:21		nick: new nick
+2016-03-29 22:50:57		python: scripts unloaded
+2016-03-29 22:50:57		lua: scripts unloaded
+2016-03-30 10:09:15		lua scripts loaded: urlselect
+2016-03-30 10:09:15		[vimode.py] Problematic keybindings detected:
+2016-03-30 10:09:15		[vimode.py]     meta-jmeta-f -> /buffer -
+2016-03-30 10:09:15		[vimode.py]     meta-jmeta-l -> /buffer +
+2016-03-30 10:09:15		[vimode.py]     meta-jmeta-r -> /server raw
+2016-03-30 10:09:15		[vimode.py]     meta-jmeta-s -> /server jump
+2016-03-30 10:09:15		[vimode.py]     meta-wmeta-meta2-A -> /window up
+2016-03-30 10:09:15		[vimode.py]     meta-wmeta-meta2-B -> /window down
+2016-03-30 10:09:15		[vimode.py]     meta-wmeta-meta2-C -> /window right
+2016-03-30 10:09:15		[vimode.py]     meta-wmeta-meta2-D -> /window left
+2016-03-30 10:09:15		[vimode.py]     meta-wmeta2-1;3A -> /window up
+2016-03-30 10:09:15		[vimode.py]     meta-wmeta2-1;3B -> /window down
+2016-03-30 10:09:15		[vimode.py]     meta-wmeta2-1;3C -> /window right
+2016-03-30 10:09:15		[vimode.py]     meta-wmeta2-1;3D -> /window left
+2016-03-30 10:09:15		[vimode.py]     meta-wmeta-b -> /window balance
+2016-03-30 10:09:15		[vimode.py]     meta-wmeta-s -> /window swap
+2016-03-30 10:09:15		[vimode.py] These keybindings may conflict with vimode.
+2016-03-30 10:09:15		[vimode.py] You can remove problematic key bindings and add recommended ones by using /vimode bind_keys, or only list them with /vimode bind_keys --list
+2016-03-30 10:09:15		[vimode.py] For help, see: https://github.com/GermainZ/weechat-vimode/blob/master/FAQ#problematic-key-bindings.md
+2016-03-30 10:09:15		[vimode.py] To force disable warnings, you can set plugins.var.python.vimode.no_warn to 'on'
+2016-03-30 10:09:15		python scripts loaded: vimode
+2016-03-30 10:09:15		script: downloading list of scripts...
+2016-03-30 10:09:15		Plugins loaded: alias, charset, exec, fifo, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2016-03-30 10:09:17		script: 300 scripts for WeeChat 1.4
+2016-03-30 10:11:33		python: scripts unloaded
+2016-03-30 10:11:33		lua: scripts unloaded
+2016-03-30 10:12:01		lua scripts loaded: urlselect
+2016-03-30 10:12:01		[vimode.py] Problematic keybindings detected:
+2016-03-30 10:12:01		[vimode.py]     meta-jmeta-f -> /buffer -
+2016-03-30 10:12:01		[vimode.py]     meta-jmeta-l -> /buffer +
+2016-03-30 10:12:01		[vimode.py]     meta-jmeta-r -> /server raw
+2016-03-30 10:12:01		[vimode.py]     meta-jmeta-s -> /server jump
+2016-03-30 10:12:01		[vimode.py]     meta-wmeta-meta2-A -> /window up
+2016-03-30 10:12:01		[vimode.py]     meta-wmeta-meta2-B -> /window down
+2016-03-30 10:12:01		[vimode.py]     meta-wmeta-meta2-C -> /window right
+2016-03-30 10:12:01		[vimode.py]     meta-wmeta-meta2-D -> /window left
+2016-03-30 10:12:01		[vimode.py]     meta-wmeta2-1;3A -> /window up
+2016-03-30 10:12:01		[vimode.py]     meta-wmeta2-1;3B -> /window down
+2016-03-30 10:12:01		[vimode.py]     meta-wmeta2-1;3C -> /window right
+2016-03-30 10:12:01		[vimode.py]     meta-wmeta2-1;3D -> /window left
+2016-03-30 10:12:01		[vimode.py]     meta-wmeta-b -> /window balance
+2016-03-30 10:12:01		[vimode.py]     meta-wmeta-s -> /window swap
+2016-03-30 10:12:01		[vimode.py] These keybindings may conflict with vimode.
+2016-03-30 10:12:01		[vimode.py] You can remove problematic key bindings and add recommended ones by using /vimode bind_keys, or only list them with /vimode bind_keys --list
+2016-03-30 10:12:01		[vimode.py] For help, see: https://github.com/GermainZ/weechat-vimode/blob/master/FAQ#problematic-key-bindings.md
+2016-03-30 10:12:01		[vimode.py] To force disable warnings, you can set plugins.var.python.vimode.no_warn to 'on'
+2016-03-30 10:12:01		python scripts loaded: vimode
+2016-03-30 10:12:01		script: 300 scripts for WeeChat 1.4
+2016-03-30 10:12:01		Plugins loaded: alias, charset, exec, fifo, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2016-03-30 11:39:48		python: scripts unloaded
+2016-03-30 11:39:48		lua: scripts unloaded
+2016-03-30 11:41:55		lua scripts loaded: urlselect
+2016-03-30 11:41:55		[vimode.py] Problematic keybindings detected:
+2016-03-30 11:41:55		[vimode.py]     meta-jmeta-f -> /buffer -
+2016-03-30 11:41:55		[vimode.py]     meta-jmeta-l -> /buffer +
+2016-03-30 11:41:55		[vimode.py]     meta-jmeta-r -> /server raw
+2016-03-30 11:41:55		[vimode.py]     meta-jmeta-s -> /server jump
+2016-03-30 11:41:55		[vimode.py]     meta-wmeta-meta2-A -> /window up
+2016-03-30 11:41:55		[vimode.py]     meta-wmeta-meta2-B -> /window down
+2016-03-30 11:41:55		[vimode.py]     meta-wmeta-meta2-C -> /window right
+2016-03-30 11:41:55		[vimode.py]     meta-wmeta-meta2-D -> /window left
+2016-03-30 11:41:55		[vimode.py]     meta-wmeta2-1;3A -> /window up
+2016-03-30 11:41:55		[vimode.py]     meta-wmeta2-1;3B -> /window down
+2016-03-30 11:41:55		[vimode.py]     meta-wmeta2-1;3C -> /window right
+2016-03-30 11:41:55		[vimode.py]     meta-wmeta2-1;3D -> /window left
+2016-03-30 11:41:55		[vimode.py]     meta-wmeta-b -> /window balance
+2016-03-30 11:41:55		[vimode.py]     meta-wmeta-s -> /window swap
+2016-03-30 11:41:55		[vimode.py] These keybindings may conflict with vimode.
+2016-03-30 11:41:55		[vimode.py] You can remove problematic key bindings and add recommended ones by using /vimode bind_keys, or only list them with /vimode bind_keys --list
+2016-03-30 11:41:55		[vimode.py] For help, see: https://github.com/GermainZ/weechat-vimode/blob/master/FAQ#problematic-key-bindings.md
+2016-03-30 11:41:55		[vimode.py] To force disable warnings, you can set plugins.var.python.vimode.no_warn to 'on'
+2016-03-30 11:41:55		python scripts loaded: vimode
+2016-03-30 11:41:55		script: 300 scripts for WeeChat 1.4
+2016-03-30 11:41:55		Plugins loaded: alias, charset, exec, fifo, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2016-03-30 22:49:39		python: scripts unloaded
+2016-03-30 22:49:39		lua: scripts unloaded
+2016-03-31 10:29:52		lua scripts loaded: urlselect
+2016-03-31 10:29:52		[vimode.py] Problematic keybindings detected:
+2016-03-31 10:29:52		[vimode.py]     meta-jmeta-f -> /buffer -
+2016-03-31 10:29:52		[vimode.py]     meta-jmeta-l -> /buffer +
+2016-03-31 10:29:52		[vimode.py]     meta-jmeta-r -> /server raw
+2016-03-31 10:29:52		[vimode.py]     meta-jmeta-s -> /server jump
+2016-03-31 10:29:52		[vimode.py]     meta-wmeta-meta2-A -> /window up
+2016-03-31 10:29:52		[vimode.py]     meta-wmeta-meta2-B -> /window down
+2016-03-31 10:29:52		[vimode.py]     meta-wmeta-meta2-C -> /window right
+2016-03-31 10:29:52		[vimode.py]     meta-wmeta-meta2-D -> /window left
+2016-03-31 10:29:52		[vimode.py]     meta-wmeta2-1;3A -> /window up
+2016-03-31 10:29:52		[vimode.py]     meta-wmeta2-1;3B -> /window down
+2016-03-31 10:29:52		[vimode.py]     meta-wmeta2-1;3C -> /window right
+2016-03-31 10:29:52		[vimode.py]     meta-wmeta2-1;3D -> /window left
+2016-03-31 10:29:52		[vimode.py]     meta-wmeta-b -> /window balance
+2016-03-31 10:29:52		[vimode.py]     meta-wmeta-s -> /window swap
+2016-03-31 10:29:52		[vimode.py] These keybindings may conflict with vimode.
+2016-03-31 10:29:52		[vimode.py] You can remove problematic key bindings and add recommended ones by using /vimode bind_keys, or only list them with /vimode bind_keys --list
+2016-03-31 10:29:52		[vimode.py] For help, see: https://github.com/GermainZ/weechat-vimode/blob/master/FAQ#problematic-key-bindings.md
+2016-03-31 10:29:52		[vimode.py] To force disable warnings, you can set plugins.var.python.vimode.no_warn to 'on'
+2016-03-31 10:29:52		python scripts loaded: vimode
+2016-03-31 10:29:52		script: downloading list of scripts...
+2016-03-31 10:29:52		Plugins loaded: alias, charset, exec, fifo, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2016-03-31 10:29:53		script: 300 scripts for WeeChat 1.4
+2016-03-31 13:34:01	=!=	Error: unknown command "/url_hinter" (type /help for help)
+2016-03-31 13:34:03	=!=	Error: unknown command "/url_hinter" (type /help for help)
+2016-03-31 13:34:04	=!=	Error: unknown command "/url_hinter" (type /help for help)
+2016-03-31 13:34:04	=!=	Error: unknown command "/url_hinter" (type /help for help)
+2016-03-31 18:49:51		python: scripts unloaded
+2016-03-31 18:49:51		lua: scripts unloaded
+2016-03-31 18:51:03		lua scripts loaded: urlselect
+2016-03-31 18:51:03		[vimode.py] Problematic keybindings detected:
+2016-03-31 18:51:03		[vimode.py]     meta-jmeta-f -> /buffer -
+2016-03-31 18:51:03		[vimode.py]     meta-jmeta-l -> /buffer +
+2016-03-31 18:51:03		[vimode.py]     meta-jmeta-r -> /server raw
+2016-03-31 18:51:03		[vimode.py]     meta-jmeta-s -> /server jump
+2016-03-31 18:51:03		[vimode.py]     meta-wmeta-meta2-A -> /window up
+2016-03-31 18:51:03		[vimode.py]     meta-wmeta-meta2-B -> /window down
+2016-03-31 18:51:03		[vimode.py]     meta-wmeta-meta2-C -> /window right
+2016-03-31 18:51:03		[vimode.py]     meta-wmeta-meta2-D -> /window left
+2016-03-31 18:51:03		[vimode.py]     meta-wmeta2-1;3A -> /window up
+2016-03-31 18:51:03		[vimode.py]     meta-wmeta2-1;3B -> /window down
+2016-03-31 18:51:03		[vimode.py]     meta-wmeta2-1;3C -> /window right
+2016-03-31 18:51:03		[vimode.py]     meta-wmeta2-1;3D -> /window left
+2016-03-31 18:51:03		[vimode.py]     meta-wmeta-b -> /window balance
+2016-03-31 18:51:03		[vimode.py]     meta-wmeta-s -> /window swap
+2016-03-31 18:51:03		[vimode.py] These keybindings may conflict with vimode.
+2016-03-31 18:51:03		[vimode.py] You can remove problematic key bindings and add recommended ones by using /vimode bind_keys, or only list them with /vimode bind_keys --list
+2016-03-31 18:51:03		[vimode.py] For help, see: https://github.com/GermainZ/weechat-vimode/blob/master/FAQ#problematic-key-bindings.md
+2016-03-31 18:51:03		[vimode.py] To force disable warnings, you can set plugins.var.python.vimode.no_warn to 'on'
+2016-03-31 18:51:03		python scripts loaded: vimode
+2016-03-31 18:51:03		script: 300 scripts for WeeChat 1.4
+2016-03-31 18:51:03		Plugins loaded: alias, charset, exec, fifo, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2016-03-31 19:40:34		python: scripts unloaded
+2016-03-31 19:40:34		lua: scripts unloaded
+2016-03-31 19:51:41		lua scripts loaded: urlselect
+2016-03-31 19:51:41		[vimode.py] Problematic keybindings detected:
+2016-03-31 19:51:41		[vimode.py]     meta-jmeta-f -> /buffer -
+2016-03-31 19:51:41		[vimode.py]     meta-jmeta-l -> /buffer +
+2016-03-31 19:51:41		[vimode.py]     meta-jmeta-r -> /server raw
+2016-03-31 19:51:41		[vimode.py]     meta-jmeta-s -> /server jump
+2016-03-31 19:51:41		[vimode.py]     meta-wmeta-meta2-A -> /window up
+2016-03-31 19:51:41		[vimode.py]     meta-wmeta-meta2-B -> /window down
+2016-03-31 19:51:41		[vimode.py]     meta-wmeta-meta2-C -> /window right
+2016-03-31 19:51:41		[vimode.py]     meta-wmeta-meta2-D -> /window left
+2016-03-31 19:51:41		[vimode.py]     meta-wmeta2-1;3A -> /window up
+2016-03-31 19:51:41		[vimode.py]     meta-wmeta2-1;3B -> /window down
+2016-03-31 19:51:41		[vimode.py]     meta-wmeta2-1;3C -> /window right
+2016-03-31 19:51:41		[vimode.py]     meta-wmeta2-1;3D -> /window left
+2016-03-31 19:51:41		[vimode.py]     meta-wmeta-b -> /window balance
+2016-03-31 19:51:41		[vimode.py]     meta-wmeta-s -> /window swap
+2016-03-31 19:51:41		[vimode.py] These keybindings may conflict with vimode.
+2016-03-31 19:51:41		[vimode.py] You can remove problematic key bindings and add recommended ones by using /vimode bind_keys, or only list them with /vimode bind_keys --list
+2016-03-31 19:51:41		[vimode.py] For help, see: https://github.com/GermainZ/weechat-vimode/blob/master/FAQ#problematic-key-bindings.md
+2016-03-31 19:51:41		[vimode.py] To force disable warnings, you can set plugins.var.python.vimode.no_warn to 'on'
+2016-03-31 19:51:41		python scripts loaded: vimode
+2016-03-31 19:51:41		script: 300 scripts for WeeChat 1.4
+2016-03-31 19:51:41		Plugins loaded: alias, charset, exec, fifo, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2016-03-31 19:51:53		python: scripts unloaded
+2016-03-31 19:51:53		lua: scripts unloaded
+2016-03-31 19:52:14		lua scripts loaded: urlselect
+2016-03-31 19:52:14		[vimode.py] Problematic keybindings detected:
+2016-03-31 19:52:14		[vimode.py]     meta-jmeta-f -> /buffer -
+2016-03-31 19:52:14		[vimode.py]     meta-jmeta-l -> /buffer +
+2016-03-31 19:52:14		[vimode.py]     meta-jmeta-r -> /server raw
+2016-03-31 19:52:14		[vimode.py]     meta-jmeta-s -> /server jump
+2016-03-31 19:52:14		[vimode.py]     meta-wmeta-meta2-A -> /window up
+2016-03-31 19:52:14		[vimode.py]     meta-wmeta-meta2-B -> /window down
+2016-03-31 19:52:14		[vimode.py]     meta-wmeta-meta2-C -> /window right
+2016-03-31 19:52:14		[vimode.py]     meta-wmeta-meta2-D -> /window left
+2016-03-31 19:52:14		[vimode.py]     meta-wmeta2-1;3A -> /window up
+2016-03-31 19:52:14		[vimode.py]     meta-wmeta2-1;3B -> /window down
+2016-03-31 19:52:14		[vimode.py]     meta-wmeta2-1;3C -> /window right
+2016-03-31 19:52:14		[vimode.py]     meta-wmeta2-1;3D -> /window left
+2016-03-31 19:52:14		[vimode.py]     meta-wmeta-b -> /window balance
+2016-03-31 19:52:14		[vimode.py]     meta-wmeta-s -> /window swap
+2016-03-31 19:52:14		[vimode.py] These keybindings may conflict with vimode.
+2016-03-31 19:52:14		[vimode.py] You can remove problematic key bindings and add recommended ones by using /vimode bind_keys, or only list them with /vimode bind_keys --list
+2016-03-31 19:52:14		[vimode.py] For help, see: https://github.com/GermainZ/weechat-vimode/blob/master/FAQ#problematic-key-bindings.md
+2016-03-31 19:52:14		[vimode.py] To force disable warnings, you can set plugins.var.python.vimode.no_warn to 'on'
+2016-03-31 19:52:14		python scripts loaded: vimode
+2016-03-31 19:52:14		script: 300 scripts for WeeChat 1.4
+2016-03-31 19:52:14		Plugins loaded: alias, charset, exec, fifo, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2016-03-31 20:01:19		python: scripts unloaded
+2016-03-31 20:01:19		lua: scripts unloaded
+2016-03-31 20:01:34		lua scripts loaded: urlselect
+2016-03-31 20:01:34		[vimode.py] Problematic keybindings detected:
+2016-03-31 20:01:34		[vimode.py]     meta-jmeta-f -> /buffer -
+2016-03-31 20:01:34		[vimode.py]     meta-jmeta-l -> /buffer +
+2016-03-31 20:01:34		[vimode.py]     meta-jmeta-r -> /server raw
+2016-03-31 20:01:34		[vimode.py]     meta-jmeta-s -> /server jump
+2016-03-31 20:01:34		[vimode.py]     meta-wmeta-meta2-A -> /window up
+2016-03-31 20:01:34		[vimode.py]     meta-wmeta-meta2-B -> /window down
+2016-03-31 20:01:34		[vimode.py]     meta-wmeta-meta2-C -> /window right
+2016-03-31 20:01:34		[vimode.py]     meta-wmeta-meta2-D -> /window left
+2016-03-31 20:01:34		[vimode.py]     meta-wmeta2-1;3A -> /window up
+2016-03-31 20:01:34		[vimode.py]     meta-wmeta2-1;3B -> /window down
+2016-03-31 20:01:34		[vimode.py]     meta-wmeta2-1;3C -> /window right
+2016-03-31 20:01:34		[vimode.py]     meta-wmeta2-1;3D -> /window left
+2016-03-31 20:01:34		[vimode.py]     meta-wmeta-b -> /window balance
+2016-03-31 20:01:34		[vimode.py]     meta-wmeta-s -> /window swap
+2016-03-31 20:01:34		[vimode.py] These keybindings may conflict with vimode.
+2016-03-31 20:01:34		[vimode.py] You can remove problematic key bindings and add recommended ones by using /vimode bind_keys, or only list them with /vimode bind_keys --list
+2016-03-31 20:01:34		[vimode.py] For help, see: https://github.com/GermainZ/weechat-vimode/blob/master/FAQ#problematic-key-bindings.md
+2016-03-31 20:01:34		[vimode.py] To force disable warnings, you can set plugins.var.python.vimode.no_warn to 'on'
+2016-03-31 20:01:34		python scripts loaded: vimode
+2016-03-31 20:01:34		script: 300 scripts for WeeChat 1.4
+2016-03-31 20:01:34		Plugins loaded: alias, charset, exec, fifo, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2016-03-31 20:01:49		python: scripts unloaded
+2016-03-31 20:01:49		lua: scripts unloaded
+2016-03-31 20:02:18		lua scripts loaded: urlselect
+2016-03-31 20:02:18		[vimode.py] Problematic keybindings detected:
+2016-03-31 20:02:18		[vimode.py]     meta-jmeta-f -> /buffer -
+2016-03-31 20:02:18		[vimode.py]     meta-jmeta-l -> /buffer +
+2016-03-31 20:02:18		[vimode.py]     meta-jmeta-r -> /server raw
+2016-03-31 20:02:18		[vimode.py]     meta-jmeta-s -> /server jump
+2016-03-31 20:02:18		[vimode.py]     meta-wmeta-meta2-A -> /window up
+2016-03-31 20:02:18		[vimode.py]     meta-wmeta-meta2-B -> /window down
+2016-03-31 20:02:18		[vimode.py]     meta-wmeta-meta2-C -> /window right
+2016-03-31 20:02:18		[vimode.py]     meta-wmeta-meta2-D -> /window left
+2016-03-31 20:02:18		[vimode.py]     meta-wmeta2-1;3A -> /window up
+2016-03-31 20:02:18		[vimode.py]     meta-wmeta2-1;3B -> /window down
+2016-03-31 20:02:18		[vimode.py]     meta-wmeta2-1;3C -> /window right
+2016-03-31 20:02:18		[vimode.py]     meta-wmeta2-1;3D -> /window left
+2016-03-31 20:02:18		[vimode.py]     meta-wmeta-b -> /window balance
+2016-03-31 20:02:18		[vimode.py]     meta-wmeta-s -> /window swap
+2016-03-31 20:02:18		[vimode.py] These keybindings may conflict with vimode.
+2016-03-31 20:02:18		[vimode.py] You can remove problematic key bindings and add recommended ones by using /vimode bind_keys, or only list them with /vimode bind_keys --list
+2016-03-31 20:02:18		[vimode.py] For help, see: https://github.com/GermainZ/weechat-vimode/blob/master/FAQ#problematic-key-bindings.md
+2016-03-31 20:02:18		[vimode.py] To force disable warnings, you can set plugins.var.python.vimode.no_warn to 'on'
+2016-03-31 20:02:18		python scripts loaded: vimode
+2016-03-31 20:02:18		script: 300 scripts for WeeChat 1.4
+2016-03-31 20:02:18		Plugins loaded: alias, charset, exec, fifo, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2016-03-31 20:09:44		python: scripts unloaded
+2016-03-31 20:09:44		lua: scripts unloaded
+2016-03-31 20:13:18		lua scripts loaded: urlselect
+2016-03-31 20:13:18		[vimode.py] Problematic keybindings detected:
+2016-03-31 20:13:18		[vimode.py]     meta-jmeta-f -> /buffer -
+2016-03-31 20:13:18		[vimode.py]     meta-jmeta-l -> /buffer +
+2016-03-31 20:13:18		[vimode.py]     meta-jmeta-r -> /server raw
+2016-03-31 20:13:18		[vimode.py]     meta-jmeta-s -> /server jump
+2016-03-31 20:13:18		[vimode.py]     meta-wmeta-meta2-A -> /window up
+2016-03-31 20:13:18		[vimode.py]     meta-wmeta-meta2-B -> /window down
+2016-03-31 20:13:18		[vimode.py]     meta-wmeta-meta2-C -> /window right
+2016-03-31 20:13:18		[vimode.py]     meta-wmeta-meta2-D -> /window left
+2016-03-31 20:13:18		[vimode.py]     meta-wmeta2-1;3A -> /window up
+2016-03-31 20:13:18		[vimode.py]     meta-wmeta2-1;3B -> /window down
+2016-03-31 20:13:18		[vimode.py]     meta-wmeta2-1;3C -> /window right
+2016-03-31 20:13:18		[vimode.py]     meta-wmeta2-1;3D -> /window left
+2016-03-31 20:13:18		[vimode.py]     meta-wmeta-b -> /window balance
+2016-03-31 20:13:18		[vimode.py]     meta-wmeta-s -> /window swap
+2016-03-31 20:13:18		[vimode.py] These keybindings may conflict with vimode.
+2016-03-31 20:13:18		[vimode.py] You can remove problematic key bindings and add recommended ones by using /vimode bind_keys, or only list them with /vimode bind_keys --list
+2016-03-31 20:13:18		[vimode.py] For help, see: https://github.com/GermainZ/weechat-vimode/blob/master/FAQ#problematic-key-bindings.md
+2016-03-31 20:13:18		[vimode.py] To force disable warnings, you can set plugins.var.python.vimode.no_warn to 'on'
+2016-03-31 20:13:18		python scripts loaded: vimode
+2016-03-31 20:13:18		script: 300 scripts for WeeChat 1.4
+2016-03-31 20:13:18		Plugins loaded: alias, charset, exec, fifo, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2016-03-31 20:20:53		python: scripts unloaded
+2016-03-31 20:20:53		lua: scripts unloaded
+2016-03-31 20:56:55		lua scripts loaded: urlselect
+2016-03-31 20:56:55		[vimode.py] Problematic keybindings detected:
+2016-03-31 20:56:55		[vimode.py]     meta-jmeta-f -> /buffer -
+2016-03-31 20:56:55		[vimode.py]     meta-jmeta-l -> /buffer +
+2016-03-31 20:56:55		[vimode.py]     meta-jmeta-r -> /server raw
+2016-03-31 20:56:55		[vimode.py]     meta-jmeta-s -> /server jump
+2016-03-31 20:56:55		[vimode.py]     meta-wmeta-meta2-A -> /window up
+2016-03-31 20:56:55		[vimode.py]     meta-wmeta-meta2-B -> /window down
+2016-03-31 20:56:55		[vimode.py]     meta-wmeta-meta2-C -> /window right
+2016-03-31 20:56:55		[vimode.py]     meta-wmeta-meta2-D -> /window left
+2016-03-31 20:56:55		[vimode.py]     meta-wmeta2-1;3A -> /window up
+2016-03-31 20:56:55		[vimode.py]     meta-wmeta2-1;3B -> /window down
+2016-03-31 20:56:55		[vimode.py]     meta-wmeta2-1;3C -> /window right
+2016-03-31 20:56:55		[vimode.py]     meta-wmeta2-1;3D -> /window left
+2016-03-31 20:56:55		[vimode.py]     meta-wmeta-b -> /window balance
+2016-03-31 20:56:55		[vimode.py]     meta-wmeta-s -> /window swap
+2016-03-31 20:56:55		[vimode.py] These keybindings may conflict with vimode.
+2016-03-31 20:56:55		[vimode.py] You can remove problematic key bindings and add recommended ones by using /vimode bind_keys, or only list them with /vimode bind_keys --list
+2016-03-31 20:56:55		[vimode.py] For help, see: https://github.com/GermainZ/weechat-vimode/blob/master/FAQ#problematic-key-bindings.md
+2016-03-31 20:56:55		[vimode.py] To force disable warnings, you can set plugins.var.python.vimode.no_warn to 'on'
+2016-03-31 20:56:55		python scripts loaded: vimode
+2016-03-31 20:56:55		script: 300 scripts for WeeChat 1.4
+2016-03-31 20:56:55		Plugins loaded: alias, charset, exec, fifo, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2016-03-31 20:57:10		python: scripts unloaded
+2016-03-31 20:57:10		lua: scripts unloaded
+2016-03-31 20:57:16		lua scripts loaded: urlselect
+2016-03-31 20:57:16		[vimode.py] Problematic keybindings detected:
+2016-03-31 20:57:16		[vimode.py]     meta-jmeta-f -> /buffer -
+2016-03-31 20:57:16		[vimode.py]     meta-jmeta-l -> /buffer +
+2016-03-31 20:57:16		[vimode.py]     meta-jmeta-r -> /server raw
+2016-03-31 20:57:16		[vimode.py]     meta-jmeta-s -> /server jump
+2016-03-31 20:57:16		[vimode.py]     meta-wmeta-meta2-A -> /window up
+2016-03-31 20:57:16		[vimode.py]     meta-wmeta-meta2-B -> /window down
+2016-03-31 20:57:16		[vimode.py]     meta-wmeta-meta2-C -> /window right
+2016-03-31 20:57:16		[vimode.py]     meta-wmeta-meta2-D -> /window left
+2016-03-31 20:57:16		[vimode.py]     meta-wmeta2-1;3A -> /window up
+2016-03-31 20:57:16		[vimode.py]     meta-wmeta2-1;3B -> /window down
+2016-03-31 20:57:16		[vimode.py]     meta-wmeta2-1;3C -> /window right
+2016-03-31 20:57:16		[vimode.py]     meta-wmeta2-1;3D -> /window left
+2016-03-31 20:57:16		[vimode.py]     meta-wmeta-b -> /window balance
+2016-03-31 20:57:16		[vimode.py]     meta-wmeta-s -> /window swap
+2016-03-31 20:57:16		[vimode.py] These keybindings may conflict with vimode.
+2016-03-31 20:57:16		[vimode.py] You can remove problematic key bindings and add recommended ones by using /vimode bind_keys, or only list them with /vimode bind_keys --list
+2016-03-31 20:57:16		[vimode.py] For help, see: https://github.com/GermainZ/weechat-vimode/blob/master/FAQ#problematic-key-bindings.md
+2016-03-31 20:57:16		[vimode.py] To force disable warnings, you can set plugins.var.python.vimode.no_warn to 'on'
+2016-03-31 20:57:16		python scripts loaded: vimode
+2016-03-31 20:57:16		script: 300 scripts for WeeChat 1.4
+2016-03-31 20:57:16		Plugins loaded: alias, charset, exec, fifo, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2016-03-31 20:57:41		python: scripts unloaded
+2016-03-31 20:57:41		lua: scripts unloaded
+2016-03-31 20:59:36		lua scripts loaded: urlselect
+2016-03-31 20:59:36		[vimode.py] Problematic keybindings detected:
+2016-03-31 20:59:36		[vimode.py]     meta-jmeta-f -> /buffer -
+2016-03-31 20:59:36		[vimode.py]     meta-jmeta-l -> /buffer +
+2016-03-31 20:59:36		[vimode.py]     meta-jmeta-r -> /server raw
+2016-03-31 20:59:36		[vimode.py]     meta-jmeta-s -> /server jump
+2016-03-31 20:59:36		[vimode.py]     meta-wmeta-meta2-A -> /window up
+2016-03-31 20:59:36		[vimode.py]     meta-wmeta-meta2-B -> /window down
+2016-03-31 20:59:36		[vimode.py]     meta-wmeta-meta2-C -> /window right
+2016-03-31 20:59:36		[vimode.py]     meta-wmeta-meta2-D -> /window left
+2016-03-31 20:59:36		[vimode.py]     meta-wmeta2-1;3A -> /window up
+2016-03-31 20:59:36		[vimode.py]     meta-wmeta2-1;3B -> /window down
+2016-03-31 20:59:36		[vimode.py]     meta-wmeta2-1;3C -> /window right
+2016-03-31 20:59:36		[vimode.py]     meta-wmeta2-1;3D -> /window left
+2016-03-31 20:59:36		[vimode.py]     meta-wmeta-b -> /window balance
+2016-03-31 20:59:36		[vimode.py]     meta-wmeta-s -> /window swap
+2016-03-31 20:59:36		[vimode.py] These keybindings may conflict with vimode.
+2016-03-31 20:59:36		[vimode.py] You can remove problematic key bindings and add recommended ones by using /vimode bind_keys, or only list them with /vimode bind_keys --list
+2016-03-31 20:59:36		[vimode.py] For help, see: https://github.com/GermainZ/weechat-vimode/blob/master/FAQ#problematic-key-bindings.md
+2016-03-31 20:59:36		[vimode.py] To force disable warnings, you can set plugins.var.python.vimode.no_warn to 'on'
+2016-03-31 20:59:36		python scripts loaded: vimode
+2016-03-31 20:59:36		script: 300 scripts for WeeChat 1.4
+2016-03-31 20:59:36		Plugins loaded: alias, charset, exec, fifo, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2016-03-31 21:00:11		python: scripts unloaded
+2016-03-31 21:00:11		lua: scripts unloaded
+2016-03-31 21:01:41		lua scripts loaded: urlselect
+2016-03-31 21:01:41		[vimode.py] Problematic keybindings detected:
+2016-03-31 21:01:41		[vimode.py]     meta-jmeta-f -> /buffer -
+2016-03-31 21:01:41		[vimode.py]     meta-jmeta-l -> /buffer +
+2016-03-31 21:01:41		[vimode.py]     meta-jmeta-r -> /server raw
+2016-03-31 21:01:41		[vimode.py]     meta-jmeta-s -> /server jump
+2016-03-31 21:01:41		[vimode.py]     meta-wmeta-meta2-A -> /window up
+2016-03-31 21:01:41		[vimode.py]     meta-wmeta-meta2-B -> /window down
+2016-03-31 21:01:41		[vimode.py]     meta-wmeta-meta2-C -> /window right
+2016-03-31 21:01:41		[vimode.py]     meta-wmeta-meta2-D -> /window left
+2016-03-31 21:01:41		[vimode.py]     meta-wmeta2-1;3A -> /window up
+2016-03-31 21:01:41		[vimode.py]     meta-wmeta2-1;3B -> /window down
+2016-03-31 21:01:41		[vimode.py]     meta-wmeta2-1;3C -> /window right
+2016-03-31 21:01:41		[vimode.py]     meta-wmeta2-1;3D -> /window left
+2016-03-31 21:01:41		[vimode.py]     meta-wmeta-b -> /window balance
+2016-03-31 21:01:41		[vimode.py]     meta-wmeta-s -> /window swap
+2016-03-31 21:01:41		[vimode.py] These keybindings may conflict with vimode.
+2016-03-31 21:01:41		[vimode.py] You can remove problematic key bindings and add recommended ones by using /vimode bind_keys, or only list them with /vimode bind_keys --list
+2016-03-31 21:01:41		[vimode.py] For help, see: https://github.com/GermainZ/weechat-vimode/blob/master/FAQ#problematic-key-bindings.md
+2016-03-31 21:01:41		[vimode.py] To force disable warnings, you can set plugins.var.python.vimode.no_warn to 'on'
+2016-03-31 21:01:41		python scripts loaded: vimode
+2016-03-31 21:01:41		script: 300 scripts for WeeChat 1.4
+2016-03-31 21:01:41		Plugins loaded: alias, charset, exec, fifo, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2016-03-31 23:52:04		python: scripts unloaded
+2016-03-31 23:52:04		lua: scripts unloaded
+2016-04-01 10:39:52		lua scripts loaded: urlselect
+2016-04-01 10:39:52		[vimode.py] Problematic keybindings detected:
+2016-04-01 10:39:52		[vimode.py]     meta-jmeta-f -> /buffer -
+2016-04-01 10:39:52		[vimode.py]     meta-jmeta-l -> /buffer +
+2016-04-01 10:39:52		[vimode.py]     meta-jmeta-r -> /server raw
+2016-04-01 10:39:52		[vimode.py]     meta-jmeta-s -> /server jump
+2016-04-01 10:39:52		[vimode.py]     meta-wmeta-meta2-A -> /window up
+2016-04-01 10:39:52		[vimode.py]     meta-wmeta-meta2-B -> /window down
+2016-04-01 10:39:52		[vimode.py]     meta-wmeta-meta2-C -> /window right
+2016-04-01 10:39:52		[vimode.py]     meta-wmeta-meta2-D -> /window left
+2016-04-01 10:39:52		[vimode.py]     meta-wmeta2-1;3A -> /window up
+2016-04-01 10:39:52		[vimode.py]     meta-wmeta2-1;3B -> /window down
+2016-04-01 10:39:52		[vimode.py]     meta-wmeta2-1;3C -> /window right
+2016-04-01 10:39:52		[vimode.py]     meta-wmeta2-1;3D -> /window left
+2016-04-01 10:39:52		[vimode.py]     meta-wmeta-b -> /window balance
+2016-04-01 10:39:52		[vimode.py]     meta-wmeta-s -> /window swap
+2016-04-01 10:39:52		[vimode.py] These keybindings may conflict with vimode.
+2016-04-01 10:39:52		[vimode.py] You can remove problematic key bindings and add recommended ones by using /vimode bind_keys, or only list them with /vimode bind_keys --list
+2016-04-01 10:39:52		[vimode.py] For help, see: https://github.com/GermainZ/weechat-vimode/blob/master/FAQ#problematic-key-bindings.md
+2016-04-01 10:39:52		[vimode.py] To force disable warnings, you can set plugins.var.python.vimode.no_warn to 'on'
+2016-04-01 10:39:52		python scripts loaded: vimode
+2016-04-01 10:39:52		script: downloading list of scripts...
+2016-04-01 10:39:52		Plugins loaded: alias, charset, exec, fifo, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2016-04-01 10:39:53		script: 300 scripts for WeeChat 1.4
+2016-04-01 10:40:17	=!=	Error: unknown command "/exist" (type /help for help)
+2016-04-01 10:40:23		python: scripts unloaded
+2016-04-01 10:40:23		lua: scripts unloaded
+2016-04-01 10:40:40		lua scripts loaded: urlselect
+2016-04-01 10:40:40		[vimode.py] Problematic keybindings detected:
+2016-04-01 10:40:40		[vimode.py]     meta-jmeta-f -> /buffer -
+2016-04-01 10:40:40		[vimode.py]     meta-jmeta-l -> /buffer +
+2016-04-01 10:40:40		[vimode.py]     meta-jmeta-r -> /server raw
+2016-04-01 10:40:40		[vimode.py]     meta-jmeta-s -> /server jump
+2016-04-01 10:40:40		[vimode.py]     meta-wmeta-meta2-A -> /window up
+2016-04-01 10:40:40		[vimode.py]     meta-wmeta-meta2-B -> /window down
+2016-04-01 10:40:40		[vimode.py]     meta-wmeta-meta2-C -> /window right
+2016-04-01 10:40:40		[vimode.py]     meta-wmeta-meta2-D -> /window left
+2016-04-01 10:40:40		[vimode.py]     meta-wmeta2-1;3A -> /window up
+2016-04-01 10:40:40		[vimode.py]     meta-wmeta2-1;3B -> /window down
+2016-04-01 10:40:40		[vimode.py]     meta-wmeta2-1;3C -> /window right
+2016-04-01 10:40:40		[vimode.py]     meta-wmeta2-1;3D -> /window left
+2016-04-01 10:40:40		[vimode.py]     meta-wmeta-b -> /window balance
+2016-04-01 10:40:40		[vimode.py]     meta-wmeta-s -> /window swap
+2016-04-01 10:40:40		[vimode.py] These keybindings may conflict with vimode.
+2016-04-01 10:40:40		[vimode.py] You can remove problematic key bindings and add recommended ones by using /vimode bind_keys, or only list them with /vimode bind_keys --list
+2016-04-01 10:40:40		[vimode.py] For help, see: https://github.com/GermainZ/weechat-vimode/blob/master/FAQ#problematic-key-bindings.md
+2016-04-01 10:40:40		[vimode.py] To force disable warnings, you can set plugins.var.python.vimode.no_warn to 'on'
+2016-04-01 10:40:40		python scripts loaded: vimode
+2016-04-01 10:40:40		script: 300 scripts for WeeChat 1.4
+2016-04-01 10:40:40		Plugins loaded: alias, charset, exec, fifo, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2016-04-01 10:47:39		python: scripts unloaded
+2016-04-01 10:47:39		lua: scripts unloaded
+2016-04-01 10:49:10		lua scripts loaded: urlselect
+2016-04-01 10:49:10		[vimode.py] Problematic keybindings detected:
+2016-04-01 10:49:10		[vimode.py]     meta-jmeta-f -> /buffer -
+2016-04-01 10:49:10		[vimode.py]     meta-jmeta-l -> /buffer +
+2016-04-01 10:49:10		[vimode.py]     meta-jmeta-r -> /server raw
+2016-04-01 10:49:10		[vimode.py]     meta-jmeta-s -> /server jump
+2016-04-01 10:49:10		[vimode.py]     meta-wmeta-meta2-A -> /window up
+2016-04-01 10:49:10		[vimode.py]     meta-wmeta-meta2-B -> /window down
+2016-04-01 10:49:10		[vimode.py]     meta-wmeta-meta2-C -> /window right
+2016-04-01 10:49:10		[vimode.py]     meta-wmeta-meta2-D -> /window left
+2016-04-01 10:49:10		[vimode.py]     meta-wmeta2-1;3A -> /window up
+2016-04-01 10:49:10		[vimode.py]     meta-wmeta2-1;3B -> /window down
+2016-04-01 10:49:10		[vimode.py]     meta-wmeta2-1;3C -> /window right
+2016-04-01 10:49:10		[vimode.py]     meta-wmeta2-1;3D -> /window left
+2016-04-01 10:49:10		[vimode.py]     meta-wmeta-b -> /window balance
+2016-04-01 10:49:10		[vimode.py]     meta-wmeta-s -> /window swap
+2016-04-01 10:49:10		[vimode.py] These keybindings may conflict with vimode.
+2016-04-01 10:49:10		[vimode.py] You can remove problematic key bindings and add recommended ones by using /vimode bind_keys, or only list them with /vimode bind_keys --list
+2016-04-01 10:49:10		[vimode.py] For help, see: https://github.com/GermainZ/weechat-vimode/blob/master/FAQ#problematic-key-bindings.md
+2016-04-01 10:49:10		[vimode.py] To force disable warnings, you can set plugins.var.python.vimode.no_warn to 'on'
+2016-04-01 10:49:10		python scripts loaded: vimode
+2016-04-01 10:49:10		script: 300 scripts for WeeChat 1.4
+2016-04-01 10:49:10		Plugins loaded: alias, charset, exec, fifo, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2016-04-01 11:02:40		python: scripts unloaded
+2016-04-01 11:02:40		lua: scripts unloaded
+2016-04-01 11:08:46		lua scripts loaded: urlselect
+2016-04-01 11:08:46		[vimode.py] Problematic keybindings detected:
+2016-04-01 11:08:46		[vimode.py]     meta-jmeta-f -> /buffer -
+2016-04-01 11:08:46		[vimode.py]     meta-jmeta-l -> /buffer +
+2016-04-01 11:08:46		[vimode.py]     meta-jmeta-r -> /server raw
+2016-04-01 11:08:46		[vimode.py]     meta-jmeta-s -> /server jump
+2016-04-01 11:08:46		[vimode.py]     meta-wmeta-meta2-A -> /window up
+2016-04-01 11:08:46		[vimode.py]     meta-wmeta-meta2-B -> /window down
+2016-04-01 11:08:46		[vimode.py]     meta-wmeta-meta2-C -> /window right
+2016-04-01 11:08:46		[vimode.py]     meta-wmeta-meta2-D -> /window left
+2016-04-01 11:08:46		[vimode.py]     meta-wmeta2-1;3A -> /window up
+2016-04-01 11:08:46		[vimode.py]     meta-wmeta2-1;3B -> /window down
+2016-04-01 11:08:46		[vimode.py]     meta-wmeta2-1;3C -> /window right
+2016-04-01 11:08:46		[vimode.py]     meta-wmeta2-1;3D -> /window left
+2016-04-01 11:08:46		[vimode.py]     meta-wmeta-b -> /window balance
+2016-04-01 11:08:46		[vimode.py]     meta-wmeta-s -> /window swap
+2016-04-01 11:08:46		[vimode.py] These keybindings may conflict with vimode.
+2016-04-01 11:08:46		[vimode.py] You can remove problematic key bindings and add recommended ones by using /vimode bind_keys, or only list them with /vimode bind_keys --list
+2016-04-01 11:08:46		[vimode.py] For help, see: https://github.com/GermainZ/weechat-vimode/blob/master/FAQ#problematic-key-bindings.md
+2016-04-01 11:08:46		[vimode.py] To force disable warnings, you can set plugins.var.python.vimode.no_warn to 'on'
+2016-04-01 11:08:46		python scripts loaded: vimode
+2016-04-01 11:08:46		script: 300 scripts for WeeChat 1.4
+2016-04-01 11:08:46		Plugins loaded: alias, charset, exec, fifo, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2016-04-01 11:19:43		python: scripts unloaded
+2016-04-01 11:19:43		lua: scripts unloaded
+2016-04-01 11:22:34		lua scripts loaded: urlselect
+2016-04-01 11:22:34		[vimode.py] Problematic keybindings detected:
+2016-04-01 11:22:34		[vimode.py]     meta-jmeta-f -> /buffer -
+2016-04-01 11:22:34		[vimode.py]     meta-jmeta-l -> /buffer +
+2016-04-01 11:22:34		[vimode.py]     meta-jmeta-r -> /server raw
+2016-04-01 11:22:34		[vimode.py]     meta-jmeta-s -> /server jump
+2016-04-01 11:22:34		[vimode.py]     meta-wmeta-meta2-A -> /window up
+2016-04-01 11:22:34		[vimode.py]     meta-wmeta-meta2-B -> /window down
+2016-04-01 11:22:34		[vimode.py]     meta-wmeta-meta2-C -> /window right
+2016-04-01 11:22:34		[vimode.py]     meta-wmeta-meta2-D -> /window left
+2016-04-01 11:22:34		[vimode.py]     meta-wmeta2-1;3A -> /window up
+2016-04-01 11:22:34		[vimode.py]     meta-wmeta2-1;3B -> /window down
+2016-04-01 11:22:34		[vimode.py]     meta-wmeta2-1;3C -> /window right
+2016-04-01 11:22:34		[vimode.py]     meta-wmeta2-1;3D -> /window left
+2016-04-01 11:22:34		[vimode.py]     meta-wmeta-b -> /window balance
+2016-04-01 11:22:34		[vimode.py]     meta-wmeta-s -> /window swap
+2016-04-01 11:22:34		[vimode.py] These keybindings may conflict with vimode.
+2016-04-01 11:22:34		[vimode.py] You can remove problematic key bindings and add recommended ones by using /vimode bind_keys, or only list them with /vimode bind_keys --list
+2016-04-01 11:22:34		[vimode.py] For help, see: https://github.com/GermainZ/weechat-vimode/blob/master/FAQ#problematic-key-bindings.md
+2016-04-01 11:22:34		[vimode.py] To force disable warnings, you can set plugins.var.python.vimode.no_warn to 'on'
+2016-04-01 11:22:34		python scripts loaded: vimode
+2016-04-01 11:22:34		script: 300 scripts for WeeChat 1.4
+2016-04-01 11:22:34		Plugins loaded: alias, charset, exec, fifo, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2016-04-01 17:27:34		python: scripts unloaded
+2016-04-01 17:27:34		lua: scripts unloaded
+2016-04-02 17:47:41		lua scripts loaded: urlselect
+2016-04-02 17:47:41		[vimode.py] Problematic keybindings detected:
+2016-04-02 17:47:41		[vimode.py]     meta-jmeta-f -> /buffer -
+2016-04-02 17:47:41		[vimode.py]     meta-jmeta-l -> /buffer +
+2016-04-02 17:47:41		[vimode.py]     meta-jmeta-r -> /server raw
+2016-04-02 17:47:41		[vimode.py]     meta-jmeta-s -> /server jump
+2016-04-02 17:47:41		[vimode.py]     meta-wmeta-meta2-A -> /window up
+2016-04-02 17:47:41		[vimode.py]     meta-wmeta-meta2-B -> /window down
+2016-04-02 17:47:41		[vimode.py]     meta-wmeta-meta2-C -> /window right
+2016-04-02 17:47:41		[vimode.py]     meta-wmeta-meta2-D -> /window left
+2016-04-02 17:47:41		[vimode.py]     meta-wmeta2-1;3A -> /window up
+2016-04-02 17:47:41		[vimode.py]     meta-wmeta2-1;3B -> /window down
+2016-04-02 17:47:41		[vimode.py]     meta-wmeta2-1;3C -> /window right
+2016-04-02 17:47:41		[vimode.py]     meta-wmeta2-1;3D -> /window left
+2016-04-02 17:47:41		[vimode.py]     meta-wmeta-b -> /window balance
+2016-04-02 17:47:41		[vimode.py]     meta-wmeta-s -> /window swap
+2016-04-02 17:47:41		[vimode.py] These keybindings may conflict with vimode.
+2016-04-02 17:47:41		[vimode.py] You can remove problematic key bindings and add recommended ones by using /vimode bind_keys, or only list them with /vimode bind_keys --list
+2016-04-02 17:47:41		[vimode.py] For help, see: https://github.com/GermainZ/weechat-vimode/blob/master/FAQ#problematic-key-bindings.md
+2016-04-02 17:47:41		[vimode.py] To force disable warnings, you can set plugins.var.python.vimode.no_warn to 'on'
+2016-04-02 17:47:41		python scripts loaded: vimode
+2016-04-02 17:47:41		script: downloading list of scripts...
+2016-04-02 17:47:41		Plugins loaded: alias, charset, exec, fifo, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2016-04-02 17:47:43		script: 300 scripts for WeeChat 1.4
+2016-04-02 17:47:55		python: scripts unloaded
+2016-04-02 17:47:55		lua: scripts unloaded
+2016-04-02 17:48:01		lua scripts loaded: urlselect
+2016-04-02 17:48:01		[vimode.py] Problematic keybindings detected:
+2016-04-02 17:48:01		[vimode.py]     meta-jmeta-f -> /buffer -
+2016-04-02 17:48:01		[vimode.py]     meta-jmeta-l -> /buffer +
+2016-04-02 17:48:01		[vimode.py]     meta-jmeta-r -> /server raw
+2016-04-02 17:48:01		[vimode.py]     meta-jmeta-s -> /server jump
+2016-04-02 17:48:01		[vimode.py]     meta-wmeta-meta2-A -> /window up
+2016-04-02 17:48:01		[vimode.py]     meta-wmeta-meta2-B -> /window down
+2016-04-02 17:48:01		[vimode.py]     meta-wmeta-meta2-C -> /window right
+2016-04-02 17:48:01		[vimode.py]     meta-wmeta-meta2-D -> /window left
+2016-04-02 17:48:01		[vimode.py]     meta-wmeta2-1;3A -> /window up
+2016-04-02 17:48:01		[vimode.py]     meta-wmeta2-1;3B -> /window down
+2016-04-02 17:48:01		[vimode.py]     meta-wmeta2-1;3C -> /window right
+2016-04-02 17:48:01		[vimode.py]     meta-wmeta2-1;3D -> /window left
+2016-04-02 17:48:01		[vimode.py]     meta-wmeta-b -> /window balance
+2016-04-02 17:48:01		[vimode.py]     meta-wmeta-s -> /window swap
+2016-04-02 17:48:01		[vimode.py] These keybindings may conflict with vimode.
+2016-04-02 17:48:01		[vimode.py] You can remove problematic key bindings and add recommended ones by using /vimode bind_keys, or only list them with /vimode bind_keys --list
+2016-04-02 17:48:01		[vimode.py] For help, see: https://github.com/GermainZ/weechat-vimode/blob/master/FAQ#problematic-key-bindings.md
+2016-04-02 17:48:01		[vimode.py] To force disable warnings, you can set plugins.var.python.vimode.no_warn to 'on'
+2016-04-02 17:48:01		python scripts loaded: vimode
+2016-04-02 17:48:01		script: 300 scripts for WeeChat 1.4
+2016-04-02 17:48:01		Plugins loaded: alias, charset, exec, fifo, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2016-04-02 23:11:46		python: scripts unloaded
+2016-04-02 23:11:46		lua: scripts unloaded
+2016-04-03 13:11:15		lua scripts loaded: urlselect
+2016-04-03 13:11:15		[vimode.py] Problematic keybindings detected:
+2016-04-03 13:11:15		[vimode.py]     meta-jmeta-f -> /buffer -
+2016-04-03 13:11:15		[vimode.py]     meta-jmeta-l -> /buffer +
+2016-04-03 13:11:15		[vimode.py]     meta-jmeta-r -> /server raw
+2016-04-03 13:11:15		[vimode.py]     meta-jmeta-s -> /server jump
+2016-04-03 13:11:15		[vimode.py]     meta-wmeta-meta2-A -> /window up
+2016-04-03 13:11:15		[vimode.py]     meta-wmeta-meta2-B -> /window down
+2016-04-03 13:11:15		[vimode.py]     meta-wmeta-meta2-C -> /window right
+2016-04-03 13:11:15		[vimode.py]     meta-wmeta-meta2-D -> /window left
+2016-04-03 13:11:15		[vimode.py]     meta-wmeta2-1;3A -> /window up
+2016-04-03 13:11:15		[vimode.py]     meta-wmeta2-1;3B -> /window down
+2016-04-03 13:11:15		[vimode.py]     meta-wmeta2-1;3C -> /window right
+2016-04-03 13:11:15		[vimode.py]     meta-wmeta2-1;3D -> /window left
+2016-04-03 13:11:15		[vimode.py]     meta-wmeta-b -> /window balance
+2016-04-03 13:11:15		[vimode.py]     meta-wmeta-s -> /window swap
+2016-04-03 13:11:15		[vimode.py] These keybindings may conflict with vimode.
+2016-04-03 13:11:15		[vimode.py] You can remove problematic key bindings and add recommended ones by using /vimode bind_keys, or only list them with /vimode bind_keys --list
+2016-04-03 13:11:15		[vimode.py] For help, see: https://github.com/GermainZ/weechat-vimode/blob/master/FAQ#problematic-key-bindings.md
+2016-04-03 13:11:15		[vimode.py] To force disable warnings, you can set plugins.var.python.vimode.no_warn to 'on'
+2016-04-03 13:11:15		python scripts loaded: vimode
+2016-04-03 13:11:15		script: 300 scripts for WeeChat 1.4
+2016-04-03 13:11:15		Plugins loaded: alias, charset, exec, fifo, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2016-04-03 13:11:27		python: scripts unloaded
+2016-04-03 13:11:27		lua: scripts unloaded
+2016-04-03 13:11:49		lua scripts loaded: urlselect
+2016-04-03 13:11:49		[vimode.py] Problematic keybindings detected:
+2016-04-03 13:11:49		[vimode.py]     meta-jmeta-f -> /buffer -
+2016-04-03 13:11:49		[vimode.py]     meta-jmeta-l -> /buffer +
+2016-04-03 13:11:49		[vimode.py]     meta-jmeta-r -> /server raw
+2016-04-03 13:11:49		[vimode.py]     meta-jmeta-s -> /server jump
+2016-04-03 13:11:49		[vimode.py]     meta-wmeta-meta2-A -> /window up
+2016-04-03 13:11:49		[vimode.py]     meta-wmeta-meta2-B -> /window down
+2016-04-03 13:11:49		[vimode.py]     meta-wmeta-meta2-C -> /window right
+2016-04-03 13:11:49		[vimode.py]     meta-wmeta-meta2-D -> /window left
+2016-04-03 13:11:49		[vimode.py]     meta-wmeta2-1;3A -> /window up
+2016-04-03 13:11:49		[vimode.py]     meta-wmeta2-1;3B -> /window down
+2016-04-03 13:11:49		[vimode.py]     meta-wmeta2-1;3C -> /window right
+2016-04-03 13:11:49		[vimode.py]     meta-wmeta2-1;3D -> /window left
+2016-04-03 13:11:49		[vimode.py]     meta-wmeta-b -> /window balance
+2016-04-03 13:11:49		[vimode.py]     meta-wmeta-s -> /window swap
+2016-04-03 13:11:49		[vimode.py] These keybindings may conflict with vimode.
+2016-04-03 13:11:49		[vimode.py] You can remove problematic key bindings and add recommended ones by using /vimode bind_keys, or only list them with /vimode bind_keys --list
+2016-04-03 13:11:49		[vimode.py] For help, see: https://github.com/GermainZ/weechat-vimode/blob/master/FAQ#problematic-key-bindings.md
+2016-04-03 13:11:49		[vimode.py] To force disable warnings, you can set plugins.var.python.vimode.no_warn to 'on'
+2016-04-03 13:11:49		python scripts loaded: vimode
+2016-04-03 13:11:49		script: 300 scripts for WeeChat 1.4
+2016-04-03 13:11:49		Plugins loaded: alias, charset, exec, fifo, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2016-04-03 22:10:17		python: scripts unloaded
+2016-04-03 22:10:17		lua: scripts unloaded
+2016-04-04 11:36:19		lua scripts loaded: urlselect
+2016-04-04 11:36:19		[vimode.py] Problematic keybindings detected:
+2016-04-04 11:36:19		[vimode.py]     meta-jmeta-f -> /buffer -
+2016-04-04 11:36:19		[vimode.py]     meta-jmeta-l -> /buffer +
+2016-04-04 11:36:19		[vimode.py]     meta-jmeta-r -> /server raw
+2016-04-04 11:36:19		[vimode.py]     meta-jmeta-s -> /server jump
+2016-04-04 11:36:19		[vimode.py]     meta-wmeta-meta2-A -> /window up
+2016-04-04 11:36:19		[vimode.py]     meta-wmeta-meta2-B -> /window down
+2016-04-04 11:36:19		[vimode.py]     meta-wmeta-meta2-C -> /window right
+2016-04-04 11:36:19		[vimode.py]     meta-wmeta-meta2-D -> /window left
+2016-04-04 11:36:19		[vimode.py]     meta-wmeta2-1;3A -> /window up
+2016-04-04 11:36:19		[vimode.py]     meta-wmeta2-1;3B -> /window down
+2016-04-04 11:36:19		[vimode.py]     meta-wmeta2-1;3C -> /window right
+2016-04-04 11:36:19		[vimode.py]     meta-wmeta2-1;3D -> /window left
+2016-04-04 11:36:19		[vimode.py]     meta-wmeta-b -> /window balance
+2016-04-04 11:36:19		[vimode.py]     meta-wmeta-s -> /window swap
+2016-04-04 11:36:19		[vimode.py] These keybindings may conflict with vimode.
+2016-04-04 11:36:19		[vimode.py] You can remove problematic key bindings and add recommended ones by using /vimode bind_keys, or only list them with /vimode bind_keys --list
+2016-04-04 11:36:19		[vimode.py] For help, see: https://github.com/GermainZ/weechat-vimode/blob/master/FAQ#problematic-key-bindings.md
+2016-04-04 11:36:19		[vimode.py] To force disable warnings, you can set plugins.var.python.vimode.no_warn to 'on'
+2016-04-04 11:36:19		python scripts loaded: vimode
+2016-04-04 11:36:19		script: downloading list of scripts...
+2016-04-04 11:36:19		Plugins loaded: alias, charset, exec, fifo, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2016-04-04 11:36:20		script: 300 scripts for WeeChat 1.4
+2016-04-04 15:38:48		python: scripts unloaded
+2016-04-04 15:38:48		lua: scripts unloaded
+2016-04-04 16:13:36		lua scripts loaded: urlselect
+2016-04-04 16:13:36		[vimode.py] Problematic keybindings detected:
+2016-04-04 16:13:36		[vimode.py]     meta-jmeta-f -> /buffer -
+2016-04-04 16:13:36		[vimode.py]     meta-jmeta-l -> /buffer +
+2016-04-04 16:13:36		[vimode.py]     meta-jmeta-r -> /server raw
+2016-04-04 16:13:36		[vimode.py]     meta-jmeta-s -> /server jump
+2016-04-04 16:13:36		[vimode.py]     meta-wmeta-meta2-A -> /window up
+2016-04-04 16:13:36		[vimode.py]     meta-wmeta-meta2-B -> /window down
+2016-04-04 16:13:36		[vimode.py]     meta-wmeta-meta2-C -> /window right
+2016-04-04 16:13:36		[vimode.py]     meta-wmeta-meta2-D -> /window left
+2016-04-04 16:13:36		[vimode.py]     meta-wmeta2-1;3A -> /window up
+2016-04-04 16:13:36		[vimode.py]     meta-wmeta2-1;3B -> /window down
+2016-04-04 16:13:36		[vimode.py]     meta-wmeta2-1;3C -> /window right
+2016-04-04 16:13:36		[vimode.py]     meta-wmeta2-1;3D -> /window left
+2016-04-04 16:13:36		[vimode.py]     meta-wmeta-b -> /window balance
+2016-04-04 16:13:36		[vimode.py]     meta-wmeta-s -> /window swap
+2016-04-04 16:13:36		[vimode.py] These keybindings may conflict with vimode.
+2016-04-04 16:13:36		[vimode.py] You can remove problematic key bindings and add recommended ones by using /vimode bind_keys, or only list them with /vimode bind_keys --list
+2016-04-04 16:13:36		[vimode.py] For help, see: https://github.com/GermainZ/weechat-vimode/blob/master/FAQ#problematic-key-bindings.md
+2016-04-04 16:13:36		[vimode.py] To force disable warnings, you can set plugins.var.python.vimode.no_warn to 'on'
+2016-04-04 16:13:36		python scripts loaded: vimode
+2016-04-04 16:13:36		script: 300 scripts for WeeChat 1.4
+2016-04-04 16:13:36		Plugins loaded: alias, charset, exec, fifo, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2016-04-04 18:33:42		python: scripts unloaded
+2016-04-04 18:33:42		lua: scripts unloaded
+2016-04-04 18:33:50		lua scripts loaded: urlselect
+2016-04-04 18:33:50		[vimode.py] Problematic keybindings detected:
+2016-04-04 18:33:50		[vimode.py]     meta-jmeta-f -> /buffer -
+2016-04-04 18:33:50		[vimode.py]     meta-jmeta-l -> /buffer +
+2016-04-04 18:33:50		[vimode.py]     meta-jmeta-r -> /server raw
+2016-04-04 18:33:50		[vimode.py]     meta-jmeta-s -> /server jump
+2016-04-04 18:33:50		[vimode.py]     meta-wmeta-meta2-A -> /window up
+2016-04-04 18:33:50		[vimode.py]     meta-wmeta-meta2-B -> /window down
+2016-04-04 18:33:50		[vimode.py]     meta-wmeta-meta2-C -> /window right
+2016-04-04 18:33:50		[vimode.py]     meta-wmeta-meta2-D -> /window left
+2016-04-04 18:33:50		[vimode.py]     meta-wmeta2-1;3A -> /window up
+2016-04-04 18:33:50		[vimode.py]     meta-wmeta2-1;3B -> /window down
+2016-04-04 18:33:50		[vimode.py]     meta-wmeta2-1;3C -> /window right
+2016-04-04 18:33:50		[vimode.py]     meta-wmeta2-1;3D -> /window left
+2016-04-04 18:33:50		[vimode.py]     meta-wmeta-b -> /window balance
+2016-04-04 18:33:50		[vimode.py]     meta-wmeta-s -> /window swap
+2016-04-04 18:33:50		[vimode.py] These keybindings may conflict with vimode.
+2016-04-04 18:33:50		[vimode.py] You can remove problematic key bindings and add recommended ones by using /vimode bind_keys, or only list them with /vimode bind_keys --list
+2016-04-04 18:33:50		[vimode.py] For help, see: https://github.com/GermainZ/weechat-vimode/blob/master/FAQ#problematic-key-bindings.md
+2016-04-04 18:33:50		[vimode.py] To force disable warnings, you can set plugins.var.python.vimode.no_warn to 'on'
+2016-04-04 18:33:50		python scripts loaded: vimode
+2016-04-04 18:33:50		script: 300 scripts for WeeChat 1.4
+2016-04-04 18:33:50		Plugins loaded: alias, charset, exec, fifo, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2016-04-04 22:27:05		python: scripts unloaded
+2016-04-04 22:27:05		lua: scripts unloaded
+2016-04-05 11:12:20		lua scripts loaded: urlselect
+2016-04-05 11:12:20		[vimode.py] Problematic keybindings detected:
+2016-04-05 11:12:20		[vimode.py]     meta-jmeta-f -> /buffer -
+2016-04-05 11:12:20		[vimode.py]     meta-jmeta-l -> /buffer +
+2016-04-05 11:12:20		[vimode.py]     meta-jmeta-r -> /server raw
+2016-04-05 11:12:20		[vimode.py]     meta-jmeta-s -> /server jump
+2016-04-05 11:12:20		[vimode.py]     meta-wmeta-meta2-A -> /window up
+2016-04-05 11:12:20		[vimode.py]     meta-wmeta-meta2-B -> /window down
+2016-04-05 11:12:20		[vimode.py]     meta-wmeta-meta2-C -> /window right
+2016-04-05 11:12:20		[vimode.py]     meta-wmeta-meta2-D -> /window left
+2016-04-05 11:12:20		[vimode.py]     meta-wmeta2-1;3A -> /window up
+2016-04-05 11:12:20		[vimode.py]     meta-wmeta2-1;3B -> /window down
+2016-04-05 11:12:20		[vimode.py]     meta-wmeta2-1;3C -> /window right
+2016-04-05 11:12:20		[vimode.py]     meta-wmeta2-1;3D -> /window left
+2016-04-05 11:12:20		[vimode.py]     meta-wmeta-b -> /window balance
+2016-04-05 11:12:20		[vimode.py]     meta-wmeta-s -> /window swap
+2016-04-05 11:12:20		[vimode.py] These keybindings may conflict with vimode.
+2016-04-05 11:12:20		[vimode.py] You can remove problematic key bindings and add recommended ones by using /vimode bind_keys, or only list them with /vimode bind_keys --list
+2016-04-05 11:12:20		[vimode.py] For help, see: https://github.com/GermainZ/weechat-vimode/blob/master/FAQ#problematic-key-bindings.md
+2016-04-05 11:12:20		[vimode.py] To force disable warnings, you can set plugins.var.python.vimode.no_warn to 'on'
+2016-04-05 11:12:20		python scripts loaded: vimode
+2016-04-05 11:12:20		script: 300 scripts for WeeChat 1.4
+2016-04-05 11:12:20		Plugins loaded: alias, charset, exec, fifo, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2016-04-05 11:18:17		python: scripts unloaded
+2016-04-05 11:18:17		lua: scripts unloaded
+2016-04-05 11:29:03		lua scripts loaded: urlselect
+2016-04-05 11:29:03		[vimode.py] Problematic keybindings detected:
+2016-04-05 11:29:03		[vimode.py]     meta-jmeta-f -> /buffer -
+2016-04-05 11:29:03		[vimode.py]     meta-jmeta-l -> /buffer +
+2016-04-05 11:29:03		[vimode.py]     meta-jmeta-r -> /server raw
+2016-04-05 11:29:03		[vimode.py]     meta-jmeta-s -> /server jump
+2016-04-05 11:29:03		[vimode.py]     meta-wmeta-meta2-A -> /window up
+2016-04-05 11:29:03		[vimode.py]     meta-wmeta-meta2-B -> /window down
+2016-04-05 11:29:03		[vimode.py]     meta-wmeta-meta2-C -> /window right
+2016-04-05 11:29:03		[vimode.py]     meta-wmeta-meta2-D -> /window left
+2016-04-05 11:29:03		[vimode.py]     meta-wmeta2-1;3A -> /window up
+2016-04-05 11:29:03		[vimode.py]     meta-wmeta2-1;3B -> /window down
+2016-04-05 11:29:03		[vimode.py]     meta-wmeta2-1;3C -> /window right
+2016-04-05 11:29:03		[vimode.py]     meta-wmeta2-1;3D -> /window left
+2016-04-05 11:29:03		[vimode.py]     meta-wmeta-b -> /window balance
+2016-04-05 11:29:03		[vimode.py]     meta-wmeta-s -> /window swap
+2016-04-05 11:29:03		[vimode.py] These keybindings may conflict with vimode.
+2016-04-05 11:29:03		[vimode.py] You can remove problematic key bindings and add recommended ones by using /vimode bind_keys, or only list them with /vimode bind_keys --list
+2016-04-05 11:29:03		[vimode.py] For help, see: https://github.com/GermainZ/weechat-vimode/blob/master/FAQ#problematic-key-bindings.md
+2016-04-05 11:29:03		[vimode.py] To force disable warnings, you can set plugins.var.python.vimode.no_warn to 'on'
+2016-04-05 11:29:03		python scripts loaded: vimode
+2016-04-05 11:29:03		script: 300 scripts for WeeChat 1.4
+2016-04-05 11:29:03		Plugins loaded: alias, charset, exec, fifo, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2016-04-05 11:29:54		python: scripts unloaded
+2016-04-05 11:29:54		lua: scripts unloaded
+2016-04-05 11:37:28		lua scripts loaded: urlselect
+2016-04-05 11:37:28		[vimode.py] Problematic keybindings detected:
+2016-04-05 11:37:28		[vimode.py]     meta-jmeta-f -> /buffer -
+2016-04-05 11:37:28		[vimode.py]     meta-jmeta-l -> /buffer +
+2016-04-05 11:37:28		[vimode.py]     meta-jmeta-r -> /server raw
+2016-04-05 11:37:28		[vimode.py]     meta-jmeta-s -> /server jump
+2016-04-05 11:37:28		[vimode.py]     meta-wmeta-meta2-A -> /window up
+2016-04-05 11:37:28		[vimode.py]     meta-wmeta-meta2-B -> /window down
+2016-04-05 11:37:28		[vimode.py]     meta-wmeta-meta2-C -> /window right
+2016-04-05 11:37:28		[vimode.py]     meta-wmeta-meta2-D -> /window left
+2016-04-05 11:37:28		[vimode.py]     meta-wmeta2-1;3A -> /window up
+2016-04-05 11:37:28		[vimode.py]     meta-wmeta2-1;3B -> /window down
+2016-04-05 11:37:28		[vimode.py]     meta-wmeta2-1;3C -> /window right
+2016-04-05 11:37:28		[vimode.py]     meta-wmeta2-1;3D -> /window left
+2016-04-05 11:37:28		[vimode.py]     meta-wmeta-b -> /window balance
+2016-04-05 11:37:28		[vimode.py]     meta-wmeta-s -> /window swap
+2016-04-05 11:37:28		[vimode.py] These keybindings may conflict with vimode.
+2016-04-05 11:37:28		[vimode.py] You can remove problematic key bindings and add recommended ones by using /vimode bind_keys, or only list them with /vimode bind_keys --list
+2016-04-05 11:37:28		[vimode.py] For help, see: https://github.com/GermainZ/weechat-vimode/blob/master/FAQ#problematic-key-bindings.md
+2016-04-05 11:37:28		[vimode.py] To force disable warnings, you can set plugins.var.python.vimode.no_warn to 'on'
+2016-04-05 11:37:28		python scripts loaded: vimode
+2016-04-05 11:37:28		script: downloading list of scripts...
+2016-04-05 11:37:28		Plugins loaded: alias, charset, exec, fifo, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2016-04-05 11:37:31		script: 300 scripts for WeeChat 1.4
+2016-04-05 11:38:14		python: scripts unloaded
+2016-04-05 11:38:14		lua: scripts unloaded
+2016-04-05 11:57:13		lua scripts loaded: urlselect
+2016-04-05 11:57:13		[vimode.py] Problematic keybindings detected:
+2016-04-05 11:57:13		[vimode.py]     meta-jmeta-f -> /buffer -
+2016-04-05 11:57:13		[vimode.py]     meta-jmeta-l -> /buffer +
+2016-04-05 11:57:13		[vimode.py]     meta-jmeta-r -> /server raw
+2016-04-05 11:57:13		[vimode.py]     meta-jmeta-s -> /server jump
+2016-04-05 11:57:13		[vimode.py]     meta-wmeta-meta2-A -> /window up
+2016-04-05 11:57:13		[vimode.py]     meta-wmeta-meta2-B -> /window down
+2016-04-05 11:57:13		[vimode.py]     meta-wmeta-meta2-C -> /window right
+2016-04-05 11:57:13		[vimode.py]     meta-wmeta-meta2-D -> /window left
+2016-04-05 11:57:13		[vimode.py]     meta-wmeta2-1;3A -> /window up
+2016-04-05 11:57:13		[vimode.py]     meta-wmeta2-1;3B -> /window down
+2016-04-05 11:57:13		[vimode.py]     meta-wmeta2-1;3C -> /window right
+2016-04-05 11:57:13		[vimode.py]     meta-wmeta2-1;3D -> /window left
+2016-04-05 11:57:13		[vimode.py]     meta-wmeta-b -> /window balance
+2016-04-05 11:57:13		[vimode.py]     meta-wmeta-s -> /window swap
+2016-04-05 11:57:13		[vimode.py] These keybindings may conflict with vimode.
+2016-04-05 11:57:13		[vimode.py] You can remove problematic key bindings and add recommended ones by using /vimode bind_keys, or only list them with /vimode bind_keys --list
+2016-04-05 11:57:13		[vimode.py] For help, see: https://github.com/GermainZ/weechat-vimode/blob/master/FAQ#problematic-key-bindings.md
+2016-04-05 11:57:13		[vimode.py] To force disable warnings, you can set plugins.var.python.vimode.no_warn to 'on'
+2016-04-05 11:57:13		python scripts loaded: vimode
+2016-04-05 11:57:13		script: 300 scripts for WeeChat 1.4
+2016-04-05 11:57:13		Plugins loaded: alias, charset, exec, fifo, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2016-04-05 11:57:30		python: scripts unloaded
+2016-04-05 11:57:30		lua: scripts unloaded
+2016-04-05 11:58:53		lua scripts loaded: urlselect
+2016-04-05 11:58:53		[vimode.py] Problematic keybindings detected:
+2016-04-05 11:58:53		[vimode.py]     meta-jmeta-f -> /buffer -
+2016-04-05 11:58:53		[vimode.py]     meta-jmeta-l -> /buffer +
+2016-04-05 11:58:53		[vimode.py]     meta-jmeta-r -> /server raw
+2016-04-05 11:58:53		[vimode.py]     meta-jmeta-s -> /server jump
+2016-04-05 11:58:53		[vimode.py]     meta-wmeta-meta2-A -> /window up
+2016-04-05 11:58:53		[vimode.py]     meta-wmeta-meta2-B -> /window down
+2016-04-05 11:58:53		[vimode.py]     meta-wmeta-meta2-C -> /window right
+2016-04-05 11:58:53		[vimode.py]     meta-wmeta-meta2-D -> /window left
+2016-04-05 11:58:53		[vimode.py]     meta-wmeta2-1;3A -> /window up
+2016-04-05 11:58:53		[vimode.py]     meta-wmeta2-1;3B -> /window down
+2016-04-05 11:58:53		[vimode.py]     meta-wmeta2-1;3C -> /window right
+2016-04-05 11:58:53		[vimode.py]     meta-wmeta2-1;3D -> /window left
+2016-04-05 11:58:53		[vimode.py]     meta-wmeta-b -> /window balance
+2016-04-05 11:58:53		[vimode.py]     meta-wmeta-s -> /window swap
+2016-04-05 11:58:53		[vimode.py] These keybindings may conflict with vimode.
+2016-04-05 11:58:53		[vimode.py] You can remove problematic key bindings and add recommended ones by using /vimode bind_keys, or only list them with /vimode bind_keys --list
+2016-04-05 11:58:53		[vimode.py] For help, see: https://github.com/GermainZ/weechat-vimode/blob/master/FAQ#problematic-key-bindings.md
+2016-04-05 11:58:53		[vimode.py] To force disable warnings, you can set plugins.var.python.vimode.no_warn to 'on'
+2016-04-05 11:58:53		python scripts loaded: vimode
+2016-04-05 11:58:53		script: 300 scripts for WeeChat 1.4
+2016-04-05 11:58:53		Plugins loaded: alias, charset, exec, fifo, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2016-04-05 12:01:17		python: scripts unloaded
+2016-04-05 12:01:17		lua: scripts unloaded
+2016-04-05 12:01:53		lua scripts loaded: urlselect
+2016-04-05 12:01:53		[vimode.py] Problematic keybindings detected:
+2016-04-05 12:01:53		[vimode.py]     meta-jmeta-f -> /buffer -
+2016-04-05 12:01:53		[vimode.py]     meta-jmeta-l -> /buffer +
+2016-04-05 12:01:53		[vimode.py]     meta-jmeta-r -> /server raw
+2016-04-05 12:01:53		[vimode.py]     meta-jmeta-s -> /server jump
+2016-04-05 12:01:53		[vimode.py]     meta-wmeta-meta2-A -> /window up
+2016-04-05 12:01:53		[vimode.py]     meta-wmeta-meta2-B -> /window down
+2016-04-05 12:01:53		[vimode.py]     meta-wmeta-meta2-C -> /window right
+2016-04-05 12:01:53		[vimode.py]     meta-wmeta-meta2-D -> /window left
+2016-04-05 12:01:53		[vimode.py]     meta-wmeta2-1;3A -> /window up
+2016-04-05 12:01:53		[vimode.py]     meta-wmeta2-1;3B -> /window down
+2016-04-05 12:01:53		[vimode.py]     meta-wmeta2-1;3C -> /window right
+2016-04-05 12:01:53		[vimode.py]     meta-wmeta2-1;3D -> /window left
+2016-04-05 12:01:53		[vimode.py]     meta-wmeta-b -> /window balance
+2016-04-05 12:01:53		[vimode.py]     meta-wmeta-s -> /window swap
+2016-04-05 12:01:53		[vimode.py] These keybindings may conflict with vimode.
+2016-04-05 12:01:53		[vimode.py] You can remove problematic key bindings and add recommended ones by using /vimode bind_keys, or only list them with /vimode bind_keys --list
+2016-04-05 12:01:53		[vimode.py] For help, see: https://github.com/GermainZ/weechat-vimode/blob/master/FAQ#problematic-key-bindings.md
+2016-04-05 12:01:53		[vimode.py] To force disable warnings, you can set plugins.var.python.vimode.no_warn to 'on'
+2016-04-05 12:01:53		python scripts loaded: vimode
+2016-04-05 12:01:53		script: 300 scripts for WeeChat 1.4
+2016-04-05 12:01:53		Plugins loaded: alias, charset, exec, fifo, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2016-04-05 16:54:35		python: scripts unloaded
+2016-04-05 16:54:35		lua: scripts unloaded

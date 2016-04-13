@@ -270,3 +270,317 @@
 2016-03-27 19:51:25,414 [DEBUG] Sync worker: started
 2016-03-27 19:51:25,414 [DEBUG] Starting full sync
 2016-03-27 19:51:26,502 [DEBUG] Full sync completed
+2016-03-27 21:34:35,448 [DEBUG] Synced newer note from server (key=6b0b07b723c94f5a95d6c533f690a497)
+2016-03-27 21:34:35,448 [DEBUG] Saved note to disk (key=6b0b07b723c94f5a95d6c533f690a497)
+2016-03-27 21:34:50,730 [DEBUG] Synced newer note from server (key=6b0b07b723c94f5a95d6c533f690a497)
+2016-03-27 21:34:50,731 [DEBUG] Saved note to disk (key=6b0b07b723c94f5a95d6c533f690a497)
+2016-03-27 21:35:21,208 [DEBUG] Synced newer note from server (key=6b0b07b723c94f5a95d6c533f690a497)
+2016-03-27 21:35:21,209 [DEBUG] Saved note to disk (key=6b0b07b723c94f5a95d6c533f690a497)
+2016-03-27 21:35:36,482 [DEBUG] Synced newer note from server (key=6b0b07b723c94f5a95d6c533f690a497)
+2016-03-27 21:35:36,483 [DEBUG] Saved note to disk (key=6b0b07b723c94f5a95d6c533f690a497)
+2016-03-27 21:35:51,760 [DEBUG] Synced newer note from server (key=6b0b07b723c94f5a95d6c533f690a497)
+2016-03-27 21:35:51,761 [DEBUG] Saved note to disk (key=6b0b07b723c94f5a95d6c533f690a497)
+2016-03-27 21:36:07,127 [DEBUG] Synced newer note from server (key=6b0b07b723c94f5a95d6c533f690a497)
+2016-03-27 21:36:07,128 [DEBUG] Saved note to disk (key=6b0b07b723c94f5a95d6c533f690a497)
+2016-03-27 21:36:37,514 [DEBUG] Synced newer note from server (key=6b0b07b723c94f5a95d6c533f690a497)
+2016-03-27 21:36:37,514 [DEBUG] Saved note to disk (key=6b0b07b723c94f5a95d6c533f690a497)
+2016-03-27 21:37:07,876 [DEBUG] Synced newer note from server (key=6b0b07b723c94f5a95d6c533f690a497)
+2016-03-27 21:37:07,877 [DEBUG] Saved note to disk (key=6b0b07b723c94f5a95d6c533f690a497)
+2016-03-27 21:37:23,139 [DEBUG] Synced newer note from server (key=6b0b07b723c94f5a95d6c533f690a497)
+2016-03-27 21:37:23,140 [DEBUG] Saved note to disk (key=6b0b07b723c94f5a95d6c533f690a497)
+2016-03-27 21:37:43,365 [DEBUG] Synced newer note from server (key=6b0b07b723c94f5a95d6c533f690a497)
+2016-03-27 21:37:43,366 [DEBUG] Saved note to disk (key=6b0b07b723c94f5a95d6c533f690a497)
+2016-03-27 21:37:59,817 [DEBUG] Synced newer note from server (key=6b0b07b723c94f5a95d6c533f690a497)
+2016-03-27 21:37:59,818 [DEBUG] Saved note to disk (key=6b0b07b723c94f5a95d6c533f690a497)
+2016-03-27 21:38:45,392 [DEBUG] Synced newer note from server (key=6b0b07b723c94f5a95d6c533f690a497)
+2016-03-27 21:38:45,393 [DEBUG] Saved note to disk (key=6b0b07b723c94f5a95d6c533f690a497)
+2016-03-27 21:39:00,716 [DEBUG] Synced newer note from server (key=6b0b07b723c94f5a95d6c533f690a497)
+2016-03-27 21:39:00,717 [DEBUG] Saved note to disk (key=6b0b07b723c94f5a95d6c533f690a497)
+2016-03-27 21:39:16,028 [DEBUG] Synced newer note from server (key=6b0b07b723c94f5a95d6c533f690a497)
+2016-03-27 21:39:16,029 [DEBUG] Saved note to disk (key=6b0b07b723c94f5a95d6c533f690a497)
+2016-03-27 21:39:31,348 [DEBUG] Synced newer note from server (key=6b0b07b723c94f5a95d6c533f690a497)
+2016-03-27 21:39:31,350 [DEBUG] Saved note to disk (key=6b0b07b723c94f5a95d6c533f690a497)
+2016-03-27 21:39:46,621 [DEBUG] Synced newer note from server (key=6b0b07b723c94f5a95d6c533f690a497)
+2016-03-27 21:39:46,622 [DEBUG] Saved note to disk (key=6b0b07b723c94f5a95d6c533f690a497)
+2016-03-27 21:40:02,047 [DEBUG] Synced newer note from server (key=6b0b07b723c94f5a95d6c533f690a497)
+2016-03-27 21:40:02,049 [DEBUG] Saved note to disk (key=6b0b07b723c94f5a95d6c533f690a497)
+2016-03-28 10:20:14,871 [DEBUG] sncli logging initialized
+2016-03-28 10:20:15,920 [DEBUG] Sync worker: started
+2016-03-28 10:20:15,921 [DEBUG] Starting full sync
+2016-03-28 10:20:16,763 [DEBUG] Full sync completed
+2016-03-28 14:57:24,587 [DEBUG] ERROR: Failed to get note list from server
+2016-03-28 16:06:11,360 [DEBUG] ERROR: Failed to get note list from server
+2016-03-28 16:06:27,004 [DEBUG] Synced new note from server (key=29ca9e8f28674750a6b70903cecb33b8)
+2016-03-28 16:06:27,004 [DEBUG] Saved note to disk (key=29ca9e8f28674750a6b70903cecb33b8)
+2016-03-28 16:35:55,250 [DEBUG] sncli logging initialized
+2016-03-28 16:35:56,282 [DEBUG] Sync worker: started
+2016-03-28 16:35:56,283 [DEBUG] Starting full sync
+2016-03-28 16:35:56,753 [DEBUG] Full sync completed
+2016-03-28 17:19:11,195 [DEBUG] Synced newer note from server (key=29ca9e8f28674750a6b70903cecb33b8)
+2016-03-28 17:19:11,195 [DEBUG] Saved note to disk (key=29ca9e8f28674750a6b70903cecb33b8)
+2016-03-28 17:28:02,786 [DEBUG] New note created
+2016-03-28 17:28:03,165 [DEBUG] Synced note to server (key=089d69217b3c95c66a39ef48f10189)
+2016-03-28 17:28:03,245 [DEBUG] Saved note to disk (key=b76ebb63f53c11e5ac5e45fdaff840a7)
+2016-03-28 19:03:06,357 [DEBUG] ERROR: Failed to get note list from server
+2016-03-29 12:26:22,057 [DEBUG] sncli logging initialized
+2016-03-29 12:26:23,100 [DEBUG] Sync worker: started
+2016-03-29 12:26:23,100 [DEBUG] Starting full sync
+2016-03-29 12:26:24,025 [DEBUG] Full sync completed
+2016-03-29 14:04:00,327 [DEBUG] sncli logging initialized
+2016-03-29 14:04:01,371 [DEBUG] Sync worker: started
+2016-03-29 14:04:01,371 [DEBUG] Starting full sync
+2016-03-29 14:04:01,554 [DEBUG] Full sync completed
+2016-03-29 14:35:43,117 [DEBUG] sncli logging initialized
+2016-03-29 14:35:44,170 [DEBUG] Sync worker: started
+2016-03-29 14:35:44,170 [DEBUG] Starting full sync
+2016-03-29 14:35:44,353 [DEBUG] Full sync completed
+2016-03-29 18:35:43,358 [DEBUG] ERROR: Failed to get note list from server
+2016-03-30 10:09:51,363 [DEBUG] sncli logging initialized
+2016-03-30 10:09:52,416 [DEBUG] Sync worker: started
+2016-03-30 10:09:52,416 [DEBUG] Starting full sync
+2016-03-30 10:09:53,264 [DEBUG] Full sync completed
+2016-03-30 11:43:46,137 [DEBUG] sncli logging initialized
+2016-03-30 11:43:47,186 [DEBUG] Sync worker: started
+2016-03-30 11:43:47,186 [DEBUG] Starting full sync
+2016-03-30 11:43:48,807 [DEBUG] Full sync completed
+2016-03-30 14:22:48,951 [DEBUG] New note created
+2016-03-30 14:23:05,190 [DEBUG] Synced note to server (key=80cb441a5e1f41a36f2f704c4488af)
+2016-03-30 14:23:05,275 [DEBUG] Saved note to disk (key=3568a8a6f6b511e59774d576d17d3c4f)
+2016-03-30 15:08:11,359 [DEBUG] ERROR: Failed to get note list from server
+2016-03-30 19:17:01,304 [DEBUG] ERROR: Failed to get note list from server
+2016-03-31 10:31:11,435 [DEBUG] sncli logging initialized
+2016-03-31 10:31:12,476 [DEBUG] Sync worker: started
+2016-03-31 10:31:12,476 [DEBUG] Starting full sync
+2016-03-31 10:31:15,018 [DEBUG] Full sync completed
+2016-03-31 13:46:19,441 [DEBUG] ERROR: Failed to get note list from server
+2016-03-31 15:33:07,283 [DEBUG] ERROR: Failed to get note list from server
+2016-03-31 18:48:11,308 [DEBUG] ERROR: Failed to get note list from server
+2016-03-31 18:48:26,939 [DEBUG] Synced new note from server (key=c4867cc02ae44d108789e70576d25a7e)
+2016-03-31 18:48:26,940 [DEBUG] Saved note to disk (key=c4867cc02ae44d108789e70576d25a7e)
+2016-03-31 18:52:17,287 [DEBUG] sncli logging initialized
+2016-03-31 18:52:18,324 [DEBUG] Sync worker: started
+2016-03-31 18:52:18,325 [DEBUG] Starting full sync
+2016-03-31 18:52:19,075 [DEBUG] Full sync completed
+2016-03-31 19:54:29,506 [DEBUG] sncli logging initialized
+2016-03-31 19:54:30,556 [DEBUG] Sync worker: started
+2016-03-31 19:54:30,556 [DEBUG] Starting full sync
+2016-03-31 19:54:30,839 [DEBUG] Full sync completed
+2016-03-31 19:56:41,569 [DEBUG] sncli logging initialized
+2016-03-31 19:56:42,640 [DEBUG] Sync worker: started
+2016-03-31 19:56:42,640 [DEBUG] Starting full sync
+2016-03-31 19:56:42,943 [DEBUG] Full sync completed
+2016-03-31 19:59:32,408 [DEBUG] sncli logging initialized
+2016-03-31 19:59:33,453 [DEBUG] Sync worker: started
+2016-03-31 19:59:33,453 [DEBUG] Starting full sync
+2016-03-31 19:59:33,693 [DEBUG] Full sync completed
+2016-03-31 20:01:01,485 [DEBUG] sncli logging initialized
+2016-03-31 20:01:02,528 [DEBUG] Sync worker: started
+2016-03-31 20:01:02,528 [DEBUG] Starting full sync
+2016-03-31 20:01:03,586 [DEBUG] Full sync completed
+2016-03-31 20:02:19,938 [DEBUG] sncli logging initialized
+2016-03-31 20:02:20,982 [DEBUG] Sync worker: started
+2016-03-31 20:02:20,982 [DEBUG] Starting full sync
+2016-03-31 20:02:21,744 [DEBUG] Full sync completed
+2016-03-31 20:03:38,181 [DEBUG] sncli logging initialized
+2016-03-31 20:03:39,226 [DEBUG] Sync worker: started
+2016-03-31 20:03:39,226 [DEBUG] Starting full sync
+2016-03-31 20:03:39,472 [DEBUG] Full sync completed
+2016-03-31 20:05:34,746 [DEBUG] sncli logging initialized
+2016-03-31 20:05:35,821 [DEBUG] Sync worker: started
+2016-03-31 20:05:35,821 [DEBUG] Starting full sync
+2016-03-31 20:05:36,107 [DEBUG] Full sync completed
+2016-03-31 20:06:18,473 [DEBUG] sncli logging initialized
+2016-03-31 20:06:19,521 [DEBUG] Sync worker: started
+2016-03-31 20:06:19,522 [DEBUG] Starting full sync
+2016-03-31 20:06:19,874 [DEBUG] Full sync completed
+2016-03-31 20:06:59,561 [DEBUG] sncli logging initialized
+2016-03-31 20:07:00,614 [DEBUG] Sync worker: started
+2016-03-31 20:07:00,614 [DEBUG] Starting full sync
+2016-03-31 20:07:00,954 [DEBUG] Full sync completed
+2016-03-31 20:10:18,845 [DEBUG] sncli logging initialized
+2016-03-31 20:10:19,890 [DEBUG] Sync worker: started
+2016-03-31 20:10:19,891 [DEBUG] Starting full sync
+2016-03-31 20:10:20,604 [DEBUG] Full sync completed
+2016-03-31 20:10:56,671 [DEBUG] sncli logging initialized
+2016-03-31 20:10:57,719 [DEBUG] Sync worker: started
+2016-03-31 20:10:57,720 [DEBUG] Starting full sync
+2016-03-31 20:10:58,016 [DEBUG] Full sync completed
+2016-03-31 20:11:43,349 [DEBUG] sncli logging initialized
+2016-03-31 20:11:44,405 [DEBUG] Sync worker: started
+2016-03-31 20:11:44,405 [DEBUG] Starting full sync
+2016-03-31 20:11:44,678 [DEBUG] Full sync completed
+2016-03-31 20:13:20,053 [DEBUG] sncli logging initialized
+2016-03-31 20:13:21,099 [DEBUG] Sync worker: started
+2016-03-31 20:13:21,099 [DEBUG] Starting full sync
+2016-03-31 20:13:21,477 [DEBUG] Full sync completed
+2016-03-31 20:14:41,754 [DEBUG] sncli logging initialized
+2016-03-31 20:14:42,799 [DEBUG] Sync worker: started
+2016-03-31 20:14:42,799 [DEBUG] Starting full sync
+2016-03-31 20:14:44,349 [DEBUG] Full sync completed
+2016-03-31 20:17:44,983 [DEBUG] sncli logging initialized
+2016-03-31 20:17:46,029 [DEBUG] Sync worker: started
+2016-03-31 20:17:46,030 [DEBUG] Starting full sync
+2016-03-31 20:17:46,716 [DEBUG] Full sync completed
+2016-03-31 20:19:15,533 [DEBUG] sncli logging initialized
+2016-03-31 20:19:16,580 [DEBUG] Sync worker: started
+2016-03-31 20:19:16,581 [DEBUG] Starting full sync
+2016-03-31 20:19:17,307 [DEBUG] Full sync completed
+2016-03-31 20:57:17,963 [DEBUG] sncli logging initialized
+2016-03-31 20:57:19,013 [DEBUG] Sync worker: started
+2016-03-31 20:57:19,014 [DEBUG] Starting full sync
+2016-03-31 20:57:20,186 [DEBUG] Full sync completed
+2016-03-31 20:57:38,204 [DEBUG] ERROR: Failed to get note list from server
+2016-03-31 20:57:56,223 [DEBUG] ERROR: Failed to get note list from server
+2016-03-31 20:59:38,077 [DEBUG] sncli logging initialized
+2016-03-31 20:59:39,136 [DEBUG] Sync worker: started
+2016-03-31 20:59:39,136 [DEBUG] Starting full sync
+2016-03-31 20:59:41,129 [DEBUG] Full sync completed
+2016-03-31 21:00:28,981 [DEBUG] sncli logging initialized
+2016-03-31 21:00:30,023 [DEBUG] Sync worker: started
+2016-03-31 21:00:30,024 [DEBUG] Starting full sync
+2016-03-31 21:00:33,015 [DEBUG] Full sync completed
+2016-03-31 21:01:44,093 [DEBUG] sncli logging initialized
+2016-03-31 21:01:45,138 [DEBUG] Sync worker: started
+2016-03-31 21:01:45,138 [DEBUG] Starting full sync
+2016-03-31 21:01:45,422 [DEBUG] Full sync completed
+2016-03-31 23:04:27,256 [DEBUG] New note created
+2016-03-31 23:04:28,738 [DEBUG] Synced note to server (key=4ef8c02a285d1c0d47e3483b851280)
+2016-03-31 23:04:28,874 [DEBUG] Saved note to disk (key=35d652dcf7c711e5999889dc45827ef0)
+2016-04-01 10:40:43,200 [DEBUG] sncli logging initialized
+2016-04-01 10:40:44,264 [DEBUG] Sync worker: started
+2016-04-01 10:40:44,265 [DEBUG] Starting full sync
+2016-04-01 10:40:46,158 [DEBUG] Synced new note from server (key=0c2b96d814d44137bce57787bd590253)
+2016-04-01 10:40:46,159 [DEBUG] Saved note to disk (key=0c2b96d814d44137bce57787bd590253)
+2016-04-01 10:40:46,183 [DEBUG] Full sync completed
+2016-04-01 10:49:12,388 [DEBUG] sncli logging initialized
+2016-04-01 10:49:13,430 [DEBUG] Sync worker: started
+2016-04-01 10:49:13,430 [DEBUG] Starting full sync
+2016-04-01 10:49:13,995 [DEBUG] Full sync completed
+2016-04-01 11:08:56,584 [DEBUG] sncli logging initialized
+2016-04-01 11:08:57,616 [DEBUG] Sync worker: started
+2016-04-01 11:08:57,617 [DEBUG] Starting full sync
+2016-04-01 11:08:57,789 [DEBUG] Full sync completed
+2016-04-01 11:22:37,136 [DEBUG] sncli logging initialized
+2016-04-01 11:22:38,200 [DEBUG] Sync worker: started
+2016-04-01 11:22:38,200 [DEBUG] Starting full sync
+2016-04-01 11:22:38,373 [DEBUG] Full sync completed
+2016-04-01 15:01:02,384 [DEBUG] ERROR: Failed to get note list from server
+2016-04-01 16:13:04,393 [DEBUG] ERROR: Failed to get note list from server
+2016-04-02 17:48:04,382 [DEBUG] sncli logging initialized
+2016-04-02 17:48:05,450 [DEBUG] Sync worker: started
+2016-04-02 17:48:05,450 [DEBUG] Starting full sync
+2016-04-02 17:48:07,264 [DEBUG] Full sync completed
+2016-04-03 13:11:52,281 [DEBUG] sncli logging initialized
+2016-04-03 13:11:53,334 [DEBUG] Sync worker: started
+2016-04-03 13:11:53,334 [DEBUG] Starting full sync
+2016-04-03 13:11:54,595 [DEBUG] Full sync completed
+2016-04-03 14:44:21,749 [DEBUG] Synced new note from server (key=6accb5e0e69a413abc38624a474bd461)
+2016-04-03 14:44:21,753 [DEBUG] Saved note to disk (key=6accb5e0e69a413abc38624a474bd461)
+2016-04-03 14:45:22,883 [DEBUG] Synced new note from server (key=e84d289839e54c499d5cefd1bb8edbd9)
+2016-04-03 14:45:22,885 [DEBUG] Saved note to disk (key=e84d289839e54c499d5cefd1bb8edbd9)
+2016-04-03 14:45:38,244 [DEBUG] Synced newer note from server (key=e84d289839e54c499d5cefd1bb8edbd9)
+2016-04-03 14:45:38,245 [DEBUG] Saved note to disk (key=e84d289839e54c499d5cefd1bb8edbd9)
+2016-04-03 14:45:53,593 [DEBUG] Synced newer note from server (key=e84d289839e54c499d5cefd1bb8edbd9)
+2016-04-03 14:45:53,594 [DEBUG] Saved note to disk (key=e84d289839e54c499d5cefd1bb8edbd9)
+2016-04-03 14:46:24,590 [DEBUG] Synced newer note from server (key=e84d289839e54c499d5cefd1bb8edbd9)
+2016-04-03 14:46:24,592 [DEBUG] Saved note to disk (key=e84d289839e54c499d5cefd1bb8edbd9)
+2016-04-03 14:47:56,550 [DEBUG] Synced newer note from server (key=e84d289839e54c499d5cefd1bb8edbd9)
+2016-04-03 14:47:56,553 [DEBUG] Saved note to disk (key=e84d289839e54c499d5cefd1bb8edbd9)
+2016-04-03 14:48:11,894 [DEBUG] Synced newer note from server (key=e84d289839e54c499d5cefd1bb8edbd9)
+2016-04-03 14:48:11,896 [DEBUG] Saved note to disk (key=e84d289839e54c499d5cefd1bb8edbd9)
+2016-04-03 14:48:42,388 [DEBUG] Synced newer note from server (key=e84d289839e54c499d5cefd1bb8edbd9)
+2016-04-03 14:48:42,389 [DEBUG] Saved note to disk (key=e84d289839e54c499d5cefd1bb8edbd9)
+2016-04-03 14:48:57,741 [DEBUG] Synced newer note from server (key=e84d289839e54c499d5cefd1bb8edbd9)
+2016-04-03 14:48:57,743 [DEBUG] Saved note to disk (key=e84d289839e54c499d5cefd1bb8edbd9)
+2016-04-03 14:49:13,127 [DEBUG] Synced newer note from server (key=e84d289839e54c499d5cefd1bb8edbd9)
+2016-04-03 14:49:13,129 [DEBUG] Saved note to disk (key=e84d289839e54c499d5cefd1bb8edbd9)
+2016-04-03 14:49:28,973 [DEBUG] Synced newer note from server (key=e84d289839e54c499d5cefd1bb8edbd9)
+2016-04-03 14:49:28,975 [DEBUG] Saved note to disk (key=e84d289839e54c499d5cefd1bb8edbd9)
+2016-04-03 14:49:44,352 [DEBUG] Synced newer note from server (key=e84d289839e54c499d5cefd1bb8edbd9)
+2016-04-03 14:49:44,354 [DEBUG] Saved note to disk (key=e84d289839e54c499d5cefd1bb8edbd9)
+2016-04-03 14:49:59,703 [DEBUG] Synced newer note from server (key=e84d289839e54c499d5cefd1bb8edbd9)
+2016-04-03 14:49:59,706 [DEBUG] Saved note to disk (key=e84d289839e54c499d5cefd1bb8edbd9)
+2016-04-03 14:50:31,213 [DEBUG] Synced newer note from server (key=e84d289839e54c499d5cefd1bb8edbd9)
+2016-04-03 14:50:31,215 [DEBUG] Saved note to disk (key=e84d289839e54c499d5cefd1bb8edbd9)
+2016-04-03 14:50:48,006 [DEBUG] Synced newer note from server (key=e84d289839e54c499d5cefd1bb8edbd9)
+2016-04-03 14:50:48,008 [DEBUG] Saved note to disk (key=e84d289839e54c499d5cefd1bb8edbd9)
+2016-04-03 14:51:04,595 [DEBUG] Synced note to server (key=e84d289839e54c499d5cefd1bb8edbd9)
+2016-04-03 14:51:04,732 [DEBUG] Saved note to disk (key=e84d289839e54c499d5cefd1bb8edbd9)
+2016-04-03 14:54:38,206 [DEBUG] Synced newer note from server (key=e84d289839e54c499d5cefd1bb8edbd9)
+2016-04-03 14:54:38,209 [DEBUG] Saved note to disk (key=e84d289839e54c499d5cefd1bb8edbd9)
+2016-04-03 14:55:08,710 [DEBUG] Synced newer note from server (key=e84d289839e54c499d5cefd1bb8edbd9)
+2016-04-03 14:55:08,713 [DEBUG] Saved note to disk (key=e84d289839e54c499d5cefd1bb8edbd9)
+2016-04-03 14:55:24,060 [DEBUG] Synced newer note from server (key=e84d289839e54c499d5cefd1bb8edbd9)
+2016-04-03 14:55:24,063 [DEBUG] Saved note to disk (key=e84d289839e54c499d5cefd1bb8edbd9)
+2016-04-03 14:56:26,063 [DEBUG] Synced newer note from server (key=e84d289839e54c499d5cefd1bb8edbd9)
+2016-04-03 14:56:26,067 [DEBUG] Saved note to disk (key=e84d289839e54c499d5cefd1bb8edbd9)
+2016-04-03 14:59:28,483 [DEBUG] Synced newer note from server (key=e84d289839e54c499d5cefd1bb8edbd9)
+2016-04-03 14:59:28,486 [DEBUG] Saved note to disk (key=e84d289839e54c499d5cefd1bb8edbd9)
+2016-04-03 14:59:43,846 [DEBUG] Synced newer note from server (key=e84d289839e54c499d5cefd1bb8edbd9)
+2016-04-03 14:59:43,849 [DEBUG] Saved note to disk (key=e84d289839e54c499d5cefd1bb8edbd9)
+2016-04-03 15:00:15,237 [DEBUG] Synced newer note from server (key=e84d289839e54c499d5cefd1bb8edbd9)
+2016-04-03 15:00:15,240 [DEBUG] Saved note to disk (key=e84d289839e54c499d5cefd1bb8edbd9)
+2016-04-03 15:00:30,597 [DEBUG] Synced newer note from server (key=e84d289839e54c499d5cefd1bb8edbd9)
+2016-04-03 15:00:30,600 [DEBUG] Saved note to disk (key=e84d289839e54c499d5cefd1bb8edbd9)
+2016-04-03 15:00:46,174 [DEBUG] Synced newer note from server (key=e84d289839e54c499d5cefd1bb8edbd9)
+2016-04-03 15:00:46,177 [DEBUG] Saved note to disk (key=e84d289839e54c499d5cefd1bb8edbd9)
+2016-04-03 15:01:01,544 [DEBUG] Synced newer note from server (key=e84d289839e54c499d5cefd1bb8edbd9)
+2016-04-03 15:01:01,547 [DEBUG] Saved note to disk (key=e84d289839e54c499d5cefd1bb8edbd9)
+2016-04-03 15:01:32,034 [DEBUG] Synced newer note from server (key=e84d289839e54c499d5cefd1bb8edbd9)
+2016-04-03 15:01:32,038 [DEBUG] Saved note to disk (key=e84d289839e54c499d5cefd1bb8edbd9)
+2016-04-03 15:02:17,723 [DEBUG] Synced newer note from server (key=e84d289839e54c499d5cefd1bb8edbd9)
+2016-04-03 15:02:17,727 [DEBUG] Saved note to disk (key=e84d289839e54c499d5cefd1bb8edbd9)
+2016-04-03 15:02:33,072 [DEBUG] Synced newer note from server (key=e84d289839e54c499d5cefd1bb8edbd9)
+2016-04-03 15:02:33,076 [DEBUG] Saved note to disk (key=e84d289839e54c499d5cefd1bb8edbd9)
+2016-04-03 15:02:48,541 [DEBUG] Synced newer note from server (key=e84d289839e54c499d5cefd1bb8edbd9)
+2016-04-03 15:02:48,545 [DEBUG] Saved note to disk (key=e84d289839e54c499d5cefd1bb8edbd9)
+2016-04-03 15:03:04,094 [DEBUG] Synced newer note from server (key=e84d289839e54c499d5cefd1bb8edbd9)
+2016-04-03 15:03:04,098 [DEBUG] Saved note to disk (key=e84d289839e54c499d5cefd1bb8edbd9)
+2016-04-03 15:03:19,444 [DEBUG] Synced newer note from server (key=e84d289839e54c499d5cefd1bb8edbd9)
+2016-04-03 15:03:19,448 [DEBUG] Saved note to disk (key=e84d289839e54c499d5cefd1bb8edbd9)
+2016-04-03 21:57:26,400 [DEBUG] ERROR: Failed to get note list from server
+2016-04-04 11:36:21,299 [DEBUG] sncli logging initialized
+2016-04-04 11:36:22,344 [DEBUG] Sync worker: started
+2016-04-04 11:36:22,345 [DEBUG] Starting full sync
+2016-04-04 11:36:26,423 [DEBUG] Full sync completed
+2016-04-04 12:30:35,241 [DEBUG] ERROR: Failed to get note list from server
+2016-04-04 14:56:59,011 [DEBUG] ERROR: Failed to get note list from server
+2016-04-04 16:13:38,687 [DEBUG] sncli logging initialized
+2016-04-04 16:13:39,735 [DEBUG] Sync worker: started
+2016-04-04 16:13:39,735 [DEBUG] Starting full sync
+2016-04-04 16:13:40,845 [DEBUG] Full sync completed
+2016-04-04 16:22:17,834 [DEBUG] ERROR: Failed to get note list from server
+2016-04-04 18:31:33,310 [DEBUG] ERROR: Failed to get note list from server
+2016-04-04 18:33:33,141 [DEBUG] sncli logging initialized
+2016-04-04 18:33:34,186 [DEBUG] Sync worker: started
+2016-04-04 18:33:34,186 [DEBUG] Starting full sync
+2016-04-04 18:33:34,902 [DEBUG] Full sync completed
+2016-04-05 11:12:22,698 [DEBUG] sncli logging initialized
+2016-04-05 11:12:23,744 [DEBUG] Sync worker: started
+2016-04-05 11:12:23,745 [DEBUG] Starting full sync
+2016-04-05 11:12:26,284 [DEBUG] Full sync completed
+2016-04-05 11:29:05,910 [DEBUG] sncli logging initialized
+2016-04-05 11:29:06,949 [DEBUG] Sync worker: started
+2016-04-05 11:29:06,950 [DEBUG] Starting full sync
+2016-04-05 11:29:07,352 [DEBUG] Full sync completed
+2016-04-05 11:37:30,763 [DEBUG] sncli logging initialized
+2016-04-05 11:37:31,808 [DEBUG] Sync worker: started
+2016-04-05 11:37:31,808 [DEBUG] Starting full sync
+2016-04-05 11:37:32,386 [DEBUG] Full sync completed
+2016-04-05 11:39:49,666 [DEBUG] sncli logging initialized
+2016-04-05 11:39:50,712 [DEBUG] Sync worker: started
+2016-04-05 11:39:50,712 [DEBUG] Starting full sync
+2016-04-05 11:39:51,800 [DEBUG] Full sync completed
+2016-04-05 11:57:16,267 [DEBUG] sncli logging initialized
+2016-04-05 11:57:17,310 [DEBUG] Sync worker: started
+2016-04-05 11:57:17,310 [DEBUG] Starting full sync
+2016-04-05 11:57:17,793 [DEBUG] Full sync completed
+2016-04-05 11:58:55,406 [DEBUG] sncli logging initialized
+2016-04-05 11:58:56,448 [DEBUG] Sync worker: started
+2016-04-05 11:58:56,448 [DEBUG] Starting full sync
+2016-04-05 11:58:56,620 [DEBUG] Full sync completed
+2016-04-05 12:01:56,103 [DEBUG] sncli logging initialized
+2016-04-05 12:01:57,144 [DEBUG] Sync worker: started
+2016-04-05 12:01:57,145 [DEBUG] Starting full sync
+2016-04-05 12:01:57,574 [DEBUG] Full sync completed
+2016-04-05 15:23:00,568 [DEBUG] ERROR: Failed to get note list from server

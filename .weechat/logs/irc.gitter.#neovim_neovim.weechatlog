@@ -60,3 +60,797 @@
 2016-03-27 18:11:33	gitter	[Github] ZyX-I labeled an issue in neovim/neovim: libsixel support? https://github.com/neovim/neovim/issues/4500
 2016-03-27 18:11:33	gitter	[Github] ZyX-I labeled an issue in neovim/neovim: libsixel support? https://github.com/neovim/neovim/issues/4500
 2016-03-27 19:48:46	gitter	[Github] Jun-T commented in neovim/neovim on issue: double-width character issue in Nerdtree and Netrw https://github.com/neovim/neovim/issues/4476#issuecomment-202188435
+2016-03-27 20:28:09	<--	undefined (undefined@irc.gitter.im) has left #neovim/neovim
+2016-03-27 20:44:43	gitter	[Github] hankook commented in neovim/neovim on issue: double-width character issue in Nerdtree and Netrw https://github.com/neovim/neovim/issues/4476#issuecomment-202204179
+2016-03-27 20:52:25	gitter	[Github] Jun-T commented in neovim/neovim on issue: double-width character issue in Nerdtree and Netrw https://github.com/neovim/neovim/issues/4476#issuecomment-202206902
+2016-03-27 21:18:20	gitter	[Github] cacplate synchronize a Pull Request to neovim/neovim: [RFC] change numerical options types to NumOpt (alias intmax_t) https://github.com/neovim/neovim/pull/3914
+2016-03-27 21:28:39	gitter	[Github] cacplate synchronize a Pull Request to neovim/neovim: [RFC] Enable -Wconversion in ops.c https://github.com/neovim/neovim/pull/3745
+2016-03-27 21:31:45	gitter	[Github] hankook commented in neovim/neovim on issue: double-width character issue in Nerdtree and Netrw https://github.com/neovim/neovim/issues/4476#issuecomment-202218049
+2016-03-27 21:39:58	gitter	Travis neovim/neovim#3914 [still failing](https://travis-ci.org/neovim/neovim/builds/118908870) (14261)
+2016-03-27 21:42:45	gitter	[Github] cacplate synchronize a Pull Request to neovim/neovim: [RFC] Enable -Wconversion on path.c (adoption) https://github.com/neovim/neovim/pull/4441
+2016-03-27 21:42:53	gitter	[Github] hankook commented in neovim/neovim on issue: double-width character issue in Nerdtree and Netrw https://github.com/neovim/neovim/issues/4476#issuecomment-202219676
+2016-03-27 21:54:43	gitter	[Github] Jun-T commented in neovim/neovim on issue: double-width character issue in Nerdtree and Netrw https://github.com/neovim/neovim/issues/4476#issuecomment-202221463
+2016-03-27 21:57:24	gitter	Travis neovim/neovim#3745 [fixed](https://travis-ci.org/neovim/neovim/builds/118909805) (14262)
+2016-03-27 21:58:55	gitter	[Github] cacplate synchronize a Pull Request to neovim/neovim: [RFC] change numerical options types to NumOpt (alias intmax_t) https://github.com/neovim/neovim/pull/3914
+2016-03-27 22:07:21	gitter	Travis neovim/neovim#4441 [fixed](https://travis-ci.org/neovim/neovim/builds/118911302) (14263)
+2016-03-28 10:21:25	-->	ranranking (ranranking@irc.gitter.im) has joined #neovim/neovim
+2016-03-28 10:21:25	--	Topic for #neovim/neovim is "vim out of the box | https://salt.bountysource.com/teams/neovim | posts by @marvim are from #neovim on freenode"
+2016-03-28 10:21:25	--	Channel #neovim/neovim: 32 nicks (0 ops, 0 voices, 32 normals)
+2016-03-28 10:52:52	-->	ranranking (ranranking@irc.gitter.im) has joined #neovim/neovim
+2016-03-28 10:52:52	--	Topic for #neovim/neovim is "vim out of the box | https://salt.bountysource.com/teams/neovim | posts by @marvim are from #neovim on freenode"
+2016-03-28 10:52:52	--	Channel #neovim/neovim: 32 nicks (0 ops, 0 voices, 32 normals)
+2016-03-28 10:54:21	-->	ranranking (ranranking@irc.gitter.im) has joined #neovim/neovim
+2016-03-28 10:54:21	--	Topic for #neovim/neovim is "vim out of the box | https://salt.bountysource.com/teams/neovim | posts by @marvim are from #neovim on freenode"
+2016-03-28 10:54:21	--	Channel #neovim/neovim: 32 nicks (0 ops, 0 voices, 32 normals)
+2016-03-28 11:00:23	-->	ranranking (ranranking@irc.gitter.im) has joined #neovim/neovim
+2016-03-28 11:00:23	--	Topic for #neovim/neovim is "vim out of the box | https://salt.bountysource.com/teams/neovim | posts by @marvim are from #neovim on freenode"
+2016-03-28 11:00:23	--	Channel #neovim/neovim: 32 nicks (0 ops, 0 voices, 32 normals)
+2016-03-28 11:06:43	-->	ranranking (ranranking@irc.gitter.im) has joined #neovim/neovim
+2016-03-28 11:06:43	--	Topic for #neovim/neovim is "vim out of the box | https://salt.bountysource.com/teams/neovim | posts by @marvim are from #neovim on freenode"
+2016-03-28 11:06:43	--	Channel #neovim/neovim: 32 nicks (0 ops, 0 voices, 32 normals)
+2016-03-28 11:07:52	-->	ranranking (ranranking@irc.gitter.im) has joined #neovim/neovim
+2016-03-28 11:07:52	--	Topic for #neovim/neovim is "vim out of the box | https://salt.bountysource.com/teams/neovim | posts by @marvim are from #neovim on freenode"
+2016-03-28 11:07:52	--	Channel #neovim/neovim: 32 nicks (0 ops, 0 voices, 32 normals)
+2016-03-28 11:21:25	gitter	[Github] MichaelMackus commented in neovim/neovim on issue: Question: Autocomplete Improvements https://github.com/neovim/neovim/issues/396#issuecomment-202494517
+2016-03-28 11:28:15	gitter	[Github] pippocode commented in neovim/neovim on issue: Yank to system clipboard (OSX) doesn't work https://github.com/neovim/neovim/issues/4496#issuecomment-202496735
+2016-03-28 12:18:42	gitter	[Github] teto commented in neovim/neovim on issue: fzf buffer waits for an additionnal key in termite https://github.com/neovim/neovim/issues/4487#issuecomment-202515290
+2016-03-28 12:34:46	marvim	`socapex` Hello, is there a way to paste into the statusline? use case: yank crazy weird header, /[paste crazy weird header] ? ty for help :)
+2016-03-28 12:35:05	marvim	`socapex` s/header/function header/g
+2016-03-28 13:07:53	gitter	[Github] PixelPirate commented in neovim/neovim on issue: Question: Autocomplete Improvements https://github.com/neovim/neovim/issues/396#issuecomment-202533215
+2016-03-28 13:28:54	--	irc: disconnected from server
+2016-03-28 13:29:06	--	irc: disconnected from server
+2016-03-28 13:29:18	--	irc: disconnected from server
+2016-03-28 13:29:30	--	irc: disconnected from server
+2016-03-28 13:29:46	-->	ranranking (ranranking@irc.gitter.im) has joined #neovim/neovim
+2016-03-28 13:29:46	--	Topic for #neovim/neovim is "vim out of the box | https://salt.bountysource.com/teams/neovim | posts by @marvim are from #neovim on freenode"
+2016-03-28 13:29:46	--	Channel #neovim/neovim: 32 nicks (0 ops, 0 voices, 32 normals)
+2016-03-28 14:22:38	marvim	`nnk_` hey, so I'm trying out vim (well, nvim) as a sublime user, but I'd like to keep the color scheme. now, I've ported it with coloration, but the colors don't come out right at all. I did some research and it seems I need truecolor support, so I ask, what's a good terminal emulator with good support for vim and true colors?
+2016-03-28 14:25:10	marvim	`zandrmartin` nnk_: there's a good list here: https://gist.github.com/XVilka/8346728
+2016-03-28 14:25:49	marvim	`nnk_` cool thanks. any in particular you would recommend?
+2016-03-28 14:26:21	marvim	`zandrmartin` depends on your platform and needs. i just use gnome terminal because my needs are simple and it is there
+2016-03-28 14:26:38	marvim	`zandrmartin` it doesn't offer much in the way of configurability though
+2016-03-28 14:41:57	-->	ranranking (ranranking@irc.gitter.im) has joined #neovim/neovim
+2016-03-28 14:41:57	--	Topic for #neovim/neovim is "vim out of the box | https://salt.bountysource.com/teams/neovim | posts by @marvim are from #neovim on freenode"
+2016-03-28 14:41:57	--	Channel #neovim/neovim: 32 nicks (0 ops, 0 voices, 32 normals)
+2016-03-28 14:43:30	-->	ranranking (ranranking@irc.gitter.im) has joined #neovim/neovim
+2016-03-28 14:43:30	--	Topic for #neovim/neovim is "vim out of the box | https://salt.bountysource.com/teams/neovim | posts by @marvim are from #neovim on freenode"
+2016-03-28 14:43:30	--	Channel #neovim/neovim: 32 nicks (0 ops, 0 voices, 32 normals)
+2016-03-28 14:57:27	--	irc: disconnected from server
+2016-03-28 14:57:43	-->	ranranking (ranranking@irc.gitter.im) has joined #neovim/neovim
+2016-03-28 14:57:43	--	Topic for #neovim/neovim is "vim out of the box | https://salt.bountysource.com/teams/neovim | posts by @marvim are from #neovim on freenode"
+2016-03-28 14:57:43	--	Channel #neovim/neovim: 32 nicks (0 ops, 0 voices, 32 normals)
+2016-03-28 15:02:29	-->	ranranking (ranranking@irc.gitter.im) has joined #neovim/neovim
+2016-03-28 15:02:29	--	Topic for #neovim/neovim is "vim out of the box | https://salt.bountysource.com/teams/neovim | posts by @marvim are from #neovim on freenode"
+2016-03-28 15:02:29	--	Channel #neovim/neovim: 32 nicks (0 ops, 0 voices, 32 normals)
+2016-03-28 15:03:34	marvim	`menwithHill` fmoralesc: thank you.  I'll try that.  I wish the manual had been clearer about the syntax 'option=%!Function()' being valid for 'statusline=', and not valid for 'rulerformat='.
+2016-03-28 15:17:07	-->	ranranking (ranranking@irc.gitter.im) has joined #neovim/neovim
+2016-03-28 15:17:07	--	Topic for #neovim/neovim is "vim out of the box | https://salt.bountysource.com/teams/neovim | posts by @marvim are from #neovim on freenode"
+2016-03-28 15:17:07	--	Channel #neovim/neovim: 32 nicks (0 ops, 0 voices, 32 normals)
+2016-03-28 15:22:06	-->	ranranking (ranranking@irc.gitter.im) has joined #neovim/neovim
+2016-03-28 15:22:06	--	Topic for #neovim/neovim is "vim out of the box | https://salt.bountysource.com/teams/neovim | posts by @marvim are from #neovim on freenode"
+2016-03-28 15:22:06	--	Channel #neovim/neovim: 32 nicks (0 ops, 0 voices, 32 normals)
+2016-03-28 15:22:55	-->	ranranking (ranranking@irc.gitter.im) has joined #neovim/neovim
+2016-03-28 15:22:55	--	Topic for #neovim/neovim is "vim out of the box | https://salt.bountysource.com/teams/neovim | posts by @marvim are from #neovim on freenode"
+2016-03-28 15:22:55	--	Channel #neovim/neovim: 32 nicks (0 ops, 0 voices, 32 normals)
+2016-03-28 15:28:42	-->	ranranking (ranranking@irc.gitter.im) has joined #neovim/neovim
+2016-03-28 15:28:42	--	Topic for #neovim/neovim is "vim out of the box | https://salt.bountysource.com/teams/neovim | posts by @marvim are from #neovim on freenode"
+2016-03-28 15:28:42	--	Channel #neovim/neovim: 32 nicks (0 ops, 0 voices, 32 normals)
+2016-03-28 15:34:27	gitter	[Github] ranranking opened an issue in neovim/neovim: Question: Is it possible to view images in neovim terminal? https://github.com/neovim/neovim/issues/4502
+2016-03-28 15:40:46	marvim	`haasn` There's something I've always found annoyingly lacking in vim: The fact that you have to use vim's built-in window/buffer management if you want to get multiple views into the same file. I find it rather confusing, limiting and annoying to be using vim's window management when I have a much better system-wide window manager
+2016-03-28 15:40:58	marvim	`haasn` What I would _love_ is the ability to have multiple “front-ends” into the same vim instance
+2016-03-28 15:41:11	marvim	`haasn` They would be completely independent windows
+2016-03-28 15:41:40	marvim	`haasn` But I would still be able to have multiple views into the same file and share changes etc. in realtime
+2016-03-28 15:41:47	marvim	`haasn` Is this more possible with neovim than vim?
+2016-03-28 16:07:03	--	irc: disconnected from server
+2016-03-28 16:07:19	-->	ranranking (ranranking@irc.gitter.im) has joined #neovim/neovim
+2016-03-28 16:07:19	--	Topic for #neovim/neovim is "vim out of the box | https://salt.bountysource.com/teams/neovim | posts by @marvim are from #neovim on freenode"
+2016-03-28 16:07:19	--	Channel #neovim/neovim: 32 nicks (0 ops, 0 voices, 32 normals)
+2016-03-28 16:15:46	marvim	`teto` haasn: there is an issue about that, it's not yet possible but through some hacks you can make the situation better. I can use the same mappings to move between nvim splits and my WM windows
+2016-03-28 16:17:59	marvim	`haasn` Hmm that might be nicer than the status quo at least
+2016-03-28 16:19:10	marvim	`teto` I got a strange bug, toggling only enables but does not disable for various plugins such as Valloric/ListToggle or vimtex. I used a minimal_init.vim and it works as expected. I dunno how to debug other then commenting
+2016-03-28 16:19:14	marvim	`teto` haasn: https://github.com/neovim/neovim/issues/2161
+2016-03-28 16:22:01	gitter	[Github] haasn commented in neovim/neovim on issue: Multiple linked Clients (like 'frames' in Emacs) [enhancement] [idea] https://github.com/neovim/neovim/issues/2161#issuecomment-202602783
+2016-03-28 16:22:20	marvim	`haasn` teto: Interesting
+2016-03-28 16:25:19	marvim	`teto` ok found the culprit, fixed :)
+2016-03-28 16:34:33	-->	ranranking (ranranking@irc.gitter.im) has joined #neovim/neovim
+2016-03-28 16:34:33	--	Topic for #neovim/neovim is "vim out of the box | https://salt.bountysource.com/teams/neovim | posts by @marvim are from #neovim on freenode"
+2016-03-28 16:34:33	--	Channel #neovim/neovim: 32 nicks (0 ops, 0 voices, 32 normals)
+2016-03-28 16:52:27	gitter	[Github] fmoralesc commented in neovim/neovim on issue: Question: Is it possible to view images in neovim terminal? https://github.com/neovim/neovim/issues/4502#issuecomment-202615060
+2016-03-28 16:54:56	gitter	[Github] ranranking commented in neovim/neovim on issue: Question: Is it possible to view images in neovim terminal? https://github.com/neovim/neovim/issues/4502#issuecomment-202615730
+2016-03-28 17:00:51	gitter	[Github] fmoralesc commented in neovim/neovim on issue: Question: Is it possible to view images in neovim terminal? https://github.com/neovim/neovim/issues/4502#issuecomment-202617099
+2016-03-28 17:01:57	gitter	[Github] fmoralesc commented in neovim/neovim on issue: Question: Is it possible to view images in neovim terminal? https://github.com/neovim/neovim/issues/4502#issuecomment-202617382
+2016-03-28 17:07:45	gitter	[Github] ranranking commented in neovim/neovim on issue: Question: Is it possible to view images in neovim terminal? https://github.com/neovim/neovim/issues/4502#issuecomment-202619065
+2016-03-28 17:22:07	gitter	[Github] fmoralesc commented in neovim/neovim on issue: Question: Is it possible to view images in neovim terminal? https://github.com/neovim/neovim/issues/4502#issuecomment-202623240
+2016-03-28 17:24:53	nathanaelkane	> I can't seem to get `NVIM_TUI_ENABLE_CURSOR_SHAPE=1` working with iTerm2 (2.9.20160313), tmux (HEAD) and NeoVim (HEAD).
+2016-03-28 17:24:53	nathanaelkane	Works fine without tmux. With tmux it never changes from the block cursor. Anyone have any ideas on this one?
+2016-03-28 17:25:01	nathanaelkane	[edit] > I can't seem to get `NVIM_TUI_ENABLE_CURSOR_SHAPE=1` working with iTerm2 (2.9.20160313), tmux (HEAD) and NeoVim (HEAD).
+2016-03-28 17:25:01	nathanaelkane	[edit] 
+2016-03-28 17:25:01	nathanaelkane	[edit] Works fine without tmux. With tmux it never changes from the block cursor. Anyone have any ideas on this one?
+2016-03-28 17:26:48	marvim	`wsdjeg` sorry,I do not use tmux
+2016-03-28 17:28:24	nathanaelkane	It's the last piece of the puzzle for me, as soon as I have this I'll be comfortable making the switch to NeoVim full-time.
+2016-03-28 19:04:00	--	irc: disconnected from server
+2016-03-28 19:04:12	-->	ranranking (ranranking@irc.gitter.im) has joined #neovim/neovim
+2016-03-28 19:04:12	--	Topic for #neovim/neovim is "vim out of the box | https://salt.bountysource.com/teams/neovim | posts by @marvim are from #neovim on freenode"
+2016-03-28 19:04:12	--	Channel #neovim/neovim: 32 nicks (0 ops, 0 voices, 32 normals)
+2016-03-28 19:14:01	gitter	[Github] MadCoder opened an issue in neovim/neovim: blockwise copy/paste doesn't work https://github.com/neovim/neovim/issues/4503
+2016-03-28 19:25:33	gitter	[Github] MadCoder commented in neovim/neovim on issue: Yank to system clipboard (OSX) doesn't work https://github.com/neovim/neovim/issues/4496#issuecomment-202655308
+2016-03-28 19:26:18	gitter	[Github] MadCoder commented in neovim/neovim on issue: Yank to system clipboard (OSX) doesn't work https://github.com/neovim/neovim/issues/4496#issuecomment-202655587
+2016-03-28 19:32:21	gitter	[Github] justinmk commented in neovim/neovim on issue: blockwise copy/paste doesn't work https://github.com/neovim/neovim/issues/4503#issuecomment-202656602
+2016-03-28 19:37:04	gitter	[Github] MadCoder commented in neovim/neovim on issue: blockwise copy/paste doesn't work https://github.com/neovim/neovim/issues/4503#issuecomment-202657533
+2016-03-28 19:48:06	gitter	[Github] MadCoder commented in neovim/neovim on issue: blockwise copy/paste doesn't work https://github.com/neovim/neovim/issues/4503#issuecomment-202659910
+2016-03-28 19:48:06	gitter	[Github] MadCoder closed an issue in neovim/neovim: blockwise copy/paste doesn't work https://github.com/neovim/neovim/issues/4503
+2016-03-28 19:49:33	gitter	[Github] MadCoder reopened an issue in neovim/neovim: blockwise copy/paste doesn't work https://github.com/neovim/neovim/issues/4503
+2016-03-28 19:49:58	gitter	[Github] MadCoder commented in neovim/neovim on issue: blockwise copy/paste doesn't work https://github.com/neovim/neovim/issues/4503#issuecomment-202660771
+2016-03-28 19:55:56	gitter	[Github] MadCoder closed an issue in neovim/neovim: blockwise copy/paste doesn't work https://github.com/neovim/neovim/issues/4503
+2016-03-28 19:55:56	gitter	[Github] MadCoder commented in neovim/neovim on issue: blockwise copy/paste doesn't work https://github.com/neovim/neovim/issues/4503#issuecomment-202665134
+2016-03-28 20:05:02	marvim	`shou13` wsdjeg:I have reproduced. I will fix it later
+2016-03-28 20:37:50	-->	ranranking (ranranking@irc.gitter.im) has joined #neovim/neovim
+2016-03-28 20:37:50	--	Topic for #neovim/neovim is "vim out of the box | https://salt.bountysource.com/teams/neovim | posts by @marvim are from #neovim on freenode"
+2016-03-28 20:37:50	--	Channel #neovim/neovim: 32 nicks (0 ops, 0 voices, 32 normals)
+2016-03-28 21:03:09	gitter	[Github] wsdjeg commented in neovim/neovim on issue: Yanking to clipboard does not preserve newlines (when pasting to some applications) https://github.com/neovim/neovim/issues/4501#issuecomment-202682807
+2016-03-28 22:04:59	<--	undefined (undefined@irc.gitter.im) has left #neovim/neovim
+2016-03-29 11:05:24	-->	ranranking (ranranking@irc.gitter.im) has joined #neovim/neovim
+2016-03-29 11:05:24	--	Topic for #neovim/neovim is "vim out of the box | https://salt.bountysource.com/teams/neovim | posts by @marvim are from #neovim on freenode"
+2016-03-29 11:05:24	--	Channel #neovim/neovim: 32 nicks (0 ops, 0 voices, 32 normals)
+2016-03-29 11:05:38	gitter	Travis neovim/neovim#4504 [errored](https://travis-ci.org/neovim/neovim/builds/119289458) (14282)
+2016-03-29 11:12:27	-->	ranranking (ranranking@irc.gitter.im) has joined #neovim/neovim
+2016-03-29 11:12:27	--	Topic for #neovim/neovim is "vim out of the box | https://salt.bountysource.com/teams/neovim | posts by @marvim are from #neovim on freenode"
+2016-03-29 11:12:27	--	Channel #neovim/neovim: 32 nicks (0 ops, 0 voices, 32 normals)
+2016-03-29 11:34:57	-->	ranranking (ranranking@irc.gitter.im) has joined #neovim/neovim
+2016-03-29 11:34:57	--	Topic for #neovim/neovim is "vim out of the box | https://salt.bountysource.com/teams/neovim | posts by @marvim are from #neovim on freenode"
+2016-03-29 11:34:57	--	Channel #neovim/neovim: 32 nicks (0 ops, 0 voices, 32 normals)
+2016-03-29 11:38:20	-->	ranranking (ranranking@irc.gitter.im) has joined #neovim/neovim
+2016-03-29 11:38:20	--	Topic for #neovim/neovim is "vim out of the box | https://salt.bountysource.com/teams/neovim | posts by @marvim are from #neovim on freenode"
+2016-03-29 11:38:20	--	Channel #neovim/neovim: 32 nicks (0 ops, 0 voices, 32 normals)
+2016-03-29 11:43:47	gitter	[Github] pippocode commented in neovim/neovim on issue: Yank to system clipboard (OSX) doesn't work https://github.com/neovim/neovim/issues/4496#issuecomment-203022530
+2016-03-29 11:46:51	gitter	[Github] FriedSock synchronize a Pull Request to neovim/neovim: Fix allowing arguments as part of shell for `:term` command https://github.com/neovim/neovim/pull/4504
+2016-03-29 11:47:26	gitter	[Github] FriedSock commented in neovim/neovim on issue: Fix allowing arguments as part of shell for `:term` command https://github.com/neovim/neovim/pull/4504#issuecomment-203023754
+2016-03-29 11:48:09	marvim	`juanolon` hello ppl
+2016-03-29 11:48:22	marvim	`juanolon` does any know, how to insert a new line automatically as i write a text, when the text reach a with of textwidth?
+2016-03-29 12:01:03	marvim	`__Myst__` Hello
+2016-03-29 12:01:48	marvim	`__Myst__` I'm trying to use the base16 theme in NeoVim and Zsh
+2016-03-29 12:01:52	marvim	`__Myst__` But it's looking pretty weird, all blue
+2016-03-29 12:01:56	marvim	`__Myst__` While in bash it works correctly
+2016-03-29 12:02:00	marvim	`__Myst__` What can I do about this?
+2016-03-29 12:02:07	marvim	`__Myst__` The theme is base16-tomorrow and the airline theme is base16
+2016-03-29 12:02:44	marvim	`__Myst__` Oh nevremind
+2016-03-29 12:02:48	marvim	`__Myst__` I forgot to run base16 shell
+2016-03-29 12:03:26	hoenirvili	in order to run base16 theme in nvim you need to explicitly run a base 16 color bash script?!
+2016-03-29 12:04:06	marvim	`__Myst__` hoenirvili: No, the bash script is to fix the terminal colors
+2016-03-29 12:14:10	hoenirvili	could you share a link to such bash script?
+2016-03-29 12:23:23	gitter	Travis neovim/neovim#4504 [still failing](https://travis-ci.org/neovim/neovim/builds/119313120) (14283)
+2016-03-29 12:25:15	marvim	`__Myst__` hoenirvili: It's on the base16 github repo, soo
+2016-03-29 12:33:48	marvim	`ok` http://cur.lv/wo54f
+2016-03-29 12:35:15	marvim	`ok` http://cur.lv/wo54f
+2016-03-29 12:56:45	marvim	`teto` juanolon: isn't that the behavior of set textwidth ?
+2016-03-29 12:57:52	marvim	`juanolon` teto damn. you are right. i just checked, it was set to 0
+2016-03-29 12:59:32	marvim	`teto` :D
+2016-03-29 13:01:09	marvim	`teto` juanolon: I searched this afternoon how to softwrap at 80 columns so I had still the doc in memory
+2016-03-29 13:02:10	marvim	`juanolon` aah. i got softwrap confused with textwidth... anyway, thanks teto
+2016-03-29 13:31:30	gitter	[Github] philix pushed 2 commit(s) to neovim/neovim https://github.com/neovim/neovim/compare/ae686092f807...a9e0d734d7b4
+2016-03-29 13:31:45	gitter	[Github] philix closed a Pull Request to neovim/neovim: [RFC] Enable -Wconversion on path.c (adoption) https://github.com/neovim/neovim/pull/4441
+2016-03-29 13:31:49	gitter	[Github] jszakmeister unlabeled a Pull Request to neovim/neovim: [RFC] Enable -Wconversion on path.c (adoption) https://github.com/neovim/neovim/pull/4441
+2016-03-29 13:36:19	marvim	`jmayfield` hey.. just curious if anybody knows how to get deoplete to automatically show completion popup.. it works with ctrl-x-o and ctrl-n|p, but i'd like it to auto show
+2016-03-29 13:36:53	gitter	[Github] SageEx commented in neovim/neovim on issue: Yanking to clipboard does not preserve newlines (when pasting to some applications) https://github.com/neovim/neovim/issues/4501#issuecomment-203066742
+2016-03-29 13:37:14	marvim	`zandrmartin` `let g:deoplete#enable_at_startup=1` should do it
+2016-03-29 14:03:33	-->	ranranking (ranranking@irc.gitter.im) has joined #neovim/neovim
+2016-03-29 14:03:33	--	Topic for #neovim/neovim is "vim out of the box | https://salt.bountysource.com/teams/neovim | posts by @marvim are from #neovim on freenode"
+2016-03-29 14:03:33	--	Channel #neovim/neovim: 32 nicks (0 ops, 0 voices, 32 normals)
+2016-03-29 14:04:14	marvim	`zandrmartin` that would do it, yep
+2016-03-29 14:07:02	gitter	[Github] marvim pushed 2 commit(s) to neovim/neovim https://github.com/neovim/neovim/compare/ae686092f807...a9e0d734d7b4
+2016-03-29 14:34:57	-->	ranranking (ranranking@irc.gitter.im) has joined #neovim/neovim
+2016-03-29 14:34:57	--	Topic for #neovim/neovim is "vim out of the box | https://salt.bountysource.com/teams/neovim | posts by @marvim are from #neovim on freenode"
+2016-03-29 14:34:57	--	Channel #neovim/neovim: 32 nicks (0 ops, 0 voices, 32 normals)
+2016-03-29 14:39:13	gitter	[Github] philix synchronize a Pull Request to neovim/neovim: Remove maxmem and maxmemtot options https://github.com/neovim/neovim/pull/4486
+2016-03-29 14:46:29	gitter	[Github] cacplate synchronize a Pull Request to neovim/neovim: [RFC] change numerical options types to NumOpt (alias intmax_t) https://github.com/neovim/neovim/pull/3914
+2016-03-29 14:52:20	marvim	`henk` hi
+2016-03-29 15:21:21	gitter	[Github] equalsraf synchronize a Pull Request to neovim/neovim: [WIP] Compiling under Windows https://github.com/neovim/neovim/pull/810
+2016-03-29 15:31:02	gitter	[Github] cacplate synchronize a Pull Request to neovim/neovim: [RFC] change numerical options types to NumOpt (alias intmax_t) https://github.com/neovim/neovim/pull/3914
+2016-03-29 15:40:06	gitter	Travis neovim/neovim#4486 [errored](https://travis-ci.org/neovim/neovim/builds/119360545) (14285)
+2016-03-29 15:43:26	gitter	[Github] equalsraf commented in neovim/neovim on issue: [WIP] Update lua client https://github.com/neovim/neovim/pull/4398#issuecomment-203124001
+2016-03-29 16:02:26	gitter	Travis neovim/neovim#3914 [failed](https://travis-ci.org/neovim/neovim/builds/119362341) (14286)
+2016-03-29 16:07:03	gitter	Travis [equalsraf/neovim](https://github.com/equalsraf/neovim/compare/96ecfa9b929d...667f53f92b2a) (tb-win32-any) [errored](https://travis-ci.org/equalsraf/neovim/builds/119370309) (1066)
+2016-03-29 16:15:28	gitter	Travis [equalsraf/neovim](https://github.com/equalsraf/neovim/compare/96ecfa9b929d...667f53f92b2a) (tb-mingw) [errored](https://travis-ci.org/equalsraf/neovim/builds/119370341) (1067)
+2016-03-29 16:20:20	gitter	Travis neovim/neovim#810 [errored](https://travis-ci.org/neovim/neovim/builds/119370362) (14287)
+2016-03-29 16:53:00	gitter	Travis neovim/neovim#3914 [failed](https://travis-ci.org/neovim/neovim/builds/119372572) (14288)
+2016-03-29 17:01:08	gitter	[Github] tarruda commented in neovim/neovim on issue: [WIP] Update lua client https://github.com/neovim/neovim/pull/4398#issuecomment-203147475
+2016-03-29 17:05:23	marvim	`goddard` neovim have spell checking?
+2016-03-29 17:12:01	ranranking	@goddard `set spell complete+=kspell`
+2016-03-29 18:35:47	--	irc: disconnected from server
+2016-03-29 18:35:57	-->	ranranking (ranranking@irc.gitter.im) has joined #neovim/neovim
+2016-03-29 18:35:57	--	Topic for #neovim/neovim is "vim out of the box | https://salt.bountysource.com/teams/neovim | posts by @marvim are from #neovim on freenode"
+2016-03-29 18:35:57	--	Channel #neovim/neovim: 32 nicks (0 ops, 0 voices, 32 normals)
+2016-03-29 19:21:50	gitter	[Github] cacplate synchronize a Pull Request to neovim/neovim: [RFC] change numerical options types to NumOpt (alias intmax_t) https://github.com/neovim/neovim/pull/3914
+2016-03-29 19:44:09	gitter	Travis neovim/neovim#3914 [failed](https://travis-ci.org/neovim/neovim/builds/119413837) (14289)
+2016-03-29 20:04:36	--	You are now known as ranranking
+2016-03-29 20:04:59	--	You are now known as ranranking
+2016-03-29 21:54:25	iamcco	does anyone using CtrlSpace plugin? how to save another workspace in the same bookmark?
+2016-03-29 22:36:31	iamcco	I get it !! it have to be in save mode
+2016-03-29 22:47:08	gitter	[Github] tarruda synchronize a Pull Request to neovim/neovim: [WIP] Update lua client https://github.com/neovim/neovim/pull/4398
+2016-03-30 10:09:16	-->	ranranking (ranranking@irc.gitter.im) has joined #neovim/neovim
+2016-03-30 10:09:16	--	Topic for #neovim/neovim is "vim out of the box | https://salt.bountysource.com/teams/neovim | posts by @marvim are from #neovim on freenode"
+2016-03-30 10:09:16	--	Channel #neovim/neovim: 32 nicks (0 ops, 0 voices, 32 normals)
+2016-03-30 10:12:02	-->	ranranking (ranranking@irc.gitter.im) has joined #neovim/neovim
+2016-03-30 10:12:02	--	Topic for #neovim/neovim is "vim out of the box | https://salt.bountysource.com/teams/neovim | posts by @marvim are from #neovim on freenode"
+2016-03-30 10:12:02	--	Channel #neovim/neovim: 32 nicks (0 ops, 0 voices, 32 normals)
+2016-03-30 10:13:30	marvim	`replicant` kosc; set this `let $NVIM_TUI_ENABLE_TRUE_COLOR=1`
+2016-03-30 10:13:48	marvim	`replicant` then if your terminal supports it, or you use a patched version of tmux 2.1, its hould work
+2016-03-30 11:18:00	ibash	hey buddies!
+2016-03-30 11:28:38	tjdevries	Will the label on a pull request automatically change from WIP to RFC when I change the title?
+2016-03-30 11:28:55	tjdevries	I don't see any way for me to do that on my own.
+2016-03-30 11:41:55	-->	ranranking (ranranking@irc.gitter.im) has joined #neovim/neovim
+2016-03-30 11:41:55	--	Topic for #neovim/neovim is "vim out of the box | https://salt.bountysource.com/teams/neovim | posts by @marvim are from #neovim on freenode"
+2016-03-30 11:41:55	--	Channel #neovim/neovim: 32 nicks (0 ops, 0 voices, 32 normals)
+2016-03-30 11:56:14	cazador481	juliosueras:  Take a look at deoplete that might be the best way to do code completion
+2016-03-30 12:02:27	gitter	[Github] marvim unlabeled a Pull Request to neovim/neovim: [RFC] Center Items in the statusline / tagline https://github.com/neovim/neovim/pull/4489
+2016-03-30 12:02:27	gitter	[Github] marvim labeled a Pull Request to neovim/neovim: [RFC] Center Items in the statusline / tagline https://github.com/neovim/neovim/pull/4489
+2016-03-30 12:13:52	ibash	wakk wakka
+2016-03-30 12:13:56	ibash	[edit] wakka wakka
+2016-03-30 12:52:51	gitter	[Github] philix opened an issue in neovim/neovim: Get Neovim to run on the Windows Subsystem for Linux https://github.com/neovim/neovim/issues/4507
+2016-03-30 12:53:41	gitter	[Github] philix labeled an issue in neovim/neovim: Get Neovim to run on the Windows Subsystem for Linux https://github.com/neovim/neovim/issues/4507
+2016-03-30 12:53:42	gitter	[Github] philix labeled an issue in neovim/neovim: Get Neovim to run on the Windows Subsystem for Linux https://github.com/neovim/neovim/issues/4507
+2016-03-30 12:54:04	gitter	[Github] philix unlabeled an issue in neovim/neovim: Get Neovim to run on the Windows Subsystem for Linux https://github.com/neovim/neovim/issues/4507
+2016-03-30 13:18:35	gitter	[Github] zhimsel commented in neovim/neovim on issue: Neovim not resizing after closing iterm2 nightly split https://github.com/neovim/neovim/issues/3378#issuecomment-203592226
+2016-03-30 13:35:55	gitter	[Github] zhimsel commented in neovim/neovim on issue: Neovim not resizing after closing iterm2 nightly split https://github.com/neovim/neovim/issues/3378#issuecomment-203599772
+2016-03-30 13:48:57	HiPhish	replicant: Here is my init.vim, hope you find what you are looking for. http://pastebin.com/vg3q08sP
+2016-03-30 13:49:15	HiPhish	As I said, I don't use tmux, so I don't have any settings for that.
+2016-03-30 13:50:57	marvim	`replicant` thanks tons HiPhish; yeah my problem is specific to neovim in tmux; as mentioend, outside of tmux it works like a champ
+2016-03-30 13:51:02	marvim	`replicant` i'll poke around and see if i see anything
+2016-03-30 13:51:06	marvim	`replicant` thanks for taking the time to compile that for me
+2016-03-30 13:53:52	HiPhish	No problem, I haven't compiled anything, it's just my raw init.vim minus some personal stuff :) You'll have to cut through a lot of unrelated stuff.
+2016-03-30 14:17:31	hkupty	I just took tmux out of my stack recently due to some neovim in tmux problems
+2016-03-30 14:18:18	hkupty	I also wrote a plugin to port tmux bindings to neovim, so you can use neovim as a terminal multiplexer
+2016-03-30 14:18:49	hkupty	if you'd like to try, its here https://github.com/hkupty/nvimux
+2016-03-30 14:22:53	marvim	`replicant` oh wow, thanks hkupty
+2016-03-30 15:08:30	--	irc: disconnected from server
+2016-03-30 15:08:40	-->	ranranking (ranranking@irc.gitter.im) has joined #neovim/neovim
+2016-03-30 15:08:40	--	Topic for #neovim/neovim is "vim out of the box | https://salt.bountysource.com/teams/neovim | posts by @marvim are from #neovim on freenode"
+2016-03-30 15:08:40	--	Channel #neovim/neovim: 32 nicks (0 ops, 0 voices, 32 normals)
+2016-03-30 15:38:29	hkupty	no problem :D
+2016-03-30 15:41:34	gitter	[Github] pippocode commented in neovim/neovim on issue: Yank to system clipboard (OSX) doesn't work https://github.com/neovim/neovim/issues/4496#issuecomment-203646156
+2016-03-30 15:41:34	gitter	[Github] pippocode closed an issue in neovim/neovim: Yank to system clipboard (OSX) doesn't work https://github.com/neovim/neovim/issues/4496
+2016-03-30 15:43:49	marvim	`samadivk` hello
+2016-03-30 15:46:55	marvim	`Xerkus` hm
+2016-03-30 15:47:15	marvim	`Xerkus` can i make rpcstart use sockets?
+2016-03-30 16:01:38	marvim	`samadivk` i've been using vim for a while, but i'm just now considering using neovim. can someone compare the advantages and disadvantages of each?
+2016-03-30 16:16:01	gitter	[Github] tarruda commented in neovim/neovim on issue: Get Neovim to run on the Windows Subsystem for Linux https://github.com/neovim/neovim/issues/4507#issuecomment-203663529
+2016-03-30 16:16:48	marvim	`herrbischoff` samadivk: as of now, there are no immediate advantages or disadvantages of both. Neovim supports asynchronous tasks though but the plugins need to be updated for it. Other than that, for general text editing you will probably notice no difference. Remember, Neovim is a fork of Vim that strives to update and clean up the code base while preserving compatibility as far as possible.
+2016-03-30 16:17:37	marvim	`samadivk` herrbischoff: okay, thanks
+2016-03-30 16:17:59	marvim	`samadivk` i'll probably try out both and see which i prefer
+2016-03-30 16:18:02	marvim	`herrbischoff` samadivk: Another thing, you can use a Terminal inside Neovim, with :term
+2016-03-30 16:18:11	marvim	`samadivk` that's handy
+2016-03-30 16:18:29	marvim	`samadivk` although i could just use tmux
+2016-03-30 16:18:47	marvim	`samadivk` but integration into vim _would_ be cool
+2016-03-30 16:18:49	equalsraf	also check for plugins with specific support for Neovim like Neomake
+2016-03-30 16:19:22	marvim	`herrbischoff` Yes, Neomake is cool, Deoplete is another async plugin
+2016-03-30 16:19:25	equalsraf	thats the easiest way to see the difference between Neovim/Vim
+2016-03-30 16:20:12	marvim	`Xerkus` @Shougo are you around?
+2016-03-30 16:20:27	marvim	`Xerkus` @Shougo i think this condition is wrong https://github.com/neovim/neovim/blob/master/runtime/autoload/remote/host.vim#L39
+2016-03-30 16:20:40	ibash	WAHAGAGAGAHAGAGH
+2016-03-30 16:20:47	marvim	`shou15` Why?
+2016-03-30 16:20:47	ibash	whenever marvim talkgs I get a notification
+2016-03-30 16:21:16	marvim	`Xerkus` i think it should check for s:plugins_for_host
+2016-03-30 16:21:32	marvim	`Xerkus` since registering any plugin host makes s:hosts non-empty
+2016-03-30 16:22:07	marvim	`Xerkus` and  load remote plugins does not modify s:hosts from what i can see
+2016-03-30 16:24:21	marvim	`shou15` It should be executed onetime.
+2016-03-30 16:24:25	gitter	[Github] equalsraf commented in neovim/neovim on issue: Get Neovim to run on the Windows Subsystem for Linux https://github.com/neovim/neovim/issues/4507#issuecomment-203665348
+2016-03-30 16:25:09	marvim	`shou15` Because the registration is cached.
+2016-03-30 16:25:56	marvim	`Xerkus` yes, but from what i can see, it is always false condition
+2016-03-30 16:26:20	marvim	`Xerkus` unless no plugin hosts are registered, then require makes no sense?
+2016-03-30 16:26:37	marvim	`shou15` Hm.
+2016-03-30 16:26:51	marvim	`shou15` It is already loaded.
+2016-03-30 16:27:22	marvim	`shou15` What is the proalem?
+2016-03-30 16:27:37	marvim	`shou15` I cannot understand.
+2016-03-30 16:27:49	marvim	`psyq` quick question is there a GUI version of neovim?
+2016-03-30 16:28:11	marvim	`shou15` You should create new issue.
+2016-03-30 16:28:33	marvim	`shou15` I will responce to it.
+2016-03-30 16:29:13	marvim	`Xerkus` i'm reading code, and i am not sure i understand it right to say if it is not what it intended to be, and since you are to git blame, i pinged you
+2016-03-30 16:29:21	marvim	`shou15` You should explain the more detailed information
+2016-03-30 16:29:48	marvim	`shou15` It is intended.
+2016-03-30 16:30:42	marvim	`shou15` But if any problem exists, I will fix.
+2016-03-30 16:31:48	marvim	`shou15` psyq: https://github.com/neovim/neovim/wiki/Related-projects
+2016-03-30 16:32:03	marvim	`Xerkus` i will read code some more to see if i missed something and then create issue
+2016-03-30 16:47:01	nathanaelkane	I'm having the same problem replicant, let me know if you figure it out
+2016-03-30 16:51:21	gitter	[Github] equalsraf commented in neovim/neovim on issue: Neovim crashes when sourcing a vimball on Windows https://github.com/neovim/neovim/issues/4450#issuecomment-203672540
+2016-03-30 16:59:18	marvim	`herrbischoff` But head up psyq, the GUIs performance is actually terrible. At least on Mac OS X. MacVim has implemented lots of optimizations to mitigate that.
+2016-03-30 16:59:24	marvim	`herrbischoff` +s
+2016-03-30 16:59:50	marvim	`psyq` thank you herrbischoff
+2016-03-30 17:00:08	marvim	`psyq` I think I will stick with terminal
+2016-03-30 17:00:39	gitter	[Github] Xerkus opened a Pull Request to neovim/neovim: Fix condition for lazy loading remote plugins defintions https://github.com/neovim/neovim/pull/4508
+2016-03-30 17:01:35	marvim	`herrbischoff` The only thing I miss is the ability to double-click files in Finder and open them in Neovim instead of another GUI editor.
+2016-03-30 17:02:21	marvim	`herrbischoff` I tried certain AppleScript solutions to help with that but none really convinced me.
+2016-03-30 17:03:38	marvim	`herrbischoff` My dream editor would be the Sublime Text GUI with a Neovim core. Well, one can dream... :)
+2016-03-30 17:04:10	marvim	`samadivk` herrbischoff: there's an atom/neovim thing
+2016-03-30 17:04:25	marvim	`samadivk` https://github.com/carlosdcastillo/vim-mode
+2016-03-30 17:05:06	marvim	`herrbischoff` samadivk: I tried that but never actually got it to work.
+2016-03-30 17:05:19	marvim	`samadivk` oh, okay
+2016-03-30 19:17:04	--	irc: disconnected from server
+2016-03-30 19:17:14	-->	ranranking (ranranking@irc.gitter.im) has joined #neovim/neovim
+2016-03-30 19:17:14	--	Topic for #neovim/neovim is "vim out of the box | https://salt.bountysource.com/teams/neovim | posts by @marvim are from #neovim on freenode"
+2016-03-30 19:17:14	--	Channel #neovim/neovim: 32 nicks (0 ops, 0 voices, 32 normals)
+2016-03-30 19:39:43	marvim	`shou15` Windows 10 implements Unix subsystem!
+2016-03-30 19:40:10	marvim	`shou15` I think neovim can work easily!
+2016-03-30 19:40:24	marvim	`shou15` Wow
+2016-03-30 19:41:06	marvim	`goddard` shou15: yeah but windows 10 sucks
+2016-03-30 19:41:11	marvim	`goddard` shou15: and it spies on you
+2016-03-30 19:42:00	marvim	`shou15` Yes, I don't like the tracking.
+2016-03-30 19:42:30	marvim	`goddard` The new CEO is a douche bag
+2016-03-30 19:43:00	marvim	`goddard` At least Ballmer believed in privacy
+2016-03-30 19:43:52	marvim	`goddard` I only run Windows in a VM any more
+2016-03-30 19:52:05	marvim	`MinceR` what, ballmer believed in privacy?
+2016-03-30 19:52:54	marvim	`d42` ballmer believed in
+2016-03-30 19:53:00	marvim	`MinceR` maybe his own
+2016-03-30 19:53:00	marvim	`d42` developers, developers, developers, developers
+2016-03-30 19:53:08	marvim	`MinceR` no, he believed in leverage
+2016-03-30 19:53:15	marvim	`MinceR` just like the rest of the inner circle
+2016-03-30 19:53:19	marvim	`d42` ...developers, developers, deveolopers
+2016-03-30 19:54:00	marvim	`MinceR` "i have four words for you: ['i', 'love', 'this', 'company', 'yeah']"
+2016-03-30 20:05:12	gitter	[Github] cacplate synchronize a Pull Request to neovim/neovim: [RFC] change numerical options types to NumOpt (alias intmax_t) https://github.com/neovim/neovim/pull/3914
+2016-03-30 20:23:24	gitter	Travis neovim/neovim#3914 [failed](https://travis-ci.org/neovim/neovim/builds/119702072) (14298)
+2016-03-30 20:34:59	gitter	[Github] philix commented in neovim/neovim on issue: Get Neovim to run on the Windows Subsystem for Linux https://github.com/neovim/neovim/issues/4507#issuecomment-203723053
+2016-03-30 21:44:01	gitter	[Github] cacplate synchronize a Pull Request to neovim/neovim: [RFC] change numerical options types to NumOpt (alias intmax_t) https://github.com/neovim/neovim/pull/3914
+2016-03-30 21:50:09	gitter	[Github] tarruda synchronize a Pull Request to neovim/neovim: [WIP] Update lua client https://github.com/neovim/neovim/pull/4398
+2016-03-30 22:01:02	gitter	Travis neovim/neovim#3914 [failed](https://travis-ci.org/neovim/neovim/builds/119712865) (14299)
+2016-03-30 22:09:02	gitter	Travis neovim/neovim#4398 [failed](https://travis-ci.org/neovim/neovim/builds/119713360) (14300)
+2016-03-31 10:29:52	-->	ranranking (ranranking@irc.gitter.im) has joined #neovim/neovim
+2016-03-31 10:29:52	--	Topic for #neovim/neovim is "vim out of the box | https://salt.bountysource.com/teams/neovim | posts by @marvim are from #neovim on freenode"
+2016-03-31 10:29:52	--	Channel #neovim/neovim: 32 nicks (0 ops, 0 voices, 32 normals)
+2016-03-31 10:35:31	marvim	`d42` "well" :u
+2016-03-31 10:48:29	wsdjeg	I know ,but now I am using vifm ,
+2016-03-31 10:53:14	gitter	[Github] tswilkinson opened an issue in neovim/neovim: Building from source (make) fails on Linux https://github.com/neovim/neovim/issues/4511
+2016-03-31 12:04:40	VasilPupkin	@wsdjeg  try to use uzbl.  Can you see video from youtube in vifm ?
+2016-03-31 12:12:54	hkupty	Maybe its just me being a little anxious, but has everybody gone MIA? Development have slowed greatly and nobody seems to give any announcement about next steps, what is going on.. I don't want to be too picky, but it seems something has happened...
+2016-03-31 12:15:39	quake004	I just installed neovim and I'm having trouble
+2016-03-31 12:16:09	quake004	I linked ~/.vimrc from Awesome Vim to ~/.config/nvimrc
+2016-03-31 12:16:28	quake004	how can i get the color scheme?
+2016-03-31 12:16:51	justinmk	@hkupty I'm busy, and apprently when I'm busy the project grinds to a halt.
+2016-03-31 12:17:24	justinmk	I'll be un-busy in a few days.
+2016-03-31 12:17:45	justinmk	Though, 15 other people have commit access.
+2016-03-31 12:18:28	quake004	I'm freaking out
+2016-03-31 12:18:39	quake004	how i undo thissudo update-alternatives --install /usr/bin/vi vi /usr/bin/nvim 60
+2016-03-31 12:18:39	quake004	sudo update-alternatives --config vi
+2016-03-31 12:18:39	quake004	sudo update-alternatives --install /usr/bin/vim vim /usr/bin/nvim 60
+2016-03-31 12:18:39	quake004	sudo update-alternatives --config vim
+2016-03-31 12:18:39	quake004	sudo update-alternatives --install /usr/bin/editor editor /usr/bin/nvim 60
+2016-03-31 12:18:39	quake004	sudo update-alternatives --config editor
+2016-03-31 12:19:33	jamessan	justinmk: Do they not feel empowered to merge PRs? I have noticed that you're pretty much the only one that seems to do that.
+2016-03-31 12:21:50	justinmk	@jamessan it's been discussed before, I think most veterans know they can merge PRs if they feel good about them
+2016-03-31 12:25:28	jamessan	@jamessan still doesn't understand why unrelated tests seem to be failing just for #4492
+2016-03-31 12:26:14	justinmk	the new non-luajit lua tests are flakey (possibly because they are slower). I asked @tarruda to address it
+2016-03-31 12:26:43	justinmk	I made the builds green in january, and it's disappointing to see a bunch of false failures again now.
+2016-03-31 12:27:37	justinmk	red builds are noise and having to restart builds all the time is very annoying.
+2016-03-31 12:29:19	justinmk	Regarding @hkupty 's question though, it's not a good idea to only look at the main repo as a metric of activity.
+2016-03-31 12:29:36	justinmk	neovim-qt and libmpack have been seeing significant work
+2016-03-31 12:32:09	hkupty	I see... Sorry If I keep asking for feedback for the project, but as I didn't see any evolution on the last couple of weeks it just looked strange.. 
+2016-03-31 12:32:45	justinmk	it's understandable
+2016-03-31 12:32:55	justinmk	these things are non-linear though
+2016-03-31 12:32:58	jamessan	Well, there are always going to be ebbs and flows in productivity :)
+2016-03-31 12:33:06	tarruda	@jamessan, if the error is only on functionaltest-lua, feel free to ignore for now
+2016-03-31 12:33:08	justinmk	^ that
+2016-03-31 12:33:14	marvim	`goddard` what is going on?
+2016-03-31 12:33:23	jamessan	The modularized code is too, but that also means that activity is going to be spread across repos
+2016-03-31 12:33:25	justinmk	ignoring red builds isn't good...
+2016-03-31 12:33:26	marvim	`goddard` is marvim talking to himself?
+2016-03-31 12:33:36	jamessan	marvim is a relay bot
+2016-03-31 12:33:37	justinmk	we need green builds
+2016-03-31 12:33:57	tarruda	I'm gonna have a look at that PR
+2016-03-31 12:33:58	marvim	`goddard` jamessan: so you are in neovim right now?
+2016-03-31 12:34:08	jamessan	on gitter, yes
+2016-03-31 12:34:21	jamessan	I'm also connected on IRC, but I can't use that from work ;)
+2016-03-31 12:34:33	marvim	`goddard` marvim: ahh gitter...i hate gitter haha :D
+2016-03-31 12:34:51	tarruda	@jamessan yes, that error can be ignored
+2016-03-31 12:35:22	marvim	`goddard` its tearing our dear development community apart ... where everyone once just went to freenode now we use browsers to talk
+2016-03-31 12:35:45	tarruda	I will merge it later today
+2016-03-31 12:35:50	marvim	`goddard` cool you setup a relay though
+2016-03-31 12:35:55	justinmk	can we add lua-functionaltest to "ignore" in .travis.yml ?
+2016-03-31 12:36:08	jamessan	tarruda: Thanks :)
+2016-03-31 12:36:50	tarruda	justinmk I'd like to keep it non-ignored for now, at least it will make people check that the test is compatible with lua 5.1(syntatically speaking)
+2016-03-31 12:37:22	tarruda	if the build errors because of cursor_spec.lua, it is safe to ignore
+2016-03-31 12:37:24	jamessan	goddard: Considering it's enabled me to be involved when I'm not able to use IRC, I see that as quite the opposite to tearing the community apart
+2016-03-31 12:37:36	tarruda	I wish there was a way to ignore only certain errors
+2016-03-31 12:38:59	jamessan	Can tests be marked flaky?  I'm not very familiar with busted, but I know of some test harnesses that allow that
+2016-03-31 12:39:45	tarruda	hmm, I think we can ignore that specific test if FUNCTIONALTEST env var is set to functionaltest-lua
+2016-03-31 12:39:53	justinmk	yes
+2016-03-31 12:40:11	justinmk	pending("foo", function()end)
+2016-03-31 12:41:29	gitter	[Github] justinmk labeled an issue in neovim/neovim: Yank to system clipboard (OSX) doesn't work https://github.com/neovim/neovim/issues/4496
+2016-03-31 12:43:03	gitter	[Github] justinmk closed a Pull Request to neovim/neovim: [RFC] terminal.c: temporary fix for incorrect paste handling https://github.com/neovim/neovim/pull/4510
+2016-03-31 12:43:03	gitter	[Github] justinmk pushed 2 commit(s) to neovim/neovim https://github.com/neovim/neovim/compare/a9e0d734d7b4...4b8f27338f1a
+2016-03-31 12:43:07	gitter	[Github] justinmk unlabeled a Pull Request to neovim/neovim: [RFC] terminal.c: temporary fix for incorrect paste handling https://github.com/neovim/neovim/pull/4510
+2016-03-31 12:43:59	gitter	[Github] justinmk commented in neovim/neovim on issue: Fix set modified problem in complete() if set completeopt=noinsert https://github.com/neovim/neovim/pull/4509#issuecomment-204072134
+2016-03-31 12:44:14	quake004	how i uninstall neovim?
+2016-03-31 12:45:21	justinmk	@quake004 Depends on how you installed it
+2016-03-31 12:45:44	quake004	from ubuntu repository
+2016-03-31 12:45:55	justinmk	apt-get remove ...
+2016-03-31 12:46:27	marvim	`goddard` jamessan: when can you not use irc?  I got it on my phone haha
+2016-03-31 12:47:09	quake004	then i can use vim ase before?
+2016-03-31 12:47:10	jamessan	I wouldn't want to use that much data, nor would I want to hold typed conversations on my phone.  I have a nice keyboard for a reason
+2016-03-31 12:47:24	justinmk	no, you can't go back to vim,sorry
+2016-03-31 12:47:41	marvim	`teto` equalsraf: thanks for getting rid of that white bar o/
+2016-03-31 12:54:05	tarruda	> then i can use vim ase before?
+2016-03-31 12:54:06	tarruda	Are you trying to be subtle while trolling?
+2016-03-31 12:56:25	gitter	[Github] justinmk labeled an issue in neovim/neovim: Funny Chars in Terminal https://github.com/neovim/neovim/issues/3505
+2016-03-31 12:57:09	gitter	[Github] justinmk commented in neovim/neovim on issue: Artifacts in buffer https://github.com/neovim/neovim/issues/4506#issuecomment-204077826
+2016-03-31 12:57:09	gitter	[Github] justinmk closed an issue in neovim/neovim: Artifacts in buffer https://github.com/neovim/neovim/issues/4506
+2016-03-31 12:57:14	gitter	[Github] justinmk labeled an issue in neovim/neovim: Artifacts in buffer https://github.com/neovim/neovim/issues/4506
+2016-03-31 12:57:27	gitter	[Github] justinmk labeled an issue in neovim/neovim: Artifacts in buffer https://github.com/neovim/neovim/issues/4506
+2016-03-31 13:04:15	gitter	[Github] ibash commented in neovim/neovim on issue: Artifacts in buffer https://github.com/neovim/neovim/issues/4506#issuecomment-204081956
+2016-03-31 13:07:21	gitter	[Github] bfredl commented in neovim/neovim on issue: Pasting into :terminal creates junk characters https://github.com/neovim/neovim/issues/3476#issuecomment-204083545
+2016-03-31 13:18:13	gitter	[Github] bfredl synchronize a Pull Request to neovim/neovim: [RFC] api/buffer: introduce get/set_lines with more flexible out-of-bounds handling https://github.com/neovim/neovim/pull/4083
+2016-03-31 13:23:08	gitter	Travis [neovim/neovim](https://github.com/neovim/neovim/compare/a9e0d734d7b4...4b8f27338f1a) (master) [passed](https://travis-ci.org/neovim/neovim/builds/119886493) (14305)
+2016-03-31 13:24:55	marvim	`replicant` i just use freenode @goddard :/
+2016-03-31 13:24:58	marvim	`replicant` irc ftw
+2016-03-31 13:32:03	gitter	[Github] bfredl synchronize a Pull Request to neovim/neovim: [RFC] api/buffer: introduce get/set_lines with more flexible out-of-bounds handling https://github.com/neovim/neovim/pull/4083
+2016-03-31 13:34:02	gitter	[Github] wleese commented in neovim/neovim on issue: Pasting into :terminal creates junk characters https://github.com/neovim/neovim/issues/3476#issuecomment-204092425
+2016-03-31 13:34:43	tjdevries	Once I've marked a pull request as RFC and the tag has changed, is there anything else I need to do to start getting feedback? I know it's been recently said that many of the more prominent devs are quite busy right now, so it's fine if it takes awhile to get around to the PR I submitted, just wanted to check that I'm doing it correctly. This is my first PR for neovim.
+2016-03-31 13:36:20	marvim	`goddard` replicant: thats how you do it!
+2016-03-31 13:45:54	justinmk	@tjdevries definitely leave a comment, otherwise github doesn't notify anyone
+2016-03-31 13:47:07	tjdevries	Okay, I can do that. My PR has to do with adding centered text in the statusline, is there any one in particular I should mention in the comment for them to look at it?
+2016-03-31 13:47:34	equalsraf	teto: so many things that changed, hopefully I broke less than I fixed
+2016-03-31 13:56:28	gitter	[Github] tjdevries commented in neovim/neovim on issue: [RFC] Center Items in the statusline / tagline https://github.com/neovim/neovim/pull/4489#issuecomment-204101495
+2016-03-31 13:59:21	gitter	Travis neovim/neovim#4083 [errored](https://travis-ci.org/neovim/neovim/builds/119895488) (14306)
+2016-03-31 14:06:06	marvim	`replicant` those of you using latest neovim (head), latest tmux 2.1, and iterm2 nightly, do you have cursorshape switching working? it works for me outside of tmux, but when using neovim within tmux, it fails, using `let $NVIM_TUI_ENABLE_CURSOR_SHAPE=1`
+2016-03-31 14:06:40	marvim	`replicant` just wondering if there was something special you had to do with neovim for that to work with tmux, OR alternatively, if you had to do something special with tmux
+2016-03-31 14:08:13	gitter	[Github] marvim pushed 2 commit(s) to neovim/neovim https://github.com/neovim/neovim/compare/a9e0d734d7b4...4b8f27338f1a
+2016-03-31 14:11:19	gitter	[Github] justinmk commented in neovim/neovim on issue: [RFC] Center Items in the statusline / tagline https://github.com/neovim/neovim/pull/4489#issuecomment-204105794
+2016-03-31 14:15:20	gitter	[Github] justinmk commented in neovim/neovim on issue: Wordwise jump does not work in terminal mode https://github.com/neovim/neovim/issues/2269#issuecomment-204106793
+2016-03-31 14:16:45	gitter	Travis neovim/neovim#4083 [broken](https://travis-ci.org/neovim/neovim/builds/119898299) (14307)
+2016-03-31 14:24:04	gitter	[Github] bfredl commented in neovim/neovim on issue: [WIP] Fixed some Wconversion in charset.c https://github.com/neovim/neovim/pull/4477#issuecomment-204109872
+2016-03-31 14:27:32	gitter	[Github] bfredl commented in neovim/neovim on issue: [WIP] Fixed some Wconversion in charset.c https://github.com/neovim/neovim/pull/4477#issuecomment-204111767
+2016-03-31 14:33:24	gitter	[Github] bfredl commented in neovim/neovim on issue: [WIP] Fixed some Wconversion in charset.c https://github.com/neovim/neovim/pull/4477#issuecomment-204114311
+2016-03-31 14:34:16	gitter	[Github] alexoj opened an issue in neovim/neovim: Cannot remap Ctrl-H when using tmux https://github.com/neovim/neovim/issues/4512
+2016-03-31 14:37:40	gitter	[Github] phanimahesh commented in neovim/neovim on issue: [WIP] Fixed some Wconversion in charset.c https://github.com/neovim/neovim/pull/4477#issuecomment-204116153
+2016-03-31 14:40:22	jamessan	@tjdevries I'd also suggest posting the patch to vim_dev to see if Bram is interested, although the coding styles and testing are different.  For things like this which aren't specific to Neovim's particular divergences from Vim, I'm a fan of trying to get the change into both editors.
+2016-03-31 14:41:46	tjdevries	I'm not really familiar with that process exactly. Could you point me to somewhere where I could read about it or if it's simple give me a few pointers?
+2016-03-31 14:43:25	gitter	[Github] bfredl commented in neovim/neovim on issue: [WIP] Fixed some Wconversion in charset.c https://github.com/neovim/neovim/pull/4477#issuecomment-204117875
+2016-03-31 14:48:15	jamessan	You could either do it as a PR to vim/vim or send mail.  Sourceforge is having issues right now, so I can't link you to the part of Vim's website that describes the mailing lists
+2016-03-31 14:51:05	tjdevries	Okay thanks. Would you recommend doing that now, or waiting until the PR is nearly finished for Neovim? I looked at the same section of code in Vim's source right now and it does seem quite similar, so I don't think the port would be terribly difficult after I finish the PR for Neovim. I also agree that I would like to try and keep Neovim and Vim functionality very close, so adding this feature to Vim would be a lot of fun as well.
+2016-03-31 15:05:14	gitter	[Github] khughitt commented in neovim/neovim on issue: Wordwise jump does not work in terminal mode https://github.com/neovim/neovim/issues/2269#issuecomment-204129517
+2016-03-31 15:33:26	--	irc: disconnected from server
+2016-03-31 15:33:40	-->	ranranking (ranranking@irc.gitter.im) has joined #neovim/neovim
+2016-03-31 15:33:40	--	Topic for #neovim/neovim is "vim out of the box | https://salt.bountysource.com/teams/neovim | posts by @marvim are from #neovim on freenode"
+2016-03-31 15:33:40	--	Channel #neovim/neovim: 32 nicks (0 ops, 0 voices, 32 normals)
+2016-03-31 16:23:48	gitter	[Github] tarruda pushed 5 commit(s) to neovim/neovim https://github.com/neovim/neovim/compare/4b8f27338f1a...b8643f69c192
+2016-03-31 16:23:58	gitter	[Github] tarruda closed a Pull Request to neovim/neovim: [RFC] vim-patch:7.4.{1641,1643,1652,1654} https://github.com/neovim/neovim/pull/4492
+2016-03-31 16:24:02	gitter	[Github] jszakmeister unlabeled a Pull Request to neovim/neovim: [RFC] vim-patch:7.4.{1641,1643,1652,1654} https://github.com/neovim/neovim/pull/4492
+2016-03-31 16:24:14	gitter	[Github] tarruda commented in neovim/neovim on issue: [RFC] vim-patch:7.4.{1641,1643,1652,1654} https://github.com/neovim/neovim/pull/4492#issuecomment-204155883
+2016-03-31 16:30:23	brcolow	@tarruda now that lua-client uses libmpack, what is the next step?
+2016-03-31 16:30:54	tarruda	brcolow not yet, I'm still fixing some edges
+2016-03-31 16:31:28	brcolow	but what is the next step? libmpack got a lua binding, lua-client uses libmpack...then what?
+2016-03-31 16:32:44	tarruda	but the next step is the UI client library, which is basically is the ugrid.c from neovim core with some extra goodies
+2016-03-31 16:33:30	tarruda	I will use these two to implement the first UI which will follow this concept I detailed in neovim-qt: https://github.com/equalsraf/neovim-qt/issues/50
+2016-03-31 16:33:49	tarruda	This will fix a lot of issues the UI implementations have now
+2016-03-31 16:34:10	brcolow	what language will the UI client library be in? lua? and what will it be called? libnvim-ui-client? :D
+2016-03-31 16:34:20	tarruda	it will be C
+2016-03-31 16:34:28	tarruda	didn't think much of a name yet
+2016-03-31 16:34:34	brcolow	sounds really cool :D
+2016-03-31 16:34:36	tarruda	libnvim-client
+2016-03-31 16:34:53	tarruda	sounds reasonable
+2016-03-31 16:34:54	brcolow	then any language with a FFI to C can use it for building a UI in that language?
+2016-03-31 16:35:12	tarruda	yes
+2016-03-31 16:36:04	tarruda	right now I'm using the lua client to test libmpack, make it nice for  binding to any language
+2016-03-31 16:36:27	brcolow	sounds really cool tbhg
+2016-03-31 16:36:46	tarruda	but the goal is to have a higher level libnvim-client that wraps the boring stuff in a simple interface
+2016-03-31 16:40:10	marvim	`samadivk` anyone used nyaovim?
+2016-03-31 16:41:27	brcolow	yes, makes total sense
+2016-03-31 16:42:11	marvim	`samadivk` what, nyaovim?
+2016-03-31 16:54:08	gitter	Travis [neovim/neovim](https://github.com/neovim/neovim/compare/4b8f27338f1a...b8643f69c192) (master) [passed](https://travis-ci.org/neovim/neovim/builds/119939744) (14308)
+2016-03-31 17:01:37	gitter	[Github] marvim unlabeled a Pull Request to neovim/neovim: [RDY] Fix condition for lazy loading remote plugins defintions https://github.com/neovim/neovim/pull/4508
+2016-03-31 17:01:37	gitter	[Github] marvim labeled a Pull Request to neovim/neovim: [RDY] Fix condition for lazy loading remote plugins defintions https://github.com/neovim/neovim/pull/4508
+2016-03-31 18:48:13	--	irc: disconnected from server
+2016-03-31 18:48:25	-->	ranranking (ranranking@irc.gitter.im) has joined #neovim/neovim
+2016-03-31 18:48:25	--	Topic for #neovim/neovim is "vim out of the box | https://salt.bountysource.com/teams/neovim | posts by @marvim are from #neovim on freenode"
+2016-03-31 18:48:25	--	Channel #neovim/neovim: 32 nicks (0 ops, 0 voices, 32 normals)
+2016-03-31 18:51:05	-->	ranranking (ranranking@irc.gitter.im) has joined #neovim/neovim
+2016-03-31 18:51:05	--	Topic for #neovim/neovim is "vim out of the box | https://salt.bountysource.com/teams/neovim | posts by @marvim are from #neovim on freenode"
+2016-03-31 18:51:05	--	Channel #neovim/neovim: 32 nicks (0 ops, 0 voices, 32 normals)
+2016-03-31 19:51:42	-->	ranranking (ranranking@irc.gitter.im) has joined #neovim/neovim
+2016-03-31 19:51:42	--	Topic for #neovim/neovim is "vim out of the box | https://salt.bountysource.com/teams/neovim | posts by @marvim are from #neovim on freenode"
+2016-03-31 19:51:42	--	Channel #neovim/neovim: 32 nicks (0 ops, 0 voices, 32 normals)
+2016-03-31 19:52:14	-->	ranranking (ranranking@irc.gitter.im) has joined #neovim/neovim
+2016-03-31 19:52:14	--	Topic for #neovim/neovim is "vim out of the box | https://salt.bountysource.com/teams/neovim | posts by @marvim are from #neovim on freenode"
+2016-03-31 19:52:14	--	Channel #neovim/neovim: 32 nicks (0 ops, 0 voices, 32 normals)
+2016-03-31 20:02:19	-->	ranranking (ranranking@irc.gitter.im) has joined #neovim/neovim
+2016-03-31 20:02:19	--	Topic for #neovim/neovim is "vim out of the box | https://salt.bountysource.com/teams/neovim | posts by @marvim are from #neovim on freenode"
+2016-03-31 20:02:19	--	Channel #neovim/neovim: 32 nicks (0 ops, 0 voices, 32 normals)
+2016-03-31 20:13:19	-->	ranranking (ranranking@irc.gitter.im) has joined #neovim/neovim
+2016-03-31 20:13:19	--	Topic for #neovim/neovim is "vim out of the box | https://salt.bountysource.com/teams/neovim | posts by @marvim are from #neovim on freenode"
+2016-03-31 20:13:19	--	Channel #neovim/neovim: 32 nicks (0 ops, 0 voices, 32 normals)
+2016-03-31 20:56:57	-->	ranranking (ranranking@irc.gitter.im) has joined #neovim/neovim
+2016-03-31 20:56:57	--	Topic for #neovim/neovim is "vim out of the box | https://salt.bountysource.com/teams/neovim | posts by @marvim are from #neovim on freenode"
+2016-03-31 20:56:57	--	Channel #neovim/neovim: 32 nicks (0 ops, 0 voices, 32 normals)
+2016-03-31 20:57:16	-->	ranranking (ranranking@irc.gitter.im) has joined #neovim/neovim
+2016-03-31 20:57:16	--	Topic for #neovim/neovim is "vim out of the box | https://salt.bountysource.com/teams/neovim | posts by @marvim are from #neovim on freenode"
+2016-03-31 20:57:16	--	Channel #neovim/neovim: 32 nicks (0 ops, 0 voices, 32 normals)
+2016-03-31 20:59:37	-->	ranranking (ranranking@irc.gitter.im) has joined #neovim/neovim
+2016-03-31 20:59:37	--	Topic for #neovim/neovim is "vim out of the box | https://salt.bountysource.com/teams/neovim | posts by @marvim are from #neovim on freenode"
+2016-03-31 20:59:37	--	Channel #neovim/neovim: 32 nicks (0 ops, 0 voices, 32 normals)
+2016-03-31 21:01:42	-->	ranranking (ranranking@irc.gitter.im) has joined #neovim/neovim
+2016-03-31 21:01:42	--	Topic for #neovim/neovim is "vim out of the box | https://salt.bountysource.com/teams/neovim | posts by @marvim are from #neovim on freenode"
+2016-03-31 21:01:42	--	Channel #neovim/neovim: 32 nicks (0 ops, 0 voices, 32 normals)
+2016-03-31 21:40:11	gitter	[Github] cacplate synchronize a Pull Request to neovim/neovim: [RFC] change numerical options types to NumOpt (alias intmax_t) https://github.com/neovim/neovim/pull/3914
+2016-03-31 21:53:46	<--	undefined (undefined@irc.gitter.im) has left #neovim/neovim
+2016-03-31 22:00:57	gitter	[Github] philix commented in neovim/neovim on issue: Allow z= to correct spelling even with :set nospell https://github.com/neovim/neovim/issues/4495#issuecomment-204239558
+2016-03-31 22:06:31	gitter	Travis neovim/neovim#3914 [errored](https://travis-ci.org/neovim/neovim/builds/119980030) (14309)
+2016-03-31 22:22:10	<--	undefined (undefined@irc.gitter.im) has left #neovim/neovim
+2016-04-01 10:39:53	-->	ranranking (ranranking@irc.gitter.im) has joined #neovim/neovim
+2016-04-01 10:39:53	--	Topic for #neovim/neovim is "vim out of the box | https://salt.bountysource.com/teams/neovim | posts by @marvim are from #neovim on freenode"
+2016-04-01 10:39:53	--	Channel #neovim/neovim: 32 nicks (0 ops, 0 voices, 32 normals)
+2016-04-01 10:40:08	marvim	`prahnah` "Force tmux to assume the terminal supports 256 colours." So clean. You right.
+2016-04-01 10:40:41	-->	ranranking (ranranking@irc.gitter.im) has joined #neovim/neovim
+2016-04-01 10:40:41	--	Topic for #neovim/neovim is "vim out of the box | https://salt.bountysource.com/teams/neovim | posts by @marvim are from #neovim on freenode"
+2016-04-01 10:40:41	--	Channel #neovim/neovim: 32 nicks (0 ops, 0 voices, 32 normals)
+2016-04-01 10:42:51	marvim	`teto` sometimes autocompletion gives me many results, either I keep typing or I cycle through options until I select the good hit: I wonder if there is a plugin/feature I could use to select the candidate with a key like link hinting (f) in pentadactyl
+2016-04-01 10:49:10	-->	ranranking (ranranking@irc.gitter.im) has joined #neovim/neovim
+2016-04-01 10:49:10	--	Topic for #neovim/neovim is "vim out of the box | https://salt.bountysource.com/teams/neovim | posts by @marvim are from #neovim on freenode"
+2016-04-01 10:49:10	--	Channel #neovim/neovim: 32 nicks (0 ops, 0 voices, 32 normals)
+2016-04-01 10:52:35	marvim	`prahnah` teto i'm sorry don't know the answer for you. But could u give me the name of that plugin? i need autocompletion too :)
+2016-04-01 10:53:15	marvim	`teto` prahnah: I use YouCompleteMe for completion but you should try Deoplete first, it's apparently easier to use
+2016-04-01 10:54:12	marvim	`prahnah` teto thank you, its for any language ?
+2016-04-01 10:54:48	marvim	`teto` you may have to install external plugins for certain languages
+2016-04-01 10:54:55	marvim	`teto` (I think)
+2016-04-01 10:55:41	marvim	`prahnah` Ok i'll test it :)
+2016-04-01 11:08:47	-->	ranranking (ranranking@irc.gitter.im) has joined #neovim/neovim
+2016-04-01 11:08:47	--	Topic for #neovim/neovim is "vim out of the box | https://salt.bountysource.com/teams/neovim | posts by @marvim are from #neovim on freenode"
+2016-04-01 11:08:47	--	Channel #neovim/neovim: 32 nicks (0 ops, 0 voices, 32 normals)
+2016-04-01 11:22:36	-->	ranranking (ranranking@irc.gitter.im) has joined #neovim/neovim
+2016-04-01 11:22:36	--	Topic for #neovim/neovim is "vim out of the box | https://salt.bountysource.com/teams/neovim | posts by @marvim are from #neovim on freenode"
+2016-04-01 11:22:36	--	Channel #neovim/neovim: 32 nicks (0 ops, 0 voices, 32 normals)
+2016-04-01 12:15:18	vito-c	 using neovim head and finding some errors
+2016-04-01 12:16:02	vito-c	```
+2016-04-01 12:16:02	vito-c	function provider#python#Call[9]..remote#host#Require[13]..provider#pythonx#Require, line 15
+2016-04-01 12:16:02	vito-c	Vim(if):Channel was closed by the client
+2016-04-01 12:16:02	vito-c	Failed to load python host. You can try to see what happened by starting Neovim with the environment variable $NVIM_PYTHON_LOG_FILE set to a file and opening the generated log file. Also, the host stderr will be available in Neovim log, so it may contain useful information. See also ~/.nvimlog.
+2016-04-01 12:16:02	vito-c	Press ENTER or type command to continue
+2016-04-01 12:16:02	vito-c	```
+2016-04-01 12:16:44	vito-c	I'm going to switch back to latest release
+2016-04-01 12:18:51	vito-c	or do I need to install a new python client?
+2016-04-01 12:37:35	gitter	[Github] zhimsel commented in neovim/neovim on issue: :edit without resetting view? Is this possible? https://github.com/neovim/neovim/issues/4513#issuecomment-204508242
+2016-04-01 12:48:46	gitter	[Github] kopischke commented in neovim/neovim on issue: :edit without resetting view? Is this possible? https://github.com/neovim/neovim/issues/4513#issuecomment-204517954
+2016-04-01 13:03:45	gitter	[Github] josephholsten commented in neovim/neovim on issue: Pasting into :terminal creates junk characters https://github.com/neovim/neovim/issues/3476#issuecomment-204525947
+2016-04-01 13:13:29	gitter	[Github] wleese commented in neovim/neovim on issue: In :terminal pressing HOME, END, CTRL+<Left/Right> keys don't move the cursor https://github.com/neovim/neovim/issues/4514#issuecomment-204528283
+2016-04-01 13:43:56	gitter	[Github] rf- commented in neovim/neovim on issue: Pasting into :terminal creates junk characters https://github.com/neovim/neovim/issues/3476#issuecomment-204539909
+2016-04-01 13:43:56	gitter	[Github] rf- closed an issue in neovim/neovim: Pasting into :terminal creates junk characters https://github.com/neovim/neovim/issues/3476
+2016-04-01 14:26:17	marvim	`moerin_` hi
+2016-04-01 14:31:57	gitter	[Github] marvim pushed 10 commit(s) to neovim/neovim https://github.com/neovim/neovim/compare/4b8f27338f1a...28d3def5b0f0
+2016-04-01 14:41:26	marvim	`shou18` vito-c: Yes, you must update the client.
+2016-04-01 15:01:07	--	irc: disconnected from server
+2016-04-01 15:01:23	-->	ranranking (ranranking@irc.gitter.im) has joined #neovim/neovim
+2016-04-01 15:01:23	--	Topic for #neovim/neovim is "vim out of the box | https://salt.bountysource.com/teams/neovim | posts by @marvim are from #neovim on freenode"
+2016-04-01 15:01:23	--	Channel #neovim/neovim: 32 nicks (0 ops, 0 voices, 32 normals)
+2016-04-01 15:07:33	gitter	[Github] AitorATuin synchronize a Pull Request to neovim/neovim: [WIP] tests: Migrate legacy test 10 https://github.com/neovim/neovim/pull/4515
+2016-04-01 15:17:07	<--	undefined (undefined@irc.gitter.im) has left #neovim/neovim
+2016-04-01 15:35:05	gitter	Travis neovim/neovim#4515 [passed](https://travis-ci.org/neovim/neovim/builds/120175070) (14316)
+2016-04-01 15:39:16	gitter	[Github] AitorATuin commented in neovim/neovim on issue: [WIP] tests: Migrate legacy test 10 https://github.com/neovim/neovim/pull/4515#issuecomment-204574282
+2016-04-01 16:13:54	--	irc: disconnected from server
+2016-04-01 16:14:10	-->	ranranking (ranranking@irc.gitter.im) has joined #neovim/neovim
+2016-04-01 16:14:10	--	Topic for #neovim/neovim is "vim out of the box | https://salt.bountysource.com/teams/neovim | posts by @marvim are from #neovim on freenode"
+2016-04-01 16:14:10	--	Channel #neovim/neovim: 32 nicks (0 ops, 0 voices, 32 normals)
+2016-04-01 16:33:15	gitter	Travis neovim/neovim#3914 [passed](https://travis-ci.org/neovim/neovim/builds/120188682) (14317)
+2016-04-01 17:19:58	marvim	`tracyone` morning from eastern
+2016-04-02 17:47:42	-->	ranranking (ranranking@irc.gitter.im) has joined #neovim/neovim
+2016-04-02 17:47:42	--	Topic for #neovim/neovim is "vim out of the box | https://salt.bountysource.com/teams/neovim | posts by @marvim are from #neovim on freenode"
+2016-04-02 17:47:42	--	Channel #neovim/neovim: 32 nicks (0 ops, 0 voices, 32 normals)
+2016-04-02 17:48:03	-->	ranranking (ranranking@irc.gitter.im) has joined #neovim/neovim
+2016-04-02 17:48:03	--	Topic for #neovim/neovim is "vim out of the box | https://salt.bountysource.com/teams/neovim | posts by @marvim are from #neovim on freenode"
+2016-04-02 17:48:03	--	Channel #neovim/neovim: 32 nicks (0 ops, 0 voices, 32 normals)
+2016-04-02 18:12:27	gitter	Travis [equalsraf/neovim](https://github.com/equalsraf/neovim/compare/e882e47129c7...fa6060c59947) (tb-appveyor-ref) [errored](https://travis-ci.org/equalsraf/neovim/builds/120357710) (1091)
+2016-04-02 18:25:11	marvim	`herrbischoff` Hi all!
+2016-04-02 18:25:59	marvim	`herrbischoff` Could anyone assist me in getting a setup of Deoplete for JavaScript, HTML, CSS and possibly PHP working?
+2016-04-02 18:26:27	marvim	`herrbischoff` I've tried my best but it's kind of non-intuitive.
+2016-04-02 18:32:41	gitter	Travis [equalsraf/neovim](https://github.com/equalsraf/neovim/compare/fa6060c59947...3edbc6319ce3) (tb-appveyor-ref) [errored](https://travis-ci.org/equalsraf/neovim/builds/120359848) (1092)
+2016-04-02 18:38:11	gitter	Travis [equalsraf/neovim](https://github.com/equalsraf/neovim/compare/3edbc6319ce3...0d3096bd6ccc) (tb-appveyor-ref) [errored](https://travis-ci.org/equalsraf/neovim/builds/120359892) (1093)
+2016-04-02 18:59:29	gitter	Travis [equalsraf/neovim](https://github.com/equalsraf/neovim/compare/0d3096bd6ccc...fa6060c59947) (tb-appveyor-ref) [errored](https://travis-ci.org/equalsraf/neovim/builds/120362158) (1094)
+2016-04-02 19:30:22	gitter	[Github] Ivanca commented in neovim/neovim on issue: Question - multiple carets https://github.com/neovim/neovim/issues/211#issuecomment-204847052
+2016-04-02 19:52:02	marvim	`significance` Hello all - I'm running neovim in urxvt, but when I add $NVIM_TUI_ENABLE_TRUE_COLOR=1 to my init.vim, neovim goes to black and white. Any advice?
+2016-04-02 19:57:27	marvim	`jpleau` significance: urxvt doesn't have 24bit color support, unless you use the fork
+2016-04-02 19:57:45	marvim	`jpleau` https://github.com/spudowiar/rxvt-unicode/tree/24bit
+2016-04-02 19:58:03	marvim	`significance` jpleau: awesome - thank you!!
+2016-04-02 19:58:58	marvim	`significance` can't tell you how many times I've run my head into that issue :)
+2016-04-02 20:00:00	marvim	`jpleau` significance: see https://gist.github.com/XVilka/8346728
+2016-04-02 20:00:25	marvim	`significance` jpleau: that fixed it - thanks!
+2016-04-02 20:00:30	marvim	`significance` exit
+2016-04-02 20:00:35	marvim	`significance` oops :P
+2016-04-02 20:28:18	gitter	[Github] nathanaelkane commented in neovim/neovim on issue: How to deal with "Cannot find word list en.utf-8.spl or en.ascii.spl" warning https://github.com/neovim/neovim/issues/2102#issuecomment-204856919
+2016-04-02 22:11:56	marvim	`significance` Hello all! I'm trying to set up neovim with a color scheme, but when I let $NVIM_TUI_ENABLE_TRUE_COLOR=1 in my init.vim, the colors don't fix to what they "should be" (what they were before I messed up my vimrc and started over :P)
+2016-04-02 22:12:37	marvim	`significance` I am running urxvt, 24bit version
+2016-04-02 22:17:48	marvim	`significance` if it helps, the colorscheme is gruvbox, and I'm using this Xresources (https://github.com/morhetz/gruvbox-contrib/blob/master/xresources/gruvbox-dark.xresources)
+2016-04-02 23:04:32	gitter	[Github] Shougo synchronize a Pull Request to neovim/neovim: Fix set modified problem in complete() if set completeopt=noinsert https://github.com/neovim/neovim/pull/4509
+2016-04-02 23:04:47	gitter	[Github] Shougo commented in neovim/neovim on issue: Fix set modified problem in complete() if set completeopt=noinsert https://github.com/neovim/neovim/pull/4509#issuecomment-204873758
+2016-04-03 13:11:16	-->	ranranking (ranranking@irc.gitter.im) has joined #neovim/neovim
+2016-04-03 13:11:16	--	Topic for #neovim/neovim is "vim out of the box | https://salt.bountysource.com/teams/neovim | posts by @marvim are from #neovim on freenode"
+2016-04-03 13:11:16	--	Channel #neovim/neovim: 32 nicks (0 ops, 0 voices, 32 normals)
+2016-04-03 13:11:50	-->	ranranking (ranranking@irc.gitter.im) has joined #neovim/neovim
+2016-04-03 13:11:50	--	Topic for #neovim/neovim is "vim out of the box | https://salt.bountysource.com/teams/neovim | posts by @marvim are from #neovim on freenode"
+2016-04-03 13:11:50	--	Channel #neovim/neovim: 32 nicks (0 ops, 0 voices, 32 normals)
+2016-04-03 13:30:24	gitter	[Github] wleese commented in neovim/neovim on issue: In :terminal pressing HOME, END, CTRL+<Left/Right> keys don't move the cursor https://github.com/neovim/neovim/issues/4514#issuecomment-205040027
+2016-04-03 13:39:40	gitter	[Github] cacplate synchronize a Pull Request to neovim/neovim: [RFC] buffer.c: change return type to bool (adoption of #3667) https://github.com/neovim/neovim/pull/4269
+2016-04-03 13:46:35	gitter	[Github] Antoine-H synchronize a Pull Request to neovim/neovim: [WIP] Fixed some Wconversion in charset.c https://github.com/neovim/neovim/pull/4477
+2016-04-03 13:49:11	gitter	[Github] Antoine-H commented in neovim/neovim on issue: [WIP] Fixed some Wconversion in charset.c https://github.com/neovim/neovim/pull/4477#issuecomment-205043161
+2016-04-03 13:56:17	gitter	[Github] mac10688 opened an issue in neovim/neovim: Neovim on windows https://github.com/neovim/neovim/issues/4525
+2016-04-03 14:03:06	gitter	Travis neovim/neovim#4269 [broken](https://travis-ci.org/neovim/neovim/builds/120476048) (14334)
+2016-04-03 14:14:13	<--	undefined (undefined@irc.gitter.im) has left #neovim/neovim
+2016-04-03 14:21:51	gitter	Travis neovim/neovim#4477 [passed](https://travis-ci.org/neovim/neovim/builds/120476950) (14335)
+2016-04-03 14:39:14	gitter	[Github] wleese commented in neovim/neovim on issue: In :terminal pressing HOME, END, CTRL+<Left/Right> keys don't move the cursor when using zsh autosuggestions https://github.com/neovim/neovim/issues/4514#issuecomment-205051158
+2016-04-03 15:07:19	marvim	`aiena` anyone know of a c/c++ lib that can be used with an app which implements vi/vim like functions ?
+2016-04-03 15:19:21	marvim	`henk` is there any plugin manager recommendation for neovim? 'dein' mentions neovim explicitly and is the successor of 'neobundle', but that’s not 'neo' as in 'neovim' is it?
+2016-04-03 15:29:54	marvim	`nhooyr` henk: no, neobundle was for vim. i'd recommend vim-plug
+2016-04-03 15:33:25	marvim	`d42` vimplug is pretty good :^)
+2016-04-03 15:33:38	marvim	`d42` it installs packages
+2016-04-03 15:33:41	marvim	`d42` and even removes packages
+2016-04-03 15:38:45	marvim	`henk` nhooyr, d42: looks good, thanks (:
+2016-04-03 15:39:04	marvim	`d42` i haven't mentioned that
+2016-04-03 15:39:08	marvim	`d42` it also updates packages
+2016-04-03 15:40:53	marvim	`henk` d42: wow, nice
+2016-04-03 15:41:25	marvim	`d42` i'm stoked
+2016-04-03 17:20:19	gitter	[Github] cacplate synchronize a Pull Request to neovim/neovim: [RFC] Enable -Wconversion in ops.c https://github.com/neovim/neovim/pull/3745
+2016-04-03 17:39:45	gitter	Travis neovim/neovim#3745 [passed](https://travis-ci.org/neovim/neovim/builds/120508171) (14336)
+2016-04-03 18:14:52	gitter	[Github] justinmk labeled an issue in neovim/neovim: Neovim on windows https://github.com/neovim/neovim/issues/4525
+2016-04-03 18:14:52	gitter	[Github] justinmk labeled an issue in neovim/neovim: Neovim on windows https://github.com/neovim/neovim/issues/4525
+2016-04-03 18:18:08	gitter	[Github] justinmk commented in neovim/neovim on issue: In :terminal pressing HOME, END, CTRL+<Left/Right> keys don't move the cursor when using zsh autosuggestions https://github.com/neovim/neovim/issues/4514#issuecomment-205081190
+2016-04-03 18:20:47	gitter	[Github] justinmk closed a Pull Request to neovim/neovim: [RDY] Fix condition for lazy loading remote plugins defintions https://github.com/neovim/neovim/pull/4508
+2016-04-03 18:20:47	gitter	[Github] justinmk pushed 2 commit(s) to neovim/neovim https://github.com/neovim/neovim/compare/c8d830e896e5...c54ccfbb52ef
+2016-04-03 18:20:51	gitter	[Github] justinmk unlabeled a Pull Request to neovim/neovim: [RDY] Fix condition for lazy loading remote plugins defintions https://github.com/neovim/neovim/pull/4508
+2016-04-03 18:42:58	wsdjeg	henk: why not Shougo's dein.vim
+2016-04-03 18:43:14	wsdjeg	it is more faster than other managers
+2016-04-03 18:56:30	gitter	Travis [neovim/neovim](https://github.com/neovim/neovim/compare/c8d830e896e5...c54ccfbb52ef) (master) [passed](https://travis-ci.org/neovim/neovim/builds/120514701) (14337)
+2016-04-03 19:01:47	gitter	[Github] marvim labeled a Pull Request to neovim/neovim: [RDY] buffer.c: change return type to bool (adoption of #3667) https://github.com/neovim/neovim/pull/4269
+2016-04-03 19:01:47	gitter	[Github] marvim unlabeled a Pull Request to neovim/neovim: [RDY] buffer.c: change return type to bool (adoption of #3667) https://github.com/neovim/neovim/pull/4269
+2016-04-03 19:42:40	gitter	[Github] ZyX-I synchronize a Pull Request to neovim/neovim: [RFC] Add JSON support https://github.com/neovim/neovim/pull/4131
+2016-04-03 19:48:21	gitter	[Github] ZyX-I synchronize a Pull Request to neovim/neovim: [RFC] Add JSON support https://github.com/neovim/neovim/pull/4131
+2016-04-03 19:50:16	gitter	Travis neovim/neovim#4131 [broken](https://travis-ci.org/neovim/neovim/builds/120522675) (14338)
+2016-04-03 20:10:07	gitter	Travis neovim/neovim#4131 [passed](https://travis-ci.org/neovim/neovim/builds/120523174) (14339)
+2016-04-03 21:58:20	--	irc: disconnected from server
+2016-04-03 21:58:32	-->	ranranking (ranranking@irc.gitter.im) has joined #neovim/neovim
+2016-04-03 21:58:32	--	Topic for #neovim/neovim is "vim out of the box | https://salt.bountysource.com/teams/neovim | posts by @marvim are from #neovim on freenode"
+2016-04-03 21:58:32	--	Channel #neovim/neovim: 32 nicks (0 ops, 0 voices, 32 normals)
+2016-04-04 11:36:19	-->	ranranking (ranranking@irc.gitter.im) has joined #neovim/neovim
+2016-04-04 11:36:19	--	Topic for #neovim/neovim is "vim out of the box | https://salt.bountysource.com/teams/neovim | posts by @marvim are from #neovim on freenode"
+2016-04-04 11:36:19	--	Channel #neovim/neovim: 32 nicks (0 ops, 0 voices, 32 normals)
+2016-04-04 12:07:09	jamox	Thanks, I don't like the fix, but this one worked: https://github.com/neovim/neovim/issues/2048#issuecomment-98307896 (clearing cache and reinstalling head with homebrew didn't help...)
+2016-04-04 12:07:24	jamox	but now I can proceed with the things I needed to do
+2016-04-04 13:50:20	marvim	`jaawerth` Hi all! On day 2 of ftplugin and loving the switch - question, though: should ~/.config/nvim/after/ftplugin/filetype.vim as opposed to ~/.config/nvim/ftplugin... not work? Because it doesn't seem to the way it works in vim
+2016-04-04 13:51:26	marvim	— `lhx` says thank you to any nvim devs in here... I'm on day 3 or so of switching and I'm loving it so far!
+2016-04-04 14:05:17	gitter	[Github] marvim pushed 4 commit(s) to neovim/neovim https://github.com/neovim/neovim/compare/c8d830e896e5...47d44e00a2cf
+2016-04-04 14:06:35	gitter	[Github] Delapouite commented in neovim/neovim on issue: Question - multiple carets https://github.com/neovim/neovim/issues/211#issuecomment-205471984
+2016-04-04 14:14:24	gitter	[Github] ZyX-I commented in neovim/neovim on issue: [RFC] Center Items in the statusline / tagline https://github.com/neovim/neovim/pull/4489#issuecomment-205475755
+2016-04-04 14:32:49	gitter	[Github] ZyX-I commented in neovim/neovim on issue: [RFC] Center Items in the statusline / tagline https://github.com/neovim/neovim/pull/4489#issuecomment-205481742
+2016-04-04 14:56:59	--	irc: disconnected from server
+2016-04-04 14:57:10	-->	ranranking (ranranking@irc.gitter.im) has joined #neovim/neovim
+2016-04-04 14:57:10	--	Topic for #neovim/neovim is "vim out of the box | https://salt.bountysource.com/teams/neovim | posts by @marvim are from #neovim on freenode"
+2016-04-04 14:57:10	--	Channel #neovim/neovim: 32 nicks (0 ops, 0 voices, 32 normals)
+2016-04-04 16:13:36	-->	ranranking (ranranking@irc.gitter.im) has joined #neovim/neovim
+2016-04-04 16:13:36	--	Topic for #neovim/neovim is "vim out of the box | https://salt.bountysource.com/teams/neovim | posts by @marvim are from #neovim on freenode"
+2016-04-04 16:13:36	--	Channel #neovim/neovim: 32 nicks (0 ops, 0 voices, 32 normals)
+2016-04-04 16:24:39	gitter	[Github] cacplate synchronize a Pull Request to neovim/neovim: [WIP] change types to bool in globals.h https://github.com/neovim/neovim/pull/4499
+2016-04-04 16:33:26	gitter	Travis neovim/neovim#4486 [passed](https://travis-ci.org/neovim/neovim/builds/120747736) (14344)
+2016-04-04 16:39:58	gitter	[Github] cacplate synchronize a Pull Request to neovim/neovim: [WIP] change types to bool in globals.h https://github.com/neovim/neovim/pull/4499
+2016-04-04 16:46:44	gitter	Travis neovim/neovim#4499 [failed](https://travis-ci.org/neovim/neovim/builds/120751586) (14345)
+2016-04-04 16:57:46	gitter	[Github] smondet commented in neovim/neovim on issue: Easy Motion plugin doesn't work in terminal buffer.   https://github.com/neovim/neovim/issues/2607#issuecomment-205533441
+2016-04-04 17:00:41	marvim	`josephholsten` if I wanted to be able to visual select some text, and then bind an action onto right click, what would I use to map that?
+2016-04-04 18:33:51	-->	ranranking (ranranking@irc.gitter.im) has joined #neovim/neovim
+2016-04-04 18:33:51	--	Topic for #neovim/neovim is "vim out of the box | https://salt.bountysource.com/teams/neovim | posts by @marvim are from #neovim on freenode"
+2016-04-04 18:33:51	--	Channel #neovim/neovim: 32 nicks (0 ops, 0 voices, 32 normals)
+2016-04-04 18:41:17	gitter	[Github] cacplate synchronize a Pull Request to neovim/neovim: [WIP] change types to bool in globals.h https://github.com/neovim/neovim/pull/4499
+2016-04-04 18:45:31	gitter	[Github] TyOverby opened an issue in neovim/neovim: Python 2 library YouCompleteMe fails to load https://github.com/neovim/neovim/issues/4529
+2016-04-04 18:56:27	gitter	Travis neovim/neovim#4499 [failed](https://travis-ci.org/neovim/neovim/builds/120778680) (14351)
+2016-04-04 18:56:46	marvim	`josephholsten` hmm, `:vnoremap <M-LeftMouse> :!xargs open<Enter>` is almost what I want, but it sends off the whole line
+2016-04-04 19:04:46	marvim	`josephholsten` if only :`<,`> were a real thing
+2016-04-04 19:06:45	marvim	`josephholsten` seriously, how does one pipe just the selected text through an external command.
+2016-04-04 19:07:07	marvim	`josephholsten` more importantly, how have I never figured this out in the last two decades
+2016-04-04 19:08:34	marvim	`joaumg` josephholsten: maybe y :!echo C-r", not sure
+2016-04-04 19:13:23	marvim	`josephholsten` I'm clearly not entering that correctly
+2016-04-04 19:13:41	marvim	`josephholsten` my test command right now is `:vnoremap <M-LeftMouse> :!tr [a-z] [A-Z]<Enter>`
+2016-04-04 19:14:33	marvim	`josephholsten` what's this `C-r",` you're mentioning?
+2016-04-04 19:14:56	marvim	`joaumg` Control + R
+2016-04-04 19:15:28	gitter	[Github] cacplate synchronize a Pull Request to neovim/neovim: [WIP] change types to bool in globals.h https://github.com/neovim/neovim/pull/4499
+2016-04-04 19:15:50	marvim	`joaumg` y(ank), :!echo (Control + R)(double quote)[ paste from register ]<Enter>
+2016-04-04 19:16:21	marvim	`joaumg` Was just a guess by the way...
+2016-04-04 19:18:02	marvim	`josephholsten` nah, that's an idea
+2016-04-04 19:22:34	marvim	`josephholsten` well, I could be lazy and stomp on the system clipboard, `y :!pbpaste | my-awesome-command`
+2016-04-04 19:30:36	gitter	[Github] ZyX-I commented in neovim/neovim on issue: Easy Motion plugin doesn't work in terminal buffer.   https://github.com/neovim/neovim/issues/2607#issuecomment-205581596
+2016-04-04 19:35:13	gitter	Travis neovim/neovim#4499 [failed](https://travis-ci.org/neovim/neovim/builds/120783552) (14352)
+2016-04-04 19:44:21	gitter	[Github] cacplate synchronize a Pull Request to neovim/neovim: [WIP] change types to bool in globals.h https://github.com/neovim/neovim/pull/4499
+2016-04-04 20:00:07	gitter	[Github] jeanleonino opened an issue in neovim/neovim: Unable to open swap file for "filename" on fresh new install https://github.com/neovim/neovim/issues/4530
+2016-04-04 20:01:55	gitter	[Github] jeanleonino commented in neovim/neovim on issue: Unable to open swap file for "filename" on fresh new install https://github.com/neovim/neovim/issues/4530#issuecomment-205598074
+2016-04-04 20:02:07	gitter	Travis neovim/neovim#4499 [passed](https://travis-ci.org/neovim/neovim/builds/120787324) (14353)
+2016-04-04 20:10:15	gitter	[Github] cacplate synchronize a Pull Request to neovim/neovim: [WIP] change types to bool in globals.h https://github.com/neovim/neovim/pull/4499
+2016-04-04 20:15:35	gitter	[Github] cacplate synchronize a Pull Request to neovim/neovim: [WIP] change types to bool in globals.h https://github.com/neovim/neovim/pull/4499
+2016-04-04 20:30:08	gitter	[Github] tjdevries commented in neovim/neovim on issue: [RFC] Center Items in the statusline / tagline https://github.com/neovim/neovim/pull/4489#issuecomment-205606599
+2016-04-04 20:39:52	gitter	[Github] nfischer opened an issue in neovim/neovim: Feature request: allow arbitrary integer values for -nargs https://github.com/neovim/neovim/issues/4531
+2016-04-04 20:41:52	gitter	Travis neovim/neovim#4499 [failed](https://travis-ci.org/neovim/neovim/builds/120790498) (14354)
+2016-04-04 20:42:40	gitter	[Github] cacplate synchronize a Pull Request to neovim/neovim: [WIP] change types to bool in globals.h https://github.com/neovim/neovim/pull/4499
+2016-04-04 20:50:24	gitter	Travis neovim/neovim#4499 [failed](https://travis-ci.org/neovim/neovim/builds/120791136) (14355)
+2016-04-04 21:03:45	gitter	Travis neovim/neovim#4499 [passed](https://travis-ci.org/neovim/neovim/builds/120795288) (14356)
+2016-04-04 21:07:02	gitter	[Github] trusktr commented in neovim/neovim on issue: Functional API for auto commands. https://github.com/neovim/neovim/issues/4521#issuecomment-205620629
+2016-04-04 21:13:56	gitter	[Github] ZyX-I closed an issue in neovim/neovim: Feature request: allow arbitrary integer values for -nargs https://github.com/neovim/neovim/issues/4531
+2016-04-04 21:13:56	gitter	[Github] ZyX-I commented in neovim/neovim on issue: Feature request: allow arbitrary integer values for -nargs https://github.com/neovim/neovim/issues/4531#issuecomment-205621646
+2016-04-04 21:14:03	gitter	[Github] ZyX-I labeled an issue in neovim/neovim: Feature request: allow arbitrary integer values for -nargs https://github.com/neovim/neovim/issues/4531
+2016-04-04 21:14:15	gitter	[Github] justinmk commented in neovim/neovim on issue: Feature request: allow arbitrary integer values for -nargs https://github.com/neovim/neovim/issues/4531#issuecomment-205621738
+2016-04-04 21:18:27	gitter	[Github] justinmk labeled an issue in neovim/neovim: Feature request: allow arbitrary integer values for -nargs https://github.com/neovim/neovim/issues/4531
+2016-04-04 21:18:29	gitter	[Github] ZyX-I commented in neovim/neovim on issue: Feature request: allow arbitrary integer values for -nargs https://github.com/neovim/neovim/issues/4531#issuecomment-205622282
+2016-04-04 21:19:20	gitter	[Github] ZyX-I commented in neovim/neovim on issue: Feature request: allow arbitrary integer values for -nargs https://github.com/neovim/neovim/issues/4531#issuecomment-205622406
+2016-04-04 21:52:33	gitter	[Github] trev commented in neovim/neovim on issue: Errors with vim-airline and ft= modeline in first arg https://github.com/neovim/neovim/issues/4471#issuecomment-205630019
+2016-04-04 22:01:46	gitter	[Github] marvim unlabeled a Pull Request to neovim/neovim: [RFC] change types to bool in globals.h https://github.com/neovim/neovim/pull/4499
+2016-04-04 22:01:46	gitter	[Github] marvim labeled a Pull Request to neovim/neovim: [RFC] change types to bool in globals.h https://github.com/neovim/neovim/pull/4499
+2016-04-04 22:17:32	gitter	[Github] justinmk commented in neovim/neovim on issue: Easy Motion plugin doesn't work in terminal buffer.   https://github.com/neovim/neovim/issues/2607#issuecomment-205636270
+2016-04-05 11:12:20	-->	ranranking (ranranking@irc.gitter.im) has joined #neovim/neovim
+2016-04-05 11:12:20	--	Topic for #neovim/neovim is "vim out of the box | https://salt.bountysource.com/teams/neovim | posts by @marvim are from #neovim on freenode"
+2016-04-05 11:12:20	--	Channel #neovim/neovim: 32 nicks (0 ops, 0 voices, 32 normals)
+2016-04-05 11:13:20	gitter	[Github] btalpers opened an issue in neovim/neovim: :Tutor's [A]ppend (Lesson 1.5) Goes to next time https://github.com/neovim/neovim/issues/4533
+2016-04-05 11:29:04	-->	ranranking (ranranking@irc.gitter.im) has joined #neovim/neovim
+2016-04-05 11:29:04	--	Topic for #neovim/neovim is "vim out of the box | https://salt.bountysource.com/teams/neovim | posts by @marvim are from #neovim on freenode"
+2016-04-05 11:29:04	--	Channel #neovim/neovim: 32 nicks (0 ops, 0 voices, 32 normals)
+2016-04-05 11:37:29	-->	ranranking (ranranking@irc.gitter.im) has joined #neovim/neovim
+2016-04-05 11:37:29	--	Topic for #neovim/neovim is "vim out of the box | https://salt.bountysource.com/teams/neovim | posts by @marvim are from #neovim on freenode"
+2016-04-05 11:37:29	--	Channel #neovim/neovim: 32 nicks (0 ops, 0 voices, 32 normals)
+2016-04-05 11:57:15	-->	ranranking (ranranking@irc.gitter.im) has joined #neovim/neovim
+2016-04-05 11:57:15	--	Topic for #neovim/neovim is "vim out of the box | https://salt.bountysource.com/teams/neovim | posts by @marvim are from #neovim on freenode"
+2016-04-05 11:57:15	--	Channel #neovim/neovim: 32 nicks (0 ops, 0 voices, 32 normals)
+2016-04-05 11:58:53	-->	ranranking (ranranking@irc.gitter.im) has joined #neovim/neovim
+2016-04-05 11:58:53	--	Topic for #neovim/neovim is "vim out of the box | https://salt.bountysource.com/teams/neovim | posts by @marvim are from #neovim on freenode"
+2016-04-05 11:58:53	--	Channel #neovim/neovim: 32 nicks (0 ops, 0 voices, 32 normals)
+2016-04-05 12:01:55	-->	ranranking (ranranking@irc.gitter.im) has joined #neovim/neovim
+2016-04-05 12:01:55	--	Topic for #neovim/neovim is "vim out of the box | https://salt.bountysource.com/teams/neovim | posts by @marvim are from #neovim on freenode"
+2016-04-05 12:01:55	--	Channel #neovim/neovim: 32 nicks (0 ops, 0 voices, 32 normals)
+2016-04-05 12:04:52	marvim	`autrilla` Does neovim support vim plugins, in theory and in practice?
+2016-04-05 12:13:13	marvim	`belak` Is there a way to force the line number column (and the gutter) to be redrawn?
+2016-04-05 12:17:33	marvim	`joaumg` belak: edit them on config file, :source %
+2016-04-05 12:26:16	gitter	Travis neovim/neovim#4504 [errored](https://travis-ci.org/neovim/neovim/builds/120919664) (14377)
+2016-04-05 12:33:30	marvim	`d42` autrilla: it does
+2016-04-05 12:39:21	marvim	`belak` joaumg: that seems really heavy handed...
+2016-04-05 12:39:44	marvim	`belak` This is for a plugin I'm writing... we just need a way to redraw the gutter with new colors
+2016-04-05 12:46:43	marvim	`joaumg` belak: generally I use :so $MYVIMRC which reloads all my config again
+2016-04-05 12:46:50	marvim	`belak` ...
+2016-04-05 12:46:56	marvim	`belak` I don't need to reload the vimrc
+2016-04-05 12:47:05	marvim	`belak` And actually that's not what I need at all
+2016-04-05 12:47:13	marvim	`joaumg` :set ?
+2016-04-05 12:47:17	marvim	`belak` I don't want to enable or disable anything
+2016-04-05 12:51:51	marvim	`joaumg` belak: in this case I can only think in some autocmd, which expects BufEnter or maybe BufWritePost to run your command
+2016-04-05 12:52:28	gitter	Travis neovim/neovim#4504 [errored](https://travis-ci.org/neovim/neovim/builds/120928052) (14378)
+2016-04-05 13:04:36	gitter	Travis [equalsraf/neovim](https://github.com/equalsraf/neovim/compare/f6dfdf59fef5...5ab585431d17) (tb-appveyor-ref) [errored](https://travis-ci.org/equalsraf/neovim/builds/120972310) (1098)
+2016-04-05 13:16:57	gitter	Travis neovim/neovim#4504 [errored](https://travis-ci.org/neovim/neovim/builds/120931815) (14379)
+2016-04-05 13:27:06	gitter	[Github] Antoine-H synchronize a Pull Request to neovim/neovim: [WIP] Fixed some Wconversion in charset.c https://github.com/neovim/neovim/pull/4477
+2016-04-05 13:34:38	gitter	[Github] Antoine-H commented in neovim/neovim on issue: [WIP] Fixed some Wconversion in charset.c https://github.com/neovim/neovim/pull/4477#issuecomment-205960677
+2016-04-05 13:52:07	gitter	[Github] FriedSock synchronize a Pull Request to neovim/neovim: [WIP] Fix allowing arguments as part of shell for `:term` command https://github.com/neovim/neovim/pull/4504
+2016-04-05 13:56:18	gitter	Travis neovim/neovim#4477 [failed](https://travis-ci.org/neovim/neovim/builds/120978561) (14380)
+2016-04-05 13:56:44	gitter	[Github] FriedSock synchronize a Pull Request to neovim/neovim: [WIP] Fix allowing arguments as part of shell for `:term` command https://github.com/neovim/neovim/pull/4504
+2016-04-05 14:08:15	gitter	[Github] FriedSock synchronize a Pull Request to neovim/neovim: [WIP] Fix allowing arguments as part of shell for `:term` command https://github.com/neovim/neovim/pull/4504
+2016-04-05 14:10:40	gitter	[Github] ZyX-I commented in neovim/neovim on issue: [WIP] Create lua interface https://github.com/neovim/neovim/pull/4411#issuecomment-205972405
+2016-04-05 14:22:07	gitter	[Github] bfredl commented in neovim/neovim on issue: [WIP] Create lua interface https://github.com/neovim/neovim/pull/4411#issuecomment-205975646
+2016-04-05 14:36:29	gitter	Travis neovim/neovim#4504 [errored](https://travis-ci.org/neovim/neovim/builds/120984974) (14381)
+2016-04-05 14:40:29	gitter	[Github] bfredl commented in neovim/neovim on issue: [WIP] Fixed some Wconversion in charset.c https://github.com/neovim/neovim/pull/4477#issuecomment-205980570
+2016-04-05 14:45:47	gitter	[Github] bfredl commented in neovim/neovim on issue: [WIP] Fixed some Wconversion in charset.c https://github.com/neovim/neovim/pull/4477#issuecomment-205981592
+2016-04-05 14:58:19	gitter	Travis neovim/neovim#4504 [errored](https://travis-ci.org/neovim/neovim/builds/120985934) (14382)
+2016-04-05 15:10:31	brcolow	@bfredl let me know if you have any questions about a windows dev environment.
+2016-04-05 15:11:59	bluddy	so what's the stance on maintaining compatibility with vim's channels?
+2016-04-05 15:12:11	gitter	Travis neovim/neovim#4504 [errored](https://travis-ci.org/neovim/neovim/builds/120988478) (14383)
+2016-04-05 15:12:17	brcolow	afaik nothing has been concretly decided
+2016-04-05 15:14:14	gitter	[Github] interstellar716 commented in neovim/neovim on issue: Build errors when installing on OSX https://github.com/neovim/neovim/issues/4485#issuecomment-205986390
+2016-04-05 15:23:13	--	irc: disconnected from server
+2016-04-05 15:23:29	-->	ranranking (ranranking@irc.gitter.im) has joined #neovim/neovim
+2016-04-05 15:23:29	--	Topic for #neovim/neovim is "vim out of the box | https://salt.bountysource.com/teams/neovim | posts by @marvim are from #neovim on freenode"
+2016-04-05 15:23:29	--	Channel #neovim/neovim: 32 nicks (0 ops, 0 voices, 32 normals)
+2016-04-05 15:23:53	bfredl	@brcolow I heard about this  https://www.microsoft.com/en-gb/download/details.aspx?id=44266 it is  for python 2.7 but I suppose could download/build python 3.5 and use the same compiler for it.
+2016-04-05 15:24:31	brcolow	what is that needed for?
+2016-04-05 15:24:48	brcolow	(not sure what a "wheel" is) 
+2016-04-05 15:25:04	bfredl	to build python binary packages
+2016-04-05 15:25:19	brcolow	hm
+2016-04-05 15:25:39	bfredl	It is basicaly a VS C++ compiler but already preconfigured with python2 dll/headers
+2016-04-05 15:25:49	brcolow	and that is for compiling....what?
+2016-04-05 15:25:50	bfredl	as I understand it
+2016-04-05 15:26:00	bfredl	binary packages for python
+2016-04-05 15:26:10	brcolow	no but I mean in neovim's context
+2016-04-05 15:26:31	bfredl	to debug neovim's python-client on windows.
+2016-04-05 15:26:57	bfredl	I might need to build some binary dependencies
+2016-04-05 15:27:05	brcolow	okay, okay, I think I get it :)
+2016-04-05 15:31:28	gitter	[Github] hunterwerlla commented in neovim/neovim on issue: IWYU: remove superfluous includes with include-what-you-use https://github.com/neovim/neovim/issues/549#issuecomment-205991603
+2016-04-05 15:40:53	gitter	[Github] justinmk commented in neovim/neovim on issue: IWYU: remove superfluous includes with include-what-you-use https://github.com/neovim/neovim/issues/549#issuecomment-205995406
+2016-04-05 15:43:46	Antoine-H	@bfredl Just wanted to say thanks for the time youre spending on my PR :)
+2016-04-05 15:46:16	bfredl	you're welcome! Thanks for contributing the PR : )
+2016-04-05 15:51:39	gitter	[Github] FriedSock synchronize a Pull Request to neovim/neovim: [WIP] Fix allowing arguments as part of shell for `:term` command https://github.com/neovim/neovim/pull/4504
+2016-04-05 16:00:12	Antoine-H	Hey may I ask a question about git
+2016-04-05 16:02:00	Antoine-H	Ive just `git rebase origin/master`. Then I modified a file, then `git add`,  `git commit`,  `git push`.  Yet my push doesn't show up in github.. Am I missing anything? 
+2016-04-05 16:06:21	gitter	[Github] Antoine-H synchronize a Pull Request to neovim/neovim: [WIP] Fixed some Wconversion in charset.c https://github.com/neovim/neovim/pull/4477
+2016-04-05 16:07:47	Antoine-H	Oh nevermind, the push just showed up. I might have lagged a little
+2016-04-05 16:45:03	gitter	[Github] ZyX-I commented in neovim/neovim on issue: IWYU: remove superfluous includes with include-what-you-use https://github.com/neovim/neovim/issues/549#issuecomment-206021643
+2016-04-05 16:49:46	gitter	Travis neovim/neovim#4477 [failed](https://travis-ci.org/neovim/neovim/builds/121006717) (14384)

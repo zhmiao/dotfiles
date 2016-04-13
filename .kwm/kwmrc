@@ -19,10 +19,10 @@
 # include binds
 
 # Set default values for screen padding
-kwmc config padding 22 2 2 2
+kwmc config padding 22 2 2 2 2
 
 # Set default values for container gaps
-kwmc config gap 2 2 2 2
+kwmc config gap 2 2
 
 # Default tiling mode for Kwm (bsp | monocle | float | off)
 kwmc config tiling bsp
@@ -34,7 +34,7 @@ kwmc config hotkeys on
 kwmc config prefix-key ctrl-x
 
 # Prefix is not applied globally
-kwmc config prefix-global on
+kwmc config prefix-global off
 
 # Time in seconds, before prefix must be re-activated
 kwmc config prefix-timeout 0.75
@@ -42,18 +42,20 @@ kwmc config prefix-timeout 0.75
 # Automatically float windows that fail to resize
 kwmc config float-non-resizable on
 
+# Automatically resize the window to its container
+kwmc config lock-to-container on
+
 # Set focus-follows-mouse-mode to autoraise
-# kwmc config focus autoraise
-kwmc config focus off
-# kwmc config mouse-follows off
+# kwmc config focus-follows-mouse autoraise
+kwmc config focus-follows-mouse autoraise
 
 # Focus-follows-mouse is temporarily disabled when
 # a floating window has focus
-kwmc config focus standby-on-float off
+kwmc config standby-on-float on
 
 # The mouse will automatically move to the center
 # of the focused window
-kwmc config focus mouse-follows on
+kwmc config mouse-follows-focus on
 
 # Allow window focus to wrap-around
 kwmc config cycle-focus screen
@@ -64,9 +66,9 @@ kwmc config cycle-focus screen
 # kwmc config space 0 1 gap 40 40
 
 # Override default settings for screen 1
-# kwmc config screen 1 mode bsp
-# kwmc config screen 1 padding 100 100 100 100
-# kwmc config screen 1 gap 40 40
+# kwmc config display 1 mode bsp
+# kwmc config display 1 padding 100 100 100 100
+# kwmc config display 1 gap 40 40
 
 # Set default container split-ratio
 kwmc config split-ratio 0.5
@@ -80,43 +82,45 @@ kwmc config spawn right
 # AXWindowRole and AXStandardWindowSubRole
 kwmc config add-role AXDialog iTerm2
 
-# The following command blacklists a specific application
-# from Kwms tiling (PS: The app name is case-sensitive)
-# If the name consist of multiple words, the command
-# looks like: kwmc config float Google Chrome
-kwmc config float Steam
-kwmc config float Photoshop
+# The following command creates a rule that
+# blacklists a specific application from Kwms tiling
+kwmc rule owner="Steam" properties={float="true"}
+kwmc rule owner="Photoshop" properties={float="true"}
 
-# The following command captures an application to the
-# given screen, if the screen exists. By doing this
-# the application can no longer be moved to other screens
-# kwmc config capture 1 iTunes
+# The following command creates a rule that
+# captures an application to the given screen,
+# if the screen exists.
+kwmc rule owner="iTunes" properties={display="1"}
+kwmc rule owner="Skim" properties={display="3"}
+kwmc rule owner="Google\ Chrome" properties={display="3"}
+kwmc rule owner="Microsoft\ PowerPoint" properties={display="2"}
 
 # Enable border for focused window
+
 kwmc config focused-border on
 kwmc config focused-border size 1.5
 kwmc config focused-border color FFEBD071
+kwmc config focused-border radius 4
 
 # Enable border for marked window
 kwmc config marked-border on
 kwmc config marked-border size 1.5
 kwmc config marked-border color FFCC5577
+kwmc config marked-border radius 4
 
 # Change border color when prefix-key is active
 kwmc config prefix-border on
 kwmc config prefix-border size 1.5
 kwmc config prefix-border color FF458588
+kwmc config prefix-border radius 4
 
 ########  Default Keybinds ########
 
 # Quit Kwm
-kwmc bind ctrl-q quit
+kwmc bind prefix-q quit
 
 # Launch iTerm2
-kwmc bind ctrl-return sys open -na /Applications/iTerm.app
-
-# Toggle Focus Autoraise
-kwmc bind cmd+alt+ctrl-t config focus toggle
+kwmc bind prefix-return sys open -na /Applications/iTerm.app
 
 # Set Space Tiling Mode To BSP
 kwmc bind cmd+ctrl-a space -t bsp
@@ -128,58 +132,70 @@ kwmc bind cmd+ctrl-s space -t monocle
 kwmc bind cmd+ctrl-d space -t float
 
 # Rotate Window-Tree By 90* (Clockwise)
-kwmc bind cmd+ctrl-r tree -r 90
+kwmc bind prefix-tab tree rotate 90
 
 # Modify Container
-kwmc bind prefix-return window -c split
-kwmc bind alt-h window -c reduce 0.05
-kwmc bind alt-l window -c expand 0.05
+kwmc bind ctrl-tab window -c split-mode toggle
+kwmc bind prefix-alt-h window -c reduce 0.05
+kwmc bind prefix-alt-l window -c expand 0.05
+kwmc bind prefix-< window -c type toggle
 
 # Set Temporary Window Container
-kwmc bind prefix-space window -t fullscreen
-kwmc bind prefix-p window -t parent
-kwmc bind prefix-w window -t float
+kwmc bind ctrl-space window -z fullscreen
+kwmc bind prefix-p window -z parent
+kwmc bind prefix-w window -t focused
 
 # Mark Window
-kwmc bind prefix-m mark -w focused
-kwmc bind cmd+alt+ctrl-h mark -w west wrap
-kwmc bind cmd+alt+ctrl-l mark -w east wrap
-kwmc bind cmd+alt+ctrl-j mark -w south wrap
-kwmc bind cmd+alt+ctrl-k mark -w north wrap
+kwmc bind cmd+alt+ctrl-m window -mk focused
+kwmc bind cmd+alt+ctrl-h window -mk west wrap
+kwmc bind cmd+alt+ctrl-l window -mk east wrap
+kwmc bind cmd+alt+ctrl-j window -mk south wrap
+kwmc bind cmd+alt+ctrl-k window -mk north wrap
 
 # Give Focus To Window
-kwmc bind prefix-h window -f west
-kwmc bind prefix-l window -f east
-kwmc bind prefix-j window -f south
-kwmc bind prefix-k window -f north
+kwmc bind ctrl-h window -f west
+kwmc bind ctrl-l window -f east
+kwmc bind ctrl-j window -f south
+kwmc bind ctrl-k window -f north
+
+kwmc bind prefix-n window -fm prev
+kwmc bind prefix-m window -fm next
 
 # Give Focus To Screen
-kwmc bind prefix-1 screen -f 0
-kwmc bind prefix-2 screen -f 1
-kwmc bind prefix-3 screen -f 2
+kwmc bind ctrl-1 display -f 0
+kwmc bind ctrl-2 display -f 1
+kwmc bind ctrl-3 display -f 2
 
-# Move Focused Window
-kwmc bind ctrl-h window -s west
-kwmc bind ctrl-j window -s south
-kwmc bind ctrl-k window -s north
-kwmc bind ctrl-l window -s east
+# Swap Focused Window
+kwmc bind prefix-h window -s west
+kwmc bind prefix-j window -s south
+kwmc bind prefix-k window -s north
+kwmc bind prefix-l window -s east
+kwmc bind ctrl+alt-m window -s mark
 
-# Swap With Marked Window
-kwmc bind cmd-tab window -s mark
+# Pseudo containers
+kwmc bind cmd+ctrl+alt-p tree -pseudo create
+kwmc bind cmd+ctrl+alt-o tree -pseudo destroy
+kwmc bind ctrl+alt-p window -s prev
+kwmc bind ctrl+alt-n window -s next
 
 # Detach Focused Window And Reinsert In Direction
-kwmc bind ctrl+shift-k window -x north
-kwmc bind ctrl+shift-l window -x east
-kwmc bind ctrl+shift-j window -x south
-kwmc bind ctrl+shift-h window -x west
+kwmc bind ctrl+shift-k window -m north
+kwmc bind ctrl+shift-l window -m east
+kwmc bind ctrl+shift-j window -m south
+kwmc bind ctrl+shift-h window -m west
 
 # Detach Marked Window And Reinsert At Focused Window
-kwmc bind ctrl+shift-x window -x mark
+kwmc bind prefix+ctrl+shift-x window -m mark
+
+# Move Focused Window To Space
+kwmc bind ctrl+alt-left window -m space left
+kwmc bind ctrl+alt-right window -m space right
 
 # Move Focused Window To Screen
-kwmc bind ctrl-1 screen -m 0
-kwmc bind ctrl-2 screen -m 1
-kwmc bind ctrl-3 screen -m 2
+kwmc bind prefix-1 window -m display 0
+kwmc bind prefix-2 window -m display 1
+kwmc bind prefix-3 window -m display 2
 
 # Increase Container Gaps
 kwmc bind prefix-x space -g increase horizontal
@@ -194,9 +210,19 @@ kwmc bind prefix-left space -p increase left
 kwmc bind prefix-right space -p increase right
 kwmc bind prefix-up space -p increase top
 kwmc bind prefix-down space -p increase bottom
+kwmc bind prefix-p space -p increase all
 
 # Decrease Screen Padding
 kwmc bind prefix+shift-left space -p decrease left
-kwmc bind prefix+shift-right space -p decrease right
+kwmc bind prefix+shift-right space -o decrease right
 kwmc bind prefix+shift-up space -p decrease top
 kwmc bind prefix+shift-down space -p decrease bottom
+kwmc bind prefix+shift-p space -p decrease all
+
+# Autowrite
+kwmc bind cmd-7 write \
+kwmc bind cmd-8 write {
+kwmc bind cmd-9 write }
+
+# Layout
+kwmc bind prefix-c tree restore dev3

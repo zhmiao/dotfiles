@@ -57,13 +57,7 @@
     call dein#add('luochen1990/rainbow', {'on_cmd': 'RainbowToggle'})
     call dein#add('Shougo/unite.vim')
     call dein#add('Shougo/vimproc.vim', {
-          \ 'build' : {
-          \     'windows' : 'tools\\update-dll-mingw',
-          \     'cygwin' : 'make -f make_cygwin.mak',
-          \     'mac' : 'make -f make_mac.mak',
-          \     'linux' : 'make',
-          \     'unix' : 'gmake',
-          \    },
+          \ 'build' : 'make -f make_mac.mak',
           \ 'on_source': 'unite.vim'})
     call dein#add('Shougo/neco-vim', {'on_source': 'deoplete.nvim'})
     call dein#add('ujihisa/neco-look', {'on_ft':['markdown', 'tex'], 'on_i': 1})
@@ -169,7 +163,11 @@ set wildignore+=vendor/cache/**
 set wildignore+=*.gem
 set wildignore+=log/**
 set wildignore+=tmp/**
-set wildignore+=*.png,*.jpg,*.gif,*.out,*.o,*.mod,*.pdf,*.fls,*.log,*.fdb_latexmk,*.blg,*.bbl,*.aux
+set wildignore+=bk/**
+set wildignore+=*.png,*.jpg,*.gif
+set wildignore+=*.out,*.o,*.mod
+set wildignore+=*.pdf,*.fls,*.log,*.fdb_latexmk,*.blg,*.bbl,*.aux,*.synctex.gz
+set wildignore+=*.Rhistory,*.RData,*.Rapp.history
 
 "}}}
 
@@ -233,10 +231,11 @@ map j gj
 map k gk
 map <S-J> 10gj
 map <S-K> 10gk
+nnoremap <s-a> g$a
 " inoremap <C-a> <C-O>A
 nnoremap ! $
-cnoremap <c-k> <up>
-cnoremap <c-j> <down>
+cnoremap <s-k> <up>
+cnoremap <s-j> <down>
 
 " Regularly used functions
 nnoremap <LocalLeader>qq :b#<Bar>bd#<CR>
@@ -250,7 +249,7 @@ map <Leader>qq :q<CR>
 nnoremap <Leader>t :tabe<CR>
 nnoremap <Leader>h :h 
 nnoremap <Leader>o :e 
-nnoremap <Leader>i : 
+nnoremap <Leader>i :
 map <Leader>s /
 nnoremap <Leader>ma :make<CR>
 inoremap jj <Esc>
@@ -278,8 +277,8 @@ noremap <right> 3<C-W>>
 " Neovim terminal mapping
 if has ('nvim')
   tnoremap <LocalLeader><esc> <c-\><c-n>
-  tnoremap <c-k> <up>
-  tnoremap <c-j> <down>
+  tnoremap <s-k> <up>
+  tnoremap <s-j> <down>
   nnoremap <c-q> :15split<cr>:TmuxNavigateRight<cr>:terminal<cr>
   tnoremap <c-q> <c-\><c-n>:bd!<cr>
 endif
@@ -346,7 +345,18 @@ nmap <m-9> 9gt
   let g:vimtex_view_general_options = '-r @line @pdf'
 
   " This adds a callback hook that updates Skim after compilation
-  let g:vimtex_latexmk_callback_hook = 'UpdateSkim'
+  let g:vimtex_latexmk_callback_hooks = 'UpdateSkim'
+
+  let g:vimtex_fold_sections = [
+      \ "part",
+      \ "chapter",
+      \ "section",
+      \ "subsection",
+      \ "subsubsection",
+      \ "paragraph",
+      \ "subparagraph",
+    \ ]
+
   function! UpdateSkim(status) "{{{
     if !a:status | return | endif
     let l:out = b:vimtex.out()

@@ -87,3 +87,6 @@ alias gca='git commit -am '
 
 # MPV
 alias mpv='mpv --no-border'
+
+# wechat
+alias we='~/wechatircd/wechatircd.py --tls-cert ~/wechatircd/a.crt --tls-key ~/wechatircd/a.key -q'
