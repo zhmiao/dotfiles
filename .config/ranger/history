@@ -1,32 +1,49 @@
-fasd thesis
 h
 help tab
 rename .png
 rename Screen Shot 2016-03-27 at 4.55.17 PM.png
-rename fig_5.png
 help 
 search 
 help
 find 
 shell 
-fasd
 cut
 fasd Des
 fasd Desktop
 fasd writing
 rename Screen Shot 2016-03-29 at 2.55.24 PM.png
 rename fig_6
-rename fig_6.png
 open_with a2p
 fasd de
-delete
+open_with nv
+open_with nvim
+fasd wr
+
+rename fig_17.png
+rename fig_18.png
+rename fig_19.png
+rename Librar
+fasd dou
+fasd down
+fasd dow
+fasd gra
+rename fig_5.png
+rename fig_6.png
+rename fig_7.png
 rename fig_9.png
-fasd des
 rename fig_10.png
 rename fig_11.png
 rename fig_12.png
-fasd gra
-fasd down
-
-open_with nv
-open_with nvim
+rename fig_20.png
+fasd
+fasd  
+fasd 
+fasd des
+fasd grap
+fasd graph
+rename fig_14.png
+rename fig_15.png
+delete
+rename fig_16.png
+fasd thesis
+fasd don

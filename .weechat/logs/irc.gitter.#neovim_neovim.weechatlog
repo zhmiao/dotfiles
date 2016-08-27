@@ -854,3 +854,177 @@
 2016-04-05 16:07:47	Antoine-H	Oh nevermind, the push just showed up. I might have lagged a little
 2016-04-05 16:45:03	gitter	[Github] ZyX-I commented in neovim/neovim on issue: IWYU: remove superfluous includes with include-what-you-use https://github.com/neovim/neovim/issues/549#issuecomment-206021643
 2016-04-05 16:49:46	gitter	Travis neovim/neovim#4477 [failed](https://travis-ci.org/neovim/neovim/builds/121006717) (14384)
+2016-04-13 12:07:59	-->	ranranking (ranranking@irc.gitter.im) has joined #neovim/neovim
+2016-04-13 12:07:59	--	Topic for #neovim/neovim is "vim out of the box | https://salt.bountysource.com/teams/neovim | posts by @marvim are from #neovim on freenode"
+2016-04-13 12:07:59	--	Channel #neovim/neovim: 32 nicks (0 ops, 0 voices, 32 normals)
+2016-04-13 12:12:34	justinmk	luajit is supported. @ranranking  my comment was directed at d42's mention of building on alpha.
+2016-04-13 12:13:00	marvim	`d42` mhm
+2016-04-13 12:13:07	justinmk	we support lua as an alternative to luajit.
+2016-04-13 12:13:16	ranranking	@justinmk Thanks! I got it.
+2016-04-13 12:13:37	justinmk	so the upper bound of our platform support is bounded by lua and libuv
+2016-04-13 12:14:03	justinmk	(lua supports more platforms than luajit, that's why i mention this)
+2016-04-13 12:14:43	ranranking	@justinmk yeah, I think I got some idea mixed up
+2016-04-13 12:15:16	justinmk	https://github.com/neovim/neovim/pull/4411 will be a killer feature.
+2016-04-13 12:27:02	gitter	[Github] hkupty updated the wiki on neovim/neovim: https://github.com/neovim/neovim
+2016-04-13 12:32:23	timeyyy	@bfredl i am interested to spend a few hours a week, i would be most useful working under direction on small tasks as i have limited experience with large projects and c.
+2016-04-13 12:33:54	KillTheMule	@justinmk @bfredl A lot of PRs fail the builds these days, seems a lot is unrelated... is something broken?
+2016-04-13 12:36:34	KillTheMule	@timeyyy I just started contributing too... porting vim patches seems a pretty good start, if you look out for the not-too-hard ones
+2016-04-13 12:54:03	--	irc: disconnected from server
+2016-04-13 12:54:20	-->	ranranking (ranranking@irc.gitter.im) has joined #neovim/neovim
+2016-04-13 12:54:20	--	Topic for #neovim/neovim is "vim out of the box | https://salt.bountysource.com/teams/neovim | posts by @marvim are from #neovim on freenode"
+2016-04-13 12:54:20	--	Channel #neovim/neovim: 32 nicks (0 ops, 0 voices, 32 normals)
+2016-04-13 12:57:47	brcolow	@vompatti do you have that intellij code in a public repo?
+2016-04-13 12:58:22	tjdevries	@KillTheMule that is very funky.
+2016-04-13 12:58:35	marvim	`vompatti` brcolow: I was trying to clean it up but the fucker doesnt build anymore properly
+2016-04-13 12:58:51	marvim	`vompatti` these are the moments when I remember who much I hate java
+2016-04-13 12:59:18	marvim	`sanitypassing` hey, does anyone know the correct path I need to find YouCompleteMe to enable the standard library completions for rust on Arch Linux? I can't seem to find the directory anywhere.
+2016-04-13 12:59:45	brcolow	well, let me know, id be really interesting in seeing that project.
+2016-04-13 13:00:13	marvim	`vompatti` sure
+2016-04-13 13:04:32	marvim	`Keiga` Having issues on getting neovim to recognize my colorscheme (molokai). My vimrc is here: https://github.com/EntilZha/dotfiles/blob/master/vimrc and I have simlinked the vim config files to the .config places for nvim, any tips?
+2016-04-13 13:04:57	marvim	`Keiga` specific error is: E185: Cannot find color scheme 'molokai'
+2016-04-13 13:13:17	FuzzOli87	Hello, I'm building neovim from HEAD and every time I keep showing v0.1.2
+2016-04-13 13:13:58	FuzzOli87	pulled, cleaned, make, version unchanged, even build type remeans as Release although I specifically set it to RelDebWithInfo 
+2016-04-13 13:14:33	KillTheMule	are you sure you've setup your PATH correctly and are really executing the newly compiled nvim?
+2016-04-13 13:15:11	FuzzOli87	/home/fuzz/neovim/bin/nvim is which nvim is showing, and that is where im building it
+2016-04-13 13:16:45	KillTheMule	@FuzzOli87 i can't reproduce... what's your source directory, how are you calling make?
+2016-04-13 13:22:29	--	irc: disconnected from server
+2016-04-13 13:22:46	-->	ranranking (ranranking@irc.gitter.im) has joined #neovim/neovim
+2016-04-13 13:22:46	--	Topic for #neovim/neovim is "vim out of the box | https://salt.bountysource.com/teams/neovim | posts by @marvim are from #neovim on freenode"
+2016-04-13 13:22:46	--	Channel #neovim/neovim: 32 nicks (0 ops, 0 voices, 32 normals)
+2016-04-13 13:26:48	FuzzOli87	@KillTheMule Dude, I'm an idiot. I'm sorry, I just got stuck on OSX ```brew reinstall --HEAD...``` mentality
+2016-04-13 13:27:03	FuzzOli87	@KillTheMule I forgot to do ```make install``` after building
+2016-04-13 13:27:04	FuzzOli87	...
+2016-04-13 13:27:22	KillTheMule	@FuzzOli87 harhar nice you caught it :)
+2016-04-13 13:27:34	bfredl	And as @tarruda mentioned a smaller task could be to add visual tests for the existing implementation, to avoid regressions. I'm looking at the popupmenu right now,  but you can look at, say, the command line editor and see if it is well visually tested.
+2016-04-13 13:29:01	tarruda	@bfredl the command-line editor is implicitly tested in other tests, and I also remember seeing tests for wildmenu
+2016-04-13 13:29:40	tarruda	but I'm sure there's some settings/inputs that are still untested
+2016-04-13 13:30:03	bfredl	including actual editing (moving the cursor etc) not just input?
+2016-04-13 13:30:30	tarruda	yes
+2016-04-13 13:30:38	bfredl	ok, good to know
+2016-04-13 13:31:04	tarruda	As I said, there are many things that are untested, the command-line editor is very complex by itself
+2016-04-13 13:31:12	tarruda	what is covered by existing tests is very basic
+2016-04-13 13:31:27	tarruda	At least I think so
+2016-04-13 13:31:38	tarruda	unless someone added a suite for the command line
+2016-04-13 13:31:42	tarruda	and I missed it
+2016-04-13 13:32:16	bfredl	well `test/functional/ex_getln/` looks suspiciously sparse.
+2016-04-13 13:35:52	timeyyy	@bfredl i'm interested in the status line at the moment.  (is that what you mean by command line and message drawing)
+2016-04-13 13:36:07	bfredl	correct
+2016-04-13 13:38:40	bfredl	well, no, statusline is the line above with the buffer name and such
+2016-04-13 13:39:15	bfredl	but it could also be a possibility for external ui, for sure
+2016-04-13 13:51:19	timeyyy	is this the refactoring you are mentioning ? #4432, i.e should i be rebasing onto #4432, i will do as you say and look at some tests.  By visual tests do you mean `neovim/test/functional/ui/`
+2016-04-13 13:51:51	marvim	`Halfwit`  /buffer #voidlinux
+2016-04-13 13:51:53	marvim	`Halfwit` Sorry,
+2016-04-13 13:53:41	bfredl	The refactor is not done yet, but you can already start looking at code and tests. Most visual tests are there  but you can also find them otherwhere (grep for `screen:except` )
+2016-04-13 13:57:37	bfredl	The initialization is pretty much copy and paste: (if you add test to a new file)
+2016-04-13 13:57:37	bfredl	```    
+2016-04-13 13:57:37	bfredl	    screen = Screen.new(40, 5)
+2016-04-13 13:57:37	bfredl	    screen:attach()
+2016-04-13 13:57:37	bfredl	    screen:set_default_attr_ignore( {{bold=true, foreground=hlgroup_colors.NonText}} )
+2016-04-13 13:57:37	bfredl	```
+2016-04-13 13:57:37	bfredl	but to create the actual expects use `screen:snapshot_util()`
+2016-04-13 13:58:13	bfredl	some notes in `test/functional/ui/screen.lua`
+2016-04-13 14:01:46	bfredl	`test/functional/ui/search_hl.lua` could be a good example of   "pure" screen testing style:  feed some keys, do an expect, repeat.
+2016-04-13 14:06:22	gitter	[Github] marvim pushed 3 commit(s) to neovim/neovim https://github.com/neovim/neovim/compare/982198143d3a...69d74f588a88
+2016-04-13 14:15:00	gitter	[Github] KillTheMule commented in neovim/neovim on issue: vim-patch:7.4.1282 https://github.com/neovim/neovim/pull/4565#issuecomment-209627569
+2016-04-13 14:17:13	ranranking	is there any way to check if current buffer is terminal buffer? For example I have a keybinding to open terminal. but I want to use the same binding to close the terminal when the buffer is in normal mode. Not in insert mode where I can map the same binding with `tmap`
+2016-04-13 14:19:30	bfredl	One way is to check `exists("b:terminal_job_pid")`
+2016-04-13 14:19:44	gitter	Travis neovim/neovim#4565 [broken](https://travis-ci.org/neovim/neovim/builds/122610781) (14475)
+2016-04-13 14:21:57	bfredl	or `&buftype == "terminal"`
+2016-04-13 14:27:06	bfredl	hmm, it might be more reliable to create the mapping on an autocommand, `TermOpen` maybe
+2016-04-13 14:27:43	bfredl	no wait you need the `<buffer>` map option
+2016-04-13 14:32:59	bfredl	Almost, a `*` after TermOpen
+2016-04-13 14:35:54	bfredl	you're welcome!
+2016-04-13 14:56:23	--	irc: disconnected from server
+2016-04-13 14:56:39	-->	ranranking (ranranking@irc.gitter.im) has joined #neovim/neovim
+2016-04-13 14:56:39	--	Topic for #neovim/neovim is "vim out of the box | https://salt.bountysource.com/teams/neovim | posts by @marvim are from #neovim on freenode"
+2016-04-13 14:56:39	--	Channel #neovim/neovim: 32 nicks (0 ops, 0 voices, 32 normals)
+2016-04-13 15:02:36	--	irc: disconnected from server
+2016-04-13 15:02:52	-->	ranranking (ranranking@irc.gitter.im) has joined #neovim/neovim
+2016-04-13 15:02:52	--	Topic for #neovim/neovim is "vim out of the box | https://salt.bountysource.com/teams/neovim | posts by @marvim are from #neovim on freenode"
+2016-04-13 15:02:52	--	Channel #neovim/neovim: 32 nicks (0 ops, 0 voices, 32 normals)
+2016-04-13 15:11:33	gitter	[Github] tjdevries synchronize a Pull Request to neovim/neovim: [RFC] Center Items in the statusline / tagline https://github.com/neovim/neovim/pull/4489
+2016-04-13 15:38:05	gitter	Travis neovim/neovim#4489 [broken](https://travis-ci.org/neovim/neovim/builds/122900911) (14487)
+2016-04-13 15:47:44	marvim	`shoug8` Halfwit: Why don't use neco-look?
+2016-04-13 15:48:02	brcolow	@vompatti do you have a screenshot?
+2016-04-13 15:51:45	brcolow	@shougo https://github.com/Shougo/dein.vim/blob/c1eb367ef1237eb8f2a06c60716843138d19dab3/doc/dein.txt#L834 `remote -> remove`
+2016-04-13 16:40:38	--	irc: disconnected from server
+2016-04-13 16:40:54	-->	ranranking (ranranking@irc.gitter.im) has joined #neovim/neovim
+2016-04-13 16:40:54	--	Topic for #neovim/neovim is "vim out of the box | https://salt.bountysource.com/teams/neovim | posts by @marvim are from #neovim on freenode"
+2016-04-13 16:40:54	--	Channel #neovim/neovim: 32 nicks (0 ops, 0 voices, 32 normals)
+2016-04-13 17:01:45	gitter	[Github] marvim labeled a Pull Request to neovim/neovim: [WIP] screen tests for popupmenu https://github.com/neovim/neovim/pull/4571
+2016-04-13 17:05:18	--	irc: disconnected from server
+2016-04-13 17:13:29	-->	ranranking (ranranking@irc.gitter.im) has joined #neovim/neovim
+2016-04-13 17:13:29	--	Topic for #neovim/neovim is "vim out of the box | https://salt.bountysource.com/teams/neovim | posts by @marvim are from #neovim on freenode"
+2016-04-13 17:13:29	--	Channel #neovim/neovim: 32 nicks (0 ops, 0 voices, 32 normals)
+2016-04-13 17:39:29	marvim	`jaawerth` does/should neovim support /ftplugin/after/ for setting local ftplugins that take effect after others? Doesn't seem to do anything when I try it
+2016-04-13 17:40:07	gitter	[Github] wsdjeg commented in neovim/neovim on issue: question about a terminal mode mapping https://github.com/neovim/neovim/issues/4570#issuecomment-209691358
+2016-04-13 17:50:59	marvim	`baumy` jaawerth: everything along those lines that vim supports, neovim does as well
+2016-04-13 17:51:06	marvim	`baumy` ftplugins and after work fine for me in neovim
+2016-04-13 17:51:15	marvim	`baumy` does the same setup work in vim for you?
+2016-04-13 17:51:19	marvim	`jaawerth` hmm, thanks
+2016-04-13 17:51:30	marvim	`jaawerth` I must have done something stupid then, and doubled down by failing to find it ;-)
+2016-04-13 17:58:31	marvim	`baumy` i mess those things up all the time for some reason
+2016-04-13 17:58:38	marvim	`baumy` you're not alone
+2016-04-13 17:58:56	marvim	`jaawerth` aaaand I had it in ~/.config/nvim/ftplugin/after instead of ~/.config/nvim/after/ftplugin
+2016-04-13 17:58:57	marvim	`baumy` it's sort of weird how you need the exact right filenames
+2016-04-13 17:59:00	marvim	`EntilZha` Having issues on getting neovim to recognize my colorscheme (molokai). My vimrc is here: https://github.com/EntilZha/dotfiles/blob/master/vimrc and I have simlinked the vim config files to the .config places for nvim, any tips? The specific error is: E185: Cannot find color scheme 'molokai'
+2016-04-13 17:59:55	marvim	`baumy` EntilZha: so ~/.config/nvim points to the vim folder in your dotfiles repo?
+2016-04-13 18:00:24	marvim	`EntilZha` hmm, I simlinked it to .vimrc and .vim, which themselves are simlinks, maybe I shouldn't do that
+2016-04-13 18:00:50	marvim	`baumy` as long as it all resolves, it shouldn't matter
+2016-04-13 18:01:08	marvim	`baumy` i have my vimrc inside of my .vim folder
+2016-04-13 18:01:15	marvim	`jaawerth` EntilZha: I ran into that recently - try opening it with `TERM=xterm-256color nvim <path>`
+2016-04-13 18:01:25	marvim	`baumy` ~/.vim points to my dotfiles vim folder, as does ~/.config/nvim
+2016-04-13 18:01:40	marvim	`baumy` and then inside my dotfiles vim folder, i have a "vimrc" file, and a "init.vim" symlink that just points to "vimrc" in the same directory
+2016-04-13 18:01:46	marvim	`baumy` i've found this the simplest way to share the same config for both
+2016-04-13 18:01:50	marvim	`jaawerth` if that works, you probably just need to make sure that config variable is set - if you use tmux/screen, I believe there's another variable the docs recommend
+2016-04-13 18:02:09	marvim	`jaawerth` er, another value FOR the variable. screen-256color I think, or something like that
+2016-04-13 18:02:41	marvim	`EntilZha` jaawerth: that didn't seem to work unfortunately
+2016-04-13 18:02:50	marvim	`jaawerth` oh sorry, yours can't even resolve the colorscheme
+2016-04-13 18:03:07	marvim	`jaawerth` once I got mine recognizing molokai, on some terminals it wouldn't actually show any color unless I set that
+2016-04-13 18:03:09	marvim	`EntilZha` ya, so something about nvim seeing my plugins/vimrc, but not coloscheme
+2016-04-13 18:03:35	marvim	`EntilZha` Since there is the error, guessing it for some reason doesn't know about it
+2016-04-13 18:04:26	marvim	`EntilZha` ls .nvim gives: autoload  bundle  colors  ftplugin  syntax, which seems right, with molokai.vim in colors/
+2016-04-13 18:05:14	marvim	`jaawerth` ah. I have molokai installed via my plugin manager - I imagine your way must also be able to work somehow tho
+2016-04-13 18:08:17	marvim	`EntilZha` I could probably do that, I think mine is customized a little bit but throwing up a repo should be easy
+2016-04-13 18:08:22	marvim	`jaawerth` EntilZha: it worked for me when I put the molokai file into ~/.config/nvim/colors/ so I imagine it must not be sourcing it for you though
+2016-04-13 18:09:08	marvim	`EntilZha` ah, thats my problem
+2016-04-13 18:09:38	marvim	`EntilZha` I have a .nvim which is correct, but the only file in .config/nvim is init.vim
+2016-04-13 18:09:59	marvim	`jaawerth` oh. one is a symlink to the other, isn't it?
+2016-04-13 18:10:14	marvim	`jaawerth` oh, I guess not
+2016-04-13 18:10:15	marvim	`EntilZha` so, remove the simlink at ~/.nvim, simlinking ~/.config/nvim and simlinking init.vim should work
+2016-04-13 18:10:48	marvim	`jaawerth` since ~/.config/nvim is the source of truth, create a symlink from that to ~/.nvim and ~/.config/nvim/init.vim to ~/.nvimrc
+2016-04-13 18:11:30	marvim	`EntilZha` If I don't have ~/.nvim or ~/.nvimrc, and only use ~/.config, would that work?
+2016-04-13 18:11:37	marvim	`jaawerth` yeah, I just use the symlinks out of laziness
+2016-04-13 18:14:50	marvim	`EntilZha` that seemed to work, thanks
+2016-04-13 18:30:34	gitter	[Github] justinmk closed an issue in neovim/neovim: question about a terminal mode mapping https://github.com/neovim/neovim/issues/4570
+2016-04-13 18:30:34	gitter	[Github] justinmk commented in neovim/neovim on issue: question about a terminal mode mapping https://github.com/neovim/neovim/issues/4570#issuecomment-209700685
+2016-04-13 18:30:39	gitter	[Github] justinmk labeled an issue in neovim/neovim: question about a terminal mode mapping https://github.com/neovim/neovim/issues/4570
+2016-04-13 18:49:52	gitter	[Github] justinmk labeled an issue in neovim/neovim: Part of the asynchronous job output is cut off https://github.com/neovim/neovim/issues/4569
+2016-04-13 18:57:35	gitter	[Github] BohrShaw opened an issue in neovim/neovim: :find on a terminal buffer opens a wrong path https://github.com/neovim/neovim/issues/4572
+2016-04-13 18:59:19	gitter	[Github] justinmk commented in neovim/neovim on issue: :find on a terminal buffer opens a wrong path https://github.com/neovim/neovim/issues/4572#issuecomment-209704697
+2016-04-13 18:59:19	gitter	[Github] justinmk closed an issue in neovim/neovim: :find on a terminal buffer opens a wrong path https://github.com/neovim/neovim/issues/4572
+2016-04-13 18:59:24	gitter	[Github] justinmk labeled an issue in neovim/neovim: :find on a terminal buffer opens a wrong path https://github.com/neovim/neovim/issues/4572
+2016-04-13 18:59:31	gitter	[Github] justinmk labeled an issue in neovim/neovim: :find on a terminal buffer opens a wrong path https://github.com/neovim/neovim/issues/4572
+2016-04-13 19:21:31	gitter	[Github] BohrShaw commented in neovim/neovim on issue: gf, :find in terminal buffer looks for wrong path https://github.com/neovim/neovim/issues/4299#issuecomment-209713532
+2016-04-13 20:14:12	Quiark	so what do you guys think about Vim 8? Isn't it super weird that they now include async features that were unwanted before?
+2016-04-13 20:14:37	gitter	[Github] tjdevries synchronize a Pull Request to neovim/neovim: [RFC] Center Items in the statusline / tagline https://github.com/neovim/neovim/pull/4489
+2016-04-13 20:21:05	marvim	`herrbischoff` Quirk: Vim 8? Do you have a link with more information?
+2016-04-13 20:21:29	marvim	`herrbischoff` Ping: Quiark
+2016-04-13 20:28:42	--	irc: disconnected from server
+2016-04-13 20:28:58	-->	ranranking (ranranking@irc.gitter.im) has joined #neovim/neovim
+2016-04-13 20:28:58	--	Topic for #neovim/neovim is "vim out of the box | https://salt.bountysource.com/teams/neovim | posts by @marvim are from #neovim on freenode"
+2016-04-13 20:28:58	--	Channel #neovim/neovim: 32 nicks (0 ops, 0 voices, 32 normals)
+2016-04-13 20:31:53	marvim	`herrbischoff` This is indeed weird. Maybe it's just the old "as long as you don't see it, it doesn't exist" thing. Bram may just have (finally) seen the need.
+2016-04-13 20:31:54	gitter	Travis neovim/neovim#4489 [passed](https://travis-ci.org/neovim/neovim/builds/122948069) (14489)
+2016-04-13 20:32:38	prollings	But now what for Neovim?
+2016-04-13 20:32:55	prollings	I feel like there's now less of a reason to target nvim for plugin dev? D:
+2016-04-13 20:33:15	Quiark	but you still can't make a new GUI for Vim8 or embed, right?
+2016-04-13 20:33:33	Quiark	and plugins could be compatible with some abstraction layer
+2016-04-13 20:34:07	tjdevries	Shougo has mentioned multiple times that he believes the neovim interface for async is much nicer than Vim's. So there will still be reason for developers to focus some attention on Neovim I believe
+2016-04-13 20:34:58	prollings	Just need old Tim P. :P
+2016-04-13 20:35:10	prollings	(To get on the train)
+2016-04-13 20:36:03	marvim	`herrbischoff` From what I can gather from the document, no GUI interface, no.
+2016-04-13 20:36:04	marvim	`shoug9` tjdervies: I will create unite.vim replacement for neovim
+2016-04-13 20:36:36	marvim	`shoug9` I like remote plugins architecture
+2016-04-13 20:36:57	marvim	`shoug9` It is better than channel for me
+2016-04-13 20:38:54	marvim	`herrbischoff` Plus, the whole open development style of Neovim is far more to my taste. Even if I don't write special plugins for it.

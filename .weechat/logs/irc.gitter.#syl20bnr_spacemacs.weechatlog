@@ -1896,3 +1896,367 @@
 2016-04-05 16:43:19	al3xandru	anyone on develop seen "Error (use-package): ivy :config: Symbol's value as variable is void: hydra-ivy"
 2016-04-05 16:52:17	NJBS	@al3xandru See https://github.com/syl20bnr/spacemacs/issues/5693
 2016-04-05 16:54:14	al3xandru	I trashed elpa and got rid of that error (for now at least). This elpa thingy is becoming slightly annoying
+2016-04-13 12:07:59	-->	ranranking (ranranking@irc.gitter.im) has joined #syl20bnr/spacemacs
+2016-04-13 12:07:59	--	Topic for #syl20bnr/spacemacs is "A community-driven Emacs distribution - The best editor is neither Emacs nor Vim,  it's Emacs *and* Vim!"
+2016-04-13 12:07:59	--	Channel #syl20bnr/spacemacs: 32 nicks (0 ops, 0 voices, 32 normals)
+2016-04-13 12:08:28	brandoncc	@NJBS Thank you for that, clears it up for me.
+2016-04-13 12:08:46	brandoncc	@phinicota does emacsclient work in tandem with emacs as a daemon?
+2016-04-13 12:15:04	stonecauldron	Hello everyone, is normal for spacemacs to take an average of 80 seconds to load?
+2016-04-13 12:15:30	brandoncc	I am trying to ack a remote directory, but it is telling me that ack is unavailable. Is there a way to get trump mode to use a login shell so that my ~/bin will be in my path like when I ssh in?
+2016-04-13 12:15:45	brandoncc	trump mode is the coolest thing ever!
+2016-04-13 12:15:49	brandoncc	errr
+2016-04-13 12:15:51	brandoncc	tramp mode lol
+2016-04-13 12:16:26	gitter	[Github] tamer1an starred https://github.com/syl20bnr/spacemacs
+2016-04-13 12:17:49	NJBS	@stonecauldron Definitely not, start emacs using `emacs --debug-init --timed-requires` and look at what's eating up most of your startup time.
+2016-04-13 12:18:46	stonecauldron	@NJBS will do thanks
+2016-04-13 12:20:25	NJBS	@stonecauldron I'm willing to bet it's probably this issue http://spacemacs.org/doc/FAQ.html#orgheadline14
+2016-04-13 12:22:36	stonecauldron	@NJBS  You're right as I've realised now that the issue only happens on certain locations. With my home internet it works fine
+2016-04-13 12:23:19	gitter	[Github] nerdneilsfield starred https://github.com/syl20bnr/spacemacs
+2016-04-13 12:24:45	<--	undefined (undefined@irc.gitter.im) has left #syl20bnr/spacemacs
+2016-04-13 12:28:17	gitter	[Github] nixmaniack commented in syl20bnr/spacemacs on issue: Disactivate orphan packages deletion by default https://github.com/syl20bnr/spacemacs/issues/5757#issuecomment-209581977
+2016-04-13 12:29:40	hiaw	hi, anyone knows how I can hide the file path, filename that's on the top of spacemacs?
+2016-04-13 12:30:05	hiaw	i prefer the spacemacs to show only my code and not where my file is located
+2016-04-13 12:32:49	NJBS	@hiaw Can you show a picture of what you mean?
+2016-04-13 12:35:55	brandoncc	Is there a way I can force a file search (`SPC s f`) on a remote server (tramp mode) to be done with grep?
+2016-04-13 12:38:29	hiaw	@NJBS I can't seem to repeat it. I restarted emacs and it's disappeared... I'll post it next time I see it again.
+2016-04-13 12:39:03	NJBS	@brandoncc Does `SPC s g f` work?
+2016-04-13 12:54:03	--	irc: disconnected from server
+2016-04-13 12:54:16	-->	ranranking (ranranking@irc.gitter.im) has joined #syl20bnr/spacemacs
+2016-04-13 12:54:16	--	Topic for #syl20bnr/spacemacs is "A community-driven Emacs distribution - The best editor is neither Emacs nor Vim,  it's Emacs *and* Vim!"
+2016-04-13 12:54:16	--	Channel #syl20bnr/spacemacs: 32 nicks (0 ops, 0 voices, 32 normals)
+2016-04-13 12:57:34	gitter	[Github] krakapwa synchronize a Pull Request to syl20bnr/spacemacs: Org download layer https://github.com/syl20bnr/spacemacs/pull/5784
+2016-04-13 12:59:14	brandoncc	I guess that worked @NJBS. I thought I would get a jump list of files with results but I didn't.
+2016-04-13 12:59:21	brandoncc	just a list of directories
+2016-04-13 13:04:05	kovan	how do I go to the URL under the cursor?
+2016-04-13 13:04:15	BelfordZ	click
+2016-04-13 13:04:26	NJBS	@kovan `SPC x o` should work
+2016-04-13 13:04:43	kovan	kthx
+2016-04-13 13:04:47	kovan	it does work
+2016-04-13 13:05:58	brandoncc	channel 21: open failed: administratively prohibited: open failed
+2016-04-13 13:06:04	brandoncc	maybe thats why grep isn't giving me a list
+2016-04-13 13:11:25	gitter	[Github] eksperimental commented in syl20bnr/spacemacs on issue: How to completely remove Spacemacs? https://github.com/syl20bnr/spacemacs/issues/1349#issuecomment-209600190
+2016-04-13 13:11:33	gitter	[Github] krakapwa opened a Pull Request to syl20bnr/spacemacs: Org download layer https://github.com/syl20bnr/spacemacs/pull/5785
+2016-04-13 13:15:08	gitter	[Github] nixmaniack commented in syl20bnr/spacemacs on issue: Org download layer https://github.com/syl20bnr/spacemacs/pull/5785#issuecomment-209602428
+2016-04-13 13:17:37	cpaulik	`SPC b b` is no longer layout local on the latest `develop`. Is this on purpose?
+2016-04-13 13:17:56	kovan	it makes sense
+2016-04-13 13:22:29	--	irc: disconnected from server
+2016-04-13 13:22:41	-->	ranranking (ranranking@irc.gitter.im) has joined #syl20bnr/spacemacs
+2016-04-13 13:22:41	--	Topic for #syl20bnr/spacemacs is "A community-driven Emacs distribution - The best editor is neither Emacs nor Vim,  it's Emacs *and* Vim!"
+2016-04-13 13:22:41	--	Channel #syl20bnr/spacemacs: 32 nicks (0 ops, 0 voices, 32 normals)
+2016-04-13 13:23:25	NJBS	:clap: :confetti_ball: 
+2016-04-13 13:24:13	travisbhartwell	Now I need to get this working well within Spacemacs so I can use it: https://github.com/dakrone/epresent
+2016-04-13 13:24:13	ghedamat	hullo
+2016-04-13 13:24:36	ghedamat	question - I can't get the web mode to indent to two spaces
+2016-04-13 13:25:06	ghedamat	I added in user-config
+2016-04-13 13:25:21	ghedamat	(setq web-mode-markup-indent-offset 2)
+2016-04-13 13:25:23	ghedamat	and similar
+2016-04-13 13:25:32	ghedamat	also tried with setq-default
+2016-04-13 13:25:33	kstep	hi. I've got a question. I got used to have different arrows in scala code (=>, <-, ->) are replaced with unicode chars in scala code. How can I do it in spacemacs? Thank you!
+2016-04-13 13:25:38	gitter	[Github] krakapwa synchronize a Pull Request to syl20bnr/spacemacs: Org download layer https://github.com/syl20bnr/spacemacs/pull/5785
+2016-04-13 13:25:38	gitter	[Github] krakapwa synchronize a Pull Request to syl20bnr/spacemacs: Org download layer https://github.com/syl20bnr/spacemacs/pull/5784
+2016-04-13 13:25:43	ghedamat	but I yet don't really understand the difference clearly
+2016-04-13 13:26:44	kstep	I found abbrev-mode, but I don't know how to configure it. I have 15 years of vim usage, but I'm very new in emacs.
+2016-04-13 13:26:56	kstep	[edit] I found abbrev-mode, but I don't know how to configure it. I have 15 years of vim experience, but I'm very new in emacs.
+2016-04-13 13:27:12	gitter	[Github] krakapwa commented in syl20bnr/spacemacs on issue: Org download layer https://github.com/syl20bnr/spacemacs/pull/5785#issuecomment-209610631
+2016-04-13 13:27:29	kstep	There's very little info about spacemacs configuration in Internet =(
+2016-04-13 13:29:36	nixmaniack	@kstep take a look at prettify-symbols-mode
+2016-04-13 13:31:35	calebmeyer	@kstep I've found most packages expose all their customizations via variables. For example, to customize [ranger.el](https://github.com/ralesi/ranger.el#configuration), you can do `(setq ranger-show-dotfiles t)` (set the value of the variable ranger-show-dotfiles to true). If you want to find more about a variable, you can use `SPC h d v` and type the variable name
+2016-04-13 13:38:31	kstep	@nixmaniack thank you! I'll give it a try.
+2016-04-13 13:39:03	kstep	@calebmeyer are there some ways to get a list of all available options/variables for a given mode?
+2016-04-13 13:39:33	averagehat	I'm forced to use emacs in terminal mode, and I've noticed using evil mode's <esc> to swap from insert mode to normal mode is quite slow; and in general the interface is slow to respond.
+2016-04-13 13:39:41	averagehat	Is that normal behavior?
+2016-04-13 13:42:02	NJBS	@averagehat see https://github.com/syl20bnr/spacemacs/issues/5413
+2016-04-13 13:42:40	calebmeyer	@kstep I don't know of a good way :/ Most of the good packages/modes prefix all their variables, so you can find most by just searching the package's name in `SPC h d v`. The alternative is to read the README/code yourself. Usually code will have a comment at the top with a fairly good description
+2016-04-13 13:43:30	averagehat	@NJBS Ooo I use tmux and `set -s escape-time 0` is super helpful
+2016-04-13 13:43:40	kstep	@calebmeyer thank you for pointers!
+2016-04-13 13:43:52	calebmeyer	You're welcome! I hope they help
+2016-04-13 13:46:19	cpaulik	@kstep On `develop` there is a option for that in the scala layer.
+2016-04-13 13:48:49	kstep	Another newbie question. In the [screenshot](http://spacemacs.org/img/screenshots/ss1.png) from official site there's a small tooltip/hint near text cursor. How can I get it?
+2016-04-13 13:49:27	calebmeyer	I believe that's coming from flycheck
+2016-04-13 13:49:38	NJBS	@kstep Enable the `syntax-checking` layer. http://spacemacs.org/layers/syntax-checking/README.html
+2016-04-13 13:50:09	averagehat	@NJBS But I don't think that issue explains general slow-down, does it? I get a lot of slowdown in just scrolling up and down, for example.
+2016-04-13 13:50:38	averagehat	The cursor is sort of "skipping"
+2016-04-13 13:50:52	NJBS	@averagehat No, that part of your issue seems unique.
+2016-04-13 13:50:57	cpaulik	@ghedamat It seems that you have to put the indentation into a hook. See the official docs http://web-mode.org/ under customisation. 
+2016-04-13 13:51:36	calebmeyer	averagehat, what do you have set as your evil-escape-key-sequence?
+2016-04-13 13:52:06	calebmeyer	I have mine set as "jk" which means that scrolling down always jumps a little for me
+2016-04-13 13:52:46	kstep	@NJBS already enabled it, still no tooltips near cursor, just messages in status line when I hover mouse over highlighted errors. Given that I rarely use mouse, having to move it just to see syntax error message is very distracting.
+2016-04-13 13:54:30	averagehat	`(print evil-escape-key-sequence)` gives me `"fd"`
+2016-04-13 13:55:02	calebmeyer	that's the default, so it makes sense. Unfortunately also means I don't know what's causing your issue
+2016-04-13 13:55:27	averagehat	Well, I am ssh'ing. so that could be the issue. But I was hoping not.
+2016-04-13 13:55:33	averagehat	Vim works without any lag, though.
+2016-04-13 13:56:54	kstep	@calebmeyer yup, just looked it up in readme file @NJBS pointed me to. I'll try to play with this option. Thank you both for your time!
+2016-04-13 13:57:31	cpaulik	@kstep Which programming language are you using. I think also your cursor has to be over the highlighted area for some
+2016-04-13 13:59:13	calebmeyer	@kstep I just re-enabled flycheck (I've always had trouble with it). One of the packages that got installed is flycheck-pos-tip, which it appears provides those tooltips
+2016-04-13 14:00:45	kstep	@cpaulik Scala
+2016-04-13 14:02:47	gitter	[Github] NJBS commented in syl20bnr/spacemacs on issue: Org download layer https://github.com/syl20bnr/spacemacs/pull/5785#issuecomment-209623339
+2016-04-13 14:03:31	ghedamat	@cpaulik thanks looking into it
+2016-04-13 14:05:16	cpaulik	@kstep can't help you with scala, have never used it.
+2016-04-13 14:14:13	averagehat	@kstep there is a way to make it show up via keyboard but I cannot remember what it is. It maybe listed on the Scala layer README
+2016-04-13 14:14:50	averagehat	I haven't been using the scala layer much lately so I can't recall.
+2016-04-13 14:16:40	kstep	Thank you for your help! I think I have enough things to try now.
+2016-04-13 14:22:38	gitter	[Github] StreakyCobra commented in syl20bnr/spacemacs on issue: Org download layer https://github.com/syl20bnr/spacemacs/pull/5784#issuecomment-209630801
+2016-04-13 14:22:38	gitter	[Github] StreakyCobra closed a Pull Request to syl20bnr/spacemacs: Org download layer https://github.com/syl20bnr/spacemacs/pull/5784
+2016-04-13 14:25:53	gitter	[Github] NJBS commented in syl20bnr/spacemacs on issue: Org download layer https://github.com/syl20bnr/spacemacs/pull/5784#issuecomment-209631880
+2016-04-13 14:37:28	<--	undefined (undefined@irc.gitter.im) has left #syl20bnr/spacemacs
+2016-04-13 14:38:53	hosh	Hey folks.  Are there evil or spacemacs bindings for smerge mode? If there are, where can I find them?
+2016-04-13 14:43:17	CestDiego	@syl20bnr I get errors in layouts after the last update that was made on spacemacs to persp functions:
+2016-04-13 14:43:17	CestDiego	```
+2016-04-13 14:43:17	CestDiego	run-hook-with-args: Wrong number of arguments: (lambda (_new-persp-name _frame) "Update and save current frame's eyebrowse workspace to its perspective.
+2016-04-13 14:43:17	CestDiego	Parameters _NEW-PERSP-NAME and _FRAME are ignored, and exists only for
+2016-04-13 14:43:17	CestDiego	 compatibility with `persp-before-switch-functions'." (let* ((current-slot (eyebrowse--get (quote current-slot))) (current-tag (nth 2 (assoc current-slot (eyebrowse--get (quote window-configs)))))) (eyebrowse--update-window-config-element (eyebrowse--current-window-config current-slot current-tag))) (spacemacs/save-eyebrowse-for-perspective)), 1
+2016-04-13 14:43:17	CestDiego	```
+2016-04-13 14:45:01	bogdanteleaga	anybody knows how I can make latex mode default to previewing inside doc view and not using external pdf viewers?
+2016-04-13 14:45:25	NJBS	@CestDiego Delete the persp-mode folder from elpa and redownload. Spacemacs grabs persp-mode from melpa now.
+2016-04-13 14:56:23	--	irc: disconnected from server
+2016-04-13 14:56:35	-->	ranranking (ranranking@irc.gitter.im) has joined #syl20bnr/spacemacs
+2016-04-13 14:56:35	--	Topic for #syl20bnr/spacemacs is "A community-driven Emacs distribution - The best editor is neither Emacs nor Vim,  it's Emacs *and* Vim!"
+2016-04-13 14:56:35	--	Channel #syl20bnr/spacemacs: 32 nicks (0 ops, 0 voices, 32 normals)
+2016-04-13 14:57:05	svatem1	hi, i'm going crazy, i have face mode-line defined in my theme as ((t
+2016-04-13 14:57:05	svatem1	  (:inherit font-lock-comment-face :background "#282c34")))
+2016-04-13 14:57:49	svatem1	i have face powerline-inactive-2 defined as ((t
+2016-04-13 14:57:49	svatem1	  (:inherit mode-line)))
+2016-04-13 14:58:36	svatem1	now - when i define powerline-inactive-2 as ((t
+2016-04-13 14:58:36	svatem1	  (:inherit mode-line :background "#282c34")))
+2016-04-13 14:58:36	svatem1	- where the only difference is having the same background mentioned as in the face i'm inheriting from - IT LOOKS DIFFERENT
+2016-04-13 14:59:27	svatem1	in the latter case without repeated :background property, it's drawn incorrectly 
+2016-04-13 14:59:27	NJBS	@mathpunk I don't believe visual line navigation is a global toggle so you'll have to add that to a hook for whatever modes you want it enabled on.
+2016-04-13 14:59:38	svatem1	anybody any clues what's going on there?
+2016-04-13 15:02:36	--	irc: disconnected from server
+2016-04-13 15:02:48	-->	ranranking (ranranking@irc.gitter.im) has joined #syl20bnr/spacemacs
+2016-04-13 15:02:48	--	Topic for #syl20bnr/spacemacs is "A community-driven Emacs distribution - The best editor is neither Emacs nor Vim,  it's Emacs *and* Vim!"
+2016-04-13 15:02:48	--	Channel #syl20bnr/spacemacs: 32 nicks (0 ops, 0 voices, 32 normals)
+2016-04-13 15:04:51	mathpunk	@NJBS Is plain text a mode?
+2016-04-13 15:06:58	calebmeyer	I believe the "Fundamental" mode handles plain text
+2016-04-13 15:07:13	NJBS	@mathpunk There's a `text-mode` that you can try.
+2016-04-13 15:09:19	parkeristyping	I don't like that layouts keeps the `layout-micro-state` open when using number keys to switch. I've overridden this behavior in my config like so:
+2016-04-13 15:09:19	parkeristyping	```
+2016-04-13 15:09:19	parkeristyping	;; Below is copied from '/layers/+window-management/spacemacs-layouts/packages.el', with one sexp removed
+2016-04-13 15:09:19	parkeristyping	;; It's left as a comment
+2016-04-13 15:09:19	parkeristyping	(dolist (i (number-sequence 9 0 -1))
+2016-04-13 15:09:19	parkeristyping	  (eval `(defun ,(intern (format "spacemacs/persp-switch-to-%s" i)) nil
+2016-04-13 15:09:19	parkeristyping	           ,(format "Switch to layout %s." i)
+2016-04-13 15:09:19	parkeristyping	           (interactive)
+2016-04-13 15:09:19	parkeristyping	           (spacemacs/layout-switch-by-pos ,(if (eq 0 i) 9 (1- i))
+2016-04-13 15:09:19	parkeristyping	           ;; (spacemacs/layouts-micro-state)
+2016-04-13 15:09:19	parkeristyping	           ))))
+2016-04-13 15:09:19	parkeristyping	```
+2016-04-13 15:09:23	gitter	[Github] nithesh starred https://github.com/syl20bnr/spacemacs
+2016-04-13 15:10:42	parkeristyping	I'd kind of like to add it as a configuration option, but `layers/+window-management` isn't on the develop branch. Any guidelines on how I can contribute to it?
+2016-04-13 15:11:40	parkeristyping	[edit] I don't like that layouts keeps the `layout-micro-state` open when using number keys to switch. I've overridden this behavior in my config like so:
+2016-04-13 15:11:40	parkeristyping	[edit] ```
+2016-04-13 15:11:40	parkeristyping	[edit] ;; Below is copied from '/layers/+window-management/spacemacs-layouts/packages.el',
+2016-04-13 15:11:40	parkeristyping	[edit] ;; with one sexp removed - it's left as a comment
+2016-04-13 15:11:40	parkeristyping	[edit] (dolist (i (number-sequence 9 0 -1))
+2016-04-13 15:11:40	parkeristyping	[edit]   (eval `(defun ,(intern (format "spacemacs/persp-switch-to-%s" i)) nil
+2016-04-13 15:11:40	parkeristyping	[edit]            ,(format "Switch to layout %s." i)
+2016-04-13 15:11:40	parkeristyping	[edit]            (interactive)
+2016-04-13 15:11:40	parkeristyping	[edit]            (spacemacs/layout-switch-by-pos ,(if (eq 0 i) 9 (1- i))
+2016-04-13 15:11:40	parkeristyping	[edit]            ;; (spacemacs/layouts-micro-state)
+2016-04-13 15:11:40	parkeristyping	[edit]            ))))
+2016-04-13 15:11:40	parkeristyping	[edit] ```
+2016-04-13 15:13:14	gitter	[Github] sbdchd starred https://github.com/syl20bnr/spacemacs
+2016-04-13 15:13:33	travisbhartwell	@parkeristyping: That's been moved to here https://github.com/syl20bnr/spacemacs/blob/develop/layers/%2Bspacemacs/spacemacs-layouts/packages.el
+2016-04-13 15:13:36	gitter	[Github] ivankravets starred https://github.com/syl20bnr/spacemacs
+2016-04-13 15:13:49	travisbhartwell	I don't see that exact code there, though, so it's likely been rewritten
+2016-04-13 15:14:11	parkeristyping	@travisbhartwell thanks!
+2016-04-13 15:24:11	svatem1	i have to say working with emac's customize theme UI is PITA not only because of the UX, but because it's buggy as hell..
+2016-04-13 15:26:01	brandoncc	does anybody know how to make backspace work in multiterm on osx?
+2016-04-13 15:26:11	brandoncc	it displays a ^?
+2016-04-13 15:26:17	brandoncc	^[OA^?^?^?^?^?^?
+2016-04-13 15:26:18	gitter	[Github] nixmaniack commented in syl20bnr/spacemacs on issue: C-k in comint-mode overrides kill-line for hybrid style https://github.com/syl20bnr/spacemacs/issues/5211#issuecomment-209653159
+2016-04-13 15:26:18	gitter	[Github] nixmaniack closed an issue in syl20bnr/spacemacs: C-k in comint-mode overrides kill-line for hybrid style https://github.com/syl20bnr/spacemacs/issues/5211
+2016-04-13 15:26:21	bogdanteleaga	anybody knows how I can make latex mode default to previewing inside doc view and not using external pdf viewers?
+2016-04-13 15:26:29	brandoncc	that was an up arrow followed by a bunch of backspaces
+2016-04-13 15:27:42	csaintc	How do I create a new file in vim mode?
+2016-04-13 15:27:45	gitter	[Github] buckket starred https://github.com/syl20bnr/spacemacs
+2016-04-13 15:27:50	csaintc	I always end up opening up terminal and doing it that way...
+2016-04-13 15:27:55	csaintc	( same for new directory )
+2016-04-13 15:27:56	kstep	@NJBS @calebmeyer @cpaulik for the sake of completeness, the `(scala :variables ensime-graphical-tooltips t)` option did the trick with tooltips in scala mode
+2016-04-13 15:28:20	NJBS	@csaintc `SPC f f` and just type out your path/file name, it will prompt you to create the directory/file.
+2016-04-13 15:28:29	bogdanteleaga	@csaintc  you can just `<SPC> f f` and go where you want it and it'll prompt for creation
+2016-04-13 15:28:33	NJBS	@kstep Good to hear :thumbsup: 
+2016-04-13 15:28:45	bogdanteleaga	heh, beat me to it
+2016-04-13 15:28:48	brandoncc	@csaintc :e my-file.txt
+2016-04-13 15:28:55	gitter	[Github] nixmaniack commented in syl20bnr/spacemacs on issue: C-k should be C-k in helm for hybrid mode. https://github.com/syl20bnr/spacemacs/issues/5237#issuecomment-209653942
+2016-04-13 15:28:57	brandoncc	you can include a path
+2016-04-13 15:29:27	brandoncc	:e stands for :edit
+2016-04-13 15:29:59	brandoncc	you can also do it in a split using :sp for horizontal split or :vsp for a vertical split
+2016-04-13 15:30:02	calebmeyer	Documentation for changing the icon on Ubuntu and Unity says to use spacemacs.png. However, there's no png file here: https://github.com/nashamri/spacemacs-logo
+2016-04-13 15:30:03	brandoncc	lol
+2016-04-13 15:30:08	brandoncc	: s p
+2016-04-13 15:30:26	calebmeyer	docs lead to here: http://splendidabacus.com/posts/2015/03/spacemacs-unity-icon/
+2016-04-13 15:30:49	bogdanteleaga	@brandoncc  you can use ` around that to avoid emoticons randomly happening :P
+2016-04-13 15:30:57	brandoncc	ya I was just about to do that lol
+2016-04-13 15:31:12	brandoncc	`:sp my-file.org`
+2016-04-13 15:33:17	brandoncc	how can I combine maximized windows into a split?
+2016-04-13 15:35:13	brandoncc	ah, create a split then select the buffer
+2016-04-13 15:36:26	gitter	[Github] nixmaniack commented in syl20bnr/spacemacs on issue: The request to report bugs from within spacemacs references an obsolete keybinding https://github.com/syl20bnr/spacemacs/issues/5155#issuecomment-209657141
+2016-04-13 15:37:27	<--	undefined (undefined@irc.gitter.im) has left #syl20bnr/spacemacs
+2016-04-13 15:38:34	kstep	Are there any ways to make tooltips appear near *text* cursor, not *mouse* cursor?
+2016-04-13 15:39:06	kstep	The need to reach for the mouse to get tooltips shown is the real pita for me.
+2016-04-13 15:44:40	brandoncc	Anybody know how to fix backspaces being ^? in multiterm?
+2016-04-13 15:44:40	brandoncc	^[OA^?^?^?^?^?^?
+2016-04-13 15:51:41	brandoncc	actually I think that was because of the sinatra process that was running
+2016-04-13 16:40:38	--	irc: disconnected from server
+2016-04-13 16:40:50	-->	ranranking (ranranking@irc.gitter.im) has joined #syl20bnr/spacemacs
+2016-04-13 16:40:50	--	Topic for #syl20bnr/spacemacs is "A community-driven Emacs distribution - The best editor is neither Emacs nor Vim,  it's Emacs *and* Vim!"
+2016-04-13 16:40:50	--	Channel #syl20bnr/spacemacs: 32 nicks (0 ops, 0 voices, 32 normals)
+2016-04-13 16:41:31	NJBS	You generally want to try `user-config` first then try `user-init` if that doesn't work.
+2016-04-13 16:42:02	NJBS	The difference is in the order they're called in, you can take a look at the comments for each function if you want to know more.
+2016-04-13 16:42:33	esmafuni	Okay I guess I can take from here and read the docs.  Thanks so much guys.  You Rock!
+2016-04-13 16:44:04	gitter	[Github] StreakyCobra commented in syl20bnr/spacemacs on issue: The request to report bugs from within spacemacs references an obsolete keybinding https://github.com/syl20bnr/spacemacs/issues/5155#issuecomment-209678915
+2016-04-13 16:44:22	gitter	[Github] StreakyCobra labeled a Pull Request to syl20bnr/spacemacs: Allow multiple python test runners. https://github.com/syl20bnr/spacemacs/pull/5786
+2016-04-13 16:46:41	gitter	[Github] StreakyCobra commented in syl20bnr/spacemacs on issue: Spacemacs layouts - new layout does no longer start with emtpy buffer list https://github.com/syl20bnr/spacemacs/issues/5787#issuecomment-209679596
+2016-04-13 16:46:52	gitter	[Github] StreakyCobra labeled an issue in syl20bnr/spacemacs: Spacemacs layouts - new layout does no longer start with emtpy buffer list https://github.com/syl20bnr/spacemacs/issues/5787
+2016-04-13 16:46:52	gitter	[Github] StreakyCobra labeled an issue in syl20bnr/spacemacs: Spacemacs layouts - new layout does no longer start with emtpy buffer list https://github.com/syl20bnr/spacemacs/issues/5787
+2016-04-13 16:49:15	gitter	[Github] StreakyCobra commented in syl20bnr/spacemacs on issue: Spacemacs layouts - SPC b b is no longer layout local https://github.com/syl20bnr/spacemacs/issues/5788#issuecomment-209680629
+2016-04-13 16:49:26	gitter	[Github] StreakyCobra labeled an issue in syl20bnr/spacemacs: Spacemacs layouts - SPC b b is no longer layout local https://github.com/syl20bnr/spacemacs/issues/5788
+2016-04-13 16:49:26	gitter	[Github] StreakyCobra labeled an issue in syl20bnr/spacemacs: Spacemacs layouts - SPC b b is no longer layout local https://github.com/syl20bnr/spacemacs/issues/5788
+2016-04-13 16:49:26	gitter	[Github] StreakyCobra labeled an issue in syl20bnr/spacemacs: Spacemacs layouts - SPC b b is no longer layout local https://github.com/syl20bnr/spacemacs/issues/5788
+2016-04-13 16:55:49	gitter	[Github] cpaulik commented in syl20bnr/spacemacs on issue: Spacemacs layouts - SPC b b is no longer layout local https://github.com/syl20bnr/spacemacs/issues/5788#issuecomment-209682308
+2016-04-13 17:03:51	svatem1	actually it's more complicated on win, /users/$name/appdata/ and now either Roaming or Local
+2016-04-13 17:04:16	svatem1	that's what emacs sees as home by default
+2016-04-13 17:04:38	brandoncc	ah I didn't know it was in appdata
+2016-04-13 17:05:15	brandoncc	in that case if you are on xp its `/documents and settings` then
+2016-04-13 17:05:18	brandoncc	lol
+2016-04-13 17:05:18	--	irc: disconnected from server
+2016-04-13 17:13:25	-->	ranranking (ranranking@irc.gitter.im) has joined #syl20bnr/spacemacs
+2016-04-13 17:13:25	--	Topic for #syl20bnr/spacemacs is "A community-driven Emacs distribution - The best editor is neither Emacs nor Vim,  it's Emacs *and* Vim!"
+2016-04-13 17:13:25	--	Channel #syl20bnr/spacemacs: 32 nicks (0 ops, 0 voices, 32 normals)
+2016-04-13 17:27:44	michael-krebs	I think I have the latest emacs from brew and it works great
+2016-04-13 17:28:34	andrewsanchez	@brandoncc  is it strange that after installing emacs and spacemacs I have a weird ASCII version of the Spacemacs banner that says "beta" down the right side of it, instead of the usual png image?
+2016-04-13 17:33:59	michael-krebs	are you using the GUI version
+2016-04-13 17:44:22	andrewsanchez	That's what I was just thinking.  How do I launch the gui version?
+2016-04-13 17:46:38	brandoncc	brew linkapps
+2016-04-13 17:46:42	brandoncc	then it will be in your applications
+2016-04-13 17:46:50	brandoncc	its in those osx instructions I believe
+2016-04-13 17:57:47	brandoncc	does anybody else on osx have an issue where spacemacs introduces just a little lag while it is running and you are doing other stuff?
+2016-04-13 17:58:06	brandoncc	that is the reason I switched beck to vim last year and I just tried spacemacs again last nigh tand it just started again
+2016-04-13 17:58:17	brandoncc	nothing out of the ordinary in messages
+2016-04-13 18:18:59	incandescentman	hey guys, is it now safe to upgrade packages on develop? 
+2016-04-13 18:19:32	NJBS	Don't think anything is currently broken :smile: 
+2016-04-13 18:19:43	incandescentman	thanks!
+2016-04-13 18:28:55	mikeonly	Hi, is there a way to fix buffer and position of a window so that Emacs never opens other buffers or resizes or deletes it? 
+2016-04-13 18:29:54	mikeonly	Say, I want console to always be at the bottom of a frame, but occasionally, neo-tree opens files there if I prompt. 
+2016-04-13 18:32:05	NJBS	@mikeonly Try dedicating the window to its current buffer using `SPC  w t`
+2016-04-13 18:35:12	NJBS	(might still be `SPC w d` on `master`)
+2016-04-13 18:50:46	landaire	anyone know why function signatures aren't showing for me rust-mode? I'm on the latest master, have racer set up, etc. completion works, just not showing signatures
+2016-04-13 19:00:40	mikeonly	@NJBS Ok, so `SPC w t` dedicated the window I wanted, by it's a mystery for now how it works. :)
+2016-04-13 19:00:49	mikeonly	@NJBS Thanks.
+2016-04-13 19:22:34	laduke	When I run alchemist-test, some of the output is on really long lines, and it doesn't wrap. Not sure if this is specific to spacemacs or alchemist ? 
+2016-04-13 19:24:55	laduke	I guess spc-tl is fine
+2016-04-13 19:25:31	laduke	not it's not. it resets every time.
+2016-04-13 19:26:27	brandoncc	@laduke http://emacs.stackexchange.com/a/3756 I think that might help you
+2016-04-13 19:26:47	brandoncc	although you might use a different hook
+2016-04-13 19:26:49	laduke	just reading that
+2016-04-13 19:26:52	brandoncc	eval-after-load maybe
+2016-04-13 19:27:19	laduke	I see it set in here https://github.com/tonini/alchemist.el/blob/4754aa52f1825c8adb99347ddb6fb80b56dd919e/alchemist-test-mode.el
+2016-04-13 19:27:53	brandoncc	hmm
+2016-04-13 19:27:58	brandoncc	and you are in that mode?
+2016-04-13 19:28:05	brandoncc	alchemist-test-report-mode
+2016-04-13 19:28:22	brandoncc	well, technically the right way to say it is that you have that mode on I guess
+2016-04-13 19:28:40	laduke	possibly?
+2016-04-13 19:28:59	brandoncc	I think the code from your link is only applied in that mode
+2016-04-13 19:29:31	laduke	what's the "which mode is on" command again
+2016-04-13 19:29:37	brandoncc	I haven't used spacemacs in 6 months though and I only used it for a week then..so I could be wrong lol
+2016-04-13 19:29:44	brandoncc	I don't remember lol
+2016-04-13 19:29:50	brandoncc	lets ask Google :-)
+2016-04-13 19:29:57	laduke	describe mode
+2016-04-13 19:30:07	brandoncc	yep there is it
+2016-04-13 19:30:08	brandoncc	it is*
+2016-04-13 19:30:27	brandoncc	SPC h d m
+2016-04-13 19:33:13	laduke	Alchemist Test Report:exit mode defined in `alchemist-test-mode.el':
+2016-04-13 19:33:13	laduke	Major mode for presenting Elixir test results.
+2016-04-13 19:33:13	laduke	```
+2016-04-13 19:33:13	laduke	key             binding
+2016-04-13 19:33:13	laduke	---             -------
+2016-04-13 19:33:13	laduke	C-c             Prefix Command
+2016-04-13 19:33:13	laduke	ESC             Prefix Command
+2016-04-13 19:33:13	laduke	q               quit-window
+2016-04-13 19:33:13	laduke	  (that binding is currently shadowed by another mode)
+2016-04-13 19:33:13	laduke	r               alchemist-mix-rerun-last-test
+2016-04-13 19:33:13	laduke	  (that binding is currently shadowed by another mode)
+2016-04-13 19:33:13	laduke	t               toggle-truncate-lines
+2016-04-13 19:33:13	laduke	  (that binding is currently shadowed by another mode)
+2016-04-13 19:33:13	laduke	<normal-state>  Prefix Command
+2016-04-13 19:33:13	laduke	```
+2016-04-13 19:33:30	laduke	[edit] Alchemist Test Report:exit mode defined in `alchemist-test-mode.el':
+2016-04-13 19:33:30	laduke	[edit] Major mode for presenting Elixir test results.
+2016-04-13 19:33:30	laduke	[edit] 
+2016-04-13 19:33:30	laduke	[edit] key             binding
+2016-04-13 19:33:30	laduke	[edit] ---             -------
+2016-04-13 19:33:30	laduke	[edit] 
+2016-04-13 19:33:30	laduke	[edit] C-c             Prefix Command
+2016-04-13 19:33:30	laduke	[edit] ESC             Prefix Command
+2016-04-13 19:33:30	laduke	[edit] q               quit-window
+2016-04-13 19:33:30	laduke	[edit]   (that binding is currently shadowed by another mode)
+2016-04-13 19:33:30	laduke	[edit] r               alchemist-mix-rerun-last-test
+2016-04-13 19:33:30	laduke	[edit]   (that binding is currently shadowed by another mode)
+2016-04-13 19:33:30	laduke	[edit] t               toggle-truncate-lines
+2016-04-13 19:33:30	laduke	[edit]   (that binding is currently shadowed by another mode)
+2016-04-13 19:33:30	laduke	[edit] <normal-state>  Prefix Command
+2016-04-13 19:33:30	laduke	[edit] ```
+2016-04-13 19:33:35	laduke	[edit] ```Alchemist Test Report:exit mode defined in `alchemist-test-mode.el':
+2016-04-13 19:33:35	laduke	[edit] Major mode for presenting Elixir test results.
+2016-04-13 19:33:35	laduke	[edit] 
+2016-04-13 19:33:35	laduke	[edit] key             binding
+2016-04-13 19:33:35	laduke	[edit] ---             -------
+2016-04-13 19:33:35	laduke	[edit] 
+2016-04-13 19:33:35	laduke	[edit] C-c             Prefix Command
+2016-04-13 19:33:35	laduke	[edit] ESC             Prefix Command
+2016-04-13 19:33:35	laduke	[edit] q               quit-window
+2016-04-13 19:33:35	laduke	[edit]   (that binding is currently shadowed by another mode)
+2016-04-13 19:33:35	laduke	[edit] r               alchemist-mix-rerun-last-test
+2016-04-13 19:33:35	laduke	[edit]   (that binding is currently shadowed by another mode)
+2016-04-13 19:33:35	laduke	[edit] t               toggle-truncate-lines
+2016-04-13 19:33:35	laduke	[edit]   (that binding is currently shadowed by another mode)
+2016-04-13 19:33:35	laduke	[edit] <normal-state>  Prefix Command
+2016-04-13 19:33:35	laduke	[edit] ```
+2016-04-13 19:33:51	laduke	[edit] ```
+2016-04-13 19:33:51	laduke	[edit] Alchemist Test Report:exit mode defined in `alchemist-test-mode.el':
+2016-04-13 19:33:51	laduke	[edit] Major mode for presenting Elixir test results.
+2016-04-13 19:33:51	laduke	[edit] 
+2016-04-13 19:33:51	laduke	[edit] key             binding
+2016-04-13 19:33:51	laduke	[edit] ---             -------
+2016-04-13 19:33:51	laduke	[edit] 
+2016-04-13 19:33:51	laduke	[edit] C-c             Prefix Command
+2016-04-13 19:33:51	laduke	[edit] ESC             Prefix Command
+2016-04-13 19:33:51	laduke	[edit] q               quit-window
+2016-04-13 19:33:51	laduke	[edit]   (that binding is currently shadowed by another mode)
+2016-04-13 19:33:51	laduke	[edit] r               alchemist-mix-rerun-last-test
+2016-04-13 19:33:51	laduke	[edit]   (that binding is currently shadowed by another mode)
+2016-04-13 19:33:51	laduke	[edit] t               toggle-truncate-lines
+2016-04-13 19:33:51	laduke	[edit]   (that binding is currently shadowed by another mode)
+2016-04-13 19:33:51	laduke	[edit] <normal-state>  Prefix Command
+2016-04-13 19:33:51	laduke	[edit] ```
+2016-04-13 19:34:31	laduke	[edit] ```
+2016-04-13 19:34:31	laduke	[edit] (Information about these minor modes follows the major mode info.)
+2016-04-13 19:34:31	laduke	[edit] 
+2016-04-13 19:34:31	laduke	[edit] Alchemist Test Report:exit mode defined in `alchemist-test-mode.el':
+2016-04-13 19:34:31	laduke	[edit] Major mode for presenting Elixir test results.
+2016-04-13 19:34:31	laduke	[edit] 
+2016-04-13 19:34:31	laduke	[edit] key             binding
+2016-04-13 19:34:31	laduke	[edit] ---             -------
+2016-04-13 19:34:31	laduke	[edit] 
+2016-04-13 19:34:31	laduke	[edit] C-c             Prefix Command
+2016-04-13 19:34:31	laduke	[edit] ESC             Prefix Command
+2016-04-13 19:34:31	laduke	[edit] q               quit-window
+2016-04-13 19:34:31	laduke	[edit]   (that binding is currently shadowed by another mode)
+2016-04-13 19:34:31	laduke	[edit] r               alchemist-mix-rerun-last-test
+2016-04-13 19:34:31	laduke	[edit]   (that binding is currently shadowed by another mode)
+2016-04-13 19:34:31	laduke	[edit] t               toggle-truncate-lines
+2016-04-13 19:34:31	laduke	[edit]   (that binding is currently shadowed by another mode)
+2016-04-13 19:34:31	laduke	[edit] <normal-state>  Prefix Command
+2016-04-13 19:34:31	laduke	[edit] ```
+2016-04-13 19:34:59	laduke	looks like it
+2016-04-13 19:35:11	brandoncc	:-/
+2016-04-13 19:46:29	gitter	[Github] wildcloud3 starred https://github.com/syl20bnr/spacemacs
+2016-04-13 19:46:35	laduke	I think this is intended behaviour
+2016-04-13 19:46:57	brandoncc	ah
+2016-04-13 19:50:08	laduke	oh well
+2016-04-13 20:06:50	gitter	[Github] huchhong opened an issue in syl20bnr/spacemacs: Error: Symbol's value as variable is void: closed https://github.com/syl20bnr/spacemacs/issues/5789
+2016-04-13 20:28:42	--	irc: disconnected from server
+2016-04-13 20:28:54	-->	ranranking (ranranking@irc.gitter.im) has joined #syl20bnr/spacemacs
+2016-04-13 20:28:54	--	Topic for #syl20bnr/spacemacs is "A community-driven Emacs distribution - The best editor is neither Emacs nor Vim,  it's Emacs *and* Vim!"
+2016-04-13 20:28:54	--	Channel #syl20bnr/spacemacs: 32 nicks (0 ops, 0 voices, 32 normals)
