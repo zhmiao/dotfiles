@@ -21,6 +21,7 @@ for config_file ($HOME/.zsh/*.zsh) source $config_file
    fi
 
 # For default editor
+#export PATH="/usr/local/opt/llvm/bin:$PATH"
 export EDITOR=nvim
 export EDITOR=nvim ranger
 export VISUAL=nvim
@@ -82,3 +83,6 @@ KEYTIMEOUT=1
 # Fasd
 
 eval "$(fasd --init auto)"
+
+
+. /Users/ranranking/torch/install/bin/torch-activate

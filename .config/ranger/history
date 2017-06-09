@@ -1,12 +1,7 @@
-h
-help tab
-rename .png
 rename Screen Shot 2016-03-27 at 4.55.17 PM.png
 help 
 search 
 help
-find 
-shell 
 cut
 fasd Des
 fasd Desktop
@@ -47,3 +42,9 @@ delete
 rename fig_16.png
 fasd thesis
 fasd don
+rename anaconda3
+find 
+shell 
+rename HW
+shell
+shell mkdir #2

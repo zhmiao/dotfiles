@@ -7,9 +7,6 @@ if has('nvim')
   set clipboard+=unnamedplus
 endif
 
-let g:python_host_prog = "/usr/local/bin/python2"
-let g:python3_host_prog = "/usr/local/bin/python3"
-
 " Remember cursor position between vim sessions
   autocmd BufReadPost *
               \ if line("'\"") > 0 && line ("'\"") <= line("$") |
@@ -110,35 +107,39 @@ set expandtab
 
 " ================ Fold ============================= {{{
 
-  function! MyFoldText() " {{{
-      let line = getline(v:foldstart)
+function! MyFoldText() " {{{
+    let line = getline(v:foldstart)
 
-      let nucolwidth = &fdc + &number * &numberwidth
-      let windowwidth = winwidth(0) - nucolwidth - 3
-      let foldedlinecount = v:foldend - v:foldstart
+    let nucolwidth = &fdc + &number * &numberwidth
+    let windowwidth = winwidth(0) - nucolwidth - 3
+    let foldedlinecount = v:foldend - v:foldstart
 
-      " expand tabs into spaces
-      let onetab = strpart('          ', 0, &tabstop)
-      let line = substitute(line, '\t', onetab, 'g')
+    " expand tabs into spaces
+    let onetab = strpart('          ', 0, &tabstop)
+    let line = substitute(line, '\t', onetab, 'g')
 
-      let line = strpart(line, 0, windowwidth - 2 -len(foldedlinecount))
-      let fillcharcount = windowwidth - len(line) - len(foldedlinecount)
-      return line . '…' . repeat(" ",fillcharcount) . foldedlinecount . '…' . ' '
-  endfunction " }}}
+    let line = strpart(line, 0, windowwidth - 2 -len(foldedlinecount))
+    let fillcharcount = windowwidth - len(line) - len(foldedlinecount)
+    return line . '…' . repeat(" ",fillcharcount) . foldedlinecount . '…' . ' '
+endfunction " }}}
 
-  set foldtext=MyFoldText()
-  "
-  autocmd InsertEnter * if !exists('w:last_fdm') | let w:last_fdm=&foldmethod | setlocal foldmethod=manual | endif
-  autocmd InsertLeave,WinLeave * if exists('w:last_fdm') | let &l:foldmethod=w:last_fdm | unlet w:last_fdm | endif
+set foldtext=MyFoldText()
+"
+autocmd InsertEnter * if !exists('w:last_fdm') | let w:last_fdm=&foldmethod | setlocal foldmethod=manual | endif
+autocmd InsertLeave,WinLeave * if exists('w:last_fdm') | let &l:foldmethod=w:last_fdm | unlet w:last_fdm | endif
 
-  set foldlevel=99
-  set nofoldenable    " No fold by default
-  set foldnestmax=10  " Deepest fold levels
-  autocmd FileType vim setlocal fdc=1
-  autocmd FileType vim setlocal foldmethod=marker
-  autocmd FileType vim setlocal foldlevel=0
+set foldlevel=99
+set nofoldenable    " No fold by default
+set foldnestmax=10  " Deepest fold levels
+autocmd FileType vim setlocal fdc=1
+autocmd FileType vim setlocal foldmethod=marker
+autocmd FileType vim setlocal foldlevel=0
 
 " }}}
+
+autocmd BufRead,BufNewFile *.md,*.mkd,*.txt setlocal spell complete+=kspell 
+autocmd BufNewFile,BufRead *.md,*.mkd,*.txt filetype indent off 
+autocmd Bufreadpre *.md,*.mkd,*.txt set wrap linebreak nolist 
 
 " }}}
 
@@ -183,7 +184,6 @@ nnoremap <Tab> za
 nnoremap <LocalLeader><Tab> zM
 nnoremap <Leader>z z=
 
-
 " For line and space editing
 nmap <CR> O<Esc>
 nmap <CR><CR> o<Esc>
@@ -201,6 +201,8 @@ noremap <right> 3<C-W>>
 
 " Neovim terminal mapping
 if has ('nvim')
+  nnoremap <leader>22 :pyf %<cr>
+  nnoremap <leader>33 :py3f %<cr>
   tnoremap <Leader><esc> <c-\><c-n>
   tnoremap <s-k> <up>
   tnoremap <s-j> <down>
@@ -225,7 +227,6 @@ nmap <m-8> 8gt
 nmap <m-9> 9gt
 
 "}}}
-
 
 " Setup dein  ---------------------------------------------------------------{{{
 
@@ -271,6 +272,11 @@ nmap <m-9> 9gt
     " First, dein it self
     call dein#add('Shougo/dein.vim', {'rtp':''})
     
+    " Python {{{
+    call dein#add('hdima/python-syntax', {'on_ft': ['py'], 'hook_add':"let python_highlight_all = 1\n" })
+    call dein#add('bfredl/nvim-ipy', {'on_ft': ['ipynb'], 'hook_add':"let g:nvim_ipy_perform_mappings = 0 \n map <silent> <c-e>   <Plug>(IPy-Run) \n" })
+    " }}}
+
     " LaTex {{{
     call dein#add('lervag/vimtex', {'on_ft': ['tex'], 
           \ 'hook_source': "
@@ -321,17 +327,13 @@ nmap <m-9> 9gt
     " }}}
 
     " Markdown {{{
-    call dein#add('euclio/vim-markdown-composer', {'on_ft':['md'], 'build': 'cargo build --release', 
-        \ 'hook_add': "
-        \ let g:markdown_composer_autostart = 0 \n
-        \ nnoremap <leader>md :ComposerStart<CR> \n"
-        \ })
 
+    call dein#add('suan/vim-instant-markdown', {'on_ft':['md'], 
+          \ 'hook_add': " 
+          \ let g:instant_markdown_autostart = 0 \n"
+          \ })
+    
     call dein#add('plasticboy/vim-markdown', {'on_ft':['md'], 
-          \ 'hook_source': "
-          \ autocmd BufRead,BufNewFile *.md,*.mkd,*.txt setlocal spell complete+=kspell \n
-          \ autocmd BufNewFile,BufRead *.md,*.mkd,*.txt filetype indent off \n
-          \ autocmd Bufreadpre *.md,*.mkd,*.txt set wrap linebreak nolist \n",
           \ 'hook_add': " 
           \ let g:vim_markdown_folding_disabled = 0 \n
           \ let g:vim_markdown_math = 1 \n"
@@ -341,12 +343,7 @@ nmap <m-9> 9gt
     " }}}
   
     " colorscheme & syntax highlighting {{{
-    if has ('nvim')
-      call dein#add('ranranking/Solarized_neovim_revised', {'hook_add':"colorscheme solarized \n syntax on \n set background=dark" })
-  
-    else
-      call dein#add('mhartington/oceanic-next', {'hook_add':"colorscheme OceanicNext \n syntax on \n set background=dark" })
-    endif
+    call dein#add('ranranking/Solarized_neovim_revised', {'hook_add':"colorscheme solarized \n syntax on \n set background=dark" })
     " }}}
 
     " indent line {{{
@@ -399,6 +396,7 @@ nmap <m-9> 9gt
     " }}}
     
     " Switch {{{
+
     call dein#add('AndrewRadev/switch.vim', {'on_map':['<c-s>'], 
           \ 'hook_add': "
           \ let g:switch_mapping = '<C-s>' \n
@@ -452,7 +450,7 @@ nmap <m-9> 9gt
     " }}}
 
     " Surround {{{
-    call dein#add('tpope/vim-surround', {'on_map': ['<S-s>']})
+    call dein#add('tpope/vim-surround', {'on_map': ['<S-s>', 'c', 'd', 'y']})
     " }}}
     
     " Tcomment {{{
@@ -531,8 +529,6 @@ nmap <m-9> 9gt
   endif
 
 " }}}
-
-"}}}
 
 " Fortran  ------------------------------------------------------------------{{{
 

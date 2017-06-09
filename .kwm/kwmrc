@@ -45,8 +45,9 @@ kwmc rule owner="iTerm2" properties={role="AXDialog"}
 
 # The following command creates a rule that
 # blacklists a specific application from Kwms tiling
-kwmc rule owner="Steam" properties={float="true"}
+kwmc rule owner="Steam" properties={float="truee}
 kwmc rule owner="Photoshop" properties={float="true"}
+kwmc rule owner="Facetime" properties={float="true"}
 
 # The following command creates a rule that
 # captures an application to the given screen,
@@ -79,7 +80,10 @@ kwmc mode prefix color FF458588
 
 # Active profix mode
 kwmc bindsym ctrl-x mode activate prefix
-
+# kwmc config standby-on-float off
+kwmc config add-role AXStandardWindow Emacs 
+# kwmc config add-role AXWindow Emacs
+kwmc rule owner="Emacs" properties={role="AXStandardWindow"}
 # Quit Kwm
 kwmc bindsym prefix-q quit
 
@@ -100,8 +104,14 @@ kwmc bindsym prefix-tab tree rotate 90
 
 # Modify Container
 kwmc bindsym ctrl-tab window -c split-mode toggle
-kwmc bindsym prefix-alt-h window -c reduce 0.05
-kwmc bindsym prefix-alt-l window -c expand 0.05
+kwmc bindsym prefix-alt-h window -c expand 0.05 west
+kwmc bindsym prefix-alt-l window -c expand 0.05 east
+kwmc bindsym prefix-alt-j window -c expand 0.05 north
+kwmc bindsym prefix-alt-k window -c expand 0.05 south
+kwmc bindsym alt+shift-h window -c reduce 0.05 west
+kwmc bindsym alt+shift-l window -c reduce 0.05 east
+kwmc bindsym alt+shift-j window -c reduce 0.05 north
+kwmc bindsym alt+shift-k window -c resuce 0.05 south
 kwmc bindsym prefix-< window -c type toggle
 
 # Set Temporary Window Container

@@ -76,12 +76,34 @@ if [[ ! -d "$TMPPREFIX" ]]; then
 fi
 
 
-# Setting PATH for Python 3.5
-# The orginal version is saved in .zprofile.pysave
-PATH="/Library/Frameworks/Python.framework/Versions/3.5/bin:${PATH}"
+# # Setting PATH for Python 3.5
+# # The orginal version is saved in .zprofile.pysave
+# PATH="/Library/Frameworks/Python.framework/Versions/3.5/bin:${PATH}"
+# export PATH
+
+# added by Miniconda3 4.2.12 installer
+export PATH="/Users/ranranking/miniconda3/bin:$PATH"
+
+# # python bin
+# PATH="/Users/ranranking/pybin:${PATH}"
+# export PATH
+
+# Postgres
+PATH="/Library/PostgreSQL/9.5/bin:${PATH}"
 export PATH
 
-# Setting PATH for Python 2.7
-# The orginal version is saved in .zprofile.pysave
-PATH="/Library/Frameworks/Python.framework/Versions/2.7/bin:${PATH}"
-export PATH
+# cuda
+# export CUDA_HOME=/usr/local/cuda
+export CUDA_HOME="/usr/local/cuda"
+export DYLD_LIBRARY_PATH="$DYLD_LIBRARY_PATH:$CUDA_HOME/lib"
+export PATH="$CUDA_HOME/bin:$PATH"
+#export DYLD_FALLBACK_LIBRARY_PATH="/usr/local/cuda/lib:$HOME/miniconda3/lib:/usr/local/lib:/usr/lib:$DYLD_FALLBACK_LIBRARY_PATH"
+export LD_LIBRARY_PATH="/usr/local/cuda/lib:$LD_LIBRARY_PATH"
+export CAFFE_ROOT="/Users/ranranking/Work/UCB/Projects/caffe"
+#export PYTHONPATH="/Users/ranranking/Work/UCB/Projects/caffe/python:$PYTHONPATH"
+#export CPLUS_INCLUDE_PATH="$HOME/miniconda3/include/python3.6m/:"
+#export PATH="/usr/local/opt/llvm/bin:$PATH"
+# # Setting PATH for Python 2.7
+# # The orginal version is saved in .zprofile.pysave
+# PATH="/Library/Frameworks/Python.framework/Versions/2.7/bin:${PATH}"
+# export PATH
